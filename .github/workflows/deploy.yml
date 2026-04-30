@@ -40,6 +40,9 @@ jobs:
         with:
           path: ./dist  # or your output dir
 
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@v2
+
   deploy:
     needs: build-and-deploy
     runs-on: ubuntu-latest

@@ -51,11 +51,11 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  keepalive-job:
-    name: Keepalive Workflow
-    runs-on: ubuntu-latest
-    permissions:
-      actions: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/keepalive-workflow@v2
+  # keepalive-job:
+  #   name: Keepalive Workflow
+  #   runs-on: ubuntu-latest
+  #   permissions:
+  #     actions: write
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: gautamkrishnar/keepalive-workflow@v2

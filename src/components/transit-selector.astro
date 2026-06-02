@@ -1,0 +1,99 @@
+---
+import TransitChip from "./transit-chip.astro";
+
+const { routes = [] } = Astro.props
+
+const validModes = [
+  {
+    mode: "Bike",
+    names: ["Bikeshare"]
+  },
+  {
+    mode: "Bus",
+    names: ["Bus"]
+  },
+  {
+    mode: "Metro",
+    names: ["Subway", "Trolley"]
+  },
+  {
+    mode: "Rail",
+    names: ["Rail"]
+  }
+]
+
+const categories = [
+  {
+    mode: "Bike",
+    routes: []
+  },
+  {
+    mode: "Bus",
+    routes: []
+  },
+  {
+    mode: "Metro",
+    routes: []
+  },
+  {
+    mode: "Rail",
+    routes: []
+  }
+]
+
+const modeNameToInterface = (mode_name) => validModes.find( valid => valid.names.includes(mode_name) )?.mode;
+
+routes.forEach( route => {
+  const mode = modeNameToInterface(route.route.mode_name);
+  
+  if(!mode) return;
+
+  const category = categories.find( category => category.mode == mode )
+  category.routes.push( route.route );
+})
+
+
+
+---
+
+<div class="transit-selector">
+  <div class="transit-selector__categories gap">
+    { categories
+      .filter( category => category.routes.length )
+      .map( category => <button data-transit-category={ category.mode }>{category.mode}</button> )
+    }
+  </div>
+
+  <div class="transit-selector__routes">
+    
+    { categories
+      .filter( category => category.routes.length )
+      .map( category => 
+      <>
+      <h4>{ category.mode }</h4>
+        <div class="transit-selector__category gap-tight" data-transit-category={category.mode}>
+          { category.routes
+            .sort( (a, b) => a.real_time_route_id - b.real_time_route_id )
+            .map( route => <TransitChip route={route}/> )
+          }
+        </div>
+        </>
+      )
+    }
+  </div>
+
+</div>
+
+<style>
+  .transit-selector__categories {
+    display: flex;
+    gap: var(--gap);
+    display: none;
+  }
+
+  .transit-selector__category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+  }
+</style>

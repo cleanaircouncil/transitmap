@@ -1,3 +1,12 @@
+function toQueryString(obj) {
+  if(!obj)
+    return '';
+
+  return "?" + Object.entries(obj)
+    .map(([key, value]) => `${key}=${encodeURIComponent(value)}`)
+    .join("&");
+}
+
 export default function apify(baseUrl, headers = { "Content-Type": "application/json" }) {
   const doFetch = async (method, url, body) => {
     const isBodyValid = body !== undefined && method !== "GET" && method !== "DELETE";
@@ -16,7 +25,7 @@ export default function apify(baseUrl, headers = { "Content-Type": "application/
   };
 
   return {
-    get: async (url) => await doFetch("GET", url),
+    get: async (url, params) => await doFetch("GET", url + toQueryString(params) ),
     put: async (url, body) => await doFetch("PUT", url, body),
     post: async (url, body) => await doFetch("POST", url, body),
     patch: async (url, body) => await doFetch("PATCH", url, body),

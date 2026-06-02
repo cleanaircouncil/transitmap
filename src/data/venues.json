@@ -1,0 +1,190 @@
+{
+  "listings": [
+    {
+      "name": "The Kimmel Center for the Performing Arts",
+      "listings": [
+        "recTCJjnebQGzjojL"
+      ],
+      "longitude": -75.165834,
+      "latitude": 39.94671,
+      "address": "300 S Broad St, Philadelphia, PA 19102",
+      "slug": "the-kimmel-center-for-the-performing-arts"
+    },
+    {
+      "name": "Dock Street",
+      "listings": [
+        "recfM9620xoVSGnUx"
+      ],
+      "longitude": -75.143814,
+      "latitude": 39.945423,
+      "address": "2 Dock St, Philadelphia, PA 19106",
+      "slug": "dock-street"
+    },
+    {
+      "name": "Benjamin Franklin Parkway",
+      "listings": [
+        "recihMy17eRlw5NDc",
+        "recAeVeLi9a2aa2nq"
+      ],
+      "longitude": -75.173247,
+      "latitude": 39.960266,
+      "address": "Benjamin Franklin Pkwy, Philadelphia, PA 19103",
+      "slug": "benjamin-franklin-parkway"
+    },
+    {
+      "name": "Pennsylvania Convention Center",
+      "listings": [
+        "recD16wdNKpnW0rbW",
+        "recKXickrxiAVT8Od",
+        "recfEkThS6ZsHCraF",
+        "recmZohiLU9jBdpTF",
+        "recMt3NCfe0961nao"
+      ],
+      "longitude": -75.159533,
+      "latitude": 39.954821,
+      "address": "1101 Arch St, Philadelphia, PA 19107",
+      "slug": "pennsylvania-convention-center"
+    },
+    {
+      "name": "Centennial District",
+      "listings": [
+        "recWPxCck8fXVwhSn",
+        "recyhvqV8osI0aYm4",
+        "recCiPIjNUSQ1lokq"
+      ],
+      "longitude": -75.209129,
+      "latitude": 39.979491,
+      "address": "4231 Avenue of the Republic, Philadelphia, PA 19131",
+      "slug": "centennial-district"
+    },
+    {
+      "name": "Citizens Bank Park",
+      "listings": [
+        "recoCi6TRwbbcMlm6",
+        "recFdiLcZ5qM37zsa",
+        "reci14LQCVbSrgMf4",
+        "recJoqf16JYVmYCiN",
+        "recJx804D9aLeMyXh"
+      ],
+      "longitude": -75.166473,
+      "latitude": 39.90617,
+      "address": "1 Citizens Bank Way, Philadelphia, PA 19148",
+      "slug": "citizens-bank-park"
+    },
+    {
+      "name": "Smith Memorial Playground",
+      "listings": [
+        "recgUt8HnZ6SsGSXL"
+      ],
+      "longitude": -75.195543,
+      "latitude": 39.981741,
+      "address": "3500 Reservoir Dr, Philadelphia, PA 19121",
+      "slug": "smith-memorial-playground"
+    },
+    {
+      "name": "Love Park",
+      "listings": [
+        "recEaff6ThgI1dR8Y"
+      ],
+      "longitude": -75.165812,
+      "latitude": 39.953507,
+      "address": "1500 John F Kennedy Blvd, Philadelphia, PA 19102",
+      "slug": "love-park"
+    },
+    {
+      "name": "Highmark Mann Center",
+      "listings": [
+        "recC1tRaif6nMA735",
+        "rec4731G4qbkkEvak",
+        "recUxwQKbhvIbXrh0",
+        "recdvhPHNSMX5lgvE"
+      ],
+      "longitude": -75.222908,
+      "latitude": 39.983433,
+      "address": "5201 Parkside Ave, Philadelphia, PA 19131",
+      "slug": "highmark-mann-center"
+    },
+    {
+      "name": "Independence Blue Cross RiverRink Summerfest",
+      "listings": [
+        "recfYwiu4SvjYmMQD"
+      ],
+      "longitude": -75.139575,
+      "latitude": 39.948505,
+      "address": "101 S Christopher Columbus Blvd, Philadelphia, PA 19106",
+      "slug": "independence-blue-cross-riverrink-summerfest"
+    },
+    {
+      "name": "Historic District",
+      "listings": [
+        "recu4HFQLSexwFkmZ"
+      ],
+      "longitude": -75.143753,
+      "latitude": 39.949889,
+      "address": "Philadelphia, PA 19106",
+      "slug": "historic-district"
+    },
+    {
+      "name": "Independence National Historic Park",
+      "listings": [
+        "recuIIkDZ5sDhIu4V",
+        "recRtfnn7gC1cJ1Oq",
+        "recCfzbI3BMeuU6sG"
+      ],
+      "longitude": -75.146075,
+      "latitude": 39.94728,
+      "address": "143 S 3rd St, Philadelphia, PA 19106",
+      "slug": "independence-national-historic-park"
+    },
+    {
+      "name": "The Dell Music Center",
+      "listings": [
+        "recdmC5w3KhCKUPoz"
+      ],
+      "longitude": -75.189787,
+      "latitude": 39.995881,
+      "address": "3600 Strawberry Mansion Dr, Philadelphia, PA 19132",
+      "slug": "the-dell-music-center"
+    },
+    {
+      "name": "Five Points",
+      "listings": [
+        "recPojjeayLSIvZNS"
+      ],
+      "longitude": -75.104332,
+      "latitude": 40.0429,
+      "address": "Rising Sun Ave & Cheltenham Ave, Philadelphia, PA 19120",
+      "slug": "five-points"
+    },
+    {
+      "name": "Independence Mall",
+      "listings": [
+        "rec5obzQsT92mLTGk",
+        "recAbr6yIsg22g00o",
+        "rec89mGWjuRWFXrci",
+        "reckwpn4yZzSHUsKt",
+        "recq9Sj0i0pOUMQHt",
+        "recXJOvXxgyBqIPLR"
+      ],
+      "longitude": -75.150287,
+      "latitude": 39.949619,
+      "address": "526 Market St, Philadelphia, PA 19106",
+      "slug": "independence-mall"
+    },
+    {
+      "name": "Lincoln Financial Field",
+      "listings": [
+        "reclwZ2VGp55FToVq",
+        "rec0BqjdWelthntAi",
+        "recOLJrwX9dZtFu60",
+        "recLOt6KCFmZQchvE",
+        "rectWNIpPlVjOnr87",
+        "recBmEUfEZ5MidqVo"
+      ],
+      "longitude": -75.167594,
+      "latitude": 39.901733,
+      "address": "1020 Pattison Ave, Philadelphia, PA 19148",
+      "slug": "lincoln-financial-field"
+    }
+  ]
+}

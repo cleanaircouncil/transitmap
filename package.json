@@ -9,16 +9,16 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch": "node ./scripts/fetch.js",
-    "dep": "node ./scripts/run-dep.js",
-    "echo": "node ./scripts/run-echo.js"
+    "fetch": "node ./scripts/fetch.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mapbox/polyline": "^1.2.1",
     "airtable": "^0.12.2",
     "astro": "^5.13.7",
     "dotenv": "^16.5.0",
+    "luxon": "^3.7.2",
     "marked": "^16.0.0",
     "nanostores": "^1.0.1"
   },

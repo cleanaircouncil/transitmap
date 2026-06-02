@@ -1,0 +1,67 @@
+---
+const { route = {} } = Astro.props;
+
+---
+
+<div
+  class="transit-chip"
+  data-transit-chip
+  data-populate="route_color: --route-color, route_text_color: --text-color, mode_name: @data-mode"
+  data-mode={route.mode_name}
+  style={`
+    --route-color: ${route.route_color};
+    --text-color: ${route.route_text_color};
+  `}
+>
+  <span class="transit-chip__text" data-populate="real_time_route_id">{ route.real_time_route_id }</span>
+  <span class="transit-chip__label" data-populate="company_name"></span>
+</div>
+
+
+
+<style is:global>
+ 
+
+  .transit-chip {
+    width: 36px;
+    height: 36px;
+    background: var(--route-color);
+    color: var(--text-color);
+    font-family: var(--font-default);
+    font-weight: 900;
+    place-content: center;
+    text-align: center;
+    background-size: contain;
+    cursor: pointer;
+
+    box-shadow: 0px 5px 0px rgba(0,0,0,.10);
+
+    .transit-chip__text {
+      display: block;
+      width: calc( 100% - 4px );
+      height: calc( 100% - 4px );
+      font-size: 18px;
+      place-content: center;
+      margin: 2px;
+    }
+
+    &[data-mode="Bus"] {
+      border-radius: 50%;
+
+      .transit-chip__text {
+        border: 1px solid white;
+        border-radius: 50%;
+      }
+    }
+
+    &[data-mode="Subway"], &[data-mode="Trolley"] {
+      border-radius: 5px;
+
+      .transit-chip__text {
+        border: 1px solid white;
+        border-radius: 3px;
+      }
+    }
+  }
+
+</style>

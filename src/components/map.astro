@@ -1,5 +1,6 @@
 ---
 import Button from "./button.astro";
+import TransitChip from "./transit-chip.astro";
 ---
 
 <Fragment>
@@ -10,14 +11,19 @@ import Button from "./button.astro";
   </Button>
 
   <template id="map-marker-stub">
+    <TransitChip/>
+  </template>
+
+  <template id="map-listing-stub">
     <div
-      class="map-marker"
-      data-facility-marker
-      data-populate="alert: @data-alert, slug: @data-facility-slug"
+      class="map-listing"
+      data-listing-marker
     >
-      <span class="map-marker__label" data-populate="company_name"></span>
+      <span class="map-marker__label" data-populate="location"></span>
     </div>
   </template>
+
+
 </Fragment>
 
 <style is:global>
@@ -44,12 +50,55 @@ import Button from "./button.astro";
     display: block;
   }
 
-  .map-marker {
-    width: 24px;
-    height: 24px;
-    background: url("/assets/img/marker-dot.png") center center no-repeat;
+  .map-listing {
+    width: 36px;
+    height: 36px;
+    background: magenta;
+    color: var(--text-color);
+    font-family: var(--font-default);
+    font-weight: 900;
+    text-align: center;
     background-size: contain;
     cursor: pointer;
+  }
+
+  .map-marker {
+    width: 36px;
+    height: 36px;
+    background: var(--route-color);
+    color: var(--text-color);
+    font-family: var(--font-default);
+    font-weight: 900;
+    text-align: center;
+    background-size: contain;
+    cursor: pointer;
+
+    .map-marker__text {
+      display: block;
+      width: calc( 100% - 4px );
+      height: calc( 100% - 4px );
+      font-size: 18px;
+      place-content: center;
+      margin: 2px;
+    }
+
+    &[data-mode="Bus"] {
+      border-radius: 50%;
+
+      .map-marker__text {
+        border: 1px solid white;
+        border-radius: 50%;
+      }
+    }
+
+    &[data-mode="Subway"], &[data-mode="Trolley"] {
+      border-radius: 5px;
+
+      .map-marker__text {
+        border: 1px solid white;
+        border-radius: 3px;
+      }
+    }
   }
 
   .map-marker[data-alert] {
@@ -141,24 +190,34 @@ import Button from "./button.astro";
 </style>
 
 <script>
-  import {
-    currentFacilitySlug,
-    data,
-    getFacilityBySlug,
-  } from "../helpers/store";
-
+  import { data, currentListingSlug } from "../helpers/store";
   import { cloneTemplate, populateWithData } from "../helpers/populate";
+  import { decodeRoutePolyline } from "../helpers/maps";
+  import { circle } from "@turf/turf";
+
+  const PHILLY_LAT = 39.952583;
+  const PHILLY_LON = -75.165222;
+
+  import transitData from "../data/networks.json";
+  import septaData from "../data/septa.json";
+  import septaMetroData from "../data/septa-metro.json";
+
+  import listingData from "../data/listing-stops.json";
+
+
+  
+  const PHILLY_CENTER = [PHILLY_LON, PHILLY_LAT];
+  
 
   const maplibregl = window["maplibregl"];
-
-  console.log(data.map.bounds);
+  
 
   async function initMap() {
     const map = new maplibregl.Map({
       container: "map", // container id
       style:
         "https://api.maptiler.com/maps/0197e64b-47f4-71b6-9770-751526b1f31b/style.json?key=v64Bpd9Og2E4Zm916XUB", // style URL
-      center: [-75.165222, 39.952583],
+      center: PHILLY_CENTER,
       attributionControl: false,
     });
 
@@ -167,6 +226,7 @@ import Button from "./button.astro";
     map.touchPitch.disable();
     map.dragRotate.disable();
     map.touchZoomRotate.disableRotation();
+    
     map.fitBounds(data.map.bounds, { padding: 80, duration: 0 });
 
     return new Promise((res) => {
@@ -192,41 +252,154 @@ import Button from "./button.astro";
     });
   }
 
-  function focusOnFacility(map, facility) {
-    if (!facility) return;
+  async function initNetworks(map, data) {
+    map.addSource( "networks", {
+        type: 'geojson',
+        data: {
+          type: 'FeatureCollection',
+          features: data.networks.map( network => network.network_geometry) 
+        }
+      }
+    )
+ 
+    map.addLayer( {
+      id: "transit-line",
+      type: 'line',
+      source: "networks",
+      layout: {
+        'line-join': 'round',
+        'line-cap': 'round'
+      },
+      paint: {
+        'line-color': "#888888",
+        'line-width': 8
+      },
+      filter: ['==', '$type', 'Polygon']
+    })
+    
+  }
 
-    setCurrentMarker(facility);
+  async function initSEPTA(map, data) {
+    
+    
+    data.bus.forEach((bus) => {
+      const markerEl = cloneTemplate("map-marker-stub");
+      populateWithData(markerEl, {
+        company_name: bus.route_id
+      })
 
-    map.flyTo({
-      center: [facility.longitude, facility.latitude],
-      zoom: 14,
-      duration: 2000,
+      // add marker to map
+      new maplibregl.Marker({ element: markerEl })
+        .setLngLat([bus.lng, bus.lat])
+        .addTo(map);
+
     });
   }
 
-  function viewAll(map) {
-    map.fitBounds(data.map.bounds, { padding: 80, duration: 1000 });
+  async function initListings(map, data) {
+    
+    
+    data.listings.forEach((listing) => {
+      const markerEl = cloneTemplate("map-listing-stub");
+      console.log( listing );
+      
+      populateWithData(markerEl, listing)
+
+      // add marker to map
+      new maplibregl.Marker({ element: markerEl })
+        .setLngLat([listing.lng, listing.lat])
+        .addTo(map);
+
+    });
   }
 
-  function setCurrentMarker(facility) {
-    const markers = document.querySelectorAll("[data-facility-marker]");
-    markers.forEach((marker) => {
-      marker.toggleAttribute(
-        "data-current",
-        marker.matches(`[data-facility-slug="${facility.slug}"]`)
-      );
+  async function initCircle(map) {
+    // Add the circle as a GeoJSON source
+    map.addSource('location-radius', {
+        type: 'geojson',
+        data: {}
     });
+
+    // Add a fill layer with some transparency
+    map.addLayer({
+        id: 'location-radius',
+        type: 'fill',
+        source: 'location-radius',
+        paint: {
+            'fill-color': '#8CCFFF',
+            'fill-opacity': 0.5
+        }
+    });
+
+    showRadius(map, PHILLY_CENTER);
   }
 
   const map = await initMap();
-  const viewAllButton = document.querySelector("[data-map-view-all]");
 
-  await initMarkers(map, data);
+  // await initListings(map, data);
 
-  currentFacilitySlug.subscribe((slug) => {
-    const facility = getFacilityBySlug(slug);
-    focusOnFacility(map, facility);
-  });
+  await initCircle(map);
 
-  viewAllButton.addEventListener("click", () => viewAll(map));
+  // await initSEPTA(map, septaData);
+
+  // map.addSource("metro", {
+  //   type: "geojson",
+  //   data: septaMetroData
+  // })
+
+
+  // map.addLayer({
+  //   id: 'septa-metro-routes',
+  //   type: 'line',
+  //   source: 'metro',
+  //   filter: ['==', ['get', 'feature_type'], 'route'],
+  //   paint: {
+  //     'line-color': ['coalesce', ['get', 'route_color'], '#0055AA'],
+  //     'line-width': 10
+  //   }
+  // });
+
+
+  // await initMarkers(map, data);
+  // await initNetworks(map, transitData);
+
+  function showRadius( map, center ) {
+    const radius = .5; // kilometer
+    const options = {
+        steps: 64,
+        units: 'miles'
+    };
+    const circleData = circle(center, radius, options);
+    
+    map.getSource('location-radius').setData(circleData);
+  }
+
+  currentListingSlug.subscribe( slug => {
+    const data = listingData.find( listing => listing.listing_slug == slug );
+    
+    data?.routes.forEach( route => {
+      route.stops.forEach( stop => {
+        const markerEl = cloneTemplate("map-marker-stub");
+
+        populateWithData(markerEl, route.route)
+
+        // add marker to map
+        new maplibregl.Marker({ element: markerEl })
+          .setLngLat([stop.longitude, stop.latitude])
+          .addTo(map);
+      })
+      
+    })
+
+    const listingCoordinates = [data?.listing.longitude, data?.listing.latitude];
+    
+    showRadius(map, listingCoordinates);
+    
+    map.flyTo({
+      center: listingCoordinates,
+      zoom: 15,
+    })
+
+  })
+
 </script>

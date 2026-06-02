@@ -1,12 +1,12 @@
-@import url(./fonts/montserrat/montserrat.css);
+@import url(./fonts/inter/inter.css);
 
 :root {
-  --font-default: "Montserrat", sans-serif;
+  --font-default: "InterDisplay", sans-serif;
 
   font-optical-sizing: auto;
 
   --radius: 1rem;
-  --box-shadow: 0px 0px 10px rgba(49, 72, 105, 0.5);
+  --box-shadow: 0px .5rem 0px rgba(0, 0, 0, 0.1);
 
   --ease-out-elastic: cubic-bezier(0.34, 1.56, 0.64, 1);
 }

@@ -1,33 +1,21 @@
 ---
 import Nav from "./nav.astro";
 import Map from "./map.astro";
-import Viewer from "./viewer.astro";
-import Header from "./header.astro";
-import FacilityBrowser from "./facility-browser.astro";
-import ResponsiveSheet from "./responsive-sheet.astro";
-import HeaderSearch from "./header-search.astro";
+import ListingList from "./listing-list.astro";
 ---
 
 <main id="app" class="app layout-app" data-app>
+  <section class="in-list">
+    <ListingList/>
+  </section>
+  
   <section class="in-main">
     <Map />
   </section>
 
-  <ResponsiveSheet class="in-list">
-    <FacilityBrowser />
-  </ResponsiveSheet>
-
-  <section class="in-header">
-    <Header>
-      <HeaderSearch />
-    </Header>
-  </section>
-
-  <section class="in-nav">
-    <Nav />
-  </section>
-
-  <Viewer />
+  <!-- <section class="in-nav">
+    <Nav/>
+  </section> -->
 </main>
 
 <style>
@@ -48,6 +36,7 @@ import HeaderSearch from "./header-search.astro";
 
   .in-list {
     position: relative;
+    overflow: scroll;
   }
 
   .in-main {
@@ -71,6 +60,7 @@ import HeaderSearch from "./header-search.astro";
     .in-list {
       pointer-events: none;
       grid-area: main;
+      z-index: 20;
     }
 
     .in-nav {
@@ -83,7 +73,7 @@ import HeaderSearch from "./header-search.astro";
       grid-template-columns: min(40vw, 450px) 1fr;
       grid-template-rows: min-content 1fr;
       grid-template-areas:
-        "header nav"
+        "nav nav"
         "list main";
     }
 
@@ -99,13 +89,13 @@ import HeaderSearch from "./header-search.astro";
 
 <script>
   import { listen } from "../helpers/events";
-  import { currentFacilitySlug } from "../helpers/store";
+  import { currentListingSlug } from "../helpers/store";
 
-  function setCurrentFacilitySlug() {
+  function setCurrentListingSlug() {
     const slug = window.location.hash?.substring(1) || "";
-    currentFacilitySlug.set(slug);
+    currentListingSlug.set(slug);
   }
 
-  listen("hashchange", setCurrentFacilitySlug);
-  setCurrentFacilitySlug();
+  listen("hashchange", setCurrentListingSlug);
+  setCurrentListingSlug();
 </script>

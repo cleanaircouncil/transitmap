@@ -41,30 +41,6 @@
       ],
       "walk_minutes": 8
     },
-    "septa-bus:25239": {
-      "stop_id": "25239",
-      "stop_name": "Broad St & Hartranft St",
-      "coordinates": [
-        -75.172816,
-        39.907778
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ],
-      "walk_minutes": 8
-    },
     "septa-bus:31487": {
       "stop_id": "31487",
       "stop_name": "Broad St & Pattison Av - 3 FS",
@@ -95,23 +71,29 @@
       ],
       "walk_minutes": 8
     },
-    "septa-bus:21349": {
-      "stop_id": "21349",
-      "stop_name": "11th St & Zinkoff Blvd - FS",
+    "septa-bus:25239": {
+      "stop_id": "25239",
+      "stop_name": "Broad St & Hartranft St",
       "coordinates": [
-        -75.169094,
-        39.902549
+        -75.172816,
+        39.907778
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
           "route_id": "septa-bus:17",
+          "direction_id": 0,
+          "direction": "Northbound",
+          "headsign": "2nd-Market"
+        },
+        {
+          "route_id": "septa-bus:4",
           "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
+          "direction": "Northbound",
+          "headsign": "Fern Rock Transit Center"
         }
       ],
-      "walk_minutes": 6
+      "walk_minutes": 8
     },
     "septa-bus:356": {
       "stop_id": "356",
@@ -148,6 +130,24 @@
         }
       ],
       "walk_minutes": 8
+    },
+    "septa-bus:21349": {
+      "stop_id": "21349",
+      "stop_name": "11th St & Zinkoff Blvd - FS",
+      "coordinates": [
+        -75.169094,
+        39.902549
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:17",
+          "direction_id": 1,
+          "direction": "Southbound",
+          "headsign": "Broad-Pattison"
+        }
+      ],
+      "walk_minutes": 6
     },
     "septa-bus:31461": {
       "stop_id": "31461",
@@ -226,6 +226,7 @@
     "septa-metro:B1": {
       "route_id": "B1",
       "namespace": "septa-metro",
+      "agency": "SEPTA",
       "mode": "Metro",
       "route_short_name": "B1",
       "route_long_name": "Broad Street Line Local",
@@ -282,6 +283,7 @@
     "septa-bus:17": {
       "route_id": "17",
       "namespace": "septa-bus",
+      "agency": "SEPTA",
       "mode": "Bus",
       "route_short_name": "17",
       "route_long_name": "Front-Mkt to 20-Johnston/Broad-Pat",
@@ -428,6 +430,7 @@
     "septa-bus:4": {
       "route_id": "4",
       "namespace": "septa-bus",
+      "agency": "SEPTA",
       "mode": "Bus",
       "route_short_name": "4",
       "route_long_name": "Broad-Pattison to Fern Rock TC",
@@ -643,6 +646,7 @@
     "septa-bus:B1_OWL": {
       "route_id": "B1_OWL",
       "namespace": "septa-bus",
+      "agency": "SEPTA",
       "mode": "Bus",
       "route_short_name": "B1 OWL",
       "route_long_name": "Midnight-5am Service (Bus) for B1",
@@ -714,6 +718,7 @@
     "septa-bus:68": {
       "route_id": "68",
       "namespace": "septa-bus",
+      "agency": "SEPTA",
       "mode": "Bus",
       "route_short_name": "68",
       "route_long_name": "Broad-Oregon to UPS/69th St TC",
@@ -887,6 +892,7 @@
     "septa-bus:45": {
       "route_id": "45",
       "namespace": "septa-bus",
+      "agency": "SEPTA",
       "mode": "Bus",
       "route_short_name": "45",
       "route_long_name": "Broad-Oregon to 12th-Vine",
@@ -977,6 +983,7 @@
     "septa-bus:63": {
       "route_id": "63",
       "namespace": "septa-bus",
+      "agency": "SEPTA",
       "mode": "Bus",
       "route_short_name": "63",
       "route_long_name": "Lanknau/Overbrk to ColCom/FdCtr",
@@ -1207,6 +1214,7 @@
     "indego:indego": {
       "route_id": "indego",
       "namespace": "indego",
+      "agency": "Indego",
       "mode": "Bike",
       "route_short_name": "Indego",
       "route_long_name": "Indego Bike Share",

@@ -6,6 +6,8 @@ import { featureCollection, point, circle, pointsWithinPolygon, bbox, distance }
 // ── Config ────────────────────────────────────────────────────────────────────
 
 const RADIUS_METERS = 800;
+const SHORT_RADIUS = 400; // buses and bikes try this first, expand to RADIUS_METERS if empty
+const SHORT_RADIUS_NS = new Set(["septa-bus", "septa-trolley", "njtransit-bus", "indego"]);
 
 // Path to listings JSON — array of listing objects with id, venue, date, etc.
 const LISTINGS_PATH = "./data/listings.json";
@@ -73,6 +75,14 @@ for (const { file, namespace } of GEOJSON_SOURCES) {
 console.log(`Loaded ${allStops.length} stops, ${allRoutes.length} routes`);
 
 // ── Build stops map ───────────────────────────────────────────────────────────
+
+function agencyName(namespace) {
+  if (namespace.startsWith("septa")) return "SEPTA";
+  if (namespace === "patco") return "PATCO";
+  if (namespace === "njtransit-bus") return "NJ Transit";
+  if (namespace === "indego") return "Indego";
+  return namespace;
+}
 
 const stops = {};
 
@@ -162,6 +172,7 @@ for (const { key, namespace, routeId, feature } of allRoutes) {
   routes[key] = {
     route_id: routeId,
     namespace,
+    agency: agencyName(namespace),
     mode: routeMode(p.route_type, namespace),
     route_short_name: p.route_short_name || p.route_ref || routeId,
     route_long_name: p.route_long_name || p.route_name || "",
@@ -178,6 +189,7 @@ for (const { key, namespace, routeId, feature } of allRoutes) {
 routes["indego:indego"] = {
   route_id: "indego",
   namespace: "indego",
+  agency: "Indego",
   mode: "Bike",
   route_short_name: "Indego",
   route_long_name: "Indego Bike Share",
@@ -278,9 +290,23 @@ for (const [slug, venue] of Object.entries(venues)) {
     })
   );
 
+  // For surface/bike modes, prefer 400m; expand to full radius only if nothing closer
+  const shortHasNearby = {};
+  for (const ns of SHORT_RADIUS_NS) {
+    shortHasNearby[ns] = Object.keys(allVenueStops).some(
+      (key) => key.startsWith(`${ns}:`) && stopDist[key] <= SHORT_RADIUS
+    );
+  }
+  const candidateStops = Object.fromEntries(
+    Object.entries(allVenueStops).filter(([key]) => {
+      const ns = key.split(":")[0];
+      return !SHORT_RADIUS_NS.has(ns) || !shortHasNearby[ns] || stopDist[key] <= SHORT_RADIUS;
+    })
+  );
+
   // Pass 1: for each (route, direction) pair, record the nearest stop
   const nearest = new Map();
-  for (const [key, stop] of Object.entries(allVenueStops)) {
+  for (const [key, stop] of Object.entries(candidateStops)) {
     for (const r of stop.routes) {
       const dirKey = `${r.route_id}|${r.direction_id ?? ""}`;
       if (!nearest.has(dirKey) || stopDist[key] < stopDist[nearest.get(dirKey)]) {
@@ -289,12 +315,13 @@ for (const [slug, venue] of Object.entries(venues)) {
     }
   }
 
-  // Pass 2: keep stops that won at least one (route, direction) pair
+  // Pass 2: keep stops that won at least one (route, direction) pair;
+  // always keep all Indego docks (no direction concept, show every station in radius)
+  const keptKeys = new Set(nearest.values());
   const venueStops = Object.fromEntries(
-    [...new Set(nearest.values())].map((key) => [
-      key,
-      { ...allVenueStops[key], walk_minutes: Math.ceil(stopDist[key] / 80) },
-    ])
+    Object.keys(candidateStops)
+      .filter((key) => keptKeys.has(key) || key.startsWith("indego:"))
+      .map((key) => [key, { ...candidateStops[key], walk_minutes: Math.ceil(stopDist[key] / 80) }])
   );
 
   const routeKeys = new Set(

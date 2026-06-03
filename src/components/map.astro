@@ -10,17 +10,26 @@ import TransitChip from "./transit-chip.astro";
     <i class="fa fa-expand"></i><span class="map-view-all-text">&nbsp;View All</span>
   </Button>
 
+  <template id="map-stop-group-stub">
+    <div class="map-stop-group" data-transit-chip>
+
+    </div>
+  </template>
+
+
   <template id="map-marker-stub">
     <TransitChip/>
   </template>
 
 
-  <template id="map-listing-stub">
+  <template id="map-venue-stub">
     <div
-      class="map-listing"
-      data-listing-marker
+      class="map-venue map-marker"
+      data-venue-marker
+      data-venue=""
+      data-populate="slug: @data-venue"
     >
-      <span class="map-marker__label" data-populate="location"></span>
+      <span class="map-marker__label" data-populate="name"></span>
     </div>
   </template>
 
@@ -51,7 +60,7 @@ import TransitChip from "./transit-chip.astro";
     display: block;
   }
 
-  .map-listing {
+  .map-venue {
     width: 48px;
     height: 48px;
     color: var(--text-color);
@@ -65,6 +74,7 @@ import TransitChip from "./transit-chip.astro";
 
     &::after {
       content: '\f3c5';
+      color: var(--color-red);
       display: block;
       font: var(--fa-font-solid);
       width: 100%;
@@ -74,6 +84,22 @@ import TransitChip from "./transit-chip.astro";
       margin-top: -12px;
     }
   }
+
+  .map-venue[data-current] {
+    &::after {
+      color: magenta;
+    }
+  }
+
+  .map-stop-group {
+    
+    display: grid;
+    /* grid-template-columns: repeat(1fr); */
+    /* gap: .25rem; */
+    /* background: var(--color-white); */
+    /* padding: .25rem; */
+  }
+
 
   .map-marker {
     width: 36px;
@@ -247,9 +273,9 @@ import TransitChip from "./transit-chip.astro";
     });
   }
 
-  async function initListings(map, data) {
+  async function initVenues(map, data) {
     data.venues.forEach((venue) => {
-      const markerEl = cloneTemplate("map-listing-stub");
+      const markerEl = cloneTemplate("map-venue-stub");
           
       populateWithData(markerEl, venue)
 
@@ -285,7 +311,7 @@ import TransitChip from "./transit-chip.astro";
 
   const map = await initMap();
 
-  await initListings(map, data);
+  await initVenues(map, data);
 
   await initCircle(map);
 
@@ -308,6 +334,18 @@ import TransitChip from "./transit-chip.astro";
     return data;
   }
 
+
+  function setCurrentMarker(venue) {
+    const markers = document.querySelectorAll("[data-venue-marker]");
+    markers.forEach((marker) => {
+      marker.toggleAttribute(
+        "data-current",
+        marker.matches(`[data-venue="${venue.slug}"]`)
+      );
+    });
+  }
+
+
   currentListingSlug.subscribe( slug => {
     const listing = data.listings.find( listing => listing.slug == slug );
     (async() => {
@@ -320,21 +358,36 @@ import TransitChip from "./transit-chip.astro";
       for( const id in venue.stops )
       {
         const stop = venue.stops[id];
-        const route_id = stop.routes.at(0).route_id;
-        const route = venue.routes[route_id];
+        const groupEl = cloneTemplate("map-stop-group-stub");
 
-        const markerEl = cloneTemplate("map-marker-stub");
+        console.log( venue.routes );
 
-        populateWithData(markerEl, route)
+        for( const stopRoute of stop.routes ){
+          
+          const route = venue.routes[stopRoute.route_id];
+          // console.log( route_id, route );
 
-        // add marker to map
-        new maplibregl.Marker({ element: markerEl })
+          const markerEl = cloneTemplate("map-marker-stub");
+
+          populateWithData(markerEl, route)
+
+          // add marker to map
+          groupEl?.appendChild(markerEl);
+
+          break;
+      
+        }
+
+        new maplibregl.Marker({ element: groupEl })
           .setLngLat(stop.coordinates)
           .addTo(map);
-      
+
+       
       }
 
       showRadius(map, venue.coordinates);
+
+      setCurrentMarker(venue);
 
       map.flyTo({
         center: venue.coordinates,
@@ -342,20 +395,6 @@ import TransitChip from "./transit-chip.astro";
       })
     })()
     
-    
-    // data?.routes.forEach( route => {
-    //   route.stops.forEach( stop => {
-    //     const markerEl = cloneTemplate("map-marker-stub");
-
-    //     populateWithData(markerEl, route.route)
-
-    //     // add marker to map
-    //     new maplibregl.Marker({ element: markerEl })
-    //       .setLngLat([stop.longitude, stop.latitude])
-    //       .addTo(map);
-    //   })
-      
-    // })
 
 
 

@@ -1,7 +1,7 @@
 ---
 import TransitChip from "./transit-chip.astro";
 
-const { routes = []} = Astro.props
+const { routes = [] } = Astro.props
 
 const modes = [
   {
@@ -53,7 +53,10 @@ for( const route_id in routes ) {
       <h4>{ transit.mode }</h4>
         <div class="transit-selector__transit gap-tight" data-transit-mode={transit.mode}>
           { transit.routes
-            .sort( (a, b) => a.route_id - b.route_id )
+            .sort( (a, b) => parseInt(a.route_id) 
+              ? (parseInt(a.route_id) > parseInt(b.route_id) ? 1 : -1) 
+              : (a.route_id > b.route_id ? 1 : -1) 
+            )
             .map( route => <TransitChip route={route}/> )
           }
         </div>

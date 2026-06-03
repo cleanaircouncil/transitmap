@@ -1,0 +1,939 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.000525,
+            39.833945
+          ],
+          [
+            -75.001849,
+            39.83602
+          ],
+          [
+            -75.007918,
+            39.85059
+          ],
+          [
+            -75.008891,
+            39.853475
+          ],
+          [
+            -75.009119,
+            39.854902
+          ],
+          [
+            -75.009133,
+            39.854971
+          ],
+          [
+            -75.009217,
+            39.858719
+          ],
+          [
+            -75.009357,
+            39.864972
+          ],
+          [
+            -75.010274,
+            39.868571
+          ],
+          [
+            -75.011251,
+            39.870219
+          ],
+          [
+            -75.012009,
+            39.87159
+          ],
+          [
+            -75.012693,
+            39.872429
+          ],
+          [
+            -75.013418,
+            39.873302
+          ],
+          [
+            -75.01431,
+            39.874146
+          ],
+          [
+            -75.015501,
+            39.875105
+          ],
+          [
+            -75.016722,
+            39.875986
+          ],
+          [
+            -75.017717,
+            39.876612
+          ],
+          [
+            -75.019941,
+            39.877773
+          ],
+          [
+            -75.022387,
+            39.879103
+          ],
+          [
+            -75.023417,
+            39.879667
+          ],
+          [
+            -75.024034,
+            39.880054
+          ],
+          [
+            -75.025423,
+            39.881058
+          ],
+          [
+            -75.026083,
+            39.881577
+          ],
+          [
+            -75.027941,
+            39.883096
+          ],
+          [
+            -75.028872,
+            39.883894
+          ],
+          [
+            -75.029899,
+            39.884767
+          ],
+          [
+            -75.030476,
+            39.885306
+          ],
+          [
+            -75.031152,
+            39.886093
+          ],
+          [
+            -75.031254,
+            39.88622
+          ],
+          [
+            -75.03156,
+            39.886681
+          ],
+          [
+            -75.032107,
+            39.887702
+          ],
+          [
+            -75.032633,
+            39.889011
+          ],
+          [
+            -75.033293,
+            39.890682
+          ],
+          [
+            -75.03384,
+            39.892106
+          ],
+          [
+            -75.034328,
+            39.893271
+          ],
+          [
+            -75.034795,
+            39.894213
+          ],
+          [
+            -75.03575,
+            39.895753
+          ],
+          [
+            -75.037141,
+            39.897609
+          ],
+          [
+            -75.037279,
+            39.898024
+          ],
+          [
+            -75.038091,
+            39.899547
+          ],
+          [
+            -75.038518,
+            39.90028
+          ],
+          [
+            -75.039027,
+            39.901021
+          ],
+          [
+            -75.039317,
+            39.901399
+          ],
+          [
+            -75.039934,
+            39.902144
+          ],
+          [
+            -75.040025,
+            39.902251
+          ],
+          [
+            -75.041277,
+            39.903399
+          ],
+          [
+            -75.042375,
+            39.904292
+          ],
+          [
+            -75.044354,
+            39.905699
+          ],
+          [
+            -75.046545,
+            39.907086
+          ],
+          [
+            -75.047149,
+            39.907432
+          ],
+          [
+            -75.04761,
+            39.907679
+          ],
+          [
+            -75.048426,
+            39.908094
+          ],
+          [
+            -75.050191,
+            39.908905
+          ],
+          [
+            -75.051779,
+            39.909539
+          ],
+          [
+            -75.05356,
+            39.910181
+          ],
+          [
+            -75.057883,
+            39.911534
+          ],
+          [
+            -75.060785,
+            39.912456
+          ],
+          [
+            -75.063999,
+            39.913464
+          ],
+          [
+            -75.064559,
+            39.913588
+          ],
+          [
+            -75.06527,
+            39.913871
+          ],
+          [
+            -75.069106,
+            39.915081
+          ],
+          [
+            -75.072137,
+            39.91604
+          ],
+          [
+            -75.075146,
+            39.916994
+          ],
+          [
+            -75.07786,
+            39.917842
+          ],
+          [
+            -75.080886,
+            39.918796
+          ],
+          [
+            -75.083906,
+            39.919759
+          ],
+          [
+            -75.087425,
+            39.920882
+          ],
+          [
+            -75.088616,
+            39.921302
+          ],
+          [
+            -75.089946,
+            39.921853
+          ],
+          [
+            -75.091679,
+            39.922758
+          ],
+          [
+            -75.092025,
+            39.922869
+          ],
+          [
+            -75.092902,
+            39.92347
+          ],
+          [
+            -75.094184,
+            39.924244
+          ],
+          [
+            -75.095906,
+            39.925358
+          ],
+          [
+            -75.09873,
+            39.927177
+          ],
+          [
+            -75.100501,
+            39.928283
+          ],
+          [
+            -75.101619,
+            39.928929
+          ],
+          [
+            -75.102303,
+            39.929312
+          ],
+          [
+            -75.104688,
+            39.930533
+          ],
+          [
+            -75.107091,
+            39.931784
+          ],
+          [
+            -75.108202,
+            39.932417
+          ],
+          [
+            -75.108998,
+            39.933014
+          ],
+          [
+            -75.109859,
+            39.933845
+          ],
+          [
+            -75.11061,
+            39.934848
+          ],
+          [
+            -75.111275,
+            39.936313
+          ],
+          [
+            -75.111436,
+            39.936913
+          ],
+          [
+            -75.111919,
+            39.938612
+          ],
+          [
+            -75.112407,
+            39.940286
+          ],
+          [
+            -75.112702,
+            39.941314
+          ],
+          [
+            -75.112842,
+            39.941586
+          ],
+          [
+            -75.11311,
+            39.941915
+          ],
+          [
+            -75.113582,
+            39.942359
+          ],
+          [
+            -75.114242,
+            39.942746
+          ],
+          [
+            -75.114773,
+            39.942902
+          ],
+          [
+            -75.115339,
+            39.942955
+          ],
+          [
+            -75.119,
+            39.942955
+          ],
+          [
+            -75.119217,
+            39.94261
+          ],
+          [
+            -75.120105,
+            39.943181
+          ],
+          [
+            -75.121119,
+            39.943946
+          ],
+          [
+            -75.121288,
+            39.944057
+          ],
+          [
+            -75.121352,
+            39.944164
+          ],
+          [
+            -75.121368,
+            39.944284
+          ],
+          [
+            -75.121371,
+            39.944333
+          ],
+          [
+            -75.1211,
+            39.945686
+          ],
+          [
+            -75.120679,
+            39.946624
+          ],
+          [
+            -75.120218,
+            39.948076
+          ],
+          [
+            -75.1201,
+            39.948581
+          ],
+          [
+            -75.120116,
+            39.949038
+          ],
+          [
+            -75.120293,
+            39.949396
+          ],
+          [
+            -75.120655,
+            39.949873
+          ],
+          [
+            -75.12091,
+            39.950029
+          ],
+          [
+            -75.121891,
+            39.95051
+          ],
+          [
+            -75.122795,
+            39.950827
+          ],
+          [
+            -75.125786,
+            39.951357
+          ],
+          [
+            -75.128055,
+            39.951768
+          ],
+          [
+            -75.130947,
+            39.952287
+          ],
+          [
+            -75.134535,
+            39.952932
+          ],
+          [
+            -75.138146,
+            39.953566
+          ],
+          [
+            -75.140206,
+            39.953936
+          ],
+          [
+            -75.144202,
+            39.954639
+          ],
+          [
+            -75.146595,
+            39.955042
+          ],
+          [
+            -75.148215,
+            39.955342
+          ],
+          [
+            -75.150119,
+            39.955605
+          ],
+          [
+            -75.150615,
+            39.955609
+          ],
+          [
+            -75.151192,
+            39.955539
+          ],
+          [
+            -75.151905,
+            39.955256
+          ],
+          [
+            -75.152112,
+            39.955132
+          ],
+          [
+            -75.152227,
+            39.955054
+          ],
+          [
+            -75.152522,
+            39.954717
+          ],
+          [
+            -75.152761,
+            39.954322
+          ],
+          [
+            -75.152973,
+            39.953841
+          ],
+          [
+            -75.153587,
+            39.951152
+          ],
+          [
+            -75.153804,
+            39.950198
+          ],
+          [
+            -75.154244,
+            39.948108
+          ],
+          [
+            -75.154513,
+            39.946961
+          ],
+          [
+            -75.157642,
+            39.947352
+          ],
+          [
+            -75.162363,
+            39.947944
+          ],
+          [
+            -75.167792,
+            39.948635
+          ]
+        ]
+      },
+      "properties": {
+        "route_id": "2",
+        "route_short_name": "PATCO",
+        "route_long_name": "High Speed Line",
+        "route_type": 1,
+        "route_color": "#BC0035",
+        "route_text_color": "#FFFFFF",
+        "feature_type": "route",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.000664,
+          39.833962
+        ]
+      },
+      "properties": {
+        "stop_id": "1",
+        "stop_name": "Lindenwold",
+        "stop_code": "1",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.00921,
+          39.858705
+        ]
+      },
+      "properties": {
+        "stop_id": "2",
+        "stop_name": "Ashland",
+        "stop_code": "2",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.011242,
+          39.870263
+        ]
+      },
+      "properties": {
+        "stop_id": "3",
+        "stop_name": "Woodcrest",
+        "stop_code": "3",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.037141,
+          39.89764
+        ]
+      },
+      "properties": {
+        "stop_id": "4",
+        "stop_name": "Haddonfield",
+        "stop_code": "4",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.046553,
+          39.90706
+        ]
+      },
+      "properties": {
+        "stop_id": "5",
+        "stop_name": "Westmont",
+        "stop_code": "5",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.06456,
+          39.91359
+        ]
+      },
+      "properties": {
+        "stop_id": "6",
+        "stop_name": "Collingswood",
+        "stop_code": "6",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.091805,
+          39.922572
+        ]
+      },
+      "properties": {
+        "stop_id": "7",
+        "stop_name": "Ferry Avenue",
+        "stop_code": "7",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.120364,
+          39.943135
+        ]
+      },
+      "properties": {
+        "stop_id": "8",
+        "stop_name": "Broadway",
+        "stop_code": "8",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.121242,
+          39.945469
+        ]
+      },
+      "properties": {
+        "stop_id": "9",
+        "stop_name": "City Hall",
+        "stop_code": "9",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.151157,
+          39.955298
+        ]
+      },
+      "properties": {
+        "stop_id": "10",
+        "stop_name": "Franklin Square",
+        "stop_code": "10",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.153515,
+          39.950979
+        ]
+      },
+      "properties": {
+        "stop_id": "11",
+        "stop_name": "8th and Market",
+        "stop_code": "11",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15751,
+          39.947345
+        ]
+      },
+      "properties": {
+        "stop_id": "12",
+        "stop_name": "9-10th and Locust",
+        "stop_code": "12",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.162365,
+          39.947944
+        ]
+      },
+      "properties": {
+        "stop_id": "13",
+        "stop_name": "12-13th and Locust",
+        "stop_code": "13",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.167792,
+          39.948634
+        ]
+      },
+      "properties": {
+        "stop_id": "14",
+        "stop_name": "15-16th and Locust",
+        "stop_code": "14",
+        "routes": [
+          {
+            "route_id": "2",
+            "direction_id": 0,
+            "direction": "",
+            "headsign": "Philadelphia"
+          }
+        ],
+        "wheelchair_boarding": 1,
+        "feature_type": "stop",
+        "source": "gtfs"
+      }
+    }
+  ]
+}

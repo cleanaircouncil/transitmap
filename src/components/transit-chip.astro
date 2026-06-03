@@ -6,8 +6,14 @@ const { route = {} } = Astro.props;
 <div
   class="transit-chip"
   data-transit-chip
-  data-populate="route_color: --route-color, route_text_color: --text-color, mode: @data-mode"
+  data-populate="
+    route_color: --route-color, 
+    route_text_color: --text-color, 
+    mode: @data-mode,
+    agency: @data-agency
+  "
   data-mode={route.mode}
+  data-agency={route.agency}
   style={`
     --route-color: ${route.route_color};
     --text-color: ${route.route_text_color};
@@ -47,11 +53,25 @@ const { route = {} } = Astro.props;
 
     &[data-mode="Bike"] {
       border-radius: 50%;
+      width: 24px;
+      height: 24px;
       background: #3980C4;
       color: var(--color-white);
+      place-content: center;
 
       .transit-chip__text {
         display: none;
+      }
+
+
+      &::after {
+        content: '\f206';
+        display: block;
+        font: var(--fa-font-solid);
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+        line-height: 24px;
       }
     }
 
@@ -60,6 +80,10 @@ const { route = {} } = Astro.props;
       border-radius: 50%;
       background: var(--color-black);
       color: var(--color-white);
+
+      &[data-agency="NJ Transit"] {
+        background: red;
+      }
 
       .transit-chip__text {
         border: 1px solid white;

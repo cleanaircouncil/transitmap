@@ -1,11 +1,13 @@
 ---
 import Nav from "./nav.astro";
+import Header from "./header.astro";
 import Map from "./map.astro";
 import ListingList from "./listing-list.astro";
 ---
 
 <main id="app" class="app layout-app" data-app>
   <section class="in-list">
+    <Header/>
     <ListingList/>
   </section>
   
@@ -36,7 +38,9 @@ import ListingList from "./listing-list.astro";
 
   .in-list {
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: min-content 1fr;
   }
 
   .in-main {

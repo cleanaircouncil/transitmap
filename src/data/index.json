@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-06-03T13:37:26.916Z",
+    "generated": "2026-06-03T21:17:57.204Z",
     "radius_meters": 800,
     "bounds": [
       -75.222908,
@@ -141,16 +141,6 @@
   ],
   "listings": [
     {
-      "slug": "round-of-16-match-89-2026-06-04",
-      "name": "Round of 16 (Match 89)",
-      "date": "2026-06-04T21:00:00.000Z",
-      "type": "Event",
-      "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
-      "group_name": "FIFA World Cup 2026",
-      "venue_id": "lincoln-financial-field",
-      "venue": "Lincoln Financial Field"
-    },
-    {
       "slug": "the-four-seasons-reimagined-balletx-2026-06-05",
       "name": "The Four Seasons Reimagined (BalletX)",
       "date": "2026-06-05T00:00:00.000Z",
@@ -159,6 +149,16 @@
       "group_name": "Highmark Mann Center 50th Anniversary",
       "venue_id": "highmark-mann-center",
       "venue": "Highmark Mann Center"
+    },
+    {
+      "slug": "round-of-16-match-89-2026-06-07",
+      "name": "Round of 16 (Match 89)",
+      "date": "2026-06-07T21:00:00.000Z",
+      "type": "Event",
+      "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
+      "group_name": "FIFA World Cup 2026",
+      "venue_id": "lincoln-financial-field",
+      "venue": "Lincoln Financial Field"
     },
     {
       "slug": "cote-d-ivoire-vs-ecuador-group-e-2026-06-14",
@@ -466,7 +466,7 @@
     {
       "slug": "38th-annual-liberty-medal-ceremony-2026-07-03",
       "name": "38th Annual Liberty Medal Ceremony",
-      "date": "2026-07-03T00:00:00.000Z",
+      "date": "2026-07-03T15:00:00.000Z",
       "type": "Event",
       "link": "https://july4thphilly.com/event/liberty-medal/",
       "group_name": "America250 Celebration",
@@ -533,7 +533,7 @@
     {
       "slug": "red-white-and-blue-to-do-2026-07-02",
       "name": "Red, White, and Blue, To Do",
-      "date": "2026-07-02T00:00:00.000Z",
+      "date": "2026-07-02T13:00:00.000Z",
       "type": "Event",
       "link": "https://july4thphilly.com/event/red-white-and-blue-to-do/",
       "group_name": "America250 Celebration",

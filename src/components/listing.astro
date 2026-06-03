@@ -1,0 +1,139 @@
+---
+const { listing } = Astro.props
+import routesByVenue from "../data/routes.json"
+import data from "../data/index.json"
+import TransitSelector from "./transit-selector.astro";
+
+
+const routes = routesByVenue[listing.venue_id];
+
+const venue = data.venues.find( venue => venue.slug == listing.venue_id );
+console.log( venue );
+
+const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
+const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
+---
+
+<div id={listing.slug} class="listing" data-listing={ listing.slug }>
+
+  <a href={`#${listing.slug}`} class="listing__details stack-tight">
+    <div class="listing__group">{ listing.group_name }</div>
+    <div class="listing__name">{ listing.name }</div>
+    <div class="listing__meta">
+      <span class="listing__time">{ time }</span>
+      <span>@</span>
+      <span class="listing__venue">{ listing.venue }</span>
+    </div>
+
+    <div class="listing__transit stack">
+      <a href={`http://maps.apple.com/?q=${venue?.coordinates.toReversed().join(',+')}`} class="listing__go-btn">GO CAR-FREE <i class="fa fa-external-link"></i></a>
+      <TransitSelector routes={ routes } />
+    </div>
+
+    
+    
+
+  </a>
+
+
+</div>
+
+
+<style>
+  .listing {
+    background: var(--color-white);
+    scroll-margin-top: 1rem;
+    position: relative;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+  } 
+  
+
+
+  .listing__transit {
+    display: none;
+  }
+
+
+
+  .listing:not(:last-child) {
+    border-bottom: 1px solid var(--color-gray) !important;
+  }
+
+  .listing__explore {
+    text-align: center;
+    
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .listing__details {
+    /* background: var(--color-white); */
+    color: var(--color-black);
+    text-decoration: none;
+  }
+  
+  .listing__group {
+    color: var(--color-red);
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .listing__meta {
+    color: var(--color-gray);
+    font-weight: 700;
+    /* text-transform: uppercase; */
+  }
+
+  .listing__name {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  .listing__time {
+    color: var(--color-black);
+  }
+
+  .listing__go-btn {
+    background: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--font-default);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    text-decoration: none;
+    border: none;
+    /* position: absolute; */
+    /* top: 0px;
+    right: 0px;
+    translate: 50% 0%; */
+    cursor: pointer;
+
+    display: none;
+  }
+  
+
+
+  .listing:target {
+    background: white;
+
+    .listing__transit{
+      display: block;
+    }
+
+    .listing__go-btn {
+      display: inline-block;
+    }
+  }
+
+
+  .listing:target 
+
+</style>

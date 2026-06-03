@@ -9,7 +9,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch": "node ./scripts/fetch.js"
+    "fetch": "node ./scripts/fetch.js; node ./scripts/build-data.js"
   },
   "author": "",
   "license": "ISC",

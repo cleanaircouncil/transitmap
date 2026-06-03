@@ -1,11 +1,11 @@
 ---
 const { listing } = Astro.props
 
-import listingStopsData from "../data/listing-stops.json"
+// import listingStopsData from "../data/listing-stops.json"
 import TransitSelector from "./transit-selector.astro";
 
-const listingStop = listingStopsData.find( data => data.listing_slug === listing.slug );
-const routes = listingStop?.routes;
+// const listingStop = listingStopsData.find( data => data.listing_slug === listing.slug );
+// const routes = listingStop?.routes;
 
 const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
 
@@ -14,7 +14,7 @@ const day = Intl.DateTimeFormat("en-US", {day: "numeric"}).format(date);
 const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 ---
 
-<div class="listing-compact padding" data-listing={ listing.slug }>
+<div id={listing.slug} class="listing-compact padding" data-listing={ listing.slug }>
 
   <a href={`#${listing.slug}`} class="listing-compact__details  stack-tight">
     <div class="listing-compact__group">{ listing.group_name }</div>
@@ -22,12 +22,12 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     <div class="listing-compact__meta">
       <span class="listing-compact__time">{ time }</span>
       <span>@</span>
-      <span class="listing-compact__venue">{ listing.venue_name }</span>
+      <span class="listing-compact__venue">{ listing.venue }</span>
     </div>
 
     <div class="listing-compact__transit">
       <span>explore car-free ways to go</span>
-      <TransitSelector routes={ routes }/>
+      <!-- <TransitSelector routes={ routes }/> -->
     </div>
 
   </a>
@@ -38,8 +38,25 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 
 <style>
   .listing-compact {
-   background: var(--color-white);
+    background: var(--color-white);
+    scroll-margin-top: 1rem;
   } 
+
+  .listing-compact:target {
+    background: white;
+  }
+
+  .listing-compact__transit {
+    display: none;
+  }
+
+  .listing-compact:target .listing-compact__transit{
+    display: block;
+  }
+
+  .listing-compact:not(:last-child) {
+    border-bottom: 1px solid var(--color-gray) !important;
+  }
 
   /* .listing-compact__date {
     background: var(--color-black);
@@ -98,7 +115,5 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     color: var(--color-black);
   }
 
-  .listing-compact__transit {
-    display: none;
-  }
+
 </style>

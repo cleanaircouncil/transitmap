@@ -2,7 +2,7 @@
 import ListingCompact from "./listing-compact.astro";
 import { DateTime } from "luxon";
 
-import data from "../data/data.json";
+import data from "../data/index.json";
 
 
 
@@ -58,7 +58,9 @@ console.log( listingsByDay );
      background: var(--color-beige);
      height: 100%;
      overflow: auto;
-     position: absolute;
+     position: absolute; 
+
+     scroll-behavior: smooth;
      
   }
 
@@ -99,9 +101,7 @@ console.log( listingsByDay );
     }
   }
 
-  .listing-schedule__listings > * {
-    border-bottom: 1px solid var(--color-gray);
-  }
+
 
   @media screen and (max-width: 900px) {
     .listing-list {

@@ -1,5 +1,5 @@
 import { atom, map } from "nanostores";
-import theData from "../data/map-data.json";
+import theData from "../data/index.json";
 
 export const data = theData;
 

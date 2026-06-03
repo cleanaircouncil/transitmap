@@ -12,12 +12,8 @@ const base = new Airtable({
 }).base(process.env.AIRTABLE_BASE_ID)
 
 
-const data = {
-  listings: [
-
-  ]
-}
-
+const listings = [];
+const venues = [];
 
 
 async function getAll( base, ids ) {
@@ -41,10 +37,26 @@ async function recordToListing(record) {
     console.log(`🎡 ${listing.name.trim()}`);
   }
   
-  listing.slug = slugify(listing.name);
+  listing.id = record.id;
+  listing.slug = slugify(listing.name + " " + listing.date?.split("T").at(0));
 
   return listing;
 }
+
+
+async function recordToVenue(record) {
+  const venue = jsonify(record);
+
+  console.log(`🏟️ ${venue.name.trim()}`);
+
+  venue.id = record.id;
+  venue.slug = slugify(venue.name);
+
+  return venue;
+}
+
+
+
 
 function produceMapData( data ) {
   console.log("🗺️  Producing map data...")
@@ -73,7 +85,7 @@ base('Listings')
       const arrays = ["group", "group_name", "venue", "venue_name", "latitude", "longitude"];
       arrays.forEach( key => listing[key] && (listing[key] = listing[key][0]));
       
-      data.listings.push( listing );
+      listings.push( listing );
     }
 
     fetchNextPage();
@@ -83,49 +95,47 @@ base('Listings')
       return;
     }  
 
-    data.listings.sort((a, b) => a.date < b.date ? -1 : 1 )
+    listings.sort((a, b) => a.date < b.date ? -1 : 1 )
     
 
 
     console.log( "💾 Writing data.json...")
-    fs.writeFileSync("./src/data/data.json", JSON.stringify( data, null, 2 ));
+    fs.writeFileSync("./data/listings.json", JSON.stringify( listings, null, 2 ));
 
 
-    const mapData = produceMapData(data);
-    console.log( "💾 Writing map-data.json...")
-    fs.writeFileSync("./src/data/map-data.json", JSON.stringify( mapData ));
+    // const mapData = produceMapData(data);
+    // console.log( "💾 Writing map-data.json...")
+    // fs.writeFileSync("./data/map-data.json", JSON.stringify( mapData ));
 
     console.log("✅ Done!")
   })
 
 
 
-// base("Venues")
-//   .select()
-//   .eachPage(
-//     async function page(records, fetchNextPage) {
-//       for (const record of records) {
-//         const listing = await recordToListing(record);
-//         data.listings.push(listing);
-//       }
+base("Venues")
+  .select()
+  .eachPage(
+    async function page(records, fetchNextPage) {
+      for (const record of records) {
+        const venue = await recordToVenue(record);
+        venues.push(venue);
+      }
 
-//       fetchNextPage();
-//     },
-//     async function done(error) {
-//       if (error) {
-//         console.error(error);
-//         return;
-//       }
+      fetchNextPage();
+    },
+    async function done(error) {
+      if (error) {
+        console.error(error);
+        return;
+      }
 
-//       data.listings.sort((a, b) => (a.date < b.date ? -1 : 1));
+      console.log("💾 Writing venues.json...");
+      fs.writeFileSync("./data/venues.json", JSON.stringify(venues, null, 2));
 
-//       console.log("💾 Writing venues.json...");
-//       fs.writeFileSync("./src/data/venues.json", JSON.stringify(data, null, 2));
+      // const mapData = produceMapData(data);
+      // console.log("💾 Writing map-data.json...");
+      // fs.writeFileSync("./src/data/map-data.json", JSON.stringify(mapData));
 
-//       // const mapData = produceMapData(data);
-//       // console.log("💾 Writing map-data.json...");
-//       // fs.writeFileSync("./src/data/map-data.json", JSON.stringify(mapData));
-
-//       console.log("✅ Done!");
-//     },
-//   );
+      console.log("✅ Done!");
+    },
+  );

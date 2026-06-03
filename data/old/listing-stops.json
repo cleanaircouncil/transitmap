@@ -1,0 +1,3505 @@
+[
+  {
+    "listing_slug": "round-of-16-match-89",
+    "listing": {
+      "latitude": 39.901733,
+      "date": "2026-06-04T21:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.167594,
+      "venue": "recu43PfeOwAs7uI7",
+      "name": "Round of 16 (Match 89)",
+      "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
+      "venue_name": "Lincoln Financial Field",
+      "group_name": "FIFA World Cup 2026",
+      "group": "recX37CIyxy5rQsTK",
+      "slug": "round-of-16-match-89"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334086",
+          "real_time_route_id": "B1",
+          "mode_name": "Subway",
+          "route_color": "#f26100",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.90543332838582,
+            "longitude": -75.17390805454681,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.90542433518247,
+            "longitude": -75.17380013610655,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "o_qrF`hyiMmH{@{PsAuo@wHgB]e\\oEyAImMgB{AKyAF}AGsUuCqAYwY{DcBMyw@kKyAW_H}@gBIkBYmAWgSiC_@AcA@cG`A_@?_@G_@QYUsByB[U[Qa@Im|BmZkCWoBOyjBqVuCYaFm@wBc@mjAqO}CSmFu@kCg@ebDsb@yAa@mMcB{@G{Fw@[]Ui@Gu@fB}UXaAj@i@fDeCb@m@Py@l@yJAu@Qu@a@m@s@c@sB_@}CMcA?c@LQTKPCL_@nF",
+                "merged_headsign": "North to Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:333087",
+          "real_time_route_id": "63",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.903967436238965,
+            "longitude": -75.16218091737198,
+            "name": "Pattison Av / 7th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "onasFtdhjM_A_B_@TgADmIyT}JsXfBiAdFsD|@s@HMnCbHlFdOdQiMhDkCmFaOoAiEzMyAx@Ap@Hh@Lt@j@lHvD|BlAdBfAbB~@p@PTBf@C~AMiAcSCIYMf@sB|@sG|E@rBMhA?zEg@xB[|H{@rHs@rVoCzDe@hGo@nFc@zCX~B^zC^rHx@lH|@tHbAhW`DrEp@jBLdEj@fBRh@Nn@@pBTxQdClBPbEf@?QHa@jAxH|BvRLSpAyAhCaDfDsExMmPjAaB`AuAtAcBt@u@dDoCtCoD|DcF~FiHxVq[vYbe@`IeLbByBrDoFb@u@UYdCoCpIqKl@h@j@n@pBjD~H_K^o@bHgUdFsPt@cATU{Emd@BY_@sEc@kBk@qBm@{Cg@yDuBoSYcBg@{EyEsd@MiDg@_KgAgKjDoDbGuFZ[Z_@n@oAZmAPgA`AsMb@{H~@sM~@cPbAkO|A}Vj@qHLeBfBeYxBq[x@}MdCy]HkBTcCDsAf@sHjJ|AjJfAlHfAb@Dd@?`D?nBBvOpBjC\\pEt@KlAFPaA~NsDxj@oMgBiR}B|D_RPyAJu@t@qL",
+                "merged_headsign": "Food Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5748",
+          "real_time_route_id": "4",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "uqksFjsriMTXTTf@PfAPbAOVI`@Ut@i@VKXC^B^Fl@{HjL~AbFl@`FpGn@|@|GmE|AP`b@tFj@aIf\\hEtCn@xLbB|n@lIdHbAlH|@P?|@eMBTzBlGj@fBx@vBbC`HT|@fB`FhCxHbAxCtAdDHVr@`EpAfJF^@dA|[fE~BT\\J|Dh@|Cl@`BTfJjAp@FjAPtDb@NHfBTz@HLClP|B`M|ArLdBtBRtKxAzOrBvGz@lD`@x@LLPvHbAt@T`AHhH|@bTtCfM`B`M~Ab@FLGzEn@xC^PFPPfJhAzFx@rAP|CZdOvBpIbAPLH\\BRBXKnAPpBPXfAt@dBRpAMXILKDM`@_BL}CtLzArDj@|@HbShC`OpB~HbAxIjAbD^tEr@~Q~BbNnBbI~@nSrCvFp@~UdD|TrCt@LLHPF|BZbR`CfAP^LrBr@|Bl@fBZtB\\p@DnB\\rXfDpF|@pHz@tAMPEPOBED]Cc@e@AwAQoFu@qAa@gAM",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFrhyiMeEm@uFq@EhAeOgBiFgA{M_BWK{NmBwFs@QF_Gy@sNgB_VeDwFq@oSsCqKqAuK}A_R_CuEs@cD_@yIkA_IcAaOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELC`@QjBmEs@gBQgWkD{C[M?gJsAoBS_@CUBkDg@cC]wAQIM_@IkIgAkBQiAU{C_@kFq@qNsBuDc@_Fm@cCc@oIgAc@KSJy@MmDa@wG{@{OsBuKyAuBSsLeBi\\iEeAQIEgDc@OBuDc@kAQq@GgJkAaBU}Cm@}Di@]K_CU}[gEAeAG_@qAgJs@aEIWuAeDcAyCiCyHMWoBgGcCaHsFu@o@Gc@C{Gy@eHcAq[eEy[kEkC_@uCo@qx@qK{Dc@}B_@g@dIwIvFmHgAoJiAwFy@_AKYBWJu@h@a@TWHcANa@GS`DmH_Ad@}Hj@J^RXTz@xA",
+                "merged_headsign": "Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5717",
+          "real_time_route_id": "17",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              },
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kxyrF|nsiMlAL[dFeB`YmAjQ_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBMjB_ApQ}@jMpEh@~LhB`ADxATMfB~AT`AH~C^N_BfAL~G|@rFz@rC^xCXzXrDpAX|CVjB\\bGt@tARbBPtm@bIzHbApAT`Fn@zFv@lD^vFx@zFp@pIjAzFt@g@zHTB`G`AvPxB`BPtAVlPvBxTtC`E{l@l@_KpNjBLyBuJsAsAQe@?gAW",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5775",
+          "real_time_route_id": "68",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.91130589017659,
+            "longitude": -75.16538249776633,
+            "name": "10th St / Packer Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@h@i@b@o@f@y@Lc@FQgA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeBc@}EgB}M_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAmB~MeAh^EnMBdECrLHnUQzYQlAUfAWt@y@jAoBtBmAbA]NWD_@?UC]Me@[wE{F][_@UWKg@AeCPU?SCUUMUc@{Hc@oE{CoTMq@Uq@Sk@Yg@}@gAcAm@i@Uo@Mq@Gm@?o@J{PrDwEfAm@Dc@FcAG_@Ec@Oc@S_@U]UWYu@eAUg@Uk@k@uBaE_PM{@CyA?wAFi@PkAPi@Po@Tc@`F{IIYy@{@QOc@Qc@Ig@?aCIoCQ_AQQK_@[g@u@g@sAkB}GcAmDqAaDgA}BeCgEu@kAkA}A}BcCqCmCsBmBoCwBuWkUZe@~AcEJ?LSBQGKfAcCyDiD}@i@W]kAnCuFsEkCaCq@i@MCUMUGSCc@?QFs@f@gAv@e@uAoBmG}@_Cc@}@cAaBqG{KmAsC_@kAwFuTa@uBMwAQyBaDTW?aAMu@_@mSuQeGeFoImHq@y@[g@Qc@]cAe@kBwk@vYrCrEfAxAlAvArCfCbJzH`CxB~@jArBxC^j@x@`BbAjC~@`Db@lBj@bEqRdEsBd@}BbAoBj@uD|@mEz@q@T[ZcFjAyD`Ag@DYLiAx@oBbBeN|JcCxAsAb@}A?oCQgLm@i@M}@]_AEc@KaB{@}Bs@cBq@YPUFu@LqALcBX_FfAqGp@mAPuHhFcTdOwHhF{EjDUXYh@eApFUl@MPaAt@_IvFQPi@t@U\\YPQHi@Lc@F]CQC_Bi@g@KiHg@c@EuHc@]?QBQHSXyAxBsBbCqG`JgB~B_AtA_Ax@yA|@uExCsHrEaDxB_F_Ce@_@y@gIq@_J]sAkCsFiEt@cCZ]F_@P_ABeLfBmJpAyAXuBPCaAc@wFo@^TlC",
+                "merged_headsign": "69th St Transit Center"
+              },
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@bAgAz@}AJc@gA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeB_@gEkBsN_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAkBhMe@BDc@m@mEZIb@U",
+                "merged_headsign": "UPS"
+              }
+            ]
+          },
+          {
+            "latitude": 39.90281630620954,
+            "longitude": -75.17395302056359,
+            "name": "Broad St / Zinkoff Blvd / Mbns",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "{ygrFxuijMt@Mb@aDFuA?}ACi@gKcbA_@yB_@qA]c@i@u@]a@sEqCmA}@gAqAc@}@]y@Me@Qu@y@yG_AeGg@eCaC_Ke@{DYuAsDwOuB}Fc@sAoBcIu@yBg@gAw@mAs@}@mAqAuAu@uGeCgAi@yAaA_@W_@Uk@g@_BoB}@mA}AaDqAcFaBmHq@yD_AmEuAeEsAsDw@cBo@_A[_@gAy@c@YmHkDmNiGmA]gAAuJbAu@Zy@nAQh@UrAEp@@lANrA~AdNfB|Mb@|EPdBFtAKtAc@`Bm@fAyDtC{Mu^Ec@kAiDK_@?c@F_ApBmOjAyJTkEBaDGuBC]ScBQ}Ba@{Cs@cDYgA_AsCa@y@gAoB_@q@y@gAc@{@gBoCwf@eu@gAkBkAuBu@aBq@gBc@oAsAgEu@_Du@gEc@aDc@eFmAiLu@mIoBwQFc@?g@KeEEyAOkASqAeA{DqBwE_AcBo@i@[YaAg@{Ag@sCm@m@YoHcA{Gy@e@?eD?oBAkAKcIkAcBQeGw@eFcAViCrAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pIQ`@MhBfANp@Hu@uBM]UQTaE",
+                "merged_headsign": "Broad-Oregon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "the-four-seasons-reimagined-balletx",
+    "listing": {
+      "latitude": 39.983433,
+      "date": "2026-06-05T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.222908,
+      "venue": "recY3CXZYMT6qrHJQ",
+      "name": "The Four Seasons Reimagined (BalletX)",
+      "link": "https://www.visitphilly.com/things-to-do/events/highmark-mann-50th-anniversary/",
+      "venue_name": "Highmark Mann Center",
+      "group_name": "Highmark Mann Center 50th Anniversary",
+      "group": "recTtbjgqs7GIxUxv",
+      "slug": "the-four-seasons-reimagined-balletx"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5749",
+          "real_time_route_id": "40",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.98142589673497,
+            "longitude": -75.22403617004719,
+            "name": "52nd St / Parkside Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ixcsFdhajMd@`E?Rf@NaFb\\CZbHqAhg@aJFTHPdWxKLHoExRGx@cBx|@vF[tA]~`@yJVIfLoCf@QjC_BdBgAPQ~HgZgKkFYQCa@?q@Ji@fCsJHWtQaq@bJc]bHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98077838609341,
+            "longitude": -75.22139216826083,
+            "name": "Parkside Av / 51st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEwNpi@uQ`q@IVgCrJKh@?p@NdAHxABfAGhAQ`BUl@i@n@aC~Aq@j@p@VtKvDqBxHQPiDxBgAl@g@PgLnCWHoCn@e_@fJwFZbBy|@Fy@pG}XuAc@mDa@mA[aAg@kBqA{@aBMWwBZsu@dNB[rLwu@lAaIm@Oo@O[J_@Rc@nAq@|@}@v@y@b@y@`@mAR|AhMb@dD",
+                "merged_headsign": "Conshohocken-Monument"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5759",
+          "real_time_route_id": "52",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.9805625492129,
+            "longitude": -75.22474663311222,
+            "name": "52nd St / Columbia Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "sf_sFzibjMRLBb@W|AgAm@k@Qg@YeEyB_CbJgAvDk@bB_ArDMx@?T?RD\\dL`GhH`Eh@ThBfAd@Fb@?vE_@tJkAx@GrLqAzJyAdBUrFi@hFa@rGi@`IgA~AQxAPtJlAxC\\TL|LpAlHbApFn@bH~@rH|@nCZp@JnRbCP?H?fBuB~EbIbDdFhF_H|HkJbCaDxAcBrCoDlFuG^i@b@y@|BsCd@g@rDuEwH{LgAkBqFwI_B}BkB}C_AyArE_G",
+                "merged_headsign": "49th-Woodland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98142589673497,
+            "longitude": -75.22403617004719,
+            "name": "52nd St / Parkside Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^c@?e@GiBgAi@UiHaEeLaGE]?S?ULy@~@sDj@cBfAwD~BcJlFrCj@PRkATU\\?",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97957329684385,
+            "longitude": -75.22555602141416,
+            "name": "Jefferson St / 52nd St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAoF^]?SGiBgAi@UiHaEmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVc@HmG`@x@tBWda@Cb@KPcAx@eFrDgBhA}AgEu@kB_BuE}IcVnEeD",
+                "merged_headsign": "54th-City"
+              },
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^W?]?SGiBgAi@UiHaE~@cDFc@DiBL{Af@aCy@c@kBdHhBdAGb@_AbDmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVyBTwDTx@tBWda@Cb@KPcAx@eFrDgBhA}AgEu@kB_BuE}IcVnEeD",
+                "merged_headsign": "54th-City via Park West Town Center"
+              },
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^W?]?SGiBgAi@UiHaE~@cDFc@DiBL{Af@aCy@c@kBdHhBdAGb@_AbDmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVyBTyBH_TrA}@HMF]P}DxCgAt@aF}MmHoSCQ[mAk@uAkSfOyDnCk@Nq@Dy@E[CYByDb@cFhAmCb@_Dn@oDl@q@Pk@XyD|Cs_@nX_@^sCdDgB|@WPs@t@e@z@aAjBc@jASjAUlBGr@FhAPjB^zC?|CGf@WVq@Pa@JqBPg@L_@Pu@^qA|@g@h@o@fASx@C^k@|IWfCsChRyBvOYxAQ\\[d@aJtHmBiEeBaE_CwHwBmGUg@S[k@Yc@Ck@Jq@d@yAxAaElF}ClE}JfNi@p@}@x@_@\\oBhAe@\\s@ZeOrC{@CQEYQU]MWI]}@uI}Bb@m@}FMc@qF{BIIq@yALI?a@KAM?EDCJBRHFF?p@xAHHpFzBLb@l@|F|Bc@|@tIVt@T\\j@Vz@B`NgCb@Kr@[PMdAfDf@fAn@bAh@p@dDrDnEdFx@|@XZsAjBmBhCwDhFo@z@c@|@m@jBMx@Cd@?|@Fl@PtA^zBHb@PVPLp@Pf@?f@E`Ck@h@IPHLJ\\d@q@vAyA~Bg@t@q@|@aAx@q@t@m@t@MV]x@I^g@nCYfA[|@MRUTkB`Am@d@Q\\y@|AcAfCq@lAqEjHe@h@c@`@}B~AcFvDvBtA~AnA",
+                "merged_headsign": "Gladwyne via Park West Town Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334089",
+          "real_time_route_id": "T1",
+          "mode_name": "Trolley",
+          "route_color": "#5a960a",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97729801639506,
+            "longitude": -75.22745358732206,
+            "name": "Lansdowne Av / Lancaster Av",
+            "wheelchair_boarding": 2,
+            "itineraries": [
+              {
+                "shape": "wi`sFfngjMNz@?n@Kp@Tl@P\\tq@mHTQBc@oKqoB?g@~Qch@bGcLH]j_@}s@vOaZ|J}Qx@cB`Z}r@PWBPTLtBTvHbAdBPPKDMj@iIf@mCLiAf@qHGk@Ui@_BkBKa@?_@fQ{pCGYaCwEEc@TyCP}@R_@b@Mf@Cb@H",
+                "merged_headsign": "East to 13th St"
+              }
+            ]
+          },
+          {
+            "latitude": 39.9771900979548,
+            "longitude": -75.22659923300334,
+            "name": "Lancaster Av / 52nd St",
+            "wheelchair_boarding": 2,
+            "itineraries": [
+              {
+                "shape": "gfzrFzdwiM_@Gg@Bc@LS^Q|@UxCDb@`CvEFXgQzpC?^J`@~AjBTh@Fj@g@pHMhAg@lCk@hIELQJeBQwHcAoC]I?YPmEnKkMhZIZsEjK_\\rm@_b@nx@kEvIyQbg@EXBl@pKhoBG\\QDgq@lHI?cBeEGSFOVSL@PT",
+                "merged_headsign": "West to 63rd-Malvern"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.98217233261343,
+            "longitude": -75.2147731705916,
+            "name": "Belmont Av / Lansdowne Dr",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98016684826528,
+            "longitude": -75.21399975510307,
+            "name": "Belmont Av / Av of The Republic",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5771",
+          "real_time_route_id": "64",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@P|CHp@X`Ax@~PZrFze@}Ct@?FaDIaCYuI~@TzEx@lH~@fJrAxAPt@LxHx@kAzQ|Eh@|VdDdOjBXIbBaCnBeCnDzFf^ad@dBsBjBcC~AoBuBeDaA}AkBqCAgG@sGJsCV{E`@uDb@aDZaCxA_JTaBVgBx@mH~G|ABKT_BLkAbBwX_AIwCc@_BO?iPGyAEe@Ks@g@gBcBgDkAkCc@c@JQDULyB`D}h@|AeUl@gLr@gKZmF^iHbAmP|AkVb@iG|@sFnCaNt@eFvFm[pAyHXsDz@iOn@_IpANxJtAnFb@JaCb@{FnNnBnAHRBdBUjAWtAk@pHiEu@aDs@yBMi@Io@CcAULW?UJcAp@",
+                "merged_headsign": "Columbus Blvd Pier 70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5751",
+          "real_time_route_id": "43",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@vDg@fE{HlD_H~AsC|BsEbF_JjCiFhEcI`EqJO_A}Dis@gBc^_@yCeCgKWsBKkA?gA?e@b@yA|BcGf@kAj@iAVyAn@}BPeA@m@Am@Cc@K]IQQQoDkBMIUg@KUI_@I_AHYTcDnDqk@j@wHhB_[NkAd@gBP}AdA{OLsETsRP}Gb@kWPyDPaDd@sJ\\kFDeBdAwRGc@ZiH\\sCHq@_GwA[Eg@BkA]gCy@c@[q@k@cIuJ}@mAQ_@Qc@cAiD{@kDeBcFB[Eq@Kc@uA_FcBn@Kq@Qc@_HeKe@_AUk@}@}CQg@uAkCq@yAMe@Y}Ac@HgBm@cAk@yGaEQC_@AaE?g@K[QcBgBOCM?kB}DEKQw@]}@vFwEjBcB\\l@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "c-te-d-ivoire-vs-ecuador-group-e",
+    "listing": {
+      "latitude": 39.901733,
+      "date": "2026-06-14T23:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.167594,
+      "venue": "recu43PfeOwAs7uI7",
+      "name": "🇨🇮 Côte d'Ivoire vs. 🇪🇨 Ecuador (Group E)",
+      "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
+      "venue_name": "Lincoln Financial Field",
+      "group_name": "FIFA World Cup 2026",
+      "group": "recX37CIyxy5rQsTK",
+      "slug": "c-te-d-ivoire-vs-ecuador-group-e"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334086",
+          "real_time_route_id": "B1",
+          "mode_name": "Subway",
+          "route_color": "#f26100",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.90543332838582,
+            "longitude": -75.17390805454681,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.90542433518247,
+            "longitude": -75.17380013610655,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "o_qrF`hyiMmH{@{PsAuo@wHgB]e\\oEyAImMgB{AKyAF}AGsUuCqAYwY{DcBMyw@kKyAW_H}@gBIkBYmAWgSiC_@AcA@cG`A_@?_@G_@QYUsByB[U[Qa@Im|BmZkCWoBOyjBqVuCYaFm@wBc@mjAqO}CSmFu@kCg@ebDsb@yAa@mMcB{@G{Fw@[]Ui@Gu@fB}UXaAj@i@fDeCb@m@Py@l@yJAu@Qu@a@m@s@c@sB_@}CMcA?c@LQTKPCL_@nF",
+                "merged_headsign": "North to Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:333087",
+          "real_time_route_id": "63",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.903967436238965,
+            "longitude": -75.16218091737198,
+            "name": "Pattison Av / 7th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "onasFtdhjM_A_B_@TgADmIyT}JsXfBiAdFsD|@s@HMnCbHlFdOdQiMhDkCmFaOoAiEzMyAx@Ap@Hh@Lt@j@lHvD|BlAdBfAbB~@p@PTBf@C~AMiAcSCIYMf@sB|@sG|E@rBMhA?zEg@xB[|H{@rHs@rVoCzDe@hGo@nFc@zCX~B^zC^rHx@lH|@tHbAhW`DrEp@jBLdEj@fBRh@Nn@@pBTxQdClBPbEf@?QHa@jAxH|BvRLSpAyAhCaDfDsExMmPjAaB`AuAtAcBt@u@dDoCtCoD|DcF~FiHxVq[vYbe@`IeLbByBrDoFb@u@UYdCoCpIqKl@h@j@n@pBjD~H_K^o@bHgUdFsPt@cATU{Emd@BY_@sEc@kBk@qBm@{Cg@yDuBoSYcBg@{EyEsd@MiDg@_KgAgKjDoDbGuFZ[Z_@n@oAZmAPgA`AsMb@{H~@sM~@cPbAkO|A}Vj@qHLeBfBeYxBq[x@}MdCy]HkBTcCDsAf@sHjJ|AjJfAlHfAb@Dd@?`D?nBBvOpBjC\\pEt@KlAFPaA~NsDxj@oMgBiR}B|D_RPyAJu@t@qL",
+                "merged_headsign": "Food Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5748",
+          "real_time_route_id": "4",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "uqksFjsriMTXTTf@PfAPbAOVI`@Ut@i@VKXC^B^Fl@{HjL~AbFl@`FpGn@|@|GmE|AP`b@tFj@aIf\\hEtCn@xLbB|n@lIdHbAlH|@P?|@eMBTzBlGj@fBx@vBbC`HT|@fB`FhCxHbAxCtAdDHVr@`EpAfJF^@dA|[fE~BT\\J|Dh@|Cl@`BTfJjAp@FjAPtDb@NHfBTz@HLClP|B`M|ArLdBtBRtKxAzOrBvGz@lD`@x@LLPvHbAt@T`AHhH|@bTtCfM`B`M~Ab@FLGzEn@xC^PFPPfJhAzFx@rAP|CZdOvBpIbAPLH\\BRBXKnAPpBPXfAt@dBRpAMXILKDM`@_BL}CtLzArDj@|@HbShC`OpB~HbAxIjAbD^tEr@~Q~BbNnBbI~@nSrCvFp@~UdD|TrCt@LLHPF|BZbR`CfAP^LrBr@|Bl@fBZtB\\p@DnB\\rXfDpF|@pHz@tAMPEPOBED]Cc@e@AwAQoFu@qAa@gAM",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFrhyiMeEm@uFq@EhAeOgBiFgA{M_BWK{NmBwFs@QF_Gy@sNgB_VeDwFq@oSsCqKqAuK}A_R_CuEs@cD_@yIkA_IcAaOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELC`@QjBmEs@gBQgWkD{C[M?gJsAoBS_@CUBkDg@cC]wAQIM_@IkIgAkBQiAU{C_@kFq@qNsBuDc@_Fm@cCc@oIgAc@KSJy@MmDa@wG{@{OsBuKyAuBSsLeBi\\iEeAQIEgDc@OBuDc@kAQq@GgJkAaBU}Cm@}Di@]K_CU}[gEAeAG_@qAgJs@aEIWuAeDcAyCiCyHMWoBgGcCaHsFu@o@Gc@C{Gy@eHcAq[eEy[kEkC_@uCo@qx@qK{Dc@}B_@g@dIwIvFmHgAoJiAwFy@_AKYBWJu@h@a@TWHcANa@GS`DmH_Ad@}Hj@J^RXTz@xA",
+                "merged_headsign": "Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5717",
+          "real_time_route_id": "17",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              },
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kxyrF|nsiMlAL[dFeB`YmAjQ_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBMjB_ApQ}@jMpEh@~LhB`ADxATMfB~AT`AH~C^N_BfAL~G|@rFz@rC^xCXzXrDpAX|CVjB\\bGt@tARbBPtm@bIzHbApAT`Fn@zFv@lD^vFx@zFp@pIjAzFt@g@zHTB`G`AvPxB`BPtAVlPvBxTtC`E{l@l@_KpNjBLyBuJsAsAQe@?gAW",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5775",
+          "real_time_route_id": "68",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.91130589017659,
+            "longitude": -75.16538249776633,
+            "name": "10th St / Packer Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@h@i@b@o@f@y@Lc@FQgA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeBc@}EgB}M_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAmB~MeAh^EnMBdECrLHnUQzYQlAUfAWt@y@jAoBtBmAbA]NWD_@?UC]Me@[wE{F][_@UWKg@AeCPU?SCUUMUc@{Hc@oE{CoTMq@Uq@Sk@Yg@}@gAcAm@i@Uo@Mq@Gm@?o@J{PrDwEfAm@Dc@FcAG_@Ec@Oc@S_@U]UWYu@eAUg@Uk@k@uBaE_PM{@CyA?wAFi@PkAPi@Po@Tc@`F{IIYy@{@QOc@Qc@Ig@?aCIoCQ_AQQK_@[g@u@g@sAkB}GcAmDqAaDgA}BeCgEu@kAkA}A}BcCqCmCsBmBoCwBuWkUZe@~AcEJ?LSBQGKfAcCyDiD}@i@W]kAnCuFsEkCaCq@i@MCUMUGSCc@?QFs@f@gAv@e@uAoBmG}@_Cc@}@cAaBqG{KmAsC_@kAwFuTa@uBMwAQyBaDTW?aAMu@_@mSuQeGeFoImHq@y@[g@Qc@]cAe@kBwk@vYrCrEfAxAlAvArCfCbJzH`CxB~@jArBxC^j@x@`BbAjC~@`Db@lBj@bEqRdEsBd@}BbAoBj@uD|@mEz@q@T[ZcFjAyD`Ag@DYLiAx@oBbBeN|JcCxAsAb@}A?oCQgLm@i@M}@]_AEc@KaB{@}Bs@cBq@YPUFu@LqALcBX_FfAqGp@mAPuHhFcTdOwHhF{EjDUXYh@eApFUl@MPaAt@_IvFQPi@t@U\\YPQHi@Lc@F]CQC_Bi@g@KiHg@c@EuHc@]?QBQHSXyAxBsBbCqG`JgB~B_AtA_Ax@yA|@uExCsHrEaDxB_F_Ce@_@y@gIq@_J]sAkCsFiEt@cCZ]F_@P_ABeLfBmJpAyAXuBPCaAc@wFo@^TlC",
+                "merged_headsign": "69th St Transit Center"
+              },
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@bAgAz@}AJc@gA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeB_@gEkBsN_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAkBhMe@BDc@m@mEZIb@U",
+                "merged_headsign": "UPS"
+              }
+            ]
+          },
+          {
+            "latitude": 39.90281630620954,
+            "longitude": -75.17395302056359,
+            "name": "Broad St / Zinkoff Blvd / Mbns",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "{ygrFxuijMt@Mb@aDFuA?}ACi@gKcbA_@yB_@qA]c@i@u@]a@sEqCmA}@gAqAc@}@]y@Me@Qu@y@yG_AeGg@eCaC_Ke@{DYuAsDwOuB}Fc@sAoBcIu@yBg@gAw@mAs@}@mAqAuAu@uGeCgAi@yAaA_@W_@Uk@g@_BoB}@mA}AaDqAcFaBmHq@yD_AmEuAeEsAsDw@cBo@_A[_@gAy@c@YmHkDmNiGmA]gAAuJbAu@Zy@nAQh@UrAEp@@lANrA~AdNfB|Mb@|EPdBFtAKtAc@`Bm@fAyDtC{Mu^Ec@kAiDK_@?c@F_ApBmOjAyJTkEBaDGuBC]ScBQ}Ba@{Cs@cDYgA_AsCa@y@gAoB_@q@y@gAc@{@gBoCwf@eu@gAkBkAuBu@aBq@gBc@oAsAgEu@_Du@gEc@aDc@eFmAiLu@mIoBwQFc@?g@KeEEyAOkASqAeA{DqBwE_AcBo@i@[YaAg@{Ag@sCm@m@YoHcA{Gy@e@?eD?oBAkAKcIkAcBQeGw@eFcAViCrAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pIQ`@MhBfANp@Hu@uBM]UQTaE",
+                "merged_headsign": "Broad-Oregon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "a-hundred-years-on",
+    "listing": {
+      "latitude": 39.983433,
+      "date": "2026-06-17T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.222908,
+      "venue": "recY3CXZYMT6qrHJQ",
+      "name": "A Hundred Years On",
+      "link": "https://www.visitphilly.com/things-to-do/events/highmark-mann-50th-anniversary/",
+      "venue_name": "Highmark Mann Center",
+      "group_name": "Highmark Mann Center 50th Anniversary",
+      "group": "recTtbjgqs7GIxUxv",
+      "slug": "a-hundred-years-on"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5749",
+          "real_time_route_id": "40",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.98142589673497,
+            "longitude": -75.22403617004719,
+            "name": "52nd St / Parkside Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ixcsFdhajMd@`E?Rf@NaFb\\CZbHqAhg@aJFTHPdWxKLHoExRGx@cBx|@vF[tA]~`@yJVIfLoCf@QjC_BdBgAPQ~HgZgKkFYQCa@?q@Ji@fCsJHWtQaq@bJc]bHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98077838609341,
+            "longitude": -75.22139216826083,
+            "name": "Parkside Av / 51st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEwNpi@uQ`q@IVgCrJKh@?p@NdAHxABfAGhAQ`BUl@i@n@aC~Aq@j@p@VtKvDqBxHQPiDxBgAl@g@PgLnCWHoCn@e_@fJwFZbBy|@Fy@pG}XuAc@mDa@mA[aAg@kBqA{@aBMWwBZsu@dNB[rLwu@lAaIm@Oo@O[J_@Rc@nAq@|@}@v@y@b@y@`@mAR|AhMb@dD",
+                "merged_headsign": "Conshohocken-Monument"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5759",
+          "real_time_route_id": "52",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.9805625492129,
+            "longitude": -75.22474663311222,
+            "name": "52nd St / Columbia Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "sf_sFzibjMRLBb@W|AgAm@k@Qg@YeEyB_CbJgAvDk@bB_ArDMx@?T?RD\\dL`GhH`Eh@ThBfAd@Fb@?vE_@tJkAx@GrLqAzJyAdBUrFi@hFa@rGi@`IgA~AQxAPtJlAxC\\TL|LpAlHbApFn@bH~@rH|@nCZp@JnRbCP?H?fBuB~EbIbDdFhF_H|HkJbCaDxAcBrCoDlFuG^i@b@y@|BsCd@g@rDuEwH{LgAkBqFwI_B}BkB}C_AyArE_G",
+                "merged_headsign": "49th-Woodland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98142589673497,
+            "longitude": -75.22403617004719,
+            "name": "52nd St / Parkside Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^c@?e@GiBgAi@UiHaEeLaGE]?S?ULy@~@sDj@cBfAwD~BcJlFrCj@PRkATU\\?",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97957329684385,
+            "longitude": -75.22555602141416,
+            "name": "Jefferson St / 52nd St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAoF^]?SGiBgAi@UiHaEmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVc@HmG`@x@tBWda@Cb@KPcAx@eFrDgBhA}AgEu@kB_BuE}IcVnEeD",
+                "merged_headsign": "54th-City"
+              },
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^W?]?SGiBgAi@UiHaE~@cDFc@DiBL{Af@aCy@c@kBdHhBdAGb@_AbDmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVyBTwDTx@tBWda@Cb@KPcAx@eFrDgBhA}AgEu@kB_BuE}IcVnEeD",
+                "merged_headsign": "54th-City via Park West Town Center"
+              },
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^W?]?SGiBgAi@UiHaE~@cDFc@DiBL{Af@aCy@c@kBdHhBdAGb@_AbDmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVyBTyBH_TrA}@HMF]P}DxCgAt@aF}MmHoSCQ[mAk@uAkSfOyDnCk@Nq@Dy@E[CYByDb@cFhAmCb@_Dn@oDl@q@Pk@XyD|Cs_@nX_@^sCdDgB|@WPs@t@e@z@aAjBc@jASjAUlBGr@FhAPjB^zC?|CGf@WVq@Pa@JqBPg@L_@Pu@^qA|@g@h@o@fASx@C^k@|IWfCsChRyBvOYxAQ\\[d@aJtHmBiEeBaE_CwHwBmGUg@S[k@Yc@Ck@Jq@d@yAxAaElF}ClE}JfNi@p@}@x@_@\\oBhAe@\\s@ZeOrC{@CQEYQU]MWI]}@uI}Bb@m@}FMc@qF{BIIq@yALI?a@KAM?EDCJBRHFF?p@xAHHpFzBLb@l@|F|Bc@|@tIVt@T\\j@Vz@B`NgCb@Kr@[PMdAfDf@fAn@bAh@p@dDrDnEdFx@|@XZsAjBmBhCwDhFo@z@c@|@m@jBMx@Cd@?|@Fl@PtA^zBHb@PVPLp@Pf@?f@E`Ck@h@IPHLJ\\d@q@vAyA~Bg@t@q@|@aAx@q@t@m@t@MV]x@I^g@nCYfA[|@MRUTkB`Am@d@Q\\y@|AcAfCq@lAqEjHe@h@c@`@}B~AcFvDvBtA~AnA",
+                "merged_headsign": "Gladwyne via Park West Town Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334089",
+          "real_time_route_id": "T1",
+          "mode_name": "Trolley",
+          "route_color": "#5a960a",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97729801639506,
+            "longitude": -75.22745358732206,
+            "name": "Lansdowne Av / Lancaster Av",
+            "wheelchair_boarding": 2,
+            "itineraries": [
+              {
+                "shape": "wi`sFfngjMNz@?n@Kp@Tl@P\\tq@mHTQBc@oKqoB?g@~Qch@bGcLH]j_@}s@vOaZ|J}Qx@cB`Z}r@PWBPTLtBTvHbAdBPPKDMj@iIf@mCLiAf@qHGk@Ui@_BkBKa@?_@fQ{pCGYaCwEEc@TyCP}@R_@b@Mf@Cb@H",
+                "merged_headsign": "East to 13th St"
+              }
+            ]
+          },
+          {
+            "latitude": 39.9771900979548,
+            "longitude": -75.22659923300334,
+            "name": "Lancaster Av / 52nd St",
+            "wheelchair_boarding": 2,
+            "itineraries": [
+              {
+                "shape": "gfzrFzdwiM_@Gg@Bc@LS^Q|@UxCDb@`CvEFXgQzpC?^J`@~AjBTh@Fj@g@pHMhAg@lCk@hIELQJeBQwHcAoC]I?YPmEnKkMhZIZsEjK_\\rm@_b@nx@kEvIyQbg@EXBl@pKhoBG\\QDgq@lHI?cBeEGSFOVSL@PT",
+                "merged_headsign": "West to 63rd-Malvern"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.98217233261343,
+            "longitude": -75.2147731705916,
+            "name": "Belmont Av / Lansdowne Dr",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98016684826528,
+            "longitude": -75.21399975510307,
+            "name": "Belmont Av / Av of The Republic",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5771",
+          "real_time_route_id": "64",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@P|CHp@X`Ax@~PZrFze@}Ct@?FaDIaCYuI~@TzEx@lH~@fJrAxAPt@LxHx@kAzQ|Eh@|VdDdOjBXIbBaCnBeCnDzFf^ad@dBsBjBcC~AoBuBeDaA}AkBqCAgG@sGJsCV{E`@uDb@aDZaCxA_JTaBVgBx@mH~G|ABKT_BLkAbBwX_AIwCc@_BO?iPGyAEe@Ks@g@gBcBgDkAkCc@c@JQDULyB`D}h@|AeUl@gLr@gKZmF^iHbAmP|AkVb@iG|@sFnCaNt@eFvFm[pAyHXsDz@iOn@_IpANxJtAnFb@JaCb@{FnNnBnAHRBdBUjAWtAk@pHiEu@aDs@yBMi@Io@CcAULW?UJcAp@",
+                "merged_headsign": "Columbus Blvd Pier 70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5751",
+          "real_time_route_id": "43",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@vDg@fE{HlD_H~AsC|BsEbF_JjCiFhEcI`EqJO_A}Dis@gBc^_@yCeCgKWsBKkA?gA?e@b@yA|BcGf@kAj@iAVyAn@}BPeA@m@Am@Cc@K]IQQQoDkBMIUg@KUI_@I_AHYTcDnDqk@j@wHhB_[NkAd@gBP}AdA{OLsETsRP}Gb@kWPyDPaDd@sJ\\kFDeBdAwRGc@ZiH\\sCHq@_GwA[Eg@BkA]gCy@c@[q@k@cIuJ}@mAQ_@Qc@cAiD{@kDeBcFB[Eq@Kc@uA_FcBn@Kq@Qc@_HeKe@_AUk@}@}CQg@uAkCq@yAMe@Y}Ac@HgBm@cAk@yGaEQC_@AaE?g@K[QcBgBOCM?kB}DEKQw@]}@vFwEjBcB\\l@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "50-years-of-music-in-the-park",
+    "listing": {
+      "latitude": 39.983433,
+      "date": "2026-06-18T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.222908,
+      "venue": "recY3CXZYMT6qrHJQ",
+      "name": "50 Years of Music in the Park",
+      "link": "https://www.visitphilly.com/things-to-do/events/highmark-mann-50th-anniversary/",
+      "venue_name": "Highmark Mann Center",
+      "group_name": "Highmark Mann Center 50th Anniversary",
+      "group": "recTtbjgqs7GIxUxv",
+      "slug": "50-years-of-music-in-the-park"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5749",
+          "real_time_route_id": "40",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.98142589673497,
+            "longitude": -75.22403617004719,
+            "name": "52nd St / Parkside Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ixcsFdhajMd@`E?Rf@NaFb\\CZbHqAhg@aJFTHPdWxKLHoExRGx@cBx|@vF[tA]~`@yJVIfLoCf@QjC_BdBgAPQ~HgZgKkFYQCa@?q@Ji@fCsJHWtQaq@bJc]bHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98077838609341,
+            "longitude": -75.22139216826083,
+            "name": "Parkside Av / 51st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEwNpi@uQ`q@IVgCrJKh@?p@NdAHxABfAGhAQ`BUl@i@n@aC~Aq@j@p@VtKvDqBxHQPiDxBgAl@g@PgLnCWHoCn@e_@fJwFZbBy|@Fy@pG}XuAc@mDa@mA[aAg@kBqA{@aBMWwBZsu@dNB[rLwu@lAaIm@Oo@O[J_@Rc@nAq@|@}@v@y@b@y@`@mAR|AhMb@dD",
+                "merged_headsign": "Conshohocken-Monument"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5759",
+          "real_time_route_id": "52",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.9805625492129,
+            "longitude": -75.22474663311222,
+            "name": "52nd St / Columbia Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "sf_sFzibjMRLBb@W|AgAm@k@Qg@YeEyB_CbJgAvDk@bB_ArDMx@?T?RD\\dL`GhH`Eh@ThBfAd@Fb@?vE_@tJkAx@GrLqAzJyAdBUrFi@hFa@rGi@`IgA~AQxAPtJlAxC\\TL|LpAlHbApFn@bH~@rH|@nCZp@JnRbCP?H?fBuB~EbIbDdFhF_H|HkJbCaDxAcBrCoDlFuG^i@b@y@|BsCd@g@rDuEwH{LgAkBqFwI_B}BkB}C_AyArE_G",
+                "merged_headsign": "49th-Woodland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98142589673497,
+            "longitude": -75.22403617004719,
+            "name": "52nd St / Parkside Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^c@?e@GiBgAi@UiHaEeLaGE]?S?ULy@~@sDj@cBfAwD~BcJlFrCj@PRkATU\\?",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97957329684385,
+            "longitude": -75.22555602141416,
+            "name": "Jefferson St / 52nd St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAoF^]?SGiBgAi@UiHaEmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVc@HmG`@x@tBWda@Cb@KPcAx@eFrDgBhA}AgEu@kB_BuE}IcVnEeD",
+                "merged_headsign": "54th-City"
+              },
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^W?]?SGiBgAi@UiHaE~@cDFc@DiBL{Af@aCy@c@kBdHhBdAGb@_AbDmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVyBTwDTx@tBWda@Cb@KPcAx@eFrDgBhA}AgEu@kB_BuE}IcVnEeD",
+                "merged_headsign": "54th-City via Park West Town Center"
+              },
+              {
+                "shape": "cxwrFjeajMJH|AfCpRxZiKpMe@f@}BrCc@x@_@h@mFtGsCnDyAbBcC`D}HjJiF~GcDeF_FcIgBtBC?W?oRcCq@KoC[sH}@cH_AqFo@mHcA}LqAUMyC]uJmAyAQ_BPaIfAsGh@iF`@sFh@eBT{JxAsLpAy@FuJjAwE^W?]?SGiBgAi@UiHaE~@cDFc@DiBL{Af@aCy@c@kBdHhBdAGb@_AbDmElPu@fC}@dDMTQPyCjBoBbAwHfBiCp@w@PkTlF}A\\{FxAyAVyBTyBH_TrA}@HMF]P}DxCgAt@aF}MmHoSCQ[mAk@uAkSfOyDnCk@Nq@Dy@E[CYByDb@cFhAmCb@_Dn@oDl@q@Pk@XyD|Cs_@nX_@^sCdDgB|@WPs@t@e@z@aAjBc@jASjAUlBGr@FhAPjB^zC?|CGf@WVq@Pa@JqBPg@L_@Pu@^qA|@g@h@o@fASx@C^k@|IWfCsChRyBvOYxAQ\\[d@aJtHmBiEeBaE_CwHwBmGUg@S[k@Yc@Ck@Jq@d@yAxAaElF}ClE}JfNi@p@}@x@_@\\oBhAe@\\s@ZeOrC{@CQEYQU]MWI]}@uI}Bb@m@}FMc@qF{BIIq@yALI?a@KAM?EDCJBRHFF?p@xAHHpFzBLb@l@|F|Bc@|@tIVt@T\\j@Vz@B`NgCb@Kr@[PMdAfDf@fAn@bAh@p@dDrDnEdFx@|@XZsAjBmBhCwDhFo@z@c@|@m@jBMx@Cd@?|@Fl@PtA^zBHb@PVPLp@Pf@?f@E`Ck@h@IPHLJ\\d@q@vAyA~Bg@t@q@|@aAx@q@t@m@t@MV]x@I^g@nCYfA[|@MRUTkB`Am@d@Q\\y@|AcAfCq@lAqEjHe@h@c@`@}B~AcFvDvBtA~AnA",
+                "merged_headsign": "Gladwyne via Park West Town Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334089",
+          "real_time_route_id": "T1",
+          "mode_name": "Trolley",
+          "route_color": "#5a960a",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97729801639506,
+            "longitude": -75.22745358732206,
+            "name": "Lansdowne Av / Lancaster Av",
+            "wheelchair_boarding": 2,
+            "itineraries": [
+              {
+                "shape": "wi`sFfngjMNz@?n@Kp@Tl@P\\tq@mHTQBc@oKqoB?g@~Qch@bGcLH]j_@}s@vOaZ|J}Qx@cB`Z}r@PWBPTLtBTvHbAdBPPKDMj@iIf@mCLiAf@qHGk@Ui@_BkBKa@?_@fQ{pCGYaCwEEc@TyCP}@R_@b@Mf@Cb@H",
+                "merged_headsign": "East to 13th St"
+              }
+            ]
+          },
+          {
+            "latitude": 39.9771900979548,
+            "longitude": -75.22659923300334,
+            "name": "Lancaster Av / 52nd St",
+            "wheelchair_boarding": 2,
+            "itineraries": [
+              {
+                "shape": "gfzrFzdwiM_@Gg@Bc@LS^Q|@UxCDb@`CvEFXgQzpC?^J`@~AjBTh@Fj@g@pHMhAg@lCk@hIELQJeBQwHcAoC]I?YPmEnKkMhZIZsEjK_\\rm@_b@nx@kEvIyQbg@EXBl@pKhoBG\\QDgq@lHI?cBeEGSFOVSL@PT",
+                "merged_headsign": "West to 63rd-Malvern"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.98217233261343,
+            "longitude": -75.2147731705916,
+            "name": "Belmont Av / Lansdowne Dr",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.98016684826528,
+            "longitude": -75.21399975510307,
+            "name": "Belmont Av / Av of The Republic",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5771",
+          "real_time_route_id": "64",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@P|CHp@X`Ax@~PZrFze@}Ct@?FaDIaCYuI~@TzEx@lH~@fJrAxAPt@LxHx@kAzQ|Eh@|VdDdOjBXIbBaCnBeCnDzFf^ad@dBsBjBcC~AoBuBeDaA}AkBqCAgG@sGJsCV{E`@uDb@aDZaCxA_JTaBVgBx@mH~G|ABKT_BLkAbBwX_AIwCc@_BO?iPGyAEe@Ks@g@gBcBgDkAkCc@c@JQDULyB`D}h@|AeUl@gLr@gKZmF^iHbAmP|AkVb@iG|@sFnCaNt@eFvFm[pAyHXsDz@iOn@_IpANxJtAnFb@JaCb@{FnNnBnAHRBdBUjAWtAk@pHiEu@aDs@yBMi@Io@CcAULW?UJcAp@",
+                "merged_headsign": "Columbus Blvd Pier 70"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5751",
+          "real_time_route_id": "43",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@vDg@fE{HlD_H~AsC|BsEbF_JjCiFhEcI`EqJO_A}Dis@gBc^_@yCeCgKWsBKkA?gA?e@b@yA|BcGf@kAj@iAVyAn@}BPeA@m@Am@Cc@K]IQQQoDkBMIUg@KUI_@I_AHYTcDnDqk@j@wHhB_[NkAd@gBP}AdA{OLsETsRP}Gb@kWPyDPaDd@sJ\\kFDeBdAwRGc@ZiH\\sCHq@_GwA[Eg@BkA]gCy@c@[q@k@cIuJ}@mAQ_@Qc@cAiD{@kDeBcFB[Eq@Kc@uA_FcBn@Kq@Qc@_HeKe@_AUk@}@}CQg@uAkCq@yAMe@Y}Ac@HgBm@cAk@yGaEQC_@AaE?g@K[QcBgBOCM?kB}DEKQw@]}@vFwEjBcB\\l@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97819733673055,
+            "longitude": -75.2196834596234,
+            "name": "50th / Parkside Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "wawa-welcome-america",
+    "listing": {
+      "latitude": 39.960266,
+      "date": "2026-06-19T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.173247,
+      "venue": "recClakCY7A8HwrrZ",
+      "name": "WAWA Welcome America",
+      "link": "https://july4thphilly.com/",
+      "venue_name": "Benjamin Franklin Parkway",
+      "end_date": "2026-07-04",
+      "group_name": "America250 Celebration",
+      "group": "recy35IiiNta9LpUN",
+      "slug": "wawa-welcome-america"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5740",
+          "real_time_route_id": "32",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.96066059018844,
+            "longitude": -75.17363825844616,
+            "name": "21st St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yzisFblajMrOjY{FlGoD_Hy@yAqI{OxB_CfGqHjBsB`HcIb@c@{HgUfK{GxB}AfAi@vCsB~GkEh@o@n@w@Vo@^mAPkAFoBCkAmAkLGcA?y@LmALq@Ps@NW^u@t@aAfCqCnCwC`FoEfAcApDiCRIjA_AZc@`@g@~A{Cp@q@`Au@h@i@\\o@BQViAXo@P_@Zc@\\YpByAbA{@rJkLrOkRhFiGlA_BpGuFl@e@b@c@XGt@g@h@SjG}AdGaBnCi@t@QT]lBUi@iAmDcINKPAL?|Ep@|BVtG`AdXjDPb@t@pAh@t@dCdEZTIbBGF}AbUBJQjC~El@nDj@dOnBnB^lHz@r[lErUxC`Fp@fCXj@LHJf@HtGp@lAPTFPHZXb@h@f@`@j@Ph@DPCjBc@rA_@t@Wz@c@tA}@b@c@rA}APc@HWX]rGoDEQ?WBoApDal@`UxCfCXnBVHBFLbJkKhDqDxK_Nx@gA^q@DWTuElH`A|Cb@f@DdEf@b@eIXc@g@Kl@gA^g@f@Q`BMTEZUHQL]FSFc@rEv@hQ`Cj@{Hb@{HhAuR\\DpAMXILKDM`@_BL}CtLzArDj@|@HbShC`OpB~HbAxIjAg@lInFt@f@qIiEi@",
+                "merged_headsign": "Broad-Carpenter"
+              }
+            ]
+          },
+          {
+            "latitude": 39.96050770573141,
+            "longitude": -75.1735123535992,
+            "name": "Ben Franklin Pkwy / 21th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "mwwrFp|wiM_H_AoEk@aOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELg@pFsCbd@iEk@uD_@sDY_HkAuAWg@vHYtFEp@KVU\\_ApAyC~EqEzGyDc@yB_@oCfDeB|BSXeC`DmAtAc@VkAbAkCdDkBvBsBpCyCvD}@bAULENQHKIIKg@I{SsCkCdb@CnA?VDPsGnDk@f@[n@u@bAy@v@[TuAt@}An@aCp@UDc@BU?SCc@Ms@i@i@o@k@WsDc@gEo@]CMBk@MgCYaFq@sUyCs[mEmH{@oB_@eOoBoDk@_Fm@PkCJMz@iN\\mECQHcB[UeCeEi@u@u@qAQc@{C[kCc@eFo@kJqAe@bIwB]kASkBYS?Kl@mBTa@C}Cn@uAZ{ExAeE`AgA^{@b@_@ZKXc@b@m@d@qGtFmA~AiFhGsOjRsJjLcAz@qBxA]X[b@Q^Yn@WhAKJ_@h@[^}@j@y@|@WZyAjCq@|@y@t@sDbCqErDcCxBiH|Hc@d@U`@]t@Sz@QfAGbABtADn@nAtL?nACl@MtAYnAq@|Ac@h@ST_DjBeErC_B~@}DvCsAx@{FnDc@VWLdI|Uc@b@aHbIkBrBkC`Dl@jA",
+                "merged_headsign": "Ridge-Lyceum via Lemon Hill"
+              },
+              {
+                "shape": "mwwrFp|wiM_H_AoEk@aOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELg@pFsCbd@iEk@uD_@sDY_HkAuAWg@vHYtFEp@KVU\\_ApAyC~EqEzGyDc@yB_@oCfDeB|BSXeC`DmAtAc@VkAbAkCdDkBvBsBpCyCvD}@bAULENQHKIIKg@I{SsCkCdb@CnA?VDPsGnDk@f@[n@u@bAy@v@[TuAt@}An@aCp@UDc@BU?SCc@Ms@i@i@o@k@WsDc@gEo@]CMBk@MgCYaFq@sUyCs[mEmH{@oB_@eOoBoDk@_Fm@PkCJMz@iN\\mECQHcB[UeCeEi@u@u@qAQc@{C[kCc@eFo@kJqAe@bIwB]kASkBYS?Kl@mBTa@C}Cn@uAZ{ExAeE`AgA^{@b@_@ZKXc@b@m@d@qGtFmA~AiFhGsOjRsJjLcAz@qBxA]X[b@Q^Yn@WhAKJ_@h@[^}@j@y@|@WZyAjCq@|@y@t@sDbCqErDcCxBiH|Hc@d@U`@]t@Sz@QfAGbABtADn@nAtL?nACl@MtAYnAq@|Ac@h@ST_DjBeErC_B~@}DvCsAx@{FnDc@VWLdI|Uc@b@aHbIkBrBeCxC",
+                "merged_headsign": "Ridge-Lyceum via Lemon Hill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.95991415430998,
+            "longitude": -75.17384510212332,
+            "name": "Ben Franklin Pkwy / 21st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.96050770573141,
+            "longitude": -75.1735123535992,
+            "name": "Ben Franklin Pkwy / 21th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:130341",
+          "real_time_route_id": "49",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.96066059018844,
+            "longitude": -75.17363825844616,
+            "name": "21st St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "w|asFty{iMf@FDu@BaATwETyCLeDxAcSjU|CxNhBjRjCbi@`HjU`DP?JAPQjDiEhF_HPIP@DAJCV]pGsHHoTPaZxK~AxGx@tIpA|En@|Cb@f@DdEf@dC^~H`AtDh@hCb@hANbEh@wBb\\[~F_A`NeBrX_BrWxCZpHbAtC\\lNfB~ABf@H|@ZfANZ?LCJ?pATZPJLTf@jCvH~ArE`AxCh@xA?\\LVNb@@`@EtCtAC^EjAc@p@]\\QVIj@[DK\\m@v@iDJQ^[HMFG^Bn@TpBfArBz@bBp@vGdB`Cb@`B}MBoA?eVp@FlHfA|UvCnFv@`V|CzEr@",
+                "merged_headsign": "29th-Snyder"
+              }
+            ]
+          },
+          {
+            "latitude": 39.95869107865371,
+            "longitude": -75.17202847504562,
+            "name": "20th St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ejurF~q}iMyAnAu@p@oDxDsBsEy@yBWIsAQio@mI}@QmBQ?pLKxA_ApIG\\Qb@QHSFeAGwGaBcBq@sB{@qBgAo@U_@CGFQC_@TEHOTs@nD]f@UP_CfAkAD]ISUa@u@AWKs@Ic@YQEMVUJQlA{@T]HSB_@?g@EoAQgAQkAu@oCeFgNKo@IMMMo@UB\\GRQT{AfAa@\\u@z@E\\GfAQCIMgBYOC_@UqAqA_AoAuEeGe@_@y@Q}L}AmHm@rC{d@~@aNZ_Gp@_KXgFXuDz@cOeEe@gAKkFu@kLyAaBSy@UaOwBaLyAiASoBQsEo@iCg@{@MoBQCpFIxMUpc@yApByCvD}@bAULENQHiF~GsDrEUHQ?kUaDci@aHkRkCyNiBu^yEy@pLaAhOW|CQlDnB^bBTt@H",
+                "merged_headsign": "33rd-Dauphin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5756",
+          "real_time_route_id": "48",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.96066059018844,
+            "longitude": -75.17363825844616,
+            "name": "21st St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ehdsF~kyiMq@IKpAcAlO|BVtG`A|NjBjCb@zCZzK|AlCZlAPj^zEbRbCnCXjDj@|Db@jRjCrPxBtG|@xNhBjU`DP?PIjByBEU@i@n@iKL}CV}ChBmYPmB~GfAtD^nCZjMnB`@ZrEwFx@gA^q@DWB]?WP_DlH`A|Cb@f@DjShCtDh@hCb@hANbEh@jFg|@\\DpAM^QLQ`@_BZuGCu@CEMKcAQQUWc@C_@`HkiAzC}d@DqAAc@P?RkDQg@JkA",
+                "merged_headsign": "Front-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.96081347464548,
+            "longitude": -75.17514012340644,
+            "name": "22nd St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cuyrFjfsiMBc@aImAgAKSvDQjCk@lIEt@UzDsJz{ASnEgAnPa@pHSnB]nEgEjr@oJqAuIgAaEc@iEm@yDc@oEu@yJuA{FaA}BQ?p@mEEw@jLKtBm@~HkAbScBW_ReCgAbRoJsAyNiBuG}@sPyBkRkC}Dc@kDk@oCYcRcCk^{EmAQmC[{K}A{C[kCc@}NkBuGaA}BWvB{[~HfAk@rHiGu@",
+                "merged_headsign": "27th-Allegheny via Lemon Hill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5776",
+          "real_time_route_id": "7",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.96066059018844,
+            "longitude": -75.17363825844616,
+            "name": "21st St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "_}asFvw{iMt@WXqFTyCPeEtAcRH_B|@wLl@gK`B\\z@DhC\\Zz@GJIVu@|KWzE]jEnKtAnCXjDj@|Db@jRjCrPxBtG|@xNhBjU`DP?JAPQ~AoBEU@i@n@iKL}CV}ChBmYPmB~GfAtD^nCZjMnB`@ZrEwFx@gA^q@DWB]?WP_DlH`A|Cb@f@DdEf@dC^~H`AtDh@hCb@hANbEh@y@`MK`Bn[bEvHfAdQ|BdAvBpDb@n@HbBThC^tBTpGz@dJnAzBZ`Ef@fMdB|C^tAT~PzBrKvAdIz@`Dj@vALhAZjIfA|BTjBPRxCb@dE`L|AnB`EbA_AZ_@b@y@Xy@TgAHi@`AsMb@{H~@sM~@cPbAkOzBu]h@kHxBq]xAySf@qIvCeb@HkBTcCDsAf@sH|@aMVaFEYnCob@Q?MDaBp@}N|GgQrH_HdD_B~@g@PU?u@hL}MiBkNmBeAQgD_@Z{Et@D`ABbBUl@Q|@WpAq@nDkB`BaAkAaEgA}D?g@c@CQFy@h@",
+                "merged_headsign": "Pier 70"
+              }
+            ]
+          },
+          {
+            "latitude": 39.96081347464548,
+            "longitude": -75.17514012340644,
+            "name": "22nd St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "a|trFzbsiM}FdD]FW?o@K{@|LyAQyCe@qF}@k@pGMfDrBP|B\\fEv@pDXfBTHTxCh@zDj@jCZzMjBVyDt@iLT?f@Q~A_A~GeDfQsH|N}G`Bq@LEP?kCxa@CTKPMx@mArQ}@rNk@nJ{A~Tq@hLkBtWkAfRYtCkAtRm@tIIfBsApRQrD}Dvl@k@pI?b@W`CYnAWt@c@t@UVcA`AaBmDaL}Ac@eEi@wGk@}E_CYyFu@sF{@sFs@gIiA_IeAgDe@yFs@cAQyAMkFu@wAQgAQaDc@sXoDaIgAs@EgBYgLuAuRoCiEg@oHgAsDc@eLyAuJqAcC]oJqAuIgAaEc@iEm@yDc@oEu@yJuA}Cg@}AYwBQE?Upc@yApByCvD}@bAULENQHKIIKcBWgJoAaOqBkAOqOkBu@fKE|AMvBuG}@sPyBkRkC}Dc@kDk@oCYoKuA\\kEV{EXwD}HcAmHcAcCt_@aAhOW|CQlDnB^~AGp@U",
+                "merged_headsign": "33rd-Dauphin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "PPHLASHPA:294479",
+          "real_time_route_id": "PHLASH",
+          "mode_name": "Bus",
+          "route_color": "#ed018c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.96018395041063,
+            "longitude": -75.17300873421132,
+            "name": "Barnes Foundation",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "szyrFjvtiMmFbz@cArOKx@QX_@DqAQY?MFUXEVOfB?n@Et@_@tCUhCQ~BYhBILMD]JcC]Du@\\wF`D^b@BC\\YxEyAxT{JmAmDk@{@tAc@`@]Hw@Ca@B_@L[ZQ`@Mt@Cd@Dt@?\\EZMb@wArBi@MkMlR_Fo@_HcA{RgCY~d@zCmDLb@l@t@JT@J?PQh@_AtAQf@I^Gb@?^Fn@Lh@Pb@nClDz@Vn@BR?XIbAcATOLAb@RFc@b@uAjDwIrBkIDyAA[C]Ye@{@o@y@Py@\\}@d@e@`@yAzBGJGl@Bf@^nA`ApAl@j@PHXFP?PCVQPQ`@q@v@eBn@kCZcAPuALk@|Tw\\j@}APDxU|CpB`@rDVbAiOdCo`@bANZ?b@ONMDQPmBFkBLoALgB?YEQOI{Ag@KGEQ?M?y@p@wJvGseAJc@b@cHdH|@j@wHkHaAxAcU{GgAaCY_Cd_@pKxAc@dH?b@WrE",
+                "merged_headsign": "Downtown Loop ↺"
+              }
+            ]
+          },
+          {
+            "latitude": 39.960228916427404,
+            "longitude": -75.17433972830784,
+            "name": "Calder Gardens",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "szyrFjvtiMmFbz@cArOKx@QX_@DqAQY?MFUXEVOfB?n@Et@_@tCUhCQ~BYhBILMD]JcC]Du@\\wF`D^b@BC\\YxEyAxT{JmAmDk@{@tAc@`@]Hw@Ca@B_@L[ZQ`@Mt@Cd@Dt@?\\EZMb@wArBi@MkMlR_Fo@_HcA{RgCY~d@zCmDLb@l@t@JT@J?PQh@_AtAQf@I^Gb@?^Fn@Lh@Pb@nClDz@Vn@BR?XIbAcATOLAb@RFc@b@uAjDwIrBkIDyAA[C]Ye@{@o@y@Py@\\}@d@e@`@yAzBGJGl@Bf@^nA`ApAl@j@PHXFP?PCVQPQ`@q@v@eBn@kCZcAPuALk@|Tw\\j@}APDxU|CpB`@rDVbAiOdCo`@bANZ?b@ONMDQPmBFkBLoALgB?YEQOI{Ag@KGEQ?M?y@p@wJvGseAJc@b@cHdH|@j@wHkHaAxAcU{GgAaCY_Cd_@pKxAc@dH?b@WrE",
+                "merged_headsign": "Downtown Loop ↺"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5741",
+          "real_time_route_id": "33",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.959194698041586,
+            "longitude": -75.17040969844174,
+            "name": "19th St / Vine St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "klesFh{wiMkAQYM_C{GP{@jALzAVbHbAtQ|BzBb@rI`AfDf@rCZdG|@pIbAjHfAvHz@~HjAtTjChEt@vNdBxB^vHx@jHdA`HdArM~AnAkBb@_@vI}DhB}@bEkBhB{@xDeBvDgBjDb@`BZdDb@hPnBrInAlOnBl@LvDb@zMfBzAP~HbAB|@Pd@L\\PPTP^HN?P?ZIPKHMPc@Pq@fJjAjDh@jGt@t@cMl@}K^wGP{BfANZCXGPQHQFUF_@PgERoCAa@KQUQe@Mc@CKIEQG[~Fw_A~@{MPcCgBY",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.95869107865371,
+            "longitude": -75.17202847504562,
+            "name": "20th St / Ben Franklin Pkwy",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "c}yrFdotiMmH_Ac@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAsEm@qAYyAQ}C_@eC_@yDc@eB]sOmBkB]qSkCwQcCg@kIic@_GgBQgL{A{F}@wOqBk@zHk@xJoRoCuHaAQvDMjCuQyB_IkAwH{@kHgAqIcAaQaCsIaA{Bc@iV_Dg@zH_AK",
+                "merged_headsign": "23rd-Venango"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5751",
+          "real_time_route_id": "43",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.9637812317526,
+            "longitude": -75.17295477499118,
+            "name": "Spring Garden St / 21st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@vDg@fE{HlD_H~AsC|BsEbF_JjCiFhEcI`EqJO_A}Dis@gBc^_@yCeCgKWsBKkA?gA?e@b@yA|BcGf@kAj@iAVyAn@}BPeA@m@Am@Cc@K]IQQQoDkBMIUg@KUI_@I_AHYTcDnDqk@j@wHhB_[NkAd@gBP}AdA{OLsETsRP}Gb@kWPyDPaDd@sJ\\kFDeBdAwRGc@ZiH\\sCHq@_GwA[Eg@BkA]gCy@c@[q@k@cIuJ}@mAQ_@Qc@cAiD{@kDeBcFB[Eq@Kc@uA_FcBn@Kq@Qc@_HeKe@_AUk@}@}CQg@uAkCq@yAMe@Y}Ac@HgBm@cAk@yGaEQC_@AaE?g@K[QcBgBOCM?kB}DEKQw@]}@vFwEjBcB\\l@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.96397908222641,
+            "longitude": -75.1727119585006,
+            "name": "Spring Garden St / 21st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "qm~rFroniM]m@kBbBwFvE\\|@Pv@DJjB|Dt@t@j@p@bAdA|@hAbDzCrAh@fAXpADf@A`COZEnA]RxALr@Xh@jBrD|@fClAdCfAfCrDvF`BvBp@t@|A|BZl@Z~@dBbFz@jDbAhDb@bA|@lAbItJp@j@b@ZfCx@jA\\`Ad@zAn@zCt@]rC[hHM^MnDk@fJyB`c@YhLQlLMdDCrFQ`NI~CaAnOI|@m@pCa@pE{AtViFpy@C^F\\@VSjA]nDIzBq@lAKXEh@?XRfANTd@l@NhDHxC?b@Gx@Qv@A`@?RDN?pAJfBVrBPp@rBtI^xCT`EkBXwBTTfD?t@PvDp@~J\\~Gb@bHZbHhCnd@iEbIkChFcF~I}BrE_BrCmD~GgEzHwDf@cIx@yIbAkPvCgARoAPc@PsEr@{F~SpFxCh@TvFxCkD~MIDQ?qDkBb@kBAW",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5720",
+          "real_time_route_id": "2",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.958834969907386,
+            "longitude": -75.16727107047087,
+            "name": "17th St / Vine St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "iafsFfdviMjA}@hGkEbAm@zFt@hDh@tC\\zZ|DjL~AnH|@pDf@P?fAfC|AkAPAXCPBtAPj@PxBP|Et@hDb@t@D`RdCv^jFtIx@nDj@jBP|Dl@zQdCtHz@~F|@lRbCvQdCjCeDxB`FvEf@`Df@dLxAjP|BbEf@xEp@|C^XfAx@c@b@Ix@DtCb@pJtA`K|AlIx@jDf@xKpAtEt@tC\\dGt@`BVtHbAzALfP|BjPvB|LbBzFp@tFx@jNbBpATfe@hGpKxAtFp@|NnBvFp@PJhFl@X?l@W|@g@xBlHtCjKvBvG?LHn@EpByQaC",
+                "merged_headsign": "20th-Johnston"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "brazil-vs-haiti-group-c",
+    "listing": {
+      "latitude": 39.901733,
+      "date": "2026-06-20T00:30:00.000Z",
+      "type": "Event",
+      "longitude": -75.167594,
+      "venue": "recu43PfeOwAs7uI7",
+      "name": "🇧🇷 Brazil vs. 🇭🇹 Haiti (Group C)",
+      "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
+      "venue_name": "Lincoln Financial Field",
+      "group_name": "FIFA World Cup 2026",
+      "group": "recX37CIyxy5rQsTK",
+      "slug": "brazil-vs-haiti-group-c"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334086",
+          "real_time_route_id": "B1",
+          "mode_name": "Subway",
+          "route_color": "#f26100",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.90543332838582,
+            "longitude": -75.17390805454681,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.90542433518247,
+            "longitude": -75.17380013610655,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "o_qrF`hyiMmH{@{PsAuo@wHgB]e\\oEyAImMgB{AKyAF}AGsUuCqAYwY{DcBMyw@kKyAW_H}@gBIkBYmAWgSiC_@AcA@cG`A_@?_@G_@QYUsByB[U[Qa@Im|BmZkCWoBOyjBqVuCYaFm@wBc@mjAqO}CSmFu@kCg@ebDsb@yAa@mMcB{@G{Fw@[]Ui@Gu@fB}UXaAj@i@fDeCb@m@Py@l@yJAu@Qu@a@m@s@c@sB_@}CMcA?c@LQTKPCL_@nF",
+                "merged_headsign": "North to Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:333087",
+          "real_time_route_id": "63",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.903967436238965,
+            "longitude": -75.16218091737198,
+            "name": "Pattison Av / 7th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "onasFtdhjM_A_B_@TgADmIyT}JsXfBiAdFsD|@s@HMnCbHlFdOdQiMhDkCmFaOoAiEzMyAx@Ap@Hh@Lt@j@lHvD|BlAdBfAbB~@p@PTBf@C~AMiAcSCIYMf@sB|@sG|E@rBMhA?zEg@xB[|H{@rHs@rVoCzDe@hGo@nFc@zCX~B^zC^rHx@lH|@tHbAhW`DrEp@jBLdEj@fBRh@Nn@@pBTxQdClBPbEf@?QHa@jAxH|BvRLSpAyAhCaDfDsExMmPjAaB`AuAtAcBt@u@dDoCtCoD|DcF~FiHxVq[vYbe@`IeLbByBrDoFb@u@UYdCoCpIqKl@h@j@n@pBjD~H_K^o@bHgUdFsPt@cATU{Emd@BY_@sEc@kBk@qBm@{Cg@yDuBoSYcBg@{EyEsd@MiDg@_KgAgKjDoDbGuFZ[Z_@n@oAZmAPgA`AsMb@{H~@sM~@cPbAkO|A}Vj@qHLeBfBeYxBq[x@}MdCy]HkBTcCDsAf@sHjJ|AjJfAlHfAb@Dd@?`D?nBBvOpBjC\\pEt@KlAFPaA~NsDxj@oMgBiR}B|D_RPyAJu@t@qL",
+                "merged_headsign": "Food Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5748",
+          "real_time_route_id": "4",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "uqksFjsriMTXTTf@PfAPbAOVI`@Ut@i@VKXC^B^Fl@{HjL~AbFl@`FpGn@|@|GmE|AP`b@tFj@aIf\\hEtCn@xLbB|n@lIdHbAlH|@P?|@eMBTzBlGj@fBx@vBbC`HT|@fB`FhCxHbAxCtAdDHVr@`EpAfJF^@dA|[fE~BT\\J|Dh@|Cl@`BTfJjAp@FjAPtDb@NHfBTz@HLClP|B`M|ArLdBtBRtKxAzOrBvGz@lD`@x@LLPvHbAt@T`AHhH|@bTtCfM`B`M~Ab@FLGzEn@xC^PFPPfJhAzFx@rAP|CZdOvBpIbAPLH\\BRBXKnAPpBPXfAt@dBRpAMXILKDM`@_BL}CtLzArDj@|@HbShC`OpB~HbAxIjAbD^tEr@~Q~BbNnBbI~@nSrCvFp@~UdD|TrCt@LLHPF|BZbR`CfAP^LrBr@|Bl@fBZtB\\p@DnB\\rXfDpF|@pHz@tAMPEPOBED]Cc@e@AwAQoFu@qAa@gAM",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFrhyiMeEm@uFq@EhAeOgBiFgA{M_BWK{NmBwFs@QF_Gy@sNgB_VeDwFq@oSsCqKqAuK}A_R_CuEs@cD_@yIkA_IcAaOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELC`@QjBmEs@gBQgWkD{C[M?gJsAoBS_@CUBkDg@cC]wAQIM_@IkIgAkBQiAU{C_@kFq@qNsBuDc@_Fm@cCc@oIgAc@KSJy@MmDa@wG{@{OsBuKyAuBSsLeBi\\iEeAQIEgDc@OBuDc@kAQq@GgJkAaBU}Cm@}Di@]K_CU}[gEAeAG_@qAgJs@aEIWuAeDcAyCiCyHMWoBgGcCaHsFu@o@Gc@C{Gy@eHcAq[eEy[kEkC_@uCo@qx@qK{Dc@}B_@g@dIwIvFmHgAoJiAwFy@_AKYBWJu@h@a@TWHcANa@GS`DmH_Ad@}Hj@J^RXTz@xA",
+                "merged_headsign": "Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5717",
+          "real_time_route_id": "17",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              },
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kxyrF|nsiMlAL[dFeB`YmAjQ_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBMjB_ApQ}@jMpEh@~LhB`ADxATMfB~AT`AH~C^N_BfAL~G|@rFz@rC^xCXzXrDpAX|CVjB\\bGt@tARbBPtm@bIzHbApAT`Fn@zFv@lD^vFx@zFp@pIjAzFt@g@zHTB`G`AvPxB`BPtAVlPvBxTtC`E{l@l@_KpNjBLyBuJsAsAQe@?gAW",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5775",
+          "real_time_route_id": "68",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.91130589017659,
+            "longitude": -75.16538249776633,
+            "name": "10th St / Packer Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@h@i@b@o@f@y@Lc@FQgA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeBc@}EgB}M_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAmB~MeAh^EnMBdECrLHnUQzYQlAUfAWt@y@jAoBtBmAbA]NWD_@?UC]Me@[wE{F][_@UWKg@AeCPU?SCUUMUc@{Hc@oE{CoTMq@Uq@Sk@Yg@}@gAcAm@i@Uo@Mq@Gm@?o@J{PrDwEfAm@Dc@FcAG_@Ec@Oc@S_@U]UWYu@eAUg@Uk@k@uBaE_PM{@CyA?wAFi@PkAPi@Po@Tc@`F{IIYy@{@QOc@Qc@Ig@?aCIoCQ_AQQK_@[g@u@g@sAkB}GcAmDqAaDgA}BeCgEu@kAkA}A}BcCqCmCsBmBoCwBuWkUZe@~AcEJ?LSBQGKfAcCyDiD}@i@W]kAnCuFsEkCaCq@i@MCUMUGSCc@?QFs@f@gAv@e@uAoBmG}@_Cc@}@cAaBqG{KmAsC_@kAwFuTa@uBMwAQyBaDTW?aAMu@_@mSuQeGeFoImHq@y@[g@Qc@]cAe@kBwk@vYrCrEfAxAlAvArCfCbJzH`CxB~@jArBxC^j@x@`BbAjC~@`Db@lBj@bEqRdEsBd@}BbAoBj@uD|@mEz@q@T[ZcFjAyD`Ag@DYLiAx@oBbBeN|JcCxAsAb@}A?oCQgLm@i@M}@]_AEc@KaB{@}Bs@cBq@YPUFu@LqALcBX_FfAqGp@mAPuHhFcTdOwHhF{EjDUXYh@eApFUl@MPaAt@_IvFQPi@t@U\\YPQHi@Lc@F]CQC_Bi@g@KiHg@c@EuHc@]?QBQHSXyAxBsBbCqG`JgB~B_AtA_Ax@yA|@uExCsHrEaDxB_F_Ce@_@y@gIq@_J]sAkCsFiEt@cCZ]F_@P_ABeLfBmJpAyAXuBPCaAc@wFo@^TlC",
+                "merged_headsign": "69th St Transit Center"
+              },
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@bAgAz@}AJc@gA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeB_@gEkBsN_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAkBhMe@BDc@m@mEZIb@U",
+                "merged_headsign": "UPS"
+              }
+            ]
+          },
+          {
+            "latitude": 39.90281630620954,
+            "longitude": -75.17395302056359,
+            "name": "Broad St / Zinkoff Blvd / Mbns",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "{ygrFxuijMt@Mb@aDFuA?}ACi@gKcbA_@yB_@qA]c@i@u@]a@sEqCmA}@gAqAc@}@]y@Me@Qu@y@yG_AeGg@eCaC_Ke@{DYuAsDwOuB}Fc@sAoBcIu@yBg@gAw@mAs@}@mAqAuAu@uGeCgAi@yAaA_@W_@Uk@g@_BoB}@mA}AaDqAcFaBmHq@yD_AmEuAeEsAsDw@cBo@_A[_@gAy@c@YmHkDmNiGmA]gAAuJbAu@Zy@nAQh@UrAEp@@lANrA~AdNfB|Mb@|EPdBFtAKtAc@`Bm@fAyDtC{Mu^Ec@kAiDK_@?c@F_ApBmOjAyJTkEBaDGuBC]ScBQ}Ba@{Cs@cDYgA_AsCa@y@gAoB_@q@y@gAc@{@gBoCwf@eu@gAkBkAuBu@aBq@gBc@oAsAgEu@_Du@gEc@aDc@eFmAiLu@mIoBwQFc@?g@KeEEyAOkASqAeA{DqBwE_AcBo@i@[YaAg@{Ag@sCm@m@YoHcA{Gy@e@?eD?oBAkAKcIkAcBQeGw@eFcAViCrAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pIQ`@MhBfANp@Hu@uBM]UQTaE",
+                "merged_headsign": "Broad-Oregon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "all-star-red-carpet-show",
+    "listing": {
+      "latitude": 39.949619,
+      "type": "Event",
+      "longitude": -75.150287,
+      "venue": "recs77DucqwVLXjhp",
+      "name": "All-Star Red Carpet Show",
+      "link": "https://www.mlb.com/all-star/schedule",
+      "venue_name": "Independence Mall",
+      "group_name": "MLB All-Star Week 2026",
+      "group": "rectWQwoK0fn7rU78",
+      "slug": "all-star-red-carpet-show"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5806",
+          "real_time_route_id": "L1",
+          "mode_name": "Subway",
+          "route_color": "#0097d6",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.95053424321079,
+            "longitude": -75.14894292203353,
+            "name": "5th St / Independence Hall",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wc|rF`}ijM?g@Ic@sEuHsC{Fc@yAW_BK}AByBtA{N\\mA|BsDd@oA`@uAPqAlAqRFyA|LmpBTyA`IopAI}RFiBP}AtAgGb@mCzAcS?yA|g@gfIPyAlDkj@@yAMwAWgAg@w@cAo@gAc@}BWsBKaM\\kE?sDQoD]oKyAiH{AiDaAgBu@uBgAsDaCcGoEqB_Au@Ycz@iQccAsMc@I]YsQu`@u@sBeCsFqAeCqrBeqEu@yAk@u@{@o@k@S}JwFwbAw}@",
+                "merged_headsign": "East to Frankford Transit Center"
+              }
+            ]
+          },
+          {
+            "latitude": 39.95059719563427,
+            "longitude": -75.14894292203353,
+            "name": "5th St / Independence Hall",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "c_hsFvtfiM|CnCdCxAhz@vu@|JvFj@Rz@n@j@t@t@xAprBdqEpAdCdCrFt@rBrQt`@\\Xb@HbcArMbz@hQt@XpB~@bGnErD`CtBfAfBt@rM|CnKxAnD\\rDPjE?`M]rBJ|BVfAb@bAn@f@v@VfALvAAxAmDjj@QxA}g@ffI?xA{AbSc@lCuAfGQ|AGhBH|RkZb{EQpAa@tAe@nA}BrD]lAuAzNCxBJ|AV~Ab@xArCzFrDbGVt@AlA",
+                "merged_headsign": "West to 69th St Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5717",
+          "real_time_route_id": "17",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.95070511407453,
+            "longitude": -75.1505437122307,
+            "name": "Market St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              },
+              {
+                "shape": "wesrFryziMsGcAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIrH~@",
+                "merged_headsign": "2nd-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.950813032514795,
+            "longitude": -75.15023794331664,
+            "name": "Market St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kxyrF|nsiMlAL[dFeB`YmAjQ_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBMjB_ApQ}@jMpEh@~LhB`ADxATMfB~AT`AH~C^N_BfAL~G|@rFz@rC^xCXzXrDpAX|CVjB\\bGt@tARbBP~IjAzCb@tg@vGpAT`Fn@zFv@lD^vFx@zFp@pIjAzFt@TJlC^fJfAtAT\\?PKlA_AvBvG?LHn@EpBkRcC",
+                "merged_headsign": "20th-Johnston"
+              },
+              {
+                "shape": "kxyrF|nsiMlAL[dFeB`YmAjQ_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBMjB_ApQ}@jMpEh@~LhB`ADxATMfB~AT`AH~C^N_BfAL~G|@rFz@rC^xCXzXrDpAX|CVjB\\bGt@tARbBPtm@bIzHbApAT`Fn@zFv@lD^vFx@zFp@pIjAzFt@g@zHTB`G`AvPxB`BPtAVlPvBxTtC`E{l@l@_KpNjBLyBuJsAsAQe@?gAW",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5750",
+          "real_time_route_id": "42",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.94918526270755,
+            "longitude": -75.15091243356825,
+            "name": "Chestnut St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kazrFtvkjMYIt@wFl@k@gAgDgAwCcBiEUe@u@{BMm@_AcKq@_J]sAaCaFc@kAAg@@e@x@iFBwAIm@wEoPy@_Dc@q@aEyCY]U_@e@yAGWIcA@aAPcCN{C~B}_@n@kKh@wHt@wMb@}FNoCzIyuATeE|Bc^xAkUVeGf@yGPuDb@mGZeG`@iFz@sM^uH|B^nATj@Tz@LX?h@G\\MpA{@jCoArAc@h@In@Kt@?l@AfC@BcCC_@Ea@s@}BrBgA^Q\\_@@QAw@g@aD}@qDkBoFU_@uAsDc@uAWc@g@OGTEPU\\}C~BKXQ`ByB]w@m@kAsAcAqA{EqGQIk@MaNaBdDmd@j@mJ@kAvA}S~@kP`Co^d@{Hj@{H`C_a@h@sHb@}Hx@aNbBcWvBu\\xAeU|AXt@FlALxCf@?QPa@PMt@c@f@QTEjAGt@LTB",
+                "merged_headsign": "2nd-Spruce"
+              },
+              {
+                "shape": "qzzrFtdgjMDcAsEk@p@kKn@kKh@wHTwEbA}NNoCzIyuATeE|Bc^xAkUVeGf@yGPuDb@mGZeG`@iFz@sM^uH|B^nATj@Tz@LX?h@G\\MpA{@jCoArAc@h@In@Kt@?l@AfC@BcCC_@Ea@s@}BrBgA^Q\\_@@QAw@g@aD}@qDkBoFU_@uAsDc@uAWc@g@OGTEPU\\}C~BKXQ`ByB]w@m@kAsAcAqA{EqGQIk@MaNaBdDmd@j@mJ@kAvA}S~@kP`Co^d@{Hj@{H`C_a@h@sHb@}Hx@aNbBcWvBu\\xAeU|AXt@FlALxCf@?QPa@PMt@c@f@QTEjAGt@LTB",
+                "merged_headsign": "2nd-Spruce"
+              }
+            ]
+          },
+          {
+            "latitude": 39.94758447251037,
+            "longitude": -75.14973432392875,
+            "name": "Walnut St / 5th St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "{vxrFnpsiMlBT}Cvd@cIkAcCWuAlRoBl\\o@|Hc@zHSbCo@`KW`FaD|f@_@lHQtBsCvb@aArNAbBQvBOfCc@bGi@dIyC`g@xMbBp@Ct@BxB^dEn@\\LRVf@xATt@rGzQr@|BD`@B^CbBkCFu@Hi@Lo@Ji@H}Aj@aCfAqAz@k@P[BY?UCe@Ik@UoAU}B_@_@tH{@rMa@hF[dGc@lGQtDg@xGWdGyAjU}Bb^UdE{IxuAOnCc@|Fu@vMi@vHo@jK_C|_@OzCQbCA`AHbAFVd@xAT^X\\`ExCb@p@x@~CvEnPHl@CvAy@hFAd@@f@b@jA`C`F\\rAp@~I~@bKLl@t@zBTd@bBhEfAvCfAfDm@j@oAtJPB`@wB",
+                "merged_headsign": "Wycombe"
+              },
+              {
+                "shape": "{vxrFnpsiMlBT}Cvd@cIkAcCWuAlRoBl\\o@|Hc@zHSbCo@`KW`FaD|f@_@lHQtBsCvb@aArNAbBQvBOfCc@bGi@dIyC`g@xMbBp@Ct@BxB^dEn@\\LRVf@xATt@rGzQr@|BD`@B^CbBkCFu@Hi@Lo@Ji@H}Aj@aCfAqAz@k@P[BY?UCe@Ik@UoAU}B_@_@tH{@rMa@hF[dGc@lGQtDg@xGWdGyAjU}Bb^UdE{IxuAOnCcA|NUvEi@vHo@jKq@jKnJfAKbAuC[",
+                "merged_headsign": "61st-Pine"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5726",
+          "real_time_route_id": "21",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.94918526270755,
+            "longitude": -75.15091243356825,
+            "name": "Chestnut St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ab|rF~zijM\\jCf@JCaAc@wFyA}Oq@wKoAwO?W?}@L}BXuDTmDVCLEf@u@bFp@t@yK~Ba`@NcCjDsj@~@mNn@qJL}BbBoWjC{c@rDek@nAuStBe\\t@{M^kFt@mMt@gKjBq\\dDmd@j@mJ@kAvA}S~@kP`Co^d@{Hj@{H`C_a@h@sHb@}Hx@aNbBcWvBu\\xAeU|AXt@FlALxCf@?QFOHQPMt@c@|@WjAGt@LbCXb@iFPkDaEc@[jEG|@",
+                "merged_headsign": "Columbus-Dock"
+              }
+            ]
+          },
+          {
+            "latitude": 39.94758447251037,
+            "longitude": -75.14973432392875,
+            "name": "Walnut St / 5th St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}xxrFtksiMIfCkAF}@Vu@b@QLQ`@M~Bi@\\k@Hc@hG_AtQuAlRoBl\\o@|Hc@zHSbCo@`KW`FaD|f@_@lHQtBoApQsBv[ShD?z@QvBOfCc@bGi@dIm@nKsBl\\g@tIkC|a@QjBq@vMcAnN}Cfh@a@bF_AnPgBzWo@fKqAfTcAxN}Cxh@_@~EaBrXcAvOYdDgBd[yC_@kJqAaBOMlDi@vHGdCnAnPp@vKxA|Oo@^P`C",
+                "merged_headsign": "69th St Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5789",
+          "real_time_route_id": "9",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.94918526270755,
+            "longitude": -75.15091243356825,
+            "name": "Chestnut St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "o}osFtffjMnFo@pFgAnBg@~Aq@ZQbGaEdH}EfAq@b@O\\EjBQxAGrDBp@BhGl@~@HlGP`A?d@Er@Qb@MfEcAjAa@|Ae@vEoBb@QfDaExAkBjBeCt@mAn@}At@wB~A}GfAiDtAuCzEsIl@u@fBcBzBgBfAy@pB}AbHyEnBoALMb@_At@}BlAqFfAmFrAeEh@iA\\a@fL{KrDmEz@{@lEuFzEkFnCeDdEkC`EsB`PeHnAg@|EwBfBj@\\LRP`AbA`C|BVTnDbBrDnBtAnA\\Tb@RvEvAtDV`@BR?t@Y`@u@lByEb@oAfBsFt@sC\\aBx@uEZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@bAZP?h@Mb@QT[^k@`A}Bh@_BfBuGxAwEzGcWjAoDdBsDxAmCbC_DfBwAnAi@fA_@jBa@fDSnA?pA@xBPpDf@tA\\~Bp@dCx@xAl@pBbAfAl@`@XlBnA`At@z@t@zCnCfAfAz@dArCzDxAfCxBpEdElKbAxBfAjB|@rA~@jAbAhA`@\\fB|Ad@^b@VjAp@rAn@tAh@jBj@tCf@|@DrCNpCG|AIxAU~@UxAk@b@QrA{@ZYfAcA~@kAf@u@hCgElJyPpAmCdA_D^uA^oBXkB~AyNXaBh@mB\\u@d@y@b@o@x@u@t@c@j@SxAc@pQwD`Du@vAk@nBgAj@_@nBkBjBgCbAoBpAeDbAkDn@cBz@wBfAgBp@{@lF_HfAoA`CyB|AoAbAw@h@Q|BkAzCcBt@g@t@u@bBsA|DoDn@c@~Ac@^E`@?l@?vGv@MnCUzCBb@HPND~KrAAZvHbAj@mJ@kAvA}SfAmRxBm\\d@{Hj@{H`C_a@h@sHb@}Hx@aNbBcWvBu\\pHz@",
+                "merged_headsign": "4th-Walnut"
+              }
+            ]
+          },
+          {
+            "latitude": 39.94758447251037,
+            "longitude": -75.14973432392875,
+            "name": "Walnut St / 5th St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "oeyrFlitiMc@jIuAlRoBl\\o@|Hc@zHSbCo@`KW`FaD|f@_@lHQtBsCvb@aArNAbB]zEaHsCyK}DwAc@uAWkDs@aBQcAEgABmAHa@HgA\\aF~BgDvBmD`CcBtAsEnEwEzDu@t@uA~AyGpIw@xAgAdCsCpI}@tB[p@oAjB{AnBkBxAoAp@gAj@_@PwCt@sQnDsBf@g@Pe@Rk@`@u@t@c@d@[j@]j@Wv@YdAQ~@U~Aq@`Ig@xD[fB_@`Bo@|Bc@pAm@tAm@tAsBpDmI`Oy@pA_AnAaAfAqA~@}@j@e@RkA`@o@Pw@LkBPk@BcC@eCIeCYcB_@kBi@yB}@sBkAkDkC{@_AiB}BgAgBw@yAkAoC}DaKy@_ByBaEeCqD_AqAoAqAmAoAsAkAqAgAsDgC}CcBgBy@iBq@yAc@aFuA}EaAwAQkDWaCKuAFm@DyA\\sAl@SLaBrAi@f@o@v@g@x@q@|A_AbCsAdEoExPQVc@xAkBpF_B|E}@|BoBnEu@`BQXSVQFg@CaA}@{@gAoCkEUUc@MQKc@EY?gCH}Af@u@Pi@B_@|Au@|Eg@fC]`Bu@rCgBrFc@nAmBxEa@t@u@XS?a@CuDWwEwAc@S]UuAoAsDoBoDcBWUaC}BaAcASQ]MgBk@}EvBoAf@aPdHaErBeEjCoCdD{EjFmEtF{@z@sDlEgLzK]`@i@hAsAdEgAlFmApFu@|Bc@~@MLoBnAcHxEqB|AgAx@{BfBgBbBm@t@{ErIuAtCgAhD_B|Gu@vBo@|Au@lAkBdCyAjBgD`Ec@PwEnB}Ad@kA`@gEbAc@Ls@Pe@DaA?mGQ_AIiGm@q@CsDCyAFkBP]Dc@NgAp@cNlJUF}@Vi@No@@e@?s@E}Ck@yAQWCk@JUHu@n@I?gBjCy@z@U^|@A",
+                "merged_headsign": "Andorra"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.94918526270755,
+            "longitude": -75.15091243356825,
+            "name": "Chestnut St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.95039934516046,
+            "longitude": -75.1488889628134,
+            "name": "5th St / Market St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5756",
+          "real_time_route_id": "48",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.95070511407453,
+            "longitude": -75.1505437122307,
+            "name": "Market St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ehdsF~kyiMq@IKpAcAlO|BVtG`A|NjBjCb@zCZzK|AlCZlAPj^zEbRbCnCXjDj@|Db@jRjCrPxBtG|@xNhBjU`DP?PIjByBEU@i@n@iKL}CV}ChBmYPmB~GfAtD^nCZjMnB`@ZrEwFx@gA^q@DWB]?WP_DlH`A|Cb@f@DjShCtDh@hCb@hANbEh@jFg|@\\DpAM^QLQ`@_BZuGCu@CEMKcAQQUWc@C_@`HkiAzC}d@DqAAc@P?RkDQg@JkA",
+                "merged_headsign": "Front-Market"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5752",
+          "real_time_route_id": "44",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.95070511407453,
+            "longitude": -75.1505437122307,
+            "name": "Market St / 6th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "m`esFrjojM?}C@gA?oBJ}A_GUBuBD}AJu@x@mFZ_CFq@@kAEc@mE}M{@mCk@gAc@w@c@c@qBaBs@i@u@y@u@cAuB_Du@{AqAaEk@{BQ{@IuABiFG_G?{H|DcACUPkCJa@HQ^c@b@_@~CgBnFuC~@a@rSwGs@kEq@_Ei@sDYmAQyAk@iD`DgAyBmKuA_G[}Au@yCq@iCOQrCcNfAqEnCyL~@}EvBcJPg@z@sBb@_@^c@P_@j@c@dCiCzAmApH{EhFsD`Aq@fE}DlE{ElHuIcBwEwAaE_HwQw@aCo@uAWcAMQ{EsMmEwLaEuKaFkNmHqRgA}CwDkLgA_DcCwGkAgCG]Uu@u@_Di@mDM}AKoCLiBPgAhBaKvFqTlAqEx@{A|AaCx@}@p@iAZaAbAwEf@_Bb@y@l@cAx@o@nAi@fA_@jAY^GfDS`D@xBP`C\\dCf@~Bp@dCx@dCfAlCvApE~CbCtBrAnAfAfAz@dA|B~CnBbDxBpEdElKbAxBb@t@`BhC~@jAj@p@x@t@fB|Ad@^b@VjAp@rAn@tAh@jBj@tCf@|@DjAJfABtACz@C|AIxAU~@Ut@YfAc@\\SpAaAfAcA^c@fA}AhCgElJyPx@cBp@cBj@eB^uA^oBXkB~AyNXaBZmAXy@b@}@b@m@RYx@u@t@c@j@SxAc@pQwD`Du@vAk@nBgAj@_@nBkBjBgCbAoBpAeDbAkDn@cBz@wBfAgBp@{@lF_HfAoA`CyB`DgCh@Q|BkAzCcBt@g@t@u@bBsA|DoDn@c@fA[v@M`@?l@?vGv@MnCUzCBb@HPND~KrAt@oK^_HJ{@`Dsf@|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JDgAMa@F_@",
+                "merged_headsign": "Front-Market"
+              },
+              {
+                "shape": "m`esFrjojM?}C@gA?oBJ}A_GUBuBD}AJu@x@mFZ_CFq@@kAEc@mE}M{@mCk@gAc@w@c@c@qBaBs@i@u@y@u@cAuB_Du@{Au@yBy@oCSgAOgAEu@BiFG_G?{HBoAB_APkCLkAP_Ab@{BfDgLp@cChCeKTu@zAoGhCeKfA}DxEqPrCcNfAqEnCyL~@}EvBcJPg@z@sBb@_@^c@P_@j@c@dCiCzAmApH{EhFsD`Aq@fE}DlE{ElHuIcBwEwAaE_HwQw@aCo@uAWcAMQ{EsMmEwLaEuKaFkNmHqRgA}CwDkLgA_DcCwGkAgCG]Uu@u@_Di@mDM}AKoCLiBPgAhBaKvFqTlAqEx@{A|AaCx@}@p@iAZaAbAwEf@_Bb@y@l@cAx@o@nAi@fA_@jAY^GfDS`D@xBP`C\\dCf@~Bp@dCx@dCfAlCvApE~CbCtBrAnAfAfAz@dA|B~CnBbDxBpEdElKbAxBb@t@`BhC~@jAj@p@x@t@fB|Ad@^b@VjAp@rAn@tAh@jBj@tCf@|@DjAJfABtACz@C|AIxAU~@Ut@YfAc@\\SpAaAfAcA^c@fA}AhCgElJyPx@cBp@cBj@eB^uA^oBXkB~AyNXaBZmAXy@b@}@b@m@RYx@u@t@c@j@SxAc@pQwD`Du@vAk@nBgAj@_@nBkBjBgCbAoBpAeDbAkDn@cBz@wBfAgBp@{@lF_HfAoA`CyB`DgCh@Q|BkAzCcBt@g@t@u@bBsA|DoDn@c@fA[v@M`@?l@?vGv@MnCUzCBb@HPND~KrAt@oK^_HJ{@`Dsf@|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JDgAMa@F_@",
+                "merged_headsign": "Front-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.951145781038925,
+            "longitude": -75.15295389072982,
+            "name": "Market St / 7th St / Mbfs",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cuyrFjfsiMBc@kBUcG_A[Cc@jIYxDkCpb@pKtAi@bI_Gv_AMVYT{AU]?WJQRKb@MdBg@vIUdBMjB_ApQgBtWxBTxAHaDrf@Kz@_@lGqCcAs@UuAWeEu@gAOcAEm@?aADgAPgA\\aF~B}A`AQZe@p@g@f@q@j@aAl@qAx@wF|DsAnAuC`Cu@t@uA~A{FlHcA`By@~A_@`AsCpI}@tB[p@oAjB{AnBkBxAoAp@gAj@_@PwCt@oMbCwEfA_@JcA^_@Tc@^y@x@m@~@]j@e@xAQz@QjAkA|Lk@rD_@fBq@jCcAxCgA|BsBpDmI`Oy@pA_AnAaAfAqA~@}@j@e@RkA`@o@Pw@LkBPk@BcC@eCIeCYcB_@kBi@yB}@sBkAkDkC{@_AiB}BgAgBw@yAkAoC}DaKy@_ByBaEeCqD_AqAoAqAmAoAsAkAqAgAoCmBsBoAmAm@gBy@iBq@{HyB}EaAwAQaDEcA?yALw@HeAX_Bl@c@T}@j@i@b@}@bAgA~AcAvBgBfEq@vAy@lCsDhNsBhHu@`CSn@a@v@yAlEgArC}CnHS|@UpACn@Hp@Xl@HJdBbA~@Z^Nn@DPLPPz@vB\\d@LPPJl@pAnA|CxCnIvDjLfA|ClHpR`FjN`EtKlEvLzErMLPVbAn@tAv@`C~GvQfAy@`Aw@lAaAxHiEpBvO}CXMH_@ToBxA[PwAbAWTsK`MqCxCgB`BaBtAaBjAwE`DgFdDy@h@cFzEQ^_@b@c@^{@rBQf@wBbJ_A|EoCxLgApEsCbNoFfReBvGqDdOUt@iCdKq@bCgDfLc@zB_@jCUjECnA?zHF~FChFHtAPz@j@zBpA`Et@zAtB~Ct@bAt@x@r@h@pB`Bb@b@b@v@j@fAtBjGxCpJ?p@I|AuAlJM`BUjM?fCQpGGnDExCGnAUjAfAx@^VrAoCbCoGBg@?kBEoC?cA",
+                "merged_headsign": "Ardmore via Montgomery Ave"
+              },
+              {
+                "shape": "cuyrFjfsiMBc@kBUcG_A[Cc@jIYxDkCpb@pKtAi@bI_Gv_AMVYT{AU]?WJQRKb@MdBg@vIUdBMjB_ApQgBtWxBTxAHaDrf@Kz@_@lGqCcAs@UuAWeEu@gAOcAEm@?aADgAPgA\\aF~B}A`AQZe@p@g@f@q@j@aAl@qAx@wF|DsAnAuC`Cu@t@uA~A{FlHcA`By@~A_@`AsCpI}@tB[p@oAjB{AnBkBxAoAp@gAj@_@PwCt@oMbCwEfA_@JcA^_@Tc@^y@x@m@~@]j@e@xAQz@QjAkA|Lk@rD_@fBq@jCcAxCgA|BsBpDmI`Oy@pA_AnAaAfAqA~@}@j@e@RkA`@o@Pw@LkBPk@BcC@eCIeCYcB_@kBi@yB}@sBkAkDkC{@_AiB}BgAgBw@yAkAoC}DaKy@_ByBaEeCqD_AqAoAqAmAoAsAkAqAgAoCmBsBoAmAm@gBy@iBq@{HyB}EaAwAQaDEcA?yALw@HeAX_Bl@c@T}@j@i@b@}@bAgA~AcAvBgBfEq@vAy@lCsDhNsBhHu@`CSn@a@v@yAlEgArC}CnHS|@UpACn@Hp@Xl@HJdBbA~@Z^Nn@DPLPPz@vB\\d@LPPJl@pAnA|CxCnIvDjLfA|ClHpR`FjN`EtKlEvLzErMLPVbAn@tAv@`C~GvQfAy@`Aw@lAaAxHiEpBvO}CXMH_@ToBxA[PwAbAWTsK`MqCxCgB`BaBtAaBjAwE`DgFdDy@h@cFzEQ^_@b@c@^{@rBQf@wBbJ_A|EoCxLgApEsCbNNPp@hCt@xCZ|AtA~FxBlKt@hD|BdIN\\xAvEHh@b@vAeGpBsSvG_A`@oFtC_DfBc@^i@t@K`@QjCBT}DbA?zHF~FChFHtA^nBx@nCt@xBt@zAtB~Ct@bAt@x@r@h@pB`Bb@b@b@v@j@fAtBjGxCpJ?p@I|AuAlJM`BUjM?fCQpGGnDExCGnAUjAfAx@^VrAoCbCoGBg@?kBEoC?cA",
+                "merged_headsign": "Ardmore via Narberth"
+              },
+              {
+                "shape": "cuyrFjfsiMBc@kBUcG_A[Cc@jIYxDkCpb@pKtAi@bI_Gv_AMVYT{AU]?WJQRKb@MdBg@vIUdBMjB_ApQgBtWxBTxAHaDrf@Kz@_@lGqCcAs@UuAWeEu@gAOcAEm@?aADgAPgA\\aF~B}A`AQZe@p@g@f@q@j@aAl@qAx@wF|DsAnAuC`Cu@t@uA~A{FlHcA`By@~A_@`AsCpI}@tB[p@oAjB{AnBkBxAoAp@gAj@_@PwCt@oMbCwEfA_@JcA^_@Tc@^y@x@m@~@]j@e@xAQz@QjAkA|Lk@rD_@fB}@dDc@pAm@tAm@tAsBpDmI`Oy@pA_AnAaAfAqA~@}@j@qBt@o@Pw@LkBPeCDuA?yAIyAMk@KcB_@kBi@yB}@sBkAc@WgCsB{@_AiB}BgAgB_@o@_AqBoDcJkBeEyBaEeCqD_AqAoAqAmAoAsAkAqAgAsDgC}CcBgBy@iBq@yAc@aFuAcCg@qDk@eFEyALw@HeAXcCbA}@j@i@b@}@bAgA~AcAvBgBfEq@vAy@lCsDhNsBhHu@`CSn@a@v@yAlEgArC}CnHS|@UpACn@BVDXJXLRZXrAt@~@Z^Nn@DPLPPhAhC\\d@PJl@pAnA|CxCnIvDjLfA|ClHpRrMb^|CtIzErMcFtD}AfAuBhBeDxByDxCu@b@y@FcA?cA@kCTkGrAaIxAyA^aBTq@V}@l@e@j@YPyA~@yBxA}ArAiPpLmFbEm@d@k@n@gAtAQPc@ZcB|@k@h@w@jAgAxB]jA_@jBEl@Cb@BzBRfCT|AF^?x@C~BaBj@q@TmAToALYHiAx@o@l@_@`@UZSf@Ql@Gj@q@tK_@|CmGlb@a@bAOTu@t@wC~BsC`CkDcHm@cByF_QSc@U_@_@YOEe@CUFUDQJyBxBuH~JuLtPsApAcAp@yA|@yBz@aNhCg@CQG_@Sg@s@SiAs@gH_Cb@a@sEMy@EQUUoEkBQMU[q@o@Y_AX~@p@n@TZPLnEjBTTDPLx@`@rE~Bc@r@fHLt@DRf@r@^RPFf@B`NiCxB{@n@pBd@rAr@tA^h@nC`DvDdE|CnDyJvMq@bAg@fA_@fAQfAG`A?p@Fb@V|BLp@Pl@`@p@b@\\d@DP?b@EvB_@h@Cb@DLJ\\ZaClEm@~@wCvCm@t@]b@_@bAMb@k@`DIb@Ul@MTY^[ZcBx@q@p@QXeB`E_@p@m@fA{BhDw@~A]b@cA`AmFrDgAv@[\\zFdE",
+                "merged_headsign": "Gladwyne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "PPHLASHPA:294479",
+          "real_time_route_id": "PHLASH",
+          "mode_name": "Bus",
+          "route_color": "#ed018c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.95077705970137,
+            "longitude": -75.14995915401263,
+            "name": "Independence Visitor Ctr / National Constitution Ctr",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "szyrFjvtiMmFbz@cArOKx@QX_@DqAQY?MFUXEVOfB?n@Et@_@tCUhCQ~BYhBILMD]JcC]Du@\\wF`D^b@BC\\YxEyAxT{JmAmDk@{@tAc@`@]Hw@Ca@B_@L[ZQ`@Mt@Cd@Dt@?\\EZMb@wArBi@MkMlR_Fo@_HcA{RgCY~d@zCmDLb@l@t@JT@J?PQh@_AtAQf@I^Gb@?^Fn@Lh@Pb@nClDz@Vn@BR?XIbAcATOLAb@RFc@b@uAjDwIrBkIDyAA[C]Ye@{@o@y@Py@\\}@d@e@`@yAzBGJGl@Bf@^nA`ApAl@j@PHXFP?PCVQPQ`@q@v@eBn@kCZcAPuALk@|Tw\\j@}APDxU|CpB`@rDVbAiOdCo`@bANZ?b@ONMDQPmBFkBLoALgB?YEQOI{Ag@KGEQ?M?y@p@wJvGseAJc@b@cHdH|@j@wHkHaAxAcU{GgAaCY_Cd_@pKxAc@dH?b@WrE",
+                "merged_headsign": "Downtown Loop ↺"
+              }
+            ]
+          },
+          {
+            "latitude": 39.95072310048124,
+            "longitude": -75.1509034403649,
+            "name": "Liberty Bell Center",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "szyrFjvtiMmFbz@cArOKx@QX_@DqAQY?MFUXEVOfB?n@Et@_@tCUhCQ~BYhBILMD]JcC]Du@\\wF`D^b@BC\\YxEyAxT{JmAmDk@{@tAc@`@]Hw@Ca@B_@L[ZQ`@Mt@Cd@Dt@?\\EZMb@wArBi@MkMlR_Fo@_HcA{RgCY~d@zCmDLb@l@t@JT@J?PQh@_AtAQf@I^Gb@?^Fn@Lh@Pb@nClDz@Vn@BR?XIbAcATOLAb@RFc@b@uAjDwIrBkIDyAA[C]Ye@{@o@y@Py@\\}@d@e@`@yAzBGJGl@Bf@^nA`ApAl@j@PHXFP?PCVQPQ`@q@v@eBn@kCZcAPuALk@|Tw\\j@}APDxU|CpB`@rDVbAiOdCo`@bANZ?b@ONMDQPmBFkBLoALgB?YEQOI{Ag@KGEQ?M?y@p@wJvGseAJc@b@cHdH|@j@wHkHaAxAcU{GgAaCY_Cd_@pKxAc@dH?b@WrE",
+                "merged_headsign": "Downtown Loop ↺"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5754",
+          "real_time_route_id": "47",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.9491942559109,
+            "longitude": -75.15229738688491,
+            "name": "7th St / Chestnut St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "osrrFnzuiMOzAaFq@m@~Iq@hLwViDoNgB}Cg@sDc@aAQeIcAuAUgAM{Dk@qHcAmAQwb@}FcIeAoAMQE}T{CiHgAmAIiC[}Cc@yAUyJuA{@KGbAGPQNuDg@c@Ku@gBMIk@MsB]kGq@{KaBoNiBu@K[?uAn@gAR{C_@_AQy@[cDoB]MICqS}BqNyAgEg@wc@yEwDa@em@wGgFc@sDg@iJ_A{Ek@yCScFu@{AOl@aIXmEVaEiH}@iHcAqRcCkRmCaH{@{LeB_LuAkJuAqJkAuKyAsBS_QeC{OsByL_ByCg@oAIkMeB{Eq@eZwDkJuAm[aEgEm@qH}@uJuAweAkNNeBCWGKMEI@KJCl@",
+                "merged_headsign": "5th-Godrey"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5741",
+          "real_time_route_id": "33",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.95087598493828,
+            "longitude": -75.15215349563124,
+            "name": "Market St / 7th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "klesFh{wiMkAQYM_C{GP{@jALzAVbHbAtQ|BzBb@rI`AfDf@rCZdG|@pIbAjHfAvHz@~HjAtTjChEt@vNdBxB^vHx@jHdA`HdArM~AnAkBb@_@vI}DhB}@bEkBhB{@xDeBvDgBjDb@`BZdDb@hPnBrInAlOnBl@LvDb@zMfBzAP~HbAB|@Pd@L\\PPTP^HN?P?ZIPKHMPc@Pq@fJjAjDh@jGt@t@cMl@}K^wGP{BfANZCXGPQHQFUF_@PgERoCAa@KQUQe@Mc@CKIEQG[~Fw_A~@{MPcCgBY",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.95104685580202,
+            "longitude": -75.14876305796643,
+            "name": "5th St / Market St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "c}yrFdotiMmH_Ac@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAsEm@qAYyAQ}C_@eC_@yDc@eB]sOmBkB]qSkCwQcCg@kIic@_GgBQgL{A{F}@wOqBk@zHk@xJoRoCuHaAQvDMjCuQyB_IkAwH{@kHgAqIcAaQaCsIaA{Bc@iV_Dg@zH_AK",
+                "merged_headsign": "23rd-Venango"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "philly-fair-250-day-1",
+    "listing": {
+      "latitude": 39.979491,
+      "date": "2026-06-20T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.209129,
+      "venue": "recKHCR6V06T1LY5z",
+      "name": "Philly Fair 250 - Day 1",
+      "link": "https://july4thphilly.com/event/philly-fair-250-day-1/",
+      "venue_name": "Centennial District",
+      "group_name": "America250 Celebration",
+      "group": "recy35IiiNta9LpUN",
+      "slug": "philly-fair-250-day-1"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.978754915338556,
+            "longitude": -75.20985388835646,
+            "name": "Concourse Dr / E Rd",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.978754915338556,
+            "longitude": -75.20985388835646,
+            "name": "Concourse Dr / E Rd",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "PPHLASHPA:521340",
+          "real_time_route_id": "West",
+          "mode_name": "Bus",
+          "route_color": "#523896",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97880887455869,
+            "longitude": -75.2099258339833,
+            "name": "Please Touch Museum",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "inzrFf|wiMGTILMD]JcC]o@~HTFvDf@k@vHoOqBtKcPFQDu@\\wF`D^b@BC\\YxEgD|h@VJrDVeExp@wHuBgBq@}@UyAM}AGgAFuARc@PqBbA}@r@qAp@kC~AsD`CyAnA_IpHmC|B{A~A{EvFuBhDu@lAu@hB_DhJcA|BiAnBo@z@oBnBkCdB_Ab@cBd@aDTuHrAg@PUPMR_AdCYZULsDb@[J[ZYf@I^Kt@EjAo@nDMpAUzDAjC@|@Nv@`@dBF^?p@G`Am@bCQ|@Cz@?n@NxApAdHkBt@u@p@qA`Bc@BQPGVFb@OtAeItZwBhIkCrJlk@gKmDso@MSuAoWCkAEkCc@aJ?By@sNbBQdCg@t@[d\\yJrEmAxHaAja@kEjBUPG~G?lI`AxFt@|Fm_AuCy@]_@E[nCec@d@uHAk@VJrDVrA{RU?{Dk@mAbSVJrDVeExp@uCy@]_@E[nCec@d@uHAk@VJrDV|Cuf@gEi@iB]{AQDu@\\wF`D^b@BU|CQrA",
+                "merged_headsign": "West Park Loop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5749",
+          "real_time_route_id": "40",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97623681839918,
+            "longitude": -75.20944020100214,
+            "name": "Parkside Av / 42nd St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ixcsFdhajMd@`E?Rf@NaFb\\CZbHqAhg@aJFTHPdWxKLHoExRGx@cBx|@vF[tA]~`@yJVIfLoCf@QjC_BdBgAPQ~HgZgKkFYQCa@?q@Ji@fCsJHWtQaq@bJc]bHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              },
+              {
+                "shape": "ig_sFfnbjMkIkEvWyaAbHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.977010233887704,
+            "longitude": -75.21115790284293,
+            "name": "Parkside Av / W Memorial Hall Dr",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEwNpi@uQ`q@IVgCrJKh@?p@NdAHxABfAGhAQ`BUl@i@n@aC~Aq@j@p@VtKvDqBxHQPiDxBgAl@g@PgLnCWHoCn@e_@fJwFZbBy|@Fy@pG}XuAc@mDa@mA[aAg@kBqA{@aBMWwBZsu@dNB[rLwu@lAaIm@Oo@O[J_@Rc@nAq@|@}@v@y@b@y@`@mAR|AhMb@dD",
+                "merged_headsign": "Conshohocken-Monument"
+              },
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEeEzOeVj}@xGnD",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5802",
+          "real_time_route_id": "G1",
+          "mode_name": "Trolley",
+          "route_color": "#ffd700",
+          "route_text_color": "#000000"
+        },
+        "stops": [
+          {
+            "latitude": 39.97396153795038,
+            "longitude": -75.20626560021785,
+            "name": "Girard Av / 41st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wl`sFj{jiMG_@B_@PGJBxYjr@`@j@bCxAb@l@jBfHjA`DzFfN|Nf]|C~Gf@f@FT?Nu@dBM~@@`ALz@pDrNz@lF|CjMxAvF`Lld@L\\FUDGNChTALCXg@FCRFFP?H?IGQSGGBYf@MBiT@OBEFGTJhA?b@Gn@}CdYmDrj@QtNSrTmM|nBMvB|Bt`@WvEGf@MXQHMBaEGOBQPSfC@\\JLLDM?KFALyHxjABpApG~lAD^hHvrA?b@I\\u@lAGX?TzEl_@|AdL|Djt@`AfQ@LJHTBQFOLAP^|FBj@C^GTgDzGwBzDMb@_A`P?XLPLDvFn@J?HUFQHkA",
+                "merged_headsign": "West to 63rd-Girard"
+              },
+              {
+                "shape": "wl`sFj{jiMG_@B_@PGJBxYjr@`@j@bCxAb@l@jBfHjA`DzFfN|Nf]|C~Gf@f@FT?Nu@dBM~@@`ALz@pDrNz@lF|CjMxAvFxKtc@XhAFt@?b@Gn@}CdYmDrj@QtNSrTmM|nBMvB|Bt`@WvEGf@MXQHMBaEGOBQPSfC@\\JLLDM?KFALyHxjABpApG~lAD^hHvrA?b@I\\u@lAGX?TzEl_@|AdL|Djt@`AfQ@LJHTBQFOLAP^|FBj@C^GTgDzGwBzDMb@_A`P?XLPLDvFn@J?HUFQHkA",
+                "merged_headsign": "West to 63rd-Girard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.973826639900054,
+            "longitude": -75.20652640311513,
+            "name": "Girard Av / 41st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eu}rFtegjMpAmTQwKaHeqA}Hkm@?UFYt@mAH]?c@iHwrAE_@qG_mACqAxHyjA@MJGL?|En@NKZgEf@_IaCaa@|AkUhEyo@?UDWnD}i@b@kd@nDoj@`DwZ?i@EgAHQLGbT?j@BXCHU?IGQFP?HGLAFYBk@CcT?MFIPBZgTs|@eAiFkDsNQw@?aAL_AbAoBFQCUMSmAyAeXym@wBwFqCyJYc@wCkB_@e@}Vql@GCSNQDKE{@{B",
+                "merged_headsign": "East to Richmond-Westmoreland"
+              },
+              {
+                "shape": "eu}rFtegjMpAmTQwKaHeqA}Hkm@?UFYt@mAH]?c@iHwrAE_@qG_mACqAxHyjA@MJGL?|En@NKZgEf@_IaCaa@|AkUhEyo@?UDWnD}i@b@kd@nDoj@`DwZ?i@Ak@gTs|@eAiFkDsNQw@?aAL_AbAoBFQCUMSmAyAeXym@wBwFqCyJYc@wCkB_@e@}Vql@GCSNQDKE{@{B",
+                "merged_headsign": "East to Richmond-Westmoreland"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5751",
+          "real_time_route_id": "43",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97778364937622,
+            "longitude": -75.2135770745454,
+            "name": "Parkside Av / Belmont Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@vDg@fE{HlD_H~AsC|BsEbF_JjCiFhEcI`EqJO_A}Dis@gBc^_@yCeCgKWsBKkA?gA?e@b@yA|BcGf@kAj@iAVyAn@}BPeA@m@Am@Cc@K]IQQQoDkBMIUg@KUI_@I_AHYTcDnDqk@j@wHhB_[NkAd@gBP}AdA{OLsETsRP}Gb@kWPyDPaDd@sJ\\kFDeBdAwRGc@ZiH\\sCHq@_GwA[Eg@BkA]gCy@c@[q@k@cIuJ}@mAQ_@Qc@cAiD{@kDeBcFB[Eq@Kc@uA_FcBn@Kq@Qc@_HeKe@_AUk@}@}CQg@uAkCq@yAMe@Y}Ac@HgBm@cAk@yGaEQC_@AaE?g@K[QcBgBOCM?kB}DEKQw@]}@vFwEjBcB\\l@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97813438430707,
+            "longitude": -75.21417961917018,
+            "name": "Parkside Av / Belmont Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "qm~rFroniM]m@kBbBwFvE\\|@Pv@DJjB|Dt@t@j@p@bAdA|@hAbDzCrAh@fAXpADf@A`COZEnA]RxALr@Xh@jBrD|@fClAdCfAfCrDvF`BvBp@t@|A|BZl@Z~@dBbFz@jDbAhDb@bA|@lAbItJp@j@b@ZfCx@jA\\`Ad@zAn@zCt@]rC[hHM^MnDk@fJyB`c@YhLQlLMdDCrFQ`NI~CaAnOI|@m@pCa@pE{AtViFpy@C^F\\@VSjA]nDIzBq@lAKXEh@?XRfANTd@l@NhDHxC?b@Gx@Qv@A`@?RDN?pAJfBVrBPp@rBtI^xCT`EkBXwBTTfD?t@PvDp@~J\\~Gb@bHZbHhCnd@iEbIkChFcF~I}BrE_BrCmD~GgEzHwDf@cIx@yIbAkPvCgARoAPc@PsEr@{F~SpFxCh@TvFxCkD~MIDQ?qDkBb@kBAW",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5771",
+          "real_time_route_id": "64",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97813438430707,
+            "longitude": -75.21417961917018,
+            "name": "Parkside Av / Belmont Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "u|trFfcsiM_FnCq@L}@Mw@`Mu@KaJyAqAQMx@_@zEO`DoFc@mFu@}Eo@o@~H{@hOYrDqAxHwFl[u@dFoC`N}@rFc@hG}AjVcAlP_@hH[lFs@fKm@fL}AdUaD|h@MxBETKPPt@p@tAn@tAh@jA`@z@L^VrANz@@n@FnG|CXjMfBoChc@oFqA}Ao@IQUT}Cy@eBlNWfB_@vCoAhH_AbHUtBYjDInBKrCArG@fGjBpC`A|AtBdD_BnBkBbCeBrBg^`d@oD{FoBdCcB`CYHeOkB}VeDwOgBjAwQu@MyAQgJsAmH_A{Ey@_AUXtIH`CG`Du@?{e@|C[sFy@_QYaAIq@Q}CcIx@yIbAkPvCgARoAPc@PsEr@{F~SpFxCh@TvFxCkD~MIDQ?qDkBb@kBAW",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97778364937622,
+            "longitude": -75.2135770745454,
+            "name": "Parkside Av / Belmont Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@P|CHp@X`Ax@~PZrFze@}Ct@?FaDIaCYuI~@TzEx@lH~@fJrAxAPt@LxHx@kAzQ|Eh@|VdDdOjBXIbBaCnBeCnDzFf^ad@dBsBjBcC~AoBuBeDaA}AkBqCAgG@sGJsCV{E`@uDb@aDZaCxA_JTaBVgBx@mH~G|ABKT_BLkAbBwX_AIwCc@_BO?iPGyAEe@Ks@g@gBcBgDkAkCc@c@JQDULyB`D}h@|AeUl@gLr@gKZmF^iHbAmP|AkVb@iG|@sFnCaNt@eFvFm[pAyHXsDz@iOn@_IpANxJtAnFb@JaCb@{FnNnBnAHRBdBUjAWtAk@pHiEu@aDs@yBMi@Io@CcAULW?UJcAp@",
+                "merged_headsign": "Columbus Blvd Pier 70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "philly-fair-250-day-2",
+    "listing": {
+      "latitude": 39.979491,
+      "date": "2026-06-21T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.209129,
+      "venue": "recKHCR6V06T1LY5z",
+      "name": "Philly Fair 250 - Day 2",
+      "link": "https://july4thphilly.com/event/philly-fair-250-day-2/",
+      "venue_name": "Centennial District",
+      "group_name": "America250 Celebration",
+      "group": "recy35IiiNta9LpUN",
+      "slug": "philly-fair-250-day-2"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.978754915338556,
+            "longitude": -75.20985388835646,
+            "name": "Concourse Dr / E Rd",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.978754915338556,
+            "longitude": -75.20985388835646,
+            "name": "Concourse Dr / E Rd",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "PPHLASHPA:521340",
+          "real_time_route_id": "West",
+          "mode_name": "Bus",
+          "route_color": "#523896",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97880887455869,
+            "longitude": -75.2099258339833,
+            "name": "Please Touch Museum",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "inzrFf|wiMGTILMD]JcC]o@~HTFvDf@k@vHoOqBtKcPFQDu@\\wF`D^b@BC\\YxEgD|h@VJrDVeExp@wHuBgBq@}@UyAM}AGgAFuARc@PqBbA}@r@qAp@kC~AsD`CyAnA_IpHmC|B{A~A{EvFuBhDu@lAu@hB_DhJcA|BiAnBo@z@oBnBkCdB_Ab@cBd@aDTuHrAg@PUPMR_AdCYZULsDb@[J[ZYf@I^Kt@EjAo@nDMpAUzDAjC@|@Nv@`@dBF^?p@G`Am@bCQ|@Cz@?n@NxApAdHkBt@u@p@qA`Bc@BQPGVFb@OtAeItZwBhIkCrJlk@gKmDso@MSuAoWCkAEkCc@aJ?By@sNbBQdCg@t@[d\\yJrEmAxHaAja@kEjBUPG~G?lI`AxFt@|Fm_AuCy@]_@E[nCec@d@uHAk@VJrDVrA{RU?{Dk@mAbSVJrDVeExp@uCy@]_@E[nCec@d@uHAk@VJrDV|Cuf@gEi@iB]{AQDu@\\wF`D^b@BU|CQrA",
+                "merged_headsign": "West Park Loop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5749",
+          "real_time_route_id": "40",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97623681839918,
+            "longitude": -75.20944020100214,
+            "name": "Parkside Av / 42nd St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ixcsFdhajMd@`E?Rf@NaFb\\CZbHqAhg@aJFTHPdWxKLHoExRGx@cBx|@vF[tA]~`@yJVIfLoCf@QjC_BdBgAPQ~HgZgKkFYQCa@?q@Ji@fCsJHWtQaq@bJc]bHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              },
+              {
+                "shape": "ig_sFfnbjMkIkEvWyaAbHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.977010233887704,
+            "longitude": -75.21115790284293,
+            "name": "Parkside Av / W Memorial Hall Dr",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEwNpi@uQ`q@IVgCrJKh@?p@NdAHxABfAGhAQ`BUl@i@n@aC~Aq@j@p@VtKvDqBxHQPiDxBgAl@g@PgLnCWHoCn@e_@fJwFZbBy|@Fy@pG}XuAc@mDa@mA[aAg@kBqA{@aBMWwBZsu@dNB[rLwu@lAaIm@Oo@O[J_@Rc@nAq@|@}@v@y@b@y@`@mAR|AhMb@dD",
+                "merged_headsign": "Conshohocken-Monument"
+              },
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEeEzOeVj}@xGnD",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5802",
+          "real_time_route_id": "G1",
+          "mode_name": "Trolley",
+          "route_color": "#ffd700",
+          "route_text_color": "#000000"
+        },
+        "stops": [
+          {
+            "latitude": 39.97396153795038,
+            "longitude": -75.20626560021785,
+            "name": "Girard Av / 41st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wl`sFj{jiMG_@B_@PGJBxYjr@`@j@bCxAb@l@jBfHjA`DzFfN|Nf]|C~Gf@f@FT?Nu@dBM~@@`ALz@pDrNz@lF|CjMxAvF`Lld@L\\FUDGNChTALCXg@FCRFFP?H?IGQSGGBYf@MBiT@OBEFGTJhA?b@Gn@}CdYmDrj@QtNSrTmM|nBMvB|Bt`@WvEGf@MXQHMBaEGOBQPSfC@\\JLLDM?KFALyHxjABpApG~lAD^hHvrA?b@I\\u@lAGX?TzEl_@|AdL|Djt@`AfQ@LJHTBQFOLAP^|FBj@C^GTgDzGwBzDMb@_A`P?XLPLDvFn@J?HUFQHkA",
+                "merged_headsign": "West to 63rd-Girard"
+              },
+              {
+                "shape": "wl`sFj{jiMG_@B_@PGJBxYjr@`@j@bCxAb@l@jBfHjA`DzFfN|Nf]|C~Gf@f@FT?Nu@dBM~@@`ALz@pDrNz@lF|CjMxAvFxKtc@XhAFt@?b@Gn@}CdYmDrj@QtNSrTmM|nBMvB|Bt`@WvEGf@MXQHMBaEGOBQPSfC@\\JLLDM?KFALyHxjABpApG~lAD^hHvrA?b@I\\u@lAGX?TzEl_@|AdL|Djt@`AfQ@LJHTBQFOLAP^|FBj@C^GTgDzGwBzDMb@_A`P?XLPLDvFn@J?HUFQHkA",
+                "merged_headsign": "West to 63rd-Girard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.973826639900054,
+            "longitude": -75.20652640311513,
+            "name": "Girard Av / 41st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eu}rFtegjMpAmTQwKaHeqA}Hkm@?UFYt@mAH]?c@iHwrAE_@qG_mACqAxHyjA@MJGL?|En@NKZgEf@_IaCaa@|AkUhEyo@?UDWnD}i@b@kd@nDoj@`DwZ?i@EgAHQLGbT?j@BXCHU?IGQFP?HGLAFYBk@CcT?MFIPBZgTs|@eAiFkDsNQw@?aAL_AbAoBFQCUMSmAyAeXym@wBwFqCyJYc@wCkB_@e@}Vql@GCSNQDKE{@{B",
+                "merged_headsign": "East to Richmond-Westmoreland"
+              },
+              {
+                "shape": "eu}rFtegjMpAmTQwKaHeqA}Hkm@?UFYt@mAH]?c@iHwrAE_@qG_mACqAxHyjA@MJGL?|En@NKZgEf@_IaCaa@|AkUhEyo@?UDWnD}i@b@kd@nDoj@`DwZ?i@Ak@gTs|@eAiFkDsNQw@?aAL_AbAoBFQCUMSmAyAeXym@wBwFqCyJYc@wCkB_@e@}Vql@GCSNQDKE{@{B",
+                "merged_headsign": "East to Richmond-Westmoreland"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5751",
+          "real_time_route_id": "43",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97778364937622,
+            "longitude": -75.2135770745454,
+            "name": "Parkside Av / Belmont Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@vDg@fE{HlD_H~AsC|BsEbF_JjCiFhEcI`EqJO_A}Dis@gBc^_@yCeCgKWsBKkA?gA?e@b@yA|BcGf@kAj@iAVyAn@}BPeA@m@Am@Cc@K]IQQQoDkBMIUg@KUI_@I_AHYTcDnDqk@j@wHhB_[NkAd@gBP}AdA{OLsETsRP}Gb@kWPyDPaDd@sJ\\kFDeBdAwRGc@ZiH\\sCHq@_GwA[Eg@BkA]gCy@c@[q@k@cIuJ}@mAQ_@Qc@cAiD{@kDeBcFB[Eq@Kc@uA_FcBn@Kq@Qc@_HeKe@_AUk@}@}CQg@uAkCq@yAMe@Y}Ac@HgBm@cAk@yGaEQC_@AaE?g@K[QcBgBOCM?kB}DEKQw@]}@vFwEjBcB\\l@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97813438430707,
+            "longitude": -75.21417961917018,
+            "name": "Parkside Av / Belmont Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "qm~rFroniM]m@kBbBwFvE\\|@Pv@DJjB|Dt@t@j@p@bAdA|@hAbDzCrAh@fAXpADf@A`COZEnA]RxALr@Xh@jBrD|@fClAdCfAfCrDvF`BvBp@t@|A|BZl@Z~@dBbFz@jDbAhDb@bA|@lAbItJp@j@b@ZfCx@jA\\`Ad@zAn@zCt@]rC[hHM^MnDk@fJyB`c@YhLQlLMdDCrFQ`NI~CaAnOI|@m@pCa@pE{AtViFpy@C^F\\@VSjA]nDIzBq@lAKXEh@?XRfANTd@l@NhDHxC?b@Gx@Qv@A`@?RDN?pAJfBVrBPp@rBtI^xCT`EkBXwBTTfD?t@PvDp@~J\\~Gb@bHZbHhCnd@iEbIkChFcF~I}BrE_BrCmD~GgEzHwDf@cIx@yIbAkPvCgARoAPc@PsEr@{F~SpFxCh@TvFxCkD~MIDQ?qDkBb@kBAW",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5771",
+          "real_time_route_id": "64",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97813438430707,
+            "longitude": -75.21417961917018,
+            "name": "Parkside Av / Belmont Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "u|trFfcsiM_FnCq@L}@Mw@`Mu@KaJyAqAQMx@_@zEO`DoFc@mFu@}Eo@o@~H{@hOYrDqAxHwFl[u@dFoC`N}@rFc@hG}AjVcAlP_@hH[lFs@fKm@fL}AdUaD|h@MxBETKPPt@p@tAn@tAh@jA`@z@L^VrANz@@n@FnG|CXjMfBoChc@oFqA}Ao@IQUT}Cy@eBlNWfB_@vCoAhH_AbHUtBYjDInBKrCArG@fGjBpC`A|AtBdD_BnBkBbCeBrBg^`d@oD{FoBdCcB`CYHeOkB}VeDwOgBjAwQu@MyAQgJsAmH_A{Ey@_AUXtIH`CG`Du@?{e@|C[sFy@_QYaAIq@Q}CcIx@yIbAkPvCgARoAPc@PsEr@{F~SpFxCh@TvFxCkD~MIDQ?qDkBb@kBAW",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97778364937622,
+            "longitude": -75.2135770745454,
+            "name": "Parkside Av / Belmont Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@P|CHp@X`Ax@~PZrFze@}Ct@?FaDIaCYuI~@TzEx@lH~@fJrAxAPt@LxHx@kAzQ|Eh@|VdDdOjBXIbBaCnBeCnDzFf^ad@dBsBjBcC~AoBuBeDaA}AkBqCAgG@sGJsCV{E`@uDb@aDZaCxA_JTaBVgBx@mH~G|ABKT_BLkAbBwX_AIwCc@_BO?iPGyAEe@Ks@g@gBcBgDkAkCc@c@JQDULyB`D}h@|AeUl@gLr@gKZmF^iHbAmP|AkVb@iG|@sFnCaNt@eFvFm[pAyHXsDz@iOn@_IpANxJtAnFb@JaCb@{FnNnBnAHRBdBUjAWtAk@pHiEu@aDs@yBMi@Io@CcAULW?UJcAp@",
+                "merged_headsign": "Columbus Blvd Pier 70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "philly-fair-250-jefferson-community-day",
+    "listing": {
+      "latitude": 39.979491,
+      "date": "2026-06-22T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.209129,
+      "venue": "recKHCR6V06T1LY5z",
+      "name": "Philly Fair 250 - Jefferson Community Day",
+      "link": "https://july4thphilly.com/event/philly-fair-250-day-3/",
+      "venue_name": "Centennial District",
+      "group_name": "America250 Celebration",
+      "group": "recy35IiiNta9LpUN",
+      "slug": "philly-fair-250-jefferson-community-day"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5746",
+          "real_time_route_id": "38",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.978754915338556,
+            "longitude": -75.20985388835646,
+            "name": "Concourse Dr / E Rd",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eifsF`b`jMPHJXYxA[f@q@QOy@kBu@`A{DjAoGZg@l@}AJQb@[^Up@M\\?tA?d@@r@?RB`@Th@l@nDtFx@jA\\h@~AjCfAfB~@hBhBtDz@vB\\d@LPPJxEwDdA{@|CiEDQJo@?m@Mk@c@w@u@}@c@u@Ug@Y{@}BqPA[@uAPkAn@aCpA|@X@PId@m@Pc@N}@C}A?e@PaADQ`@Wb@Qd@?b@H`@XLPDPb@xBX~@h@nAb@b@rD~Br@r@Vd@XrAPbCxBpX~AdPfAQf@QfAo@xAuAXg@f@iARQTKL?x@Pb@PgD|SyAbKYjAaFf\\CVxCm@tKkBzEq@`A]fAIfB]lGuAlHuApKgBjg@gJ~FcA`NgCpIwAnOqCdFkRmJ}EaAfDhFzCCDFLFB@CBAnBbAbA{DfA}Dt@yCx@oC|AcGfDgMJ?^?~JcA~Eg@hIcA`LkAy@eOk@}LSsC_@{IZ}A`FuRvPoBnBUjBMgBc^_@yCsBuIc@eCQkB?mB[CUDUJ_A~@UJg@@i@AQGc@U]WcAsA{@uAOk@Em@?k@Hq@b@gAt@uAFQBi@Oc@rEgAf@CP?PH^XNTtAjBb@VZJT?PCb@Uj@q@h@cAn@}BPeALe@VgBPo@Pg@vNcTxAaCjAqBL_@LaAlHjArDb@~Dl@fBTrEf@xAH|AcWlAuTP{BfANZHdCf@fAH|AaWh@sHb@}Hx@aNbBcWnAqRqHu@",
+                "merged_headsign": "5th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.978754915338556,
+            "longitude": -75.20985388835646,
+            "name": "Concourse Dr / E Rd",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}wyrFlptiMsMgBc@~GpKtAi@bI_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBmA|TgBtWaEg@_Em@sDc@_HgAuAQ}LfRmGhJW\\]L[Lq@PaA\\u@b@mAfAc@NaD|BiDlCNb@Ch@GPu@tAc@fAIp@?j@Dl@Nj@z@tAbArA\\Vb@TPFZ@t@ATK~@_ATKTEZB?lBPjBb@dCrBtI^xCT`EkBXwBTw@Ru@`@a@^{@~@g@x@q@xAk@~A{@~DoAzHaFtR[|A}@xEyA`JCh@dBpZ{OjB_Ff@_KbAY?Q?gDfM}AbGy@nCu@xCgA|DmJ}Ea@pA_@tAhFzCCDFLFB@CBAnBbAaDnLoOpCqIvAaNfC_GbAkg@fJqKfBmHtAmGtAgB\\gAHaA\\{Ep@uKjByCl@BW`Fg\\XkAxAcKfD}Sc@Qy@QM?UJSPg@hAYf@yAtAgAn@g@PgAP_BePyBqXQcCYsAWe@s@s@sD_Cc@c@i@oAY_Ac@yBEQMQa@Yc@Ie@?c@Pa@VEPQ`A?d@B|AO|@Qb@e@l@QHYAqA}@o@`CQjAAp@?b@@Z|BpPXz@Tf@b@t@t@|@b@v@Lj@?l@Kn@EP}ChEeAz@yEvDG]I_@kAoC{FoOq@kA_@q@aA}@{@gAoCkEUUc@MQKQAk@CgCH}Af@u@Pi@B_@|Au@|EeAhFnCnB",
+                "merged_headsign": "Wissahickon Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "PPHLASHPA:521340",
+          "real_time_route_id": "West",
+          "mode_name": "Bus",
+          "route_color": "#523896",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97880887455869,
+            "longitude": -75.2099258339833,
+            "name": "Please Touch Museum",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "inzrFf|wiMGTILMD]JcC]o@~HTFvDf@k@vHoOqBtKcPFQDu@\\wF`D^b@BC\\YxEgD|h@VJrDVeExp@wHuBgBq@}@UyAM}AGgAFuARc@PqBbA}@r@qAp@kC~AsD`CyAnA_IpHmC|B{A~A{EvFuBhDu@lAu@hB_DhJcA|BiAnBo@z@oBnBkCdB_Ab@cBd@aDTuHrAg@PUPMR_AdCYZULsDb@[J[ZYf@I^Kt@EjAo@nDMpAUzDAjC@|@Nv@`@dBF^?p@G`Am@bCQ|@Cz@?n@NxApAdHkBt@u@p@qA`Bc@BQPGVFb@OtAeItZwBhIkCrJlk@gKmDso@MSuAoWCkAEkCc@aJ?By@sNbBQdCg@t@[d\\yJrEmAxHaAja@kEjBUPG~G?lI`AxFt@|Fm_AuCy@]_@E[nCec@d@uHAk@VJrDVrA{RU?{Dk@mAbSVJrDVeExp@uCy@]_@E[nCec@d@uHAk@VJrDV|Cuf@gEi@iB]{AQDu@\\wF`D^b@BU|CQrA",
+                "merged_headsign": "West Park Loop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5749",
+          "real_time_route_id": "40",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97623681839918,
+            "longitude": -75.20944020100214,
+            "name": "Parkside Av / 42nd St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ixcsFdhajMd@`E?Rf@NaFb\\CZbHqAhg@aJFTHPdWxKLHoExRGx@cBx|@vF[tA]~`@yJVIfLoCf@QjC_BdBgAPQ~HgZgKkFYQCa@?q@Ji@fCsJHWtQaq@bJc]bHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              },
+              {
+                "shape": "ig_sFfnbjMkIkEvWyaAbHyWVu@`@I`bAsKt@CXBLFt@@n]kBP?fBTra@dFxAyVHu@nD{k@FSHQvOwVP[hFoIL[L_@Jm@~]qxFaEo@UjAM`C",
+                "merged_headsign": "2nd-Lombard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.977010233887704,
+            "longitude": -75.21115790284293,
+            "name": "Parkside Av / W Memorial Hall Dr",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEwNpi@uQ`q@IVgCrJKh@?p@NdAHxABfAGhAQ`BUl@i@n@aC~Aq@j@p@VtKvDqBxHQPiDxBgAl@g@PgLnCWHoCn@e_@fJwFZbBy|@Fy@pG}XuAc@mDa@mA[aAg@kBqA{@aBMWwBZsu@dNB[rLwu@lAaIm@Oo@O[J_@Rc@nAq@|@}@v@y@b@y@`@mAR|AhMb@dD",
+                "merged_headsign": "Conshohocken-Monument"
+              },
+              {
+                "shape": "ofxrFz_tiMcUhqDuApT?PiCda@BPFF`Df@V?IxBQ`CKl@M^MZiFnIQZwOvVIPGRsDtl@u`@_FoDzj@s^jBQDeDPgE^]?IEq@}@a@Esd@xAsKfAeHv@gBPQEeEzOeVj}@xGnD",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5802",
+          "real_time_route_id": "G1",
+          "mode_name": "Trolley",
+          "route_color": "#ffd700",
+          "route_text_color": "#000000"
+        },
+        "stops": [
+          {
+            "latitude": 39.97396153795038,
+            "longitude": -75.20626560021785,
+            "name": "Girard Av / 41st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wl`sFj{jiMG_@B_@PGJBxYjr@`@j@bCxAb@l@jBfHjA`DzFfN|Nf]|C~Gf@f@FT?Nu@dBM~@@`ALz@pDrNz@lF|CjMxAvF`Lld@L\\FUDGNChTALCXg@FCRFFP?H?IGQSGGBYf@MBiT@OBEFGTJhA?b@Gn@}CdYmDrj@QtNSrTmM|nBMvB|Bt`@WvEGf@MXQHMBaEGOBQPSfC@\\JLLDM?KFALyHxjABpApG~lAD^hHvrA?b@I\\u@lAGX?TzEl_@|AdL|Djt@`AfQ@LJHTBQFOLAP^|FBj@C^GTgDzGwBzDMb@_A`P?XLPLDvFn@J?HUFQHkA",
+                "merged_headsign": "West to 63rd-Girard"
+              },
+              {
+                "shape": "wl`sFj{jiMG_@B_@PGJBxYjr@`@j@bCxAb@l@jBfHjA`DzFfN|Nf]|C~Gf@f@FT?Nu@dBM~@@`ALz@pDrNz@lF|CjMxAvFxKtc@XhAFt@?b@Gn@}CdYmDrj@QtNSrTmM|nBMvB|Bt`@WvEGf@MXQHMBaEGOBQPSfC@\\JLLDM?KFALyHxjABpApG~lAD^hHvrA?b@I\\u@lAGX?TzEl_@|AdL|Djt@`AfQ@LJHTBQFOLAP^|FBj@C^GTgDzGwBzDMb@_A`P?XLPLDvFn@J?HUFQHkA",
+                "merged_headsign": "West to 63rd-Girard"
+              }
+            ]
+          },
+          {
+            "latitude": 39.973826639900054,
+            "longitude": -75.20652640311513,
+            "name": "Girard Av / 41st St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "eu}rFtegjMpAmTQwKaHeqA}Hkm@?UFYt@mAH]?c@iHwrAE_@qG_mACqAxHyjA@MJGL?|En@NKZgEf@_IaCaa@|AkUhEyo@?UDWnD}i@b@kd@nDoj@`DwZ?i@EgAHQLGbT?j@BXCHU?IGQFP?HGLAFYBk@CcT?MFIPBZgTs|@eAiFkDsNQw@?aAL_AbAoBFQCUMSmAyAeXym@wBwFqCyJYc@wCkB_@e@}Vql@GCSNQDKE{@{B",
+                "merged_headsign": "East to Richmond-Westmoreland"
+              },
+              {
+                "shape": "eu}rFtegjMpAmTQwKaHeqA}Hkm@?UFYt@mAH]?c@iHwrAE_@qG_mACqAxHyjA@MJGL?|En@NKZgEf@_IaCaa@|AkUhEyo@?UDWnD}i@b@kd@nDoj@`DwZ?i@Ak@gTs|@eAiFkDsNQw@?aAL_AbAoBFQCUMSmAyAeXym@wBwFqCyJYc@wCkB_@e@}Vql@GCSNQDKE{@{B",
+                "merged_headsign": "East to Richmond-Westmoreland"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5751",
+          "real_time_route_id": "43",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97778364937622,
+            "longitude": -75.2135770745454,
+            "name": "Parkside Av / Belmont Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@vDg@fE{HlD_H~AsC|BsEbF_JjCiFhEcI`EqJO_A}Dis@gBc^_@yCeCgKWsBKkA?gA?e@b@yA|BcGf@kAj@iAVyAn@}BPeA@m@Am@Cc@K]IQQQoDkBMIUg@KUI_@I_AHYTcDnDqk@j@wHhB_[NkAd@gBP}AdA{OLsETsRP}Gb@kWPyDPaDd@sJ\\kFDeBdAwRGc@ZiH\\sCHq@_GwA[Eg@BkA]gCy@c@[q@k@cIuJ}@mAQ_@Qc@cAiD{@kDeBcFB[Eq@Kc@uA_FcBn@Kq@Qc@_HeKe@_AUk@}@}CQg@uAkCq@yAMe@Y}Ac@HgBm@cAk@yGaEQC_@AaE?g@K[QcBgBOCM?kB}DEKQw@]}@vFwEjBcB\\l@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97813438430707,
+            "longitude": -75.21417961917018,
+            "name": "Parkside Av / Belmont Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "qm~rFroniM]m@kBbBwFvE\\|@Pv@DJjB|Dt@t@j@p@bAdA|@hAbDzCrAh@fAXpADf@A`COZEnA]RxALr@Xh@jBrD|@fClAdCfAfCrDvF`BvBp@t@|A|BZl@Z~@dBbFz@jDbAhDb@bA|@lAbItJp@j@b@ZfCx@jA\\`Ad@zAn@zCt@]rC[hHM^MnDk@fJyB`c@YhLQlLMdDCrFQ`NI~CaAnOI|@m@pCa@pE{AtViFpy@C^F\\@VSjA]nDIzBq@lAKXEh@?XRfANTd@l@NhDHxC?b@Gx@Qv@A`@?RDN?pAJfBVrBPp@rBtI^xCT`EkBXwBTTfD?t@PvDp@~J\\~Gb@bHZbHhCnd@iEbIkChFcF~I}BrE_BrCmD~GgEzHwDf@cIx@yIbAkPvCgARoAPc@PsEr@{F~SpFxCh@TvFxCkD~MIDQ?qDkBb@kBAW",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5771",
+          "real_time_route_id": "64",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.97813438430707,
+            "longitude": -75.21417961917018,
+            "name": "Parkside Av / Belmont Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "u|trFfcsiM_FnCq@L}@Mw@`Mu@KaJyAqAQMx@_@zEO`DoFc@mFu@}Eo@o@~H{@hOYrDqAxHwFl[u@dFoC`N}@rFc@hG}AjVcAlP_@hH[lFs@fKm@fL}AdUaD|h@MxBETKPPt@p@tAn@tAh@jA`@z@L^VrANz@@n@FnG|CXjMfBoChc@oFqA}Ao@IQUT}Cy@eBlNWfB_@vCoAhH_AbHUtBYjDInBKrCArG@fGjBpC`A|AtBdD_BnBkBbCeBrBg^`d@oD{FoBdCcB`CYHeOkB}VeDwOgBjAwQu@MyAQgJsAmH_A{Ey@_AUXtIH`CG`Du@?{e@|C[sFy@_QYaAIq@Q}CcIx@yIbAkPvCgARoAPc@PsEr@{F~SpFxCh@TvFxCkD~MIDQ?qDkBb@kBAW",
+                "merged_headsign": "50th-Parkside"
+              }
+            ]
+          },
+          {
+            "latitude": 39.97778364937622,
+            "longitude": -75.2135770745454,
+            "name": "Parkside Av / Belmont Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "af_sFbjbjMYMUDc@jBbFjCP?HEjD_NwFyCi@UqFyCzF_TrEs@b@QnAQfASjPwCxIcAbIy@P|CHp@X`Ax@~PZrFze@}Ct@?FaDIaCYuI~@TzEx@lH~@fJrAxAPt@LxHx@kAzQ|Eh@|VdDdOjBXIbBaCnBeCnDzFf^ad@dBsBjBcC~AoBuBeDaA}AkBqCAgG@sGJsCV{E`@uDb@aDZaCxA_JTaBVgBx@mH~G|ABKT_BLkAbBwX_AIwCc@_BO?iPGyAEe@Ks@g@gBcBgDkAkCc@c@JQDULyB`D}h@|AeUl@gLr@gKZmF^iHbAmP|AkVb@iG|@sFnCaNt@eFvFm[pAyHXsDz@iOn@_IpANxJtAnFb@JaCb@{FnNnBnAHRBdBUjAWtAk@pHiEu@aDs@yBMi@Io@CcAULW?UJcAp@",
+                "merged_headsign": "Columbus Blvd Pier 70"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "france-vs-playoff-1-winner-group-i",
+    "listing": {
+      "latitude": 39.901733,
+      "date": "2026-06-22T21:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.167594,
+      "venue": "recu43PfeOwAs7uI7",
+      "name": "🇫🇷 France vs. Playoff 1 Winner (Group I)",
+      "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
+      "venue_name": "Lincoln Financial Field",
+      "group_name": "FIFA World Cup 2026",
+      "group": "recX37CIyxy5rQsTK",
+      "slug": "france-vs-playoff-1-winner-group-i"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334086",
+          "real_time_route_id": "B1",
+          "mode_name": "Subway",
+          "route_color": "#f26100",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.90543332838582,
+            "longitude": -75.17390805454681,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.90542433518247,
+            "longitude": -75.17380013610655,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "o_qrF`hyiMmH{@{PsAuo@wHgB]e\\oEyAImMgB{AKyAF}AGsUuCqAYwY{DcBMyw@kKyAW_H}@gBIkBYmAWgSiC_@AcA@cG`A_@?_@G_@QYUsByB[U[Qa@Im|BmZkCWoBOyjBqVuCYaFm@wBc@mjAqO}CSmFu@kCg@ebDsb@yAa@mMcB{@G{Fw@[]Ui@Gu@fB}UXaAj@i@fDeCb@m@Py@l@yJAu@Qu@a@m@s@c@sB_@}CMcA?c@LQTKPCL_@nF",
+                "merged_headsign": "North to Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:333087",
+          "real_time_route_id": "63",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.903967436238965,
+            "longitude": -75.16218091737198,
+            "name": "Pattison Av / 7th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "onasFtdhjM_A_B_@TgADmIyT}JsXfBiAdFsD|@s@HMnCbHlFdOdQiMhDkCmFaOoAiEzMyAx@Ap@Hh@Lt@j@lHvD|BlAdBfAbB~@p@PTBf@C~AMiAcSCIYMf@sB|@sG|E@rBMhA?zEg@xB[|H{@rHs@rVoCzDe@hGo@nFc@zCX~B^zC^rHx@lH|@tHbAhW`DrEp@jBLdEj@fBRh@Nn@@pBTxQdClBPbEf@?QHa@jAxH|BvRLSpAyAhCaDfDsExMmPjAaB`AuAtAcBt@u@dDoCtCoD|DcF~FiHxVq[vYbe@`IeLbByBrDoFb@u@UYdCoCpIqKl@h@j@n@pBjD~H_K^o@bHgUdFsPt@cATU{Emd@BY_@sEc@kBk@qBm@{Cg@yDuBoSYcBg@{EyEsd@MiDg@_KgAgKjDoDbGuFZ[Z_@n@oAZmAPgA`AsMb@{H~@sM~@cPbAkO|A}Vj@qHLeBfBeYxBq[x@}MdCy]HkBTcCDsAf@sHjJ|AjJfAlHfAb@Dd@?`D?nBBvOpBjC\\pEt@KlAFPaA~NsDxj@oMgBiR}B|D_RPyAJu@t@qL",
+                "merged_headsign": "Food Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5748",
+          "real_time_route_id": "4",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "uqksFjsriMTXTTf@PfAPbAOVI`@Ut@i@VKXC^B^Fl@{HjL~AbFl@`FpGn@|@|GmE|AP`b@tFj@aIf\\hEtCn@xLbB|n@lIdHbAlH|@P?|@eMBTzBlGj@fBx@vBbC`HT|@fB`FhCxHbAxCtAdDHVr@`EpAfJF^@dA|[fE~BT\\J|Dh@|Cl@`BTfJjAp@FjAPtDb@NHfBTz@HLClP|B`M|ArLdBtBRtKxAzOrBvGz@lD`@x@LLPvHbAt@T`AHhH|@bTtCfM`B`M~Ab@FLGzEn@xC^PFPPfJhAzFx@rAP|CZdOvBpIbAPLH\\BRBXKnAPpBPXfAt@dBRpAMXILKDM`@_BL}CtLzArDj@|@HbShC`OpB~HbAxIjAbD^tEr@~Q~BbNnBbI~@nSrCvFp@~UdD|TrCt@LLHPF|BZbR`CfAP^LrBr@|Bl@fBZtB\\p@DnB\\rXfDpF|@pHz@tAMPEPOBED]Cc@e@AwAQoFu@qAa@gAM",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFrhyiMeEm@uFq@EhAeOgBiFgA{M_BWK{NmBwFs@QF_Gy@sNgB_VeDwFq@oSsCqKqAuK}A_R_CuEs@cD_@yIkA_IcAaOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELC`@QjBmEs@gBQgWkD{C[M?gJsAoBS_@CUBkDg@cC]wAQIM_@IkIgAkBQiAU{C_@kFq@qNsBuDc@_Fm@cCc@oIgAc@KSJy@MmDa@wG{@{OsBuKyAuBSsLeBi\\iEeAQIEgDc@OBuDc@kAQq@GgJkAaBU}Cm@}Di@]K_CU}[gEAeAG_@qAgJs@aEIWuAeDcAyCiCyHMWoBgGcCaHsFu@o@Gc@C{Gy@eHcAq[eEy[kEkC_@uCo@qx@qK{Dc@}B_@g@dIwIvFmHgAoJiAwFy@_AKYBWJu@h@a@TWHcANa@GS`DmH_Ad@}Hj@J^RXTz@xA",
+                "merged_headsign": "Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5717",
+          "real_time_route_id": "17",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              },
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kxyrF|nsiMlAL[dFeB`YmAjQ_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBMjB_ApQ}@jMpEh@~LhB`ADxATMfB~AT`AH~C^N_BfAL~G|@rFz@rC^xCXzXrDpAX|CVjB\\bGt@tARbBPtm@bIzHbApAT`Fn@zFv@lD^vFx@zFp@pIjAzFt@g@zHTB`G`AvPxB`BPtAVlPvBxTtC`E{l@l@_KpNjBLyBuJsAsAQe@?gAW",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5775",
+          "real_time_route_id": "68",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.91130589017659,
+            "longitude": -75.16538249776633,
+            "name": "10th St / Packer Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@h@i@b@o@f@y@Lc@FQgA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeBc@}EgB}M_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAmB~MeAh^EnMBdECrLHnUQzYQlAUfAWt@y@jAoBtBmAbA]NWD_@?UC]Me@[wE{F][_@UWKg@AeCPU?SCUUMUc@{Hc@oE{CoTMq@Uq@Sk@Yg@}@gAcAm@i@Uo@Mq@Gm@?o@J{PrDwEfAm@Dc@FcAG_@Ec@Oc@S_@U]UWYu@eAUg@Uk@k@uBaE_PM{@CyA?wAFi@PkAPi@Po@Tc@`F{IIYy@{@QOc@Qc@Ig@?aCIoCQ_AQQK_@[g@u@g@sAkB}GcAmDqAaDgA}BeCgEu@kAkA}A}BcCqCmCsBmBoCwBuWkUZe@~AcEJ?LSBQGKfAcCyDiD}@i@W]kAnCuFsEkCaCq@i@MCUMUGSCc@?QFs@f@gAv@e@uAoBmG}@_Cc@}@cAaBqG{KmAsC_@kAwFuTa@uBMwAQyBaDTW?aAMu@_@mSuQeGeFoImHq@y@[g@Qc@]cAe@kBwk@vYrCrEfAxAlAvArCfCbJzH`CxB~@jArBxC^j@x@`BbAjC~@`Db@lBj@bEqRdEsBd@}BbAoBj@uD|@mEz@q@T[ZcFjAyD`Ag@DYLiAx@oBbBeN|JcCxAsAb@}A?oCQgLm@i@M}@]_AEc@KaB{@}Bs@cBq@YPUFu@LqALcBX_FfAqGp@mAPuHhFcTdOwHhF{EjDUXYh@eApFUl@MPaAt@_IvFQPi@t@U\\YPQHi@Lc@F]CQC_Bi@g@KiHg@c@EuHc@]?QBQHSXyAxBsBbCqG`JgB~B_AtA_Ax@yA|@uExCsHrEaDxB_F_Ce@_@y@gIq@_J]sAkCsFiEt@cCZ]F_@P_ABeLfBmJpAyAXuBPCaAc@wFo@^TlC",
+                "merged_headsign": "69th St Transit Center"
+              },
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@bAgAz@}AJc@gA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeB_@gEkBsN_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAkBhMe@BDc@m@mEZIb@U",
+                "merged_headsign": "UPS"
+              }
+            ]
+          },
+          {
+            "latitude": 39.90281630620954,
+            "longitude": -75.17395302056359,
+            "name": "Broad St / Zinkoff Blvd / Mbns",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "{ygrFxuijMt@Mb@aDFuA?}ACi@gKcbA_@yB_@qA]c@i@u@]a@sEqCmA}@gAqAc@}@]y@Me@Qu@y@yG_AeGg@eCaC_Ke@{DYuAsDwOuB}Fc@sAoBcIu@yBg@gAw@mAs@}@mAqAuAu@uGeCgAi@yAaA_@W_@Uk@g@_BoB}@mA}AaDqAcFaBmHq@yD_AmEuAeEsAsDw@cBo@_A[_@gAy@c@YmHkDmNiGmA]gAAuJbAu@Zy@nAQh@UrAEp@@lANrA~AdNfB|Mb@|EPdBFtAKtAc@`Bm@fAyDtC{Mu^Ec@kAiDK_@?c@F_ApBmOjAyJTkEBaDGuBC]ScBQ}Ba@{Cs@cDYgA_AsCa@y@gAoB_@q@y@gAc@{@gBoCwf@eu@gAkBkAuBu@aBq@gBc@oAsAgEu@_Du@gEc@aDc@eFmAiLu@mIoBwQFc@?g@KeEEyAOkASqAeA{DqBwE_AcBo@i@[YaAg@{Ag@sCm@m@YoHcA{Gy@e@?eD?oBAkAKcIkAcBQeGw@eFcAViCrAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pIQ`@MhBfANp@Hu@uBM]UQTaE",
+                "merged_headsign": "Broad-Oregon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "five-points-night-market",
+    "listing": {
+      "latitude": 40.0429,
+      "date": "2026-06-24T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.104332,
+      "venue": "recoXvJhrDrCZ5JcZ",
+      "name": "Five Points Night Market",
+      "link": "https://july4thphilly.com/event/five-points-night-market/",
+      "venue_name": "Five Points",
+      "group_name": "America250 Celebration",
+      "group": "recy35IiiNta9LpUN",
+      "slug": "five-points-night-market"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5718",
+          "real_time_route_id": "18",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 40.04281350283571,
+            "longitude": -75.10438159940985,
+            "name": "Rising Sun Av / Cheltenham Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "{tssFtzwiMwEhJH|@bBpBgAhCvE|Ee@fApCjCNf@?^}A`D?TcF`KlPdPpE}JzI{QlGkMvHlHhGlG~CyGlZsn@lApAHPt@|@r@hAt@rAt@fAdHhHzDlExAtApIbJwBdEqKbUjDnBfIvEbB~@XJTHl@Lp@FvCDh@Bt@XPH`BbBxBdC~@}ATi@xHzH`HbHvE}IxAsCzNyXlAyBzCuFbC}E|B{ElDmG`E{HjEgIp\\_o@j@kA~A}Dx@}B~DyJDU|AuUHuCQ{_@BMl@aF~Feb@fAiH~E_v@fAoPxBy]l@cJnAgRB[mEoDwEqDoFsEa@g@wFwJkCwE{EkIkXqe@oK{QgXoWiP_P{MuMaO{NwP_Qc@W]KcJA{@@cGF[FmEbAiFlAc@B_A?yMQy@?eFj@yKz@oKx@aCXBl@BT",
+                "merged_headsign": "Fox Chase"
+              }
+            ]
+          },
+          {
+            "latitude": 40.04300236010617,
+            "longitude": -75.10434562659643,
+            "name": "Rising Sun Av / Cheltenham Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "_nrsFnchiMTT^Vh@gAXcAnKy@xK{@dFk@x@?xMP~@?b@CdDw@pGyAZGbGGz@AbJ@\\Jb@VvP~P`OzNzMtMhP~OfXnWnKzQjXpe@zEjIjCvEvFvJ`@f@nFrEvEpDlEnDCZoAfRm@bJyBx]gAnP_F~u@gAhH_Gdb@m@`FCLPz_@ItC}AtUET_ExJy@|B_B|Dk@jAq\\~n@kEfIaEzHmDlG}BzEcC|E{CtFmAxB{NxXyArCeEbIeHeHuH}Hg@fAWL_@JU?aAMyBaCc@_@u@Yi@CwCEq@Gm@MUIYKcB_AgIwEkDoBpKcUvBeEqIcJyAuA{DmEeHiHu@gAu@sAs@iAu@}@IQmAqAmZrn@_DxGiGmGwHmHmGjM{IzQqE|JmPePbFaKTIfCqFGCS?]Qu@u@gByArDiHtBqBnBcEwCyCe@?_EkEe@P",
+                "merged_headsign": "Cedarbrook Plaza"
+              },
+              {
+                "shape": "_nrsFnchiMTT^Vh@gAXcAnKy@xK{@dFk@x@?xMP~@?b@CdDw@pGyAZGbGGz@AbJ@\\Jb@VvP~P`OzNzMtMhP~OfXnWnKzQjXpe@zEjIjCvEvFvJ`@f@nFrEvEpDlEnDCZoAfRm@bJyBx]gAnP_F~u@gAhH_Gdb@m@`FCLPz_@ItC}AtUET_ExJy@|B_B|Dk@jAq\\~n@kEfIaEzHmDlG}BzEcC|E{CtFmAxB{NxXyArCeEbIeHeHuH}Hg@fAWL_@JU?aAMyBaCc@_@u@Yi@CwCEq@Gm@MUIYKcB_AgIwEkDoBpKcUvBeEqIcJyAuA{DmEeHiHu@gAu@sAs@iAu@}@IQmAqAmZrn@_DxGiGmGwHmHwLnV",
+                "merged_headsign": "Wadsworth-Michener"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5731",
+          "real_time_route_id": "26",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 40.04064614082718,
+            "longitude": -75.09873386770296,
+            "name": "Tabor Av / Rosaile St / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "giisFnwziMlBvBmGbMkBgB{BaCnGcM{IcJsC}CsFqFgBuBck@el@eHkHkM}MxWgg@j@kA~A}Dx@}B~DyJDU|AuUHuCQ{_@BMl@aF~Feb@fAiHbPkeCDMLMbIeGpHcGp@[XKP?CUGQII}EuSg@gBU[gViV_DkDmHcIqCgDkAyAk@o@gAyAi@m@sBkCuBkCwFgHeF{EqNuMyFeFfEgJzM_Zv@_BF]LUEEUGuAkBsBaCkBoCuBmC|EiKf@eA|C}GfKgUxAaDb@u@hGaNjBuD|@wBjBuDtBuEgDoD_I{HZMTGTFdGgAvFsA|Cm@nBc@z@M`_@_FbR}B^?tAJ~E^nXrBPK|Kx@hEZLNh@DXL^r@zFbN^x@PTdFxD|AdAXLd@HbFbAlA`J{GjBiG~AgNzD}Ad@sBvBkBxA_HrFuJnKEBK?uCO?jBbDP",
+                "merged_headsign": "Frankford Transit Center via Torresdale"
+              },
+              {
+                "shape": "giisFnwziMlBvBmGbMkBgB{BaCnGcM{IcJsC}CsFqFgBuBck@el@eHkHkM}MxWgg@j@kA~A}Dx@}B~DyJDU|AuUHuCQ{_@BMl@aF~Feb@fAiHbPkeCDMLMbIeGpHcGp@[XKP?CUGQII}EuSg@gBU[gViV_DkDmHcIqCgDkAyAk@o@gAyAi@m@sBkCuBkCwFgHeF{EqNuMyFeFfEgJzM_Zv@_BF]LUEEUGuAkBsBaCkBoCuBmC|EiKf@eA|C}GfKgUxAaDb@u@hGaNjBuD|@wBjBuDtBuEgDoD_I{HZMTGTFdGgAvFsA|Cm@nBc@z@M`_@_FpGu@fMnLJnAv@~IvBvO|C`UiCxC{BdDy@~@Qj@`DbCz@b@t@\\^D|BXJb@Tb@b@b@b@PtEV",
+                "merged_headsign": "Frankford TC via Frankford Ave"
+              }
+            ]
+          },
+          {
+            "latitude": 40.04029540589634,
+            "longitude": -75.0993454055311,
+            "name": "Tabor Av / Cheltenham Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "afhsFjufiM}BdE]QvCkFHk@B[gBQ]M_BeBMm@a@G_@Ei@Uk@U[UaDcCPk@x@_AzBeDhCyC}CaUwBwOw@_JKoA}MaMwG|@s]hEkDt@aGfAeDp@aFz@o@PITUF[L~HzHfDnDuBtEkBtD}@vBkBtDiG`Nc@t@yA`DgKfU}C|Gg@dA}EhKtBlCjBnCrB`CtAjBDXFHG\\w@~A{M~YgEfJxFdFpNtMdFzEvFfHtBjCrBjCh@l@fAxAj@n@jAxApCfDlHbI~CjDfVhVTZf@fB|EtSCLFb@o@T[PqHbGcIdGMLELcPjeCgAhH_Gdb@m@`FCLPz_@ItC}AtUET_ExJy@|B_B|Dk@jAyWfg@jM|MdHjHbk@dl@fBtBrFpFrC|CrMtM",
+                "merged_headsign": "Pulaski-Rittenhouse"
+              },
+              {
+                "shape": "afhsFjufiM}BdE]QvCkFHk@Fm@?wBtCNJ?DCtJoK~GsFjByArBwB|Ae@fN{DhG_BzGkBuA}JyB[oBc@g@QsEeDyAgA[[UYWq@aC_GeC{FUUSMYEWCQDc@AeDYmIk@oAMMI_@Gy@EqSyAqHo@cAIa@?wIfAmHbAs]hEkDt@aGfAeDp@aFz@o@PITUF[L~HzHfDnDuBtEkBtD}@vBkBtDiG`Nc@t@yA`DgKfU}C|Gg@dA}EhKtBlCjBnCrB`CtAjBDXFHG\\w@~A{M~YgEfJxFdFpNtMdFzEvFfHtBjCrBjCh@l@fAxAj@n@jAxApCfDlHbI~CjDfVhVTZf@fB|EtSCLFb@o@T[PqHbGcIdGMLELcPjeCgAhH_Gdb@m@`FCLPz_@ItC}AtUET_ExJy@|B_B|Dk@jAyWfg@jM|MdHjHbk@dl@fBtBrFpFrC|CrMtM",
+                "merged_headsign": "Pulaski-Rittenhouse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5805",
+          "real_time_route_id": "K",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 40.03909031664678,
+            "longitude": -75.10990342626978,
+            "name": "Adams Av / Rising Sun Av",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ixfsFh{giMc@fBmD~HyCpGmFpKiFfJyDvGkBjDsAdC_@~@E`@aDfBwCpA{E~E_@?WKg@MoAg@_@xAUn@[l@wC`F}B`EmB`DsB~Di@fB]jBEf@KlB}DhFaBhCgAtAq@h@c@n@qB|By@t@qJhGwA~@QJoDLcALy@TiH|C}@b@uA~@}CfB}AnAkCjCqB|B}@~@qAvBo@t@dB|AfAfAh@p@n@hAp@zBLt@H~@F~@CfAmA|RgIgAgAMoEk@u@jKgBdYkA~PqSsCcGq@uB_@sDc@aD~e@sBdZgAhQc@`FfHdDzGrDYvEgBnW|B\\eD`HkChHdBND@PNy@ld@EbA`Z~ZhYzY|IhJpS|SlAtA|JbKnK`LlHhH`DnDtCaGlFoKlFqKvE|EbAjA`FlFrDnDTHLFlHVl@ArIhJnDlDp@~@rD`GvD|GqE|FnMfTdCnEb@n@bAlA|AxAzArAx@z@p@jA|@tBf@x@b@f@^Xf@Vt@Pb@Jl@?pALb@H~CbAb@JlHh@ZF^PhC`CzAsC\\}@P{@f@{DzArByDtK",
+                "merged_headsign": "Ridge-Midvale"
+              }
+            ]
+          },
+          {
+            "latitude": 40.03874857491929,
+            "longitude": -75.10988543986306,
+            "name": "Adams Av / Rising Sun Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "}cesFjk}iMuA_AiCaC_@Q[GmHi@c@KwBu@kAWqAMm@?u@Ou@Wc@YQMc@g@]c@gAkCq@kAy@{@{AsA}AyAcAmAc@o@eCoEuUc`@oBwCyAgCaDqFkB}Cg@k@a@Ws@UcDGYFYLM\\kDoDeCiCmAkAgH{HkCcC}N|YaDoDmHiHoKaL}JcKmAuAqS}S}IiJiY{YaZ_[cAgAiCoDc@c@oDiFeDsENaJb@{QrDyj@v@oKfAiQrBeZ`D_f@rDb@tB^bGp@pSrCjA_QfBeYt@kKnEj@fALfIfAlA_SBeAG_AI_AMu@q@{Bo@iAi@q@gAgAeB}An@u@pAwB|@_ApB}BjCkC|AoA|CgBtA_A|@c@hH}Cx@UbAMnDMPKvA_ApJiGl@o@|BcCb@o@p@i@x@cAnB{CtAkBf@b@V^b@TPBPG`@SLYZ_A?c@?aALuAPuAXcAPg@^y@t@qAjLgSXg@Pe@d@{BNgADq@F{AGsBEu@lAqA|KoJb@y@tBkE|AiDtJiSpIuQ`@m@~C]nCSj@KPIFML^_@jA",
+                "merged_headsign": "Arrott Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5764",
+          "real_time_route_id": "57",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 40.04238182907468,
+            "longitude": -75.11402231340634,
+            "name": "Crescentville Av / Adams Ave / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ouksF~driMqJgAiF}@aFq@]IJMDa@Fi@HcJPmFJ{FDkB`AeNl@qIjAeRkBMeEa@oAQy@Eca@aE_@_@KUCMNu@fV}g@~@gBzF}L^DlEn@zHz@pG|@^HbAb@^XxApAdBbB^j@l@bAj@rBTpAHxACvBkAzQjHbA|KpAbEn@|HbAb@mHl@cJnAgRB[vGhFrPxMzWlSdNhLvOjM^PjKxCv@\\t@oLpNjBfKlAnP|BfKnAvDh@fC\\JbAbDnWzFt@r@Lv@FrATbN~AbRfC|H|@`El@zTnC|HfAc@~FbIjAbDZx_@bF~}@lLjBTxDp@p@?j@EhDk@ReDbAPrC`@p@LX?_@vEaAfNbG|@lI~@hGx@p@LtFn@zIhAj@JrFl@hM`BnVxCfWjDnCb@fDb@hCThHjArKtArFp@zSvChDb@vMjB~BVzCb@jDb@dEn@FsALgBh@cJ`@\\|G~CzBt@xDdAj@d@@F?TjALnBZXAVD`Bj@pCl@tRrF\\N`HtBdEtATJL?ElArFp@|KxAdN`B~AVbGr@YxDdLxA",
+                "merged_headsign": "Whitman Plaza"
+              }
+            ]
+          },
+          {
+            "latitude": 40.043721816374564,
+            "longitude": -75.11306903385072,
+            "name": "Crescentville Rd / Adams Av / Mbfs",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "osrrFnzuiMOzAkEi@tAaTTcCDsAWE}SkCcL}AuKqAsApRM?{EaBaHuB]OuRsFqCm@yBq@OQ}Bo@EBc@GMBOB?TcBQkCc@eDc@gUaD}Em@o@OqAMkCc@iEg@kCWsEu@_QyBaBUuBY_Gy@}i@oHmFo@gFu@uEg@gWcDmFq@kBYoXiDuAQgKuAkKqA}AQsQdDoAPoAR`AkNgw@_Ky_@cFcD[cIkAh@qIn@{Hb@_HLkB}Cc@aD_@wEq@_Gu@_AKiNcBqAUoD_@{OyBiH}@cEk@_AQsE_@sL_BgC]wDi@gKoAoP}BgKmAqNkBu@nLw@]kKyC_@QwOkMeNiL{WmSsPyMwGiFa@vFcC|_@}HcAcEo@}KqAkHcAjA{QBwBIyAUqAk@sBm@cA_@k@eBcByAqA_@YcAc@_@IqG}@{H{@mEo@_@E{F|L_AfBoDvHoIbQu@bBsFdL?C?BbAL`b@dEx@DnAPdE`@jBLkAdRm@pIaAdNEjBKzFQlFIbJGh@E`@QZk@~@Ut@I|@QtBb@BrG|@lHbApH~@f@{H",
+                "merged_headsign": "Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "celebration-of-black-music-month-fireworks",
+    "listing": {
+      "latitude": 39.995881,
+      "date": "2026-06-25T00:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.189787,
+      "venue": "recoWWE9IhuCcH0ek",
+      "name": "Celebration of Black Music Month + Fireworks",
+      "link": "https://july4thphilly.com/event/celebration-of-black-music-month-and-fireworks/",
+      "venue_name": "The Dell Music Center",
+      "group_name": "America250 Celebration",
+      "group": "recy35IiiNta9LpUN",
+      "slug": "celebration-of-black-music-month-fireworks"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5769",
+          "real_time_route_id": "61",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.994987647394204,
+            "longitude": -75.18737987317249,
+            "name": "Ridge Av / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "qdisFpndjME[?ULUvHoKb@s@La@jBoFzF_SbA{CxAiFb@cApNcSbCoDdGmInCaENM`D{BbDcBXQt@u@pAgBt@sB\\uCp@kCz@{C^{Aj@aDnAuFh@oDBEFa@h@yDb@}Ap@}Cx@yCt@yAx@gAnBeB|B_B^_@b@u@p@yA|EqOpGkULWdBaDPc@jAmH^gBl@wD^gBTg@Zk@|BsD\\_@l@g@^MhE_AtHQjAKHFfAMdHaBPCP?XJbBf@bHpBl@Jf@?JGfKBv@GfAEnBc@bAY|IsDjA_@b@YtCiArCsAxDgCXQnAsArHiI~FgIxAkBpBuCpG}JjCsDvFqIfGqIvHyLbA}A\\_@b@YlIyD`WoLjEsCrCcBrAkAtCsD|CkDdOmQtAyAhBkAxNeGvDsBxDsCt@kb@zC?fEHdE^hBJfEh@lDn@|LtAhd@dGQvCQ|C{C_@uCYsB[gNgB",
+                "merged_headsign": "9th-Market"
+              },
+              {
+                "shape": "cofsFvb`jMnAuFh@oDBEFa@h@yDb@}Ap@}Cx@yCt@yAx@gAnBeB|B_B^_@b@u@p@yA|EqOpGkULWdBaDPc@jAmH^gBl@wD^gBTg@Zk@|BsD\\_@l@g@^MhE_AtHQjAKHFfAMdHaBPCP?XJbBf@bHpBl@Jf@?JGfKBv@GfAEnBc@bAY|IsDjA_@b@YtCiArCsAxDgCXQnAsArHiI~FgIxAkBpBuCpG}JjCsDvFqIfGqIvHyLbA}A\\_@b@YlIyD`WoLjEsCrCcBrAkAtCsD|CkDdOmQtAyAhBkAxNeGvDsBxDsCt@kb@zC?fEHdE^hBJfEh@lDn@|LtAhQ`C",
+                "merged_headsign": "8th-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.99495167458078,
+            "longitude": -75.18718202269868,
+            "name": "Ridge Av / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "chzrFztuiMgB]sA|RqB]wFq@oIoAwRgCaMbJiE|Bc@LcMlF}A~@aBdBeOlQ}CjDuCrDsAjAsCbBkErCi[zNeElBc@XKHuArBwHxLgGpIwFpIkCrDqG|JqBtCyAjB_GfIcK|KsExCsCrAuChAc@XkA^}IrDcAXoBb@gADw@FgKCKGm@Ay@Q{IoCo@O[?uHdBgAPEDkAJuHPiE~@_@Lm@f@]^}BrD[j@Uf@_@fBm@vD_@fBeA~GELQb@eB`DMVqGjU}EpOq@xAc@t@_@^}B~AuAjAk@l@q@dA_@t@Qh@s@`Cq@|Cc@|Ai@xDG`@CDi@nDoAtFk@`D_@zA{@zCq@jC]tCu@rBqAfBu@t@YPcDbBaDzBOLoC`EeGlIcCnDqNbSc@bAyAhFcAzC{F~RkBnFM`@c@r@mH|JWf@?TDZ",
+                "merged_headsign": "Manayunk"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5761",
+          "real_time_route_id": "54",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.99469087168349,
+            "longitude": -75.185644184925,
+            "name": "33rd St / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "_}asFvw{iMt@W?f@Et@aEg@oB_@eOoBoDk@_Fm@PkCJMxAwTCQHcBfA{Ot@cK|@sNPgCVqELmBNwBlAeRBYFMbAeOGUp@qIjAmR^aFfAyPnAwQx@iN~@uMx@oN|AsUh@gJLyAt@qL^uEf@wHn@{Hb@_HbAoNVyFn@iIBYHSbAsAy@kB_@q@eFcLgBiDoCiGpAkAPMjIcHxCcC~EeEZUbJ{HvG_G~DeDp@dBbJyHnC_C`CiBb@c@bIiH",
+                "merged_headsign": "Richmond-Cambria"
+              }
+            ]
+          },
+          {
+            "latitude": 39.994861742547236,
+            "longitude": -75.18577008977196,
+            "name": "33rd St / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ul_sFvvliM^WxDpJuB~AgIfH{JfIuGrFcB~AsErDyJpIuAfAmCrBQZgBxAi@j@cAt@uHrGoBrAdFbL^p@x@jBcArAIRCXo@hIWxFcAnNc@~Go@zHg@vH_@tEu@pLMxAi@fJ}ArUy@nN_AtMy@hNoAvQgAxP_@`FkAlRSfCQ`DKf@ELGxAy@rLBLqA~ROvBMlBWpEQfC}@rNu@bKqA~RGF}AbUBJQjC~El@nDj@dOnBnB^~AGp@U",
+                "merged_headsign": "33rd-Dauphin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5740",
+          "real_time_route_id": "32",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.994861742547236,
+            "longitude": -75.18577008977196,
+            "name": "33rd St / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yzisFblajMrOjY{FlGoD_Hy@yAqI{OxB_CfGqHjBsB`HcIb@c@{HgUfK{GxB}AfAi@vCsB~GkEh@o@n@w@Vo@^mAPkAFoBCkAmAkLGcA?y@LmALq@Ps@NW^u@t@aAfCqCnCwC`FoEfAcApDiCRIjA_AZc@`@g@~A{Cp@q@`Au@h@i@\\o@BQViAXo@P_@Zc@\\YpByAbA{@rJkLrOkRhFiGlA_BpGuFl@e@b@c@XGt@g@h@SjG}AdGaBnCi@t@QT]lBUi@iAmDcINKPAL?|Ep@|BVtG`AdXjDPb@t@pAh@t@dCdEZTIbBGF}AbUBJQjC~El@nDj@dOnBnB^lHz@r[lErUxC`Fp@fCXj@LHJf@HtGp@lAPTFPHZXb@h@f@`@j@Ph@DPCjBc@rA_@t@Wz@c@tA}@b@c@rA}APc@HWX]rGoDEQ?WBoApDal@`UxCfCXnBVHBFLbJkKhDqDxK_Nx@gA^q@DWTuElH`A|Cb@f@DdEf@b@eIXc@g@Kl@gA^g@f@Q`BMTEZUHQL]FSFc@rEv@hQ`Cj@{Hb@{HhAuR\\DpAMXILKDM`@_BL}CtLzArDj@|@HbShC`OpB~HbAxIjAg@lInFt@f@qIiEi@",
+                "merged_headsign": "Broad-Carpenter"
+              }
+            ]
+          },
+          {
+            "latitude": 39.99469087168349,
+            "longitude": -75.185644184925,
+            "name": "33rd St / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "mwwrFp|wiM_H_AoEk@aOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELg@pFsCbd@iEk@uD_@sDY_HkAuAWg@vHYtFEp@KVU\\_ApAyC~EqEzGyDc@yB_@oCfDeB|BSXeC`DmAtAc@VkAbAkCdDkBvBsBpCyCvD}@bAULENQHKIIKg@I{SsCkCdb@CnA?VDPsGnDk@f@[n@u@bAy@v@[TuAt@}An@aCp@UDc@BU?SCc@Ms@i@i@o@k@WsDc@gEo@]CMBk@MgCYaFq@sUyCs[mEmH{@oB_@eOoBoDk@_Fm@PkCJMz@iN\\mECQHcB[UeCeEi@u@u@qAQc@{C[kCc@eFo@kJqAe@bIwB]kASkBYS?Kl@mBTa@C}Cn@uAZ{ExAeE`AgA^{@b@_@ZKXc@b@m@d@qGtFmA~AiFhGsOjRsJjLcAz@qBxA]X[b@Q^Yn@WhAKJ_@h@[^}@j@y@|@WZyAjCq@|@y@t@sDbCqErDcCxBiH|Hc@d@U`@]t@Sz@QfAGbABtADn@nAtL?nACl@MtAYnAq@|Ac@h@ST_DjBeErC_B~@}DvCsAx@{FnDc@VWLdI|Uc@b@aHbIkBrBkC`Dl@jA",
+                "merged_headsign": "Ridge-Lyceum via Lemon Hill"
+              },
+              {
+                "shape": "mwwrFp|wiM_H_AoEk@aOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELg@pFsCbd@iEk@uD_@sDY_HkAuAWg@vHYtFEp@KVU\\_ApAyC~EqEzGyDc@yB_@oCfDeB|BSXeC`DmAtAc@VkAbAkCdDkBvBsBpCyCvD}@bAULENQHKIIKg@I{SsCkCdb@CnA?VDPsGnDk@f@[n@u@bAy@v@[TuAt@}An@aCp@UDc@BU?SCc@Ms@i@i@o@k@WsDc@gEo@]CMBk@MgCYaFq@sUyCs[mEmH{@oB_@eOoBoDk@_Fm@PkCJMz@iN\\mECQHcB[UeCeEi@u@u@qAQc@{C[kCc@eFo@kJqAe@bIwB]kASkBYS?Kl@mBTa@C}Cn@uAZ{ExAeE`AgA^{@b@_@ZKXc@b@m@d@qGtFmA~AiFhGsOjRsJjLcAz@qBxA]X[b@Q^Yn@WhAKJ_@h@[^}@j@y@|@WZyAjCq@|@y@t@sDbCqErDcCxBiH|Hc@d@U`@]t@Sz@QfAGbABtADn@nAtL?nACl@MtAYnAq@|Ac@h@ST_DjBeErC_B~@}DvCsAx@{FnDc@VWLdI|Uc@b@aHbIkBrBeCxC",
+                "merged_headsign": "Ridge-Lyceum via Lemon Hill"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5747",
+          "real_time_route_id": "39",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.992001903880364,
+            "longitude": -75.18609384509274,
+            "name": "33rd St / Dauphin St Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "_}asFbx{iMt@UTaGl@}Hx@oLb@aHfAmOf@cIj@{Hl@}K|D}k@PkBLkB`@aEVsEPgFdCu^ZmGj@wHf@yHbA}Mf@{IReCJaCVaDfAiPmHcAiJgAoHgAyF{@h@uJb@aEZ{E|H~@rQ`ClH|@`@mGV{ErA{PC[c@yAcAkB}@wBy@_CyBcFdEeDzDoDfFeEzBkBpAuAvCuBzBsBhOgMrJkIh@c@p@m@nDyCfA}@dAMh@_@",
+                "merged_headsign": "Richmond-Cumberland"
+              }
+            ]
+          },
+          {
+            "latitude": 39.99335088438361,
+            "longitude": -75.18592297422899,
+            "name": "York St / 33rd St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kn~rFzoniMt@}@c@cA}E}KoA`AYZiBtAuItHyGrFSXwDxCiEvDoCtBqBnBmMjK{@z@kA`A}D`DaEjDeEnDKFxK|V|@jBVf@~Q~BEfBc@jHuApR}AbV_@dFo@dL}Bh\\QvBmAbTsA`QQdEmAlPI`BQxBc@rHaArM{@pO_IgAuHaAQvDMjCYhDy@tMaEhm@c@bH_@zHgBvVnBZd@UjBJ",
+                "merged_headsign": "33rd-Dauphin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:130341",
+          "real_time_route_id": "49",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.991983917473654,
+            "longitude": -75.18643558682022,
+            "name": "33rd St / Dauphin St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "w|asFty{iMf@FDu@BaATwETyCLeDxAcSjU|CxNhBjRjCbi@`HjU`DP?JAPQjDiEhF_HPIP@DAJCV]pGsHHoTPaZxK~AxGx@tIpA|En@|Cb@f@DdEf@dC^~H`AtDh@hCb@hANbEh@wBb\\[~F_A`NeBrX_BrWxCZpHbAtC\\lNfB~ABf@H|@ZfANZ?LCJ?pATZPJLTf@jCvH~ArE`AxCh@xA?\\LVNb@@`@EtCtAC^EjAc@p@]\\QVIj@[DK\\m@v@iDJQ^[HMFG^Bn@TpBfArBz@bBp@vGdB`Cb@`B}MBoA?eVp@FlHfA|UvCnFv@`V|CzEr@",
+                "merged_headsign": "29th-Snyder"
+              }
+            ]
+          },
+          {
+            "latitude": 39.99335088438361,
+            "longitude": -75.18592297422899,
+            "name": "York St / 33rd St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ejurF~q}iMyAnAu@p@oDxDsBsEy@yBWIsAQio@mI}@QmBQ?pLKxA_ApIG\\Qb@QHSFeAGwGaBcBq@sB{@qBgAo@U_@CGFQC_@TEHOTs@nD]f@UP_CfAkAD]ISUa@u@AWKs@Ic@YQEMVUJQlA{@T]HSB_@?g@EoAQgAQkAu@oCeFgNKo@IMMMo@UB\\GRQT{AfAa@\\u@z@E\\GfAQCIMgBYOC_@UqAqA_AoAuEeGe@_@y@Q}L}AmHm@rC{d@~@aNZ_Gp@_KXgFXuDz@cOeEe@gAKkFu@kLyAaBSy@UaOwBaLyAiASoBQsEo@iCg@{@MoBQCpFIxMUpc@yApByCvD}@bAULENQHiF~GsDrEUHQ?kUaDci@aHkRkCyNiBu^yEy@pLaAhOW|CQlDnB^bBTt@H",
+                "merged_headsign": "33rd-Dauphin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5776",
+          "real_time_route_id": "7",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.992001903880364,
+            "longitude": -75.18609384509274,
+            "name": "33rd St / Dauphin St Loop",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "_}asFvw{iMt@WXqFTyCPeEtAcRH_B|@wLl@gK`B\\z@DhC\\Zz@GJIVu@|KWzE]jEnKtAnCXjDj@|Db@jRjCrPxBtG|@xNhBjU`DP?JAPQ~AoBEU@i@n@iKL}CV}ChBmYPmB~GfAtD^nCZjMnB`@ZrEwFx@gA^q@DWB]?WP_DlH`A|Cb@f@DdEf@dC^~H`AtDh@hCb@hANbEh@y@`MK`Bn[bEvHfAdQ|BdAvBpDb@n@HbBThC^tBTpGz@dJnAzBZ`Ef@fMdB|C^tAT~PzBrKvAdIz@`Dj@vALhAZjIfA|BTjBPRxCb@dE`L|AnB`EbA_AZ_@b@y@Xy@TgAHi@`AsMb@{H~@sM~@cPbAkOzBu]h@kHxBq]xAySf@qIvCeb@HkBTcCDsAf@sH|@aMVaFEYnCob@Q?MDaBp@}N|GgQrH_HdD_B~@g@PU?u@hL}MiBkNmBeAQgD_@Z{Et@D`ABbBUl@Q|@WpAq@nDkB`BaAkAaEgA}D?g@c@CQFy@h@",
+                "merged_headsign": "Pier 70"
+              }
+            ]
+          },
+          {
+            "latitude": 39.99335088438361,
+            "longitude": -75.18592297422899,
+            "name": "York St / 33rd St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "a|trFzbsiM}FdD]FW?o@K{@|LyAQyCe@qF}@k@pGMfDrBP|B\\fEv@pDXfBTHTxCh@zDj@jCZzMjBVyDt@iLT?f@Q~A_A~GeDfQsH|N}G`Bq@LEP?kCxa@CTKPMx@mArQ}@rNk@nJ{A~Tq@hLkBtWkAfRYtCkAtRm@tIIfBsApRQrD}Dvl@k@pI?b@W`CYnAWt@c@t@UVcA`AaBmDaL}Ac@eEi@wGk@}E_CYyFu@sF{@sFs@gIiA_IeAgDe@yFs@cAQyAMkFu@wAQgAQaDc@sXoDaIgAs@EgBYgLuAuRoCiEg@oHgAsDc@eLyAuJqAcC]oJqAuIgAaEc@iEm@yDc@oEu@yJuA}Cg@}AYwBQE?Upc@yApByCvD}@bAULENQHKIIKcBWgJoAaOqBkAOqOkBu@fKE|AMvBuG}@sPyBkRkC}Dc@kDk@oCYoKuA\\kEV{EXwD}HcAmHcAcCt_@aAhOW|CQlDnB^~AGp@U",
+                "merged_headsign": "33rd-Dauphin"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5756",
+          "real_time_route_id": "48",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.99405235424529,
+            "longitude": -75.17930397655977,
+            "name": "29th St / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "ehdsF~kyiMq@IKpAcAlO|BVtG`A|NjBjCb@zCZzK|AlCZlAPj^zEbRbCnCXjDj@|Db@jRjCrPxBtG|@xNhBjU`DP?PIjByBEU@i@n@iKL}CV}ChBmYPmB~GfAtD^nCZjMnB`@ZrEwFx@gA^q@DWB]?WP_DlH`A|Cb@f@DjShCtDh@hCb@hANbEh@jFg|@\\DpAM^QLQ`@_BZuGCu@CEMKcAQQUWc@C_@`HkiAzC}d@DqAAc@P?RkDQg@JkA",
+                "merged_headsign": "Front-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.99386349697484,
+            "longitude": -75.1791960581195,
+            "name": "29th St / Cumberland St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "cuyrFjfsiMBc@aImAgAKSvDQjCk@lIEt@UzDsJz{ASnEgAnPa@pHSnB]nEgEjr@oJqAuIgAaEc@iEm@yDc@oEu@yJuA{FaA}BQ?p@mEEw@jLKtBm@~HkAbScBW_ReCgAbRoJsAyNiBuG}@sPyBkRkC}Dc@kDk@oCYcRcCk^{EmAQmC[{K}A{C[kCc@}NkBuGaA}BWvB{[~HfAk@rHiGu@",
+                "merged_headsign": "27th-Allegheny via Lemon Hill"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "listing_slug": "cura-ao-vs-c-te-d-ivoire-group-e",
+    "listing": {
+      "latitude": 39.901733,
+      "date": "2026-06-25T20:00:00.000Z",
+      "type": "Event",
+      "longitude": -75.167594,
+      "venue": "recu43PfeOwAs7uI7",
+      "name": "🇨🇼 Curaçao vs. 🇨🇮 Côte d'Ivoire (Group E)",
+      "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
+      "venue_name": "Lincoln Financial Field",
+      "group_name": "FIFA World Cup 2026",
+      "group": "recX37CIyxy5rQsTK",
+      "slug": "cura-ao-vs-c-te-d-ivoire-group-e"
+    },
+    "routes": [
+      {
+        "route": {
+          "global_route_id": "SEPTAB:334086",
+          "real_time_route_id": "B1",
+          "mode_name": "Subway",
+          "route_color": "#f26100",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.90543332838582,
+            "longitude": -75.17390805454681,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": []
+          },
+          {
+            "latitude": 39.90542433518247,
+            "longitude": -75.17380013610655,
+            "name": "NRG Station",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "o_qrF`hyiMmH{@{PsAuo@wHgB]e\\oEyAImMgB{AKyAF}AGsUuCqAYwY{DcBMyw@kKyAW_H}@gBIkBYmAWgSiC_@AcA@cG`A_@?_@G_@QYUsByB[U[Qa@Im|BmZkCWoBOyjBqVuCYaFm@wBc@mjAqO}CSmFu@kCg@ebDsb@yAa@mMcB{@G{Fw@[]Ui@Gu@fB}UXaAj@i@fDeCb@m@Py@l@yJAu@Qu@a@m@s@c@sB_@}CMcA?c@LQTKPCL_@nF",
+                "merged_headsign": "North to Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:333087",
+          "real_time_route_id": "63",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.903967436238965,
+            "longitude": -75.16218091737198,
+            "name": "Pattison Av / 7th St",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "onasFtdhjM_A_B_@TgADmIyT}JsXfBiAdFsD|@s@HMnCbHlFdOdQiMhDkCmFaOoAiEzMyAx@Ap@Hh@Lt@j@lHvD|BlAdBfAbB~@p@PTBf@C~AMiAcSCIYMf@sB|@sG|E@rBMhA?zEg@xB[|H{@rHs@rVoCzDe@hGo@nFc@zCX~B^zC^rHx@lH|@tHbAhW`DrEp@jBLdEj@fBRh@Nn@@pBTxQdClBPbEf@?QHa@jAxH|BvRLSpAyAhCaDfDsExMmPjAaB`AuAtAcBt@u@dDoCtCoD|DcF~FiHxVq[vYbe@`IeLbByBrDoFb@u@UYdCoCpIqKl@h@j@n@pBjD~H_K^o@bHgUdFsPt@cATU{Emd@BY_@sEc@kBk@qBm@{Cg@yDuBoSYcBg@{EyEsd@MiDg@_KgAgKjDoDbGuFZ[Z_@n@oAZmAPgA`AsMb@{H~@sM~@cPbAkO|A}Vj@qHLeBfBeYxBq[x@}MdCy]HkBTcCDsAf@sHjJ|AjJfAlHfAb@Dd@?`D?nBBvOpBjC\\pEt@KlAFPaA~NsDxj@oMgBiR}B|D_RPyAJu@t@qL",
+                "merged_headsign": "Food Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5748",
+          "real_time_route_id": "4",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "uqksFjsriMTXTTf@PfAPbAOVI`@Ut@i@VKXC^B^Fl@{HjL~AbFl@`FpGn@|@|GmE|AP`b@tFj@aIf\\hEtCn@xLbB|n@lIdHbAlH|@P?|@eMBTzBlGj@fBx@vBbC`HT|@fB`FhCxHbAxCtAdDHVr@`EpAfJF^@dA|[fE~BT\\J|Dh@|Cl@`BTfJjAp@FjAPtDb@NHfBTz@HLClP|B`M|ArLdBtBRtKxAzOrBvGz@lD`@x@LLPvHbAt@T`AHhH|@bTtCfM`B`M~Ab@FLGzEn@xC^PFPPfJhAzFx@rAP|CZdOvBpIbAPLH\\BRBXKnAPpBPXfAt@dBRpAMXILKDM`@_BL}CtLzArDj@|@HbShC`OpB~HbAxIjAbD^tEr@~Q~BbNnBbI~@nSrCvFp@~UdD|TrCt@LLHPF|BZbR`CfAP^LrBr@|Bl@fBZtB\\p@DnB\\rXfDpF|@pHz@tAMPEPOBED]Cc@e@AwAQoFu@qAa@gAM",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFrhyiMeEm@uFq@EhAeOgBiFgA{M_BWK{NmBwFs@QF_Gy@sNgB_VeDwFq@oSsCqKqAuK}A_R_CuEs@cD_@yIkA_IcAaOqBcSiC}@IsDk@uL{ALwB?i@CKEIYKu@MyDi@a@GWFGDELC`@QjBmEs@gBQgWkD{C[M?gJsAoBS_@CUBkDg@cC]wAQIM_@IkIgAkBQiAU{C_@kFq@qNsBuDc@_Fm@cCc@oIgAc@KSJy@MmDa@wG{@{OsBuKyAuBSsLeBi\\iEeAQIEgDc@OBuDc@kAQq@GgJkAaBU}Cm@}Di@]K_CU}[gEAeAG_@qAgJs@aEIWuAeDcAyCiCyHMWoBgGcCaHsFu@o@Gc@C{Gy@eHcAq[eEy[kEkC_@uCo@qx@qK{Dc@}B_@g@dIwIvFmHgAoJiAwFy@_AKYBWJu@h@a@TWHcANa@GS`DmH_Ad@}Hj@J^RXTz@xA",
+                "merged_headsign": "Fern Rock Transit Center"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5717",
+          "real_time_route_id": "17",
+          "mode_name": "Bus",
+          "route_color": "#ef4143",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.905739097299886,
+            "longitude": -75.17327853031196,
+            "name": "Broad St / Pattison Av / 3 FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              },
+              {
+                "shape": "yaqrFzhyiMeEq@wFu@?lAGt@|NnBm@~JaEzl@yTuCmPwBuAWaBQwPyBaGaAwC_@uJqA{Fq@kVeDyC]sASeSoCoIcAiKyAkUwCqFy@iEg@mQ}BkEq@uGw@mAGq@IgA]qDc@_Dg@}BS{MkBsC]gAQaGu@yBU|AcWlAuTP{BfANZCXGPQHQFUF_@PgERoCAa@KQMMm@Qc@CKIEQG[~Fw_AlAkQdBaYt@{JTiDO?c@IiAOcG_A[Cc@jIzGz@f@F",
+                "merged_headsign": "2nd-Market"
+              }
+            ]
+          },
+          {
+            "latitude": 39.905199505098594,
+            "longitude": -75.17345839437907,
+            "name": "Broad St / Pattison Av / 2 NS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "kxyrF|nsiMlAL[dFeB`YmAjQ_Gv_AMVYT{AU]?WJQRCNUxBg@vIUdBMjB_ApQ}@jMpEh@~LhB`ADxATMfB~AT`AH~C^N_BfAL~G|@rFz@rC^xCXzXrDpAX|CVjB\\bGt@tARbBPtm@bIzHbApAT`Fn@zFv@lD^vFx@zFp@pIjAzFt@g@zHTB`G`AvPxB`BPtAVlPvBxTtC`E{l@l@_KpNjBLyBuJsAsAQe@?gAW",
+                "merged_headsign": "Broad-Pattison"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "route": {
+          "global_route_id": "SEPTAB:5775",
+          "real_time_route_id": "68",
+          "mode_name": "Bus",
+          "route_color": "#47515c",
+          "route_text_color": "#ffffff"
+        },
+        "stops": [
+          {
+            "latitude": 39.91130589017659,
+            "longitude": -75.16538249776633,
+            "name": "10th St / Packer Av / FS",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@h@i@b@o@f@y@Lc@FQgA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeBc@}EgB}M_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAmB~MeAh^EnMBdECrLHnUQzYQlAUfAWt@y@jAoBtBmAbA]NWD_@?UC]Me@[wE{F][_@UWKg@AeCPU?SCUUMUc@{Hc@oE{CoTMq@Uq@Sk@Yg@}@gAcAm@i@Uo@Mq@Gm@?o@J{PrDwEfAm@Dc@FcAG_@Ec@Oc@S_@U]UWYu@eAUg@Uk@k@uBaE_PM{@CyA?wAFi@PkAPi@Po@Tc@`F{IIYy@{@QOc@Qc@Ig@?aCIoCQ_AQQK_@[g@u@g@sAkB}GcAmDqAaDgA}BeCgEu@kAkA}A}BcCqCmCsBmBoCwBuWkUZe@~AcEJ?LSBQGKfAcCyDiD}@i@W]kAnCuFsEkCaCq@i@MCUMUGSCc@?QFs@f@gAv@e@uAoBmG}@_Cc@}@cAaBqG{KmAsC_@kAwFuTa@uBMwAQyBaDTW?aAMu@_@mSuQeGeFoImHq@y@[g@Qc@]cAe@kBwk@vYrCrEfAxAlAvArCfCbJzH`CxB~@jArBxC^j@x@`BbAjC~@`Db@lBj@bEqRdEsBd@}BbAoBj@uD|@mEz@q@T[ZcFjAyD`Ag@DYLiAx@oBbBeN|JcCxAsAb@}A?oCQgLm@i@M}@]_AEc@KaB{@}Bs@cBq@YPUFu@LqALcBX_FfAqGp@mAPuHhFcTdOwHhF{EjDUXYh@eApFUl@MPaAt@_IvFQPi@t@U\\YPQHi@Lc@F]CQC_Bi@g@KiHg@c@EuHc@]?QBQHSXyAxBsBbCqG`JgB~B_AtA_Ax@yA|@uExCsHrEaDxB_F_Ce@_@y@gIq@_J]sAkCsFiEt@cCZ]F_@P_ABeLfBmJpAyAXuBPCaAc@wFo@^TlC",
+                "merged_headsign": "69th St Transit Center"
+              },
+              {
+                "shape": "wgsrFzayiMTaE`OrBb@VlA\\rAb@l@^lFl@f@aDDq@rAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pILfAXrAp@nCxB~HrDxLtCjKvBvGfA|DP`@Vp@t@lA`DdF`ClDrCvD`DrEdEhGz@~AdBhDlAtCFb@D`@tAxDlFjNrBbFbC~GjAbCza@`mAjj@r_Bf@|BP|A?jBG|D?r@Fd@Hn@Pd@Zx@\\n@vElHTf@Rp@Jb@Dl@BbAQhCEfF@f@TMdEuBtAq@|KqEfLkEnImDfAi@t@k@bAgAz@}AJc@gA{AoAaBmKwYxDuCl@gAb@aBJuAGuAQeB_@gEkBsN_BeNOsAAmADq@TsAPi@x@oAt@[tJcAfA@lA\\lNhGlHjDb@XfAx@Z^n@~@v@bBrArDtAdE~@lEp@xD`BlHpAbF|A`D|@lA~AnBj@f@^T^VxA`AfAh@tGdCtAt@lApAr@|@v@lAf@fAt@xBnBbIb@rAtB|FrDvOXtAd@zD`C~Jf@dC~@dGx@xGPt@Ld@\\x@b@|@fApAlA|@rEpC\\`@h@t@\\b@^pA^xBfKbbABh@?|AGtAkBhMe@BDc@m@mEZIb@U",
+                "merged_headsign": "UPS"
+              }
+            ]
+          },
+          {
+            "latitude": 39.90281630620954,
+            "longitude": -75.17395302056359,
+            "name": "Broad St / Zinkoff Blvd / Mbns",
+            "wheelchair_boarding": 1,
+            "itineraries": [
+              {
+                "shape": "{ygrFxuijMt@Mb@aDFuA?}ACi@gKcbA_@yB_@qA]c@i@u@]a@sEqCmA}@gAqAc@}@]y@Me@Qu@y@yG_AeGg@eCaC_Ke@{DYuAsDwOuB}Fc@sAoBcIu@yBg@gAw@mAs@}@mAqAuAu@uGeCgAi@yAaA_@W_@Uk@g@_BoB}@mA}AaDqAcFaBmHq@yD_AmEuAeEsAsDw@cBo@_A[_@gAy@c@YmHkDmNiGmA]gAAuJbAu@Zy@nAQh@UrAEp@@lANrA~AdNfB|Mb@|EPdBFtAKtAc@`Bm@fAyDtC{Mu^Ec@kAiDK_@?c@F_ApBmOjAyJTkEBaDGuBC]ScBQ}Ba@{Cs@cDYgA_AsCa@y@gAoB_@q@y@gAc@{@gBoCwf@eu@gAkBkAuBu@aBq@gBc@oAsAgEu@_Du@gEc@aDc@eFmAiLu@mIoBwQFc@?g@KeEEyAOkASqAeA{DqBwE_AcBo@i@[YaAg@{Ag@sCm@m@YoHcA{Gy@e@?eD?oBAkAKcIkAcBQeGw@eFcAViCrAcRVsF^iE`@qCaCc@aFk@oTsCc@xHMjBg@vHcA`Nc@pIQ`@MhBfANp@Hu@uBM]UQTaE",
+                "merged_headsign": "Broad-Oregon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

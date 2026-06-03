@@ -6,14 +6,14 @@ const { route = {} } = Astro.props;
 <div
   class="transit-chip"
   data-transit-chip
-  data-populate="route_color: --route-color, route_text_color: --text-color, mode_name: @data-mode"
-  data-mode={route.mode_name}
+  data-populate="route_color: --route-color, route_text_color: --text-color, mode: @data-mode"
+  data-mode={route.mode}
   style={`
     --route-color: ${route.route_color};
     --text-color: ${route.route_text_color};
   `}
 >
-  <span class="transit-chip__text" data-populate="real_time_route_id">{ route.real_time_route_id }</span>
+  <span class="transit-chip__text" data-populate="route_id">{ route.route_id }</span>
   <span class="transit-chip__label" data-populate="company_name"></span>
 </div>
 
@@ -47,6 +47,8 @@ const { route = {} } = Astro.props;
 
     &[data-mode="Bus"] {
       border-radius: 50%;
+      background: var(--color-black);
+      color: var(--color-white);
 
       .transit-chip__text {
         border: 1px solid white;
@@ -54,13 +56,18 @@ const { route = {} } = Astro.props;
       }
     }
 
-    &[data-mode="Subway"], &[data-mode="Trolley"] {
+    &[data-mode="Metro"] {
       border-radius: 5px;
 
       .transit-chip__text {
         border: 1px solid white;
         border-radius: 3px;
       }
+    }
+
+    &[data-mode="Rail"] {
+      border-radius: 5px;
+      width: 48px;
     }
   }
 

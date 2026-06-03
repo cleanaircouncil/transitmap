@@ -1,0 +1,2070 @@
+{
+  "name": "The Dell Music Center",
+  "coordinates": [
+    -75.189787,
+    39.995881
+  ],
+  "stops": {
+    "septa-bus:16543": {
+      "stop_id": "16543",
+      "stop_name": "Lehigh Av & 31st St",
+      "coordinates": [
+        -75.181687,
+        39.997526
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:16545": {
+      "stop_id": "16545",
+      "stop_name": "33rd St & Lehigh Av - FS",
+      "coordinates": [
+        -75.185161,
+        39.997595
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:16546": {
+      "stop_id": "16546",
+      "stop_name": "33rd St & Huntingdon St",
+      "coordinates": [
+        -75.185425,
+        39.996346
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:16547": {
+      "stop_id": "16547",
+      "stop_name": "33rd St & Cumberland St",
+      "coordinates": [
+        -75.185773,
+        39.994865
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:16548": {
+      "stop_id": "16548",
+      "stop_name": "33rd St & York St",
+      "coordinates": [
+        -75.186097,
+        39.993385
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:16549": {
+      "stop_id": "16549",
+      "stop_name": "33rd St & Dauphin St",
+      "coordinates": [
+        -75.186433,
+        39.991984
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
+        },
+        {
+          "route_id": "septa-bus:49",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:16550": {
+      "stop_id": "16550",
+      "stop_name": "33rd St & Susquehanna Av",
+      "coordinates": [
+        -75.186781,
+        39.990307
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
+        }
+      ]
+    },
+    "septa-bus:15992": {
+      "stop_id": "15992",
+      "stop_name": "33rd St & Susquehanna Av",
+      "coordinates": [
+        -75.186663,
+        39.990164
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        }
+      ]
+    },
+    "septa-bus:15993": {
+      "stop_id": "15993",
+      "stop_name": "33rd St & Dauphin St - FS",
+      "coordinates": [
+        -75.186255,
+        39.99201
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        }
+      ]
+    },
+    "septa-bus:15994": {
+      "stop_id": "15994",
+      "stop_name": "33rd St & York St - FS",
+      "coordinates": [
+        -75.18592,
+        39.993465
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cambria"
+        }
+      ]
+    },
+    "septa-bus:15995": {
+      "stop_id": "15995",
+      "stop_name": "33rd St & Cumberland St",
+      "coordinates": [
+        -75.185644,
+        39.994687
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cambria"
+        }
+      ]
+    },
+    "septa-bus:15996": {
+      "stop_id": "15996",
+      "stop_name": "33rd St & Huntingdon St",
+      "coordinates": [
+        -75.18532,
+        39.996186
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cambria"
+        }
+      ]
+    },
+    "septa-bus:15997": {
+      "stop_id": "15997",
+      "stop_name": "33rd St & Lehigh Av",
+      "coordinates": [
+        -75.18496,
+        39.997773
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cambria"
+        }
+      ]
+    },
+    "septa-bus:19701": {
+      "stop_id": "19701",
+      "stop_name": "Lehigh Av & Napa St - MBNS",
+      "coordinates": [
+        -75.183082,
+        39.997538
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cambria"
+        }
+      ]
+    },
+    "septa-bus:15998": {
+      "stop_id": "15998",
+      "stop_name": "Lehigh Av & 31st St",
+      "coordinates": [
+        -75.181877,
+        39.997401
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:446",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "446: Henry-Midvale"
+        },
+        {
+          "route_id": "septa-bus:448",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "448: Ridge-Summit"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cambria"
+        }
+      ]
+    },
+    "septa-bus:644": {
+      "stop_id": "644",
+      "stop_name": "33rd St & Dauphin St Loop",
+      "coordinates": [
+        -75.18609,
+        39.992001
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:39",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cumberland"
+        },
+        {
+          "route_id": "septa-bus:54",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "33rd-Dauphin"
+        },
+        {
+          "route_id": "septa-bus:7",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:31553": {
+      "stop_id": "31553",
+      "stop_name": "Dauphin St & Ridge Av",
+      "coordinates": [
+        -75.18576,
+        39.991661
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:39",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cumberland"
+        },
+        {
+          "route_id": "septa-bus:7",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Pier 70"
+        }
+      ]
+    },
+    "septa-bus:16043": {
+      "stop_id": "16043",
+      "stop_name": "Dauphin St & 32nd St",
+      "coordinates": [
+        -75.184839,
+        39.991561
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:39",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cumberland"
+        },
+        {
+          "route_id": "septa-bus:49",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "29th-Snyder"
+        },
+        {
+          "route_id": "septa-bus:7",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Pier 70"
+        }
+      ]
+    },
+    "septa-bus:16210": {
+      "stop_id": "16210",
+      "stop_name": "Dauphin St & 31st St",
+      "coordinates": [
+        -75.183256,
+        39.991389
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:39",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "Richmond-Cumberland"
+        },
+        {
+          "route_id": "septa-bus:49",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "29th-Snyder"
+        },
+        {
+          "route_id": "septa-bus:7",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "Pier 70"
+        }
+      ]
+    },
+    "septa-bus:16393": {
+      "stop_id": "16393",
+      "stop_name": "York St & 31st St",
+      "coordinates": [
+        -75.182684,
+        39.992932
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:39",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        },
+        {
+          "route_id": "septa-bus:49",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "33rd-Dauphin"
+        },
+        {
+          "route_id": "septa-bus:7",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:16394": {
+      "stop_id": "16394",
+      "stop_name": "York St & 32nd St",
+      "coordinates": [
+        -75.184243,
+        39.993131
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:39",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        },
+        {
+          "route_id": "septa-bus:49",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "33rd-Dauphin"
+        },
+        {
+          "route_id": "septa-bus:7",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:656": {
+      "stop_id": "656",
+      "stop_name": "York St & 33rd St",
+      "coordinates": [
+        -75.18592,
+        39.993349
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:39",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "33rd-Dauphin"
+        },
+        {
+          "route_id": "septa-bus:49",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "33rd-Dauphin"
+        },
+        {
+          "route_id": "septa-bus:7",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "33rd-Dauphin"
+        }
+      ]
+    },
+    "septa-bus:18405": {
+      "stop_id": "18405",
+      "stop_name": "Ridge Av & Hunting Park Av",
+      "coordinates": [
+        -75.186971,
+        40.000616
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "9th-Market"
+        }
+      ]
+    },
+    "septa-bus:31793": {
+      "stop_id": "31793",
+      "stop_name": "Ridge Av & Lehigh Av",
+      "coordinates": [
+        -75.187699,
+        39.998261
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "9th-Market"
+        }
+      ]
+    },
+    "septa-bus:18406": {
+      "stop_id": "18406",
+      "stop_name": "Ridge Av & Huntingdon St",
+      "coordinates": [
+        -75.187693,
+        39.996645
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "9th-Market"
+        }
+      ]
+    },
+    "septa-bus:18407": {
+      "stop_id": "18407",
+      "stop_name": "Ridge Av & Cumberland St",
+      "coordinates": [
+        -75.18738,
+        39.994985
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "9th-Market"
+        }
+      ]
+    },
+    "septa-bus:912": {
+      "stop_id": "912",
+      "stop_name": "Ridge Av & Dauphin St",
+      "coordinates": [
+        -75.185724,
+        39.991786
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "9th-Market"
+        }
+      ]
+    },
+    "septa-bus:18409": {
+      "stop_id": "18409",
+      "stop_name": "Ridge Av & 32nd St",
+      "coordinates": [
+        -75.185102,
+        39.99075
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "9th-Market"
+        }
+      ]
+    },
+    "septa-bus:18410": {
+      "stop_id": "18410",
+      "stop_name": "Ridge Av & Susquehanna Av",
+      "coordinates": [
+        -75.184573,
+        39.990008
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "9th-Market"
+        }
+      ]
+    },
+    "septa-bus:17892": {
+      "stop_id": "17892",
+      "stop_name": "Ridge Av & 32nd St",
+      "coordinates": [
+        -75.184783,
+        39.990535
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:918": {
+      "stop_id": "918",
+      "stop_name": "Ridge Av & Dauphin St",
+      "coordinates": [
+        -75.185489,
+        39.991643
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:17998": {
+      "stop_id": "17998",
+      "stop_name": "Ridge Av & 33rd St",
+      "coordinates": [
+        -75.186064,
+        39.992697
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:17999": {
+      "stop_id": "17999",
+      "stop_name": "Ridge Av & York St - FS",
+      "coordinates": [
+        -75.186451,
+        39.993501
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:18000": {
+      "stop_id": "18000",
+      "stop_name": "Ridge Av & Cumberland St",
+      "coordinates": [
+        -75.187179,
+        39.994949
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:18001": {
+      "stop_id": "18001",
+      "stop_name": "Ridge Av & Huntingdon St",
+      "coordinates": [
+        -75.187528,
+        39.996484
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:919": {
+      "stop_id": "919",
+      "stop_name": "Ridge Av & Lehigh Av",
+      "coordinates": [
+        -75.187535,
+        39.998073
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:30906": {
+      "stop_id": "30906",
+      "stop_name": "Ridge Av & Hunting Park Av - FS",
+      "coordinates": [
+        -75.186591,
+        40.000981
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    },
+    "septa-bus:18003": {
+      "stop_id": "18003",
+      "stop_name": "Ridge Av & 35th St",
+      "coordinates": [
+        -75.187117,
+        40.002758
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:61",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Manayunk"
+        }
+      ]
+    }
+  },
+  "routes": {
+    "septa-bus:32": {
+      "route_id": "32",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "32",
+      "route_long_name": "Broad-Carpenter to Ridge-Lyceum",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "{zisF~kajM|@`BhBfDzDjHpDxG}BdC}BdCqAcC}AyC{@yA_CoEqEkIvAaB`@c@bBoBT[FGdCyCFGr@w@n@s@nCaDf@k@xAeBNOPQPQk@_B_AoCy@cC}@kCGWoAoDLILIlD}BjCeBp@a@fAu@r@g@LIv@c@hBoAl@a@zAaAp@c@nCgBTUFGNORYV_@NWJUHUFSJc@Hi@Fa@DaA?E@e@Ac@Ag@OyAIs@Ec@a@qDMiACk@AU?[@_@@YD]BUDYFYHYFUL[P]NWLQTWPUfCsCrBwBJIFIFGlCcCp@m@b@a@XWTUVU`As@h@]bAs@RKROVSPQLKLQNOHMBENUv@uAZk@NW@APSZYb@[\\YJKPQLOJQFMDKBQDOLe@FUL]FOJQFOJMFIHKXWZUPMJIXQNMPM@APORQJKNMz@cALOVYp@{@`AkAn@w@\\c@TWv@_Ax@eAh@q@zAiBbEcFjB}B`@g@|@cA~@kAZ_@nAwAFILQV]RUNQJI^[RQLKf@e@VUjBaBTSNMNK@CLIHIDGRSRABAZWJGLGNGZKPEHCjFsAjBi@xCw@nCi@VG^KT[|@Kp@GWk@Ua@m@wAo@{AkAmCLIHCFAJ@`Fp@zBVjAPL@fBVpAR|Df@b@FXB\\HjANxC^jC`@zC^P`@t@pAh@v@|BxDFJHHHDFDK`BEFIvAO|BOnB[tEG~@MfB@HAPMzBzEl@`BXnAPzEn@vAPnEl@nB^dBRzARlBT~ATfBTvBZtBXjANVDzARvAP`BTdBV`BRdBT|En@nAPvC^`ALrARfANhANf@DzARB?NBZFHJ^HF@xANdBRr@H\\Bd@Fj@HTDNHNLJHHLZ\\TRPLTHRFRBT@RATEVGh@OPE`@MZKJEFAt@WZOHCHENIZSXQLKNKBCLMRSTWZ]NSLSBEFOFKBIDOHIFGFGx@e@f@W|@g@FCjBeACIAI?IAM@Q?Q@Q@WBa@T_DJkBZuEf@eIPqCNkCJoAFmAJyAFcAtFt@tC^bAN~ARTBv@L`ALhCV|ATH@D@D@BBDDBDdAmA\\a@~AiB`@e@|BkCr@w@~@cAr@u@Z_@t@}@X]r@_Ad@i@`@i@pDoEd@o@PWPYLUBKDOBY@OAKP}ClAP`@D\\DVDdCZ~@N^Fn@HL@JBZBRD~@JXDN@VDn@H^uGBq@Ve@e@IJQb@s@PYLMRKRGvAKFAHAHCFETQJODKFOFWBS@O\\JrDl@j@HlC\\jBX|AP??hAP|BZZqELiBVmEJqB\\kFHkAVaELwBXDdAILCHAFCFCFEDEFK@KDKDYNq@N{CbBTn@HvC^fAN`ALLBtBXp@JZB\\Db@F~BZlANhANzARp@HdANrBVdANnBXtAPrAPxARhAPvBVvAPnBVfAPl@Hb@FVBfDb@g@nItBVxBZLiBLmBLyBmAQqAOk@G",
+      "stop_ids": [
+        "septa-bus:20414",
+        "septa-bus:20968",
+        "septa-bus:17842",
+        "septa-bus:8936",
+        "septa-bus:8938",
+        "septa-bus:19699",
+        "septa-bus:10272",
+        "septa-bus:18451",
+        "septa-bus:10266",
+        "septa-bus:123",
+        "septa-bus:9898",
+        "septa-bus:9899",
+        "septa-bus:18586",
+        "septa-bus:15185",
+        "septa-bus:15186",
+        "septa-bus:15187",
+        "septa-bus:15188",
+        "septa-bus:15189",
+        "septa-bus:15190",
+        "septa-bus:15191",
+        "septa-bus:15192",
+        "septa-bus:15193",
+        "septa-bus:15194",
+        "septa-bus:15195",
+        "septa-bus:15196",
+        "septa-bus:2635",
+        "septa-bus:15202",
+        "septa-bus:5150",
+        "septa-bus:5166",
+        "septa-bus:5152",
+        "septa-bus:5195",
+        "septa-bus:5135",
+        "septa-bus:14996",
+        "septa-bus:5233",
+        "septa-bus:5281",
+        "septa-bus:5318",
+        "septa-bus:5229",
+        "septa-bus:15941",
+        "septa-bus:21232",
+        "septa-bus:16193",
+        "septa-bus:19693",
+        "septa-bus:19694",
+        "septa-bus:18841",
+        "septa-bus:16185",
+        "septa-bus:16186",
+        "septa-bus:16187",
+        "septa-bus:16521",
+        "septa-bus:16523",
+        "septa-bus:16525",
+        "septa-bus:16527",
+        "septa-bus:16528",
+        "septa-bus:16529",
+        "septa-bus:19708",
+        "septa-bus:16530",
+        "septa-bus:16531",
+        "septa-bus:16532",
+        "septa-bus:16533",
+        "septa-bus:19703",
+        "septa-bus:16536",
+        "septa-bus:19702",
+        "septa-bus:16537",
+        "septa-bus:16538",
+        "septa-bus:261",
+        "septa-bus:2889",
+        "septa-bus:2885",
+        "septa-bus:2888",
+        "septa-bus:16542",
+        "septa-bus:16543",
+        "septa-bus:16545",
+        "septa-bus:16546",
+        "septa-bus:16547",
+        "septa-bus:16548",
+        "septa-bus:16549",
+        "septa-bus:16550",
+        "septa-bus:16551",
+        "septa-bus:16552",
+        "septa-bus:16553",
+        "septa-bus:16554",
+        "septa-bus:16555",
+        "septa-bus:581",
+        "septa-bus:582",
+        "septa-bus:31117",
+        "septa-bus:1313",
+        "septa-bus:16557",
+        "septa-bus:16558",
+        "septa-bus:16559",
+        "septa-bus:16560",
+        "septa-bus:16561",
+        "septa-bus:16562",
+        "septa-bus:16563",
+        "septa-bus:16564",
+        "septa-bus:16565",
+        "septa-bus:16566",
+        "septa-bus:25203",
+        "septa-bus:16569",
+        "septa-bus:19711",
+        "septa-bus:14911",
+        "septa-bus:14912",
+        "septa-bus:31348",
+        "septa-bus:19477",
+        "septa-bus:19707",
+        "septa-bus:15947",
+        "septa-bus:15948",
+        "septa-bus:1321",
+        "septa-bus:15950",
+        "septa-bus:15951",
+        "septa-bus:15952",
+        "septa-bus:15954",
+        "septa-bus:19697",
+        "septa-bus:19698",
+        "septa-bus:31115",
+        "septa-bus:15955",
+        "septa-bus:14939",
+        "septa-bus:2880",
+        "septa-bus:584",
+        "septa-bus:11944",
+        "septa-bus:14941",
+        "septa-bus:15960",
+        "septa-bus:585",
+        "septa-bus:586",
+        "septa-bus:15961",
+        "septa-bus:15962",
+        "septa-bus:15989",
+        "septa-bus:15990",
+        "septa-bus:15991",
+        "septa-bus:15992",
+        "septa-bus:15993",
+        "septa-bus:15994",
+        "septa-bus:15995",
+        "septa-bus:15996",
+        "septa-bus:15997",
+        "septa-bus:19701",
+        "septa-bus:15998",
+        "septa-bus:31116",
+        "septa-bus:16000",
+        "septa-bus:14948",
+        "septa-bus:16002",
+        "septa-bus:16003",
+        "septa-bus:587",
+        "septa-bus:16004",
+        "septa-bus:16005",
+        "septa-bus:16006",
+        "septa-bus:16009",
+        "septa-bus:19704",
+        "septa-bus:16010",
+        "septa-bus:16011",
+        "septa-bus:19709",
+        "septa-bus:16012",
+        "septa-bus:16013",
+        "septa-bus:16014",
+        "septa-bus:16016",
+        "septa-bus:16017",
+        "septa-bus:16018",
+        "septa-bus:16019",
+        "septa-bus:16020",
+        "septa-bus:16021",
+        "septa-bus:12302"
+      ]
+    },
+    "septa-bus:54": {
+      "route_id": "54",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "54",
+      "route_long_name": "Richmond-Cambria to 33rd-Dauphin",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "wl_sFvvliMZWBClAvCp@bBx@tBUPYTeAx@}@v@aAx@kBbByAnAkA`AgA~@iA|@oAbAoAdA_BtAaBtAqAfAgB~AaAv@cAx@kA`AaEnDiBzAmAdAuAhAmCpBO\\gBvAk@h@UPo@b@}ArA_BtAuBjBoBrAv@bBdA~B`@x@^z@JRFL@@JXDJFLVd@v@hBILs@|@EFEJCHCJAJItAGz@Ej@MhBEb@[vFk@lIGt@OhBKhBKzAIzAEf@Gt@AXI|@M|AALCXIrAG~@Gt@MnBCXCZQzBE^Er@MdBIbAC\\Cf@Er@IbAAXMvAEr@Cn@ObCO~BQdCGt@Ej@GbAUdDQ~BIpAEl@K~AKbBCp@Ej@E`AOlCGz@e@jGMbBC`@AHCd@Cf@I~Ae@xHK|AEd@Gp@_@|FANARCTC^IjAC^Cf@KzAMlBKzAMpBIvACRAVIbAOpBInAObCCf@G~@IrAEr@SzCANCVQnBIfAEn@Cf@CVCPEHA@GxAYbEEv@Ef@SnC?@BJCXIlAATC^IdAKzAMtBADAVKpAARIdAAXI|AOlBK~AKnBM~AEj@Et@Cb@KzAc@|HKvAEf@CTCb@M~AOhBIpAARCNKbBIfAEn@Ep@E`@OtBK`BEFIvAO|BOnB[tEG~@MfB@HAPMzBzEl@`BXnAPzEn@vAPnEl@nB^bBEn@U",
+      "stop_ids": [
+        "septa-bus:16543",
+        "septa-bus:16545",
+        "septa-bus:16546",
+        "septa-bus:16547",
+        "septa-bus:16548",
+        "septa-bus:15994",
+        "septa-bus:15995",
+        "septa-bus:15996",
+        "septa-bus:15997",
+        "septa-bus:19701",
+        "septa-bus:15998",
+        "septa-bus:644",
+        "septa-bus:16316",
+        "septa-bus:30803",
+        "septa-bus:9361",
+        "septa-bus:20538",
+        "septa-bus:9358",
+        "septa-bus:9357",
+        "septa-bus:9356",
+        "septa-bus:9355",
+        "septa-bus:20539",
+        "septa-bus:9353",
+        "septa-bus:9352",
+        "septa-bus:9351",
+        "septa-bus:9349",
+        "septa-bus:9348",
+        "septa-bus:9347",
+        "septa-bus:9346",
+        "septa-bus:9345",
+        "septa-bus:9344",
+        "septa-bus:9375",
+        "septa-bus:9343",
+        "septa-bus:9342",
+        "septa-bus:20542",
+        "septa-bus:9378",
+        "septa-bus:9367",
+        "septa-bus:9365",
+        "septa-bus:30802",
+        "septa-bus:9364",
+        "septa-bus:20543",
+        "septa-bus:17647",
+        "septa-bus:17648",
+        "septa-bus:20544",
+        "septa-bus:9368",
+        "septa-bus:9374",
+        "septa-bus:19006",
+        "septa-bus:30885",
+        "septa-bus:5605",
+        "septa-bus:5602",
+        "septa-bus:20545",
+        "septa-bus:5598",
+        "septa-bus:5607",
+        "septa-bus:5608",
+        "septa-bus:30804",
+        "septa-bus:20546",
+        "septa-bus:5604",
+        "septa-bus:5600",
+        "septa-bus:5597",
+        "septa-bus:5606",
+        "septa-bus:5601",
+        "septa-bus:20596",
+        "septa-bus:12218",
+        "septa-bus:13113",
+        "septa-bus:13107",
+        "septa-bus:13111",
+        "septa-bus:20512",
+        "septa-bus:13115",
+        "septa-bus:13114",
+        "septa-bus:13106",
+        "septa-bus:13110",
+        "septa-bus:20513",
+        "septa-bus:13112",
+        "septa-bus:21262",
+        "septa-bus:30805",
+        "septa-bus:20514",
+        "septa-bus:20515",
+        "septa-bus:9377",
+        "septa-bus:9382",
+        "septa-bus:9359",
+        "septa-bus:30806",
+        "septa-bus:9362",
+        "septa-bus:9363",
+        "septa-bus:20516",
+        "septa-bus:20597",
+        "septa-bus:30807",
+        "septa-bus:9366",
+        "septa-bus:20518",
+        "septa-bus:20519",
+        "septa-bus:20520",
+        "septa-bus:20521",
+        "septa-bus:20522",
+        "septa-bus:20547",
+        "septa-bus:20523",
+        "septa-bus:20524",
+        "septa-bus:20525",
+        "septa-bus:20526",
+        "septa-bus:20527",
+        "septa-bus:20528",
+        "septa-bus:20598",
+        "septa-bus:20529",
+        "septa-bus:20530",
+        "septa-bus:20531",
+        "septa-bus:20532",
+        "septa-bus:20533",
+        "septa-bus:20534",
+        "septa-bus:20535",
+        "septa-bus:20536"
+      ]
+    },
+    "septa-bus:49": {
+      "route_id": "49",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "49",
+      "route_long_name": "33rd-Dauphin to 29th-Snyder",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "ijurF~q}iMQNMHw@p@u@r@OPKLMJm@n@m@p@i@l@sBuEa@eAUs@[KqAQwBYKAEAWCoDe@aAMuFu@wFu@_BUcAMmAQsFs@iAOuAQ_AOwAMKAKA@~C?|@?fB?`A?h@Cb@Et@K`AGj@ETCTShBOnAABCTITILKFCBIBM@SAm@CaBa@mBe@m@QYGs@Us@YoB}@{Ay@UKCCKEMEICICOAG?C?A?C@C@SAGBGDMHIJEJEHCJa@nBMh@CHCDGJGHGHED??OLQHUL]NC@[LQHIBm@DK@O?MCMEMIIIIOKUIOAYGi@AGCGI]AASOGMDC@CJIBCBE@C@A@CBA@AFGLI@ALINKHGHGHKFKBE@EBGBI@K@I@G?I?I?SAO?CC]CYOiACIKq@COEOQq@EQIWMa@Sm@_AgCSk@M[m@cBa@eAYu@EKIm@EICEEEGGGCSIQG@H?H?HCHCHCFEFEFEBGF_@Va@XMHIHKHIFMNIHEFA@IHEFCBA@AB?@A@?@?@ABAL?@Cb@AP?LGAIAKMa@Gi@G]GKCIEKGIEMMUUSSMOMKEG{@eAiE{FIKIIGGGCEEGCEAGCICIAOCEAiC]eFm@mAOqCWo@G[CqAKJeBB]NsBHwAB[B]D{@BYBk@Fy@Dm@PsCDq@Bi@@G?E@ODq@Dm@TmDBm@@G@O@ILsBLmBVcD@S?C@C?K@I@G?KHwAHuAFcADm@Fy@TqDLeBHaBDg@H}ALaBJuANcCL}BHiAFcALqBsAOk@GgAMeAIYEkBYiBWoAOuDc@eDc@_BWa@IIEKCWCQCMCmC_@o@KmBWeAOWE]Ec@IcC[uBY{@MuASUCkASy@Gs@KgAMkC]gCg@}@Mi@GeAI?xBAtBEnCGhI?p@CtGEnEAtBAbECdCAvD???@yApBy@dA}AlBABq@t@GFCBIHIDINE@EBCBGHwAlBeBzBc@j@kAxA_BnBGHIDC@E@G?IAQAyASyBYyB[aC]u@KqAQaBUo@IoEk@{Fu@sG}@m@I_BSmC_@iBUqAQ_BSoHeAGAWEGAuDg@]Ea@GYEkAOsBU_BUmAQSC{BWqAQqAQcAMgAOyASA?}Ca@w@KgBWuC_@mAQgAMMpBM~AMnBOrBIrAMvBMjBK~AMpBOjBGp@En@MxB?@@@lB\\dBRt@L",
+      "stop_ids": [
+        "septa-bus:21486",
+        "septa-bus:21448",
+        "septa-bus:21449",
+        "septa-bus:21450",
+        "septa-bus:31393",
+        "septa-bus:21439",
+        "septa-bus:21437",
+        "septa-bus:21438",
+        "septa-bus:21441",
+        "septa-bus:21443",
+        "septa-bus:21445",
+        "septa-bus:25039",
+        "septa-bus:25041",
+        "septa-bus:25042",
+        "septa-bus:25043",
+        "septa-bus:25108",
+        "septa-bus:25109",
+        "septa-bus:25110",
+        "septa-bus:19699",
+        "septa-bus:32489",
+        "septa-bus:3092",
+        "septa-bus:21442",
+        "septa-bus:30196",
+        "septa-bus:30653",
+        "septa-bus:573",
+        "septa-bus:30313",
+        "septa-bus:21527",
+        "septa-bus:21528",
+        "septa-bus:18996",
+        "septa-bus:21529",
+        "septa-bus:10285",
+        "septa-bus:10283",
+        "septa-bus:20644",
+        "septa-bus:10281",
+        "septa-bus:21536",
+        "septa-bus:30577",
+        "septa-bus:19025",
+        "septa-bus:32508",
+        "septa-bus:16549",
+        "septa-bus:16569",
+        "septa-bus:15955",
+        "septa-bus:14916",
+        "septa-bus:2836",
+        "septa-bus:2799",
+        "septa-bus:14917",
+        "septa-bus:2802",
+        "septa-bus:2812",
+        "septa-bus:14920",
+        "septa-bus:2811",
+        "septa-bus:14921",
+        "septa-bus:16043",
+        "septa-bus:16210",
+        "septa-bus:16211",
+        "septa-bus:16212",
+        "septa-bus:16392",
+        "septa-bus:16393",
+        "septa-bus:16394",
+        "septa-bus:656",
+        "septa-bus:2907",
+        "septa-bus:3196",
+        "septa-bus:747",
+        "septa-bus:25202",
+        "septa-bus:20430",
+        "septa-bus:2887",
+        "septa-bus:2901",
+        "septa-bus:2891",
+        "septa-bus:2895",
+        "septa-bus:2908",
+        "septa-bus:92",
+        "septa-bus:2903",
+        "septa-bus:2899",
+        "septa-bus:2902",
+        "septa-bus:30106",
+        "septa-bus:3103",
+        "septa-bus:3098",
+        "septa-bus:751",
+        "septa-bus:14942",
+        "septa-bus:14943",
+        "septa-bus:3201",
+        "septa-bus:2900",
+        "septa-bus:2886",
+        "septa-bus:2896",
+        "septa-bus:25184",
+        "septa-bus:30103",
+        "septa-bus:3195",
+        "septa-bus:2906",
+        "septa-bus:752",
+        "septa-bus:32490",
+        "septa-bus:32491",
+        "septa-bus:32492",
+        "septa-bus:32493",
+        "septa-bus:32494",
+        "septa-bus:32495",
+        "septa-bus:32496",
+        "septa-bus:32497",
+        "septa-bus:25204",
+        "septa-bus:30369",
+        "septa-bus:30368",
+        "septa-bus:32485",
+        "septa-bus:32486",
+        "septa-bus:32487",
+        "septa-bus:32488",
+        "septa-bus:32480",
+        "septa-bus:32481",
+        "septa-bus:32499",
+        "septa-bus:32506",
+        "septa-bus:32514",
+        "septa-bus:32507",
+        "septa-bus:32509",
+        "septa-bus:25921",
+        "septa-bus:32501",
+        "septa-bus:32502",
+        "septa-bus:32503",
+        "septa-bus:25158",
+        "septa-bus:25160",
+        "septa-bus:30102",
+        "septa-bus:32504",
+        "septa-bus:32505"
+      ]
+    },
+    "septa-bus:446": {
+      "route_id": "446",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "446",
+      "route_long_name": "Henry-Cinnaminsn to Junipr-Commerce",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "yamsFvjbjM\\cAXw@Re@P[PUXa@RUNMNONKRMRMPIRI^OXGPCTCNCH?JAR?f@A^?^?t@?|A@dD@NAdAAtCQH?b@CXEJAJCLCJEJEPMLKNMVSb@c@bAcATUJMX[V[V_@\\g@b@s@b@o@j@_AhAoBt@oAb@w@\\m@pAsBtAcCl@aA`A_BFJN^jGfPpGtPrCoCp@q@rAqATYvAaB`@c@bBoBTYDIhCyCDGr@w@n@s@nCaDf@m@xAcBNOPQPQi@_BaAqCy@aC}@kCGWoAoDLILIlD}BlBoA\\Wp@_@fAu@r@g@LIv@c@hBoAl@a@zAaAp@c@nCgBTUFGNORYV_@NWJUHUFSJc@Hi@Fa@DaA?E@e@Ac@Ag@OyAIs@Ec@a@qDMiACk@AU?Y@a@@YD]BUDYFYHYFUL[P]NWLQTWPUfCuCrBuBJIFIFGbCyBHIp@m@b@a@XWTUVU`As@h@]bAs@RKROVSPQLKLQNOHMBENUv@uAZk@NW@APSd@c@TQRMPQNMJOLONYFM@A?KFQLe@FUL]FOHQHOJMFIHKXWZUPMJIXQNMPM@APORQJKNMz@cALOVYp@{@@A~@iAn@w@\\c@TWv@_Ax@eAh@q@zAiBbEcFjB}B`@g@|@cA~@kAZ_@nAwAFILQV]RUFEFKJI^[RQLKf@e@VUjBaBTSNMNK@CLIHIDGRSRABAZWJGLGNGZKPEHCdFqABAlBi@xCw@nCi@VG^KT[??|@Kp@G?AWi@Ua@m@wAo@{AkAmC??LIHCFAJ@`Fp@",
+      "stop_ids": [
+        "septa-bus:20968",
+        "septa-bus:17842",
+        "septa-bus:8936",
+        "septa-bus:8938",
+        "septa-bus:19699",
+        "septa-bus:8517",
+        "septa-bus:8534",
+        "septa-bus:8545",
+        "septa-bus:30743",
+        "septa-bus:8528",
+        "septa-bus:8533",
+        "septa-bus:9392",
+        "septa-bus:12299",
+        "septa-bus:12275",
+        "septa-bus:123",
+        "septa-bus:12274",
+        "septa-bus:8523",
+        "septa-bus:19040",
+        "septa-bus:1308",
+        "septa-bus:16185",
+        "septa-bus:16186",
+        "septa-bus:16187",
+        "septa-bus:16521",
+        "septa-bus:16523",
+        "septa-bus:16525",
+        "septa-bus:16527",
+        "septa-bus:16528",
+        "septa-bus:16529",
+        "septa-bus:19708",
+        "septa-bus:16530",
+        "septa-bus:16531",
+        "septa-bus:16532",
+        "septa-bus:16533",
+        "septa-bus:19703",
+        "septa-bus:16536",
+        "septa-bus:19702",
+        "septa-bus:16537",
+        "septa-bus:16538",
+        "septa-bus:261",
+        "septa-bus:19707",
+        "septa-bus:15947",
+        "septa-bus:15948",
+        "septa-bus:1321",
+        "septa-bus:15950",
+        "septa-bus:15951",
+        "septa-bus:15952",
+        "septa-bus:15954",
+        "septa-bus:19697",
+        "septa-bus:19698",
+        "septa-bus:31115",
+        "septa-bus:15955",
+        "septa-bus:14939",
+        "septa-bus:2880",
+        "septa-bus:584",
+        "septa-bus:11944",
+        "septa-bus:14941",
+        "septa-bus:15960",
+        "septa-bus:585",
+        "septa-bus:586",
+        "septa-bus:15961",
+        "septa-bus:15962",
+        "septa-bus:15989",
+        "septa-bus:15990",
+        "septa-bus:15991",
+        "septa-bus:15992",
+        "septa-bus:15993",
+        "septa-bus:15994",
+        "septa-bus:15995",
+        "septa-bus:15996",
+        "septa-bus:15997",
+        "septa-bus:19701",
+        "septa-bus:15998",
+        "septa-bus:31116",
+        "septa-bus:16000",
+        "septa-bus:14948",
+        "septa-bus:16002",
+        "septa-bus:16003",
+        "septa-bus:587",
+        "septa-bus:16004",
+        "septa-bus:16005",
+        "septa-bus:16006",
+        "septa-bus:16009",
+        "septa-bus:19704",
+        "septa-bus:16010",
+        "septa-bus:16011",
+        "septa-bus:19709",
+        "septa-bus:16012",
+        "septa-bus:16013",
+        "septa-bus:16014",
+        "septa-bus:16016",
+        "septa-bus:16017",
+        "septa-bus:16018",
+        "septa-bus:16019",
+        "septa-bus:16020",
+        "septa-bus:16021",
+        "septa-bus:12302",
+        "septa-bus:8521",
+        "septa-bus:8524",
+        "septa-bus:16526",
+        "septa-bus:16015",
+        "septa-bus:30749",
+        "septa-bus:19038",
+        "septa-bus:12300",
+        "septa-bus:16534",
+        "septa-bus:16535",
+        "septa-bus:28165",
+        "septa-bus:25157",
+        "septa-bus:14940",
+        "septa-bus:19700",
+        "septa-bus:14949"
+      ]
+    },
+    "septa-bus:448": {
+      "route_id": "448",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "448",
+      "route_long_name": "Broad-Vine to Upper Roxborough",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "amdsFphziMQA??In@q@F}@J_@Co@N{@Pq@L]Hy@Pq@Rq@RaBf@UFgBb@}A^e@NIBWHQFOHMFMHSPKJGTSREFIHMHABOJOLURkB`BWTg@d@MJSP_@ZKHGJGDSTW\\MPGHoAvA[^_AjA}@bAa@f@kB|BcEbF{AhBi@p@y@dAw@~@UV]b@o@v@_AhAA@q@z@WXMN{@bAOLKJSPQNA@QLOLYPKHQL[TYVIJGHKLGNKPGNM\\GTMd@GPIFCDEFEJMPQRQRSN[RGDULUVKLIJEFGH]l@g@|@U^W^Y\\[X]Xi@^qAz@g@^MHsAfAYTaBtAeCzBGFIHKJA@{BdC}@`AqArAa@f@U^Sd@GNMd@GTG`@Id@Cf@AZ?R?N?J@f@Dl@Fh@PjBR~AFh@Ht@Fj@Ft@@j@?T?JCl@Ef@CVCTCJKd@IZITIPMXQZORSXUTKDoCdBq@b@{AbAm@^OJ{A|@yB|Ay@l@KHm@^a@XkBjAoCdBSJQLWHDLBHnAnDFV|@jCx@`C`ApCh@~AQPQPONyAbBg@l@oC`Do@r@s@v@GFgCxCEHUXcBnBa@b@wA`BUXsApAq@p@sCnCmBhBQPMPQXOXM\\Sp@]dAKXM`@I\\ERI^Mj@Kb@UjAo@fCETOh@I\\Qn@_@nAQd@GRIPIHMJQLUNaAj@GDWRgBjA_DtBcAr@KHi@`@aBnAURURa@b@cB`B_@^A@QROTW`@g@bAw@vAkC|EGNUd@Up@Od@Od@y@bDI`@Oj@Sx@GRGVENM\\ITIPENMZWj@CFEJCBWd@MVILKNILc@j@]b@Y^eArAe@l@oAxAIJOPQPEDSPQNULQJUJg@R{@\\kAb@A@m@Xa@LKBkAXoCt@uA\\SF_@HYDY@Y?Q?c@AeCGgACo@Cu@Gs@Gy@MwBS_@EUA_@As@?gBAi@@iABo@Dk@F",
+      "stop_ids": [
+        "septa-bus:19699",
+        "septa-bus:31123",
+        "septa-bus:12274",
+        "septa-bus:19707",
+        "septa-bus:1321",
+        "septa-bus:15950",
+        "septa-bus:15951",
+        "septa-bus:15952",
+        "septa-bus:15954",
+        "septa-bus:19697",
+        "septa-bus:19698",
+        "septa-bus:31115",
+        "septa-bus:15955",
+        "septa-bus:14939",
+        "septa-bus:2880",
+        "septa-bus:584",
+        "septa-bus:11944",
+        "septa-bus:14941",
+        "septa-bus:15960",
+        "septa-bus:585",
+        "septa-bus:586",
+        "septa-bus:15961",
+        "septa-bus:15962",
+        "septa-bus:15989",
+        "septa-bus:15990",
+        "septa-bus:15991",
+        "septa-bus:15992",
+        "septa-bus:15993",
+        "septa-bus:15994",
+        "septa-bus:15995",
+        "septa-bus:15996",
+        "septa-bus:15997",
+        "septa-bus:19701",
+        "septa-bus:15998",
+        "septa-bus:31116",
+        "septa-bus:16000",
+        "septa-bus:14948",
+        "septa-bus:16002",
+        "septa-bus:16003",
+        "septa-bus:587",
+        "septa-bus:16004",
+        "septa-bus:16005",
+        "septa-bus:16006",
+        "septa-bus:16009",
+        "septa-bus:19704",
+        "septa-bus:16010",
+        "septa-bus:16011",
+        "septa-bus:19709",
+        "septa-bus:16012",
+        "septa-bus:16013",
+        "septa-bus:16014",
+        "septa-bus:16016",
+        "septa-bus:16017",
+        "septa-bus:16018",
+        "septa-bus:16019",
+        "septa-bus:16020",
+        "septa-bus:16021",
+        "septa-bus:12302",
+        "septa-bus:16015",
+        "septa-bus:12300",
+        "septa-bus:16064",
+        "septa-bus:16065",
+        "septa-bus:604",
+        "septa-bus:16066",
+        "septa-bus:16068",
+        "septa-bus:15392",
+        "septa-bus:16072",
+        "septa-bus:20408",
+        "septa-bus:16073",
+        "septa-bus:12329",
+        "septa-bus:12346",
+        "septa-bus:16079",
+        "septa-bus:16082",
+        "septa-bus:16084",
+        "septa-bus:20409",
+        "septa-bus:16347",
+        "septa-bus:16007",
+        "septa-bus:16008",
+        "septa-bus:25157",
+        "septa-bus:14940",
+        "septa-bus:19700",
+        "septa-bus:14949"
+      ]
+    },
+    "septa-bus:39": {
+      "route_id": "39",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "39",
+      "route_long_name": "Richmond-Cumberland to 33rd-Dauphin",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "_}asF`x{iMr@UFmANuDL{AH}@TaDh@}HNqBVkEHuAH_AXwDF}@Dm@Dc@Di@JyAd@cIh@}HHcBLuBLmBBc@Dq@H_AXiET_DHoAB[N{BDm@Di@NwBN_CLmBPeCDk@HeADk@Bi@RmBLkBLwAPiBL}BHuAHkBHyBDm@Fm@JoBHiAHqAT_DRwCVuDR}CHeBPiDHeADo@Dc@Fs@LiBV}DDw@FcAl@_IT{CP{CVcERaCJcCVaDR_DPiCN_CP_CmHaAeH{@eAMsCc@oAQiAOKCs@KyAU_BWDo@Ds@Dq@Bg@Ds@Dm@HuABYBSHq@Fs@Fo@HqAB]LiBp@HpANxDd@bBTdEj@bALdANzC^D@hALbFl@@O@OJwBLuBLmBLkBJwA@KHkALeBJ{ALcBJiAB[A]e@yAcAkBKWo@}Ay@_Cy@mB_AuBdEeDxDoDvD{Cp@i@j@e@lAeArAsAtCwB~BsBfCwBzDcDbEkDvBmBfDqCpAkAl@a@TUZYp@i@JIr@m@|@w@PMt@m@bAOh@a@",
+      "stop_ids": [
+        "septa-bus:16369",
+        "septa-bus:14924",
+        "septa-bus:14752",
+        "septa-bus:14754",
+        "septa-bus:644",
+        "septa-bus:31553",
+        "septa-bus:16043",
+        "septa-bus:16210",
+        "septa-bus:16211",
+        "septa-bus:16212",
+        "septa-bus:16213",
+        "septa-bus:16214",
+        "septa-bus:16215",
+        "septa-bus:16216",
+        "septa-bus:16217",
+        "septa-bus:21136",
+        "septa-bus:16218",
+        "septa-bus:16219",
+        "septa-bus:16220",
+        "septa-bus:16221",
+        "septa-bus:16222",
+        "septa-bus:16223",
+        "septa-bus:16224",
+        "septa-bus:646",
+        "septa-bus:16225",
+        "septa-bus:16226",
+        "septa-bus:16227",
+        "septa-bus:16228",
+        "septa-bus:16229",
+        "septa-bus:16230",
+        "septa-bus:647",
+        "septa-bus:16231",
+        "septa-bus:16232",
+        "septa-bus:18537",
+        "septa-bus:16234",
+        "septa-bus:18539",
+        "septa-bus:18540",
+        "septa-bus:16316",
+        "septa-bus:30803",
+        "septa-bus:18066",
+        "septa-bus:16319",
+        "septa-bus:16320",
+        "septa-bus:31462",
+        "septa-bus:16321",
+        "septa-bus:16322",
+        "septa-bus:16323",
+        "septa-bus:21150",
+        "septa-bus:16325",
+        "septa-bus:16326",
+        "septa-bus:16327",
+        "septa-bus:16328",
+        "septa-bus:16329",
+        "septa-bus:16330",
+        "septa-bus:16331",
+        "septa-bus:16332",
+        "septa-bus:16333",
+        "septa-bus:16334",
+        "septa-bus:16335",
+        "septa-bus:16336",
+        "septa-bus:16337",
+        "septa-bus:16338",
+        "septa-bus:21225",
+        "septa-bus:16339",
+        "septa-bus:16340",
+        "septa-bus:16341",
+        "septa-bus:16342",
+        "septa-bus:16343",
+        "septa-bus:16344",
+        "septa-bus:16345",
+        "septa-bus:16346",
+        "septa-bus:16348",
+        "septa-bus:16349",
+        "septa-bus:16350",
+        "septa-bus:16351",
+        "septa-bus:16352",
+        "septa-bus:16353",
+        "septa-bus:16354",
+        "septa-bus:16355",
+        "septa-bus:19017",
+        "septa-bus:52",
+        "septa-bus:651",
+        "septa-bus:16358",
+        "septa-bus:16359",
+        "septa-bus:16360",
+        "septa-bus:16361",
+        "septa-bus:16362",
+        "septa-bus:16363",
+        "septa-bus:16364",
+        "septa-bus:16365",
+        "septa-bus:21133",
+        "septa-bus:27966",
+        "septa-bus:16367",
+        "septa-bus:16368",
+        "septa-bus:16370",
+        "septa-bus:16371",
+        "septa-bus:653",
+        "septa-bus:16372",
+        "septa-bus:16373",
+        "septa-bus:16374",
+        "septa-bus:16375",
+        "septa-bus:16376",
+        "septa-bus:16377",
+        "septa-bus:16378",
+        "septa-bus:16385",
+        "septa-bus:16386",
+        "septa-bus:16387",
+        "septa-bus:16388",
+        "septa-bus:16389",
+        "septa-bus:16390",
+        "septa-bus:16391",
+        "septa-bus:16392",
+        "septa-bus:16393",
+        "septa-bus:16394",
+        "septa-bus:656"
+      ]
+    },
+    "septa-bus:7": {
+      "route_id": "7",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "7",
+      "route_long_name": "Pier 70 to 33rd-Dauphin",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "a}asFvw{iMDAp@W@M?KBa@PuDTyCLcDB_@f@_HNqBLaBNoBHaB^cFZqEFcAf@cI~@P^H`@B\\@dC\\\\z@GJENAH]dFYvDIbBMrBKvAOtBzARfANbALpAPpAPzBVRBlAP~ATrBTjANXD`@F\\DzDh@@?ZFB?nHdA~ARpAPhBTlC^~ARl@HpG|@|Ft@nEj@n@H`BTpAPt@J`C\\xBZxBXxARP@H@F?DABAFEHI~AoBACAGAI@i@JiBPkCPqCL_DX{CXqELoBLiBH}ANyBLoBDu@Be@BWJuAnFx@p@Jv@Jt@HhAJvAPt@Jr@JtCd@zARb@F|AVd@F^\\`@i@pDoEd@o@PWPYLUBKDOBY@OAKP}ClAP`@D\\DVDdCZ~@N^Fn@HL@JBZBRD~@JXDN@VDn@HdC^fCZtDb@nAPhBVf@H`APNBJBN@h@HP@tARjBV[xEK`BK|AEf@I`BvAPbANbANnANfANnANJBhCZbC\\`BThALl@Jp@HhANhAPr@JPB`ALH@`ALvARxAP`BTn@Hx@Jx@LVh@l@jA\\DbBTn@Fn@Lp@Hr@Hp@Jp@Jb@DLBf@FH@`@DRBnAPPB~ATnANfANxARlBVvARvB\\~AP`BRhANbANjAPtANdANtARvANbALtATxARdALrAPtARjANrAPtAPhANTD|@LtAPfANtAPtBV~BTrAP~Cf@vANd@Nb@JnANxFv@hAJt@JhBNHdADd@Dl@N|ARfBn@JpEl@|Cb@B@HNtAxCLVf@e@Z[Za@R]NYJUDOFQLk@F[Fa@@KBa@Fw@@SBUl@mIb@{Hf@uGLgBBg@Fq@F_ARcDTcELwBNoBDo@Do@LiBLoBDi@Fw@JeBB_@HiAJeBLmBJcBBc@FaANsB@[PaCHuAJyADg@H{@LkB@QHsAN{B@IHqABm@Fu@FiAB_@LgBFeAB_@LiBLiBBc@BWBa@Fs@FgABMDo@Bi@Fk@Dm@J{A@SLmBHcA@UJiBLoB@OHqAB[HmABa@HgAFw@HeAHqARoCV{DTkDNqBJwAHsA@WFs@F_ABQFsALgBHkA@ULkBBUZkEJiBFk@@UFq@@QVoEGYBSDq@`BeWb@eHG?E@C?EBG@aBp@iBx@WLmF`CoCpAmIpDsCnASHmAh@_HdDcB~@OFMDGBG?K@S~Ca@fGkFs@sFs@oFu@{Fy@cAQiAQ_BO\\yE^DR@b@@\\?\\C`@GNCRCl@Q|@[rAo@f@WdCsA`BaAI]IYw@iC_@yAe@eBAa@?CSAO?ODy@h@",
+      "stop_ids": [
+        "septa-bus:25069",
+        "septa-bus:25072",
+        "septa-bus:22277",
+        "septa-bus:22278",
+        "septa-bus:22279",
+        "septa-bus:22235",
+        "septa-bus:315",
+        "septa-bus:22236",
+        "septa-bus:22237",
+        "septa-bus:22238",
+        "septa-bus:19699",
+        "septa-bus:3092",
+        "septa-bus:11422",
+        "septa-bus:24208",
+        "septa-bus:24209",
+        "septa-bus:101",
+        "septa-bus:23977",
+        "septa-bus:10281",
+        "septa-bus:16566",
+        "septa-bus:25203",
+        "septa-bus:16569",
+        "septa-bus:15955",
+        "septa-bus:14939",
+        "septa-bus:2880",
+        "septa-bus:584",
+        "septa-bus:24912",
+        "septa-bus:644",
+        "septa-bus:31553",
+        "septa-bus:16043",
+        "septa-bus:16210",
+        "septa-bus:16211",
+        "septa-bus:16212",
+        "septa-bus:16213",
+        "septa-bus:16214",
+        "septa-bus:16215",
+        "septa-bus:16389",
+        "septa-bus:16390",
+        "septa-bus:16391",
+        "septa-bus:16392",
+        "septa-bus:16393",
+        "septa-bus:16394",
+        "septa-bus:656",
+        "septa-bus:25157",
+        "septa-bus:1182",
+        "septa-bus:21794",
+        "septa-bus:3196",
+        "septa-bus:747",
+        "septa-bus:25202",
+        "septa-bus:20430",
+        "septa-bus:2887",
+        "septa-bus:2901",
+        "septa-bus:2891",
+        "septa-bus:2895",
+        "septa-bus:2908",
+        "septa-bus:92",
+        "septa-bus:2903",
+        "septa-bus:2899",
+        "septa-bus:2902",
+        "septa-bus:5373",
+        "septa-bus:14926",
+        "septa-bus:5372",
+        "septa-bus:5371",
+        "septa-bus:5370",
+        "septa-bus:5369",
+        "septa-bus:2854",
+        "septa-bus:14927",
+        "septa-bus:2863",
+        "septa-bus:748",
+        "septa-bus:30106",
+        "septa-bus:3103",
+        "septa-bus:3098",
+        "septa-bus:3155",
+        "septa-bus:2850",
+        "septa-bus:3107",
+        "septa-bus:3167",
+        "septa-bus:3129",
+        "septa-bus:3145",
+        "septa-bus:3124",
+        "septa-bus:3201",
+        "septa-bus:2900",
+        "septa-bus:2886",
+        "septa-bus:2896",
+        "septa-bus:25184",
+        "septa-bus:30103",
+        "septa-bus:3195",
+        "septa-bus:2906",
+        "septa-bus:25204",
+        "septa-bus:25158",
+        "septa-bus:25160",
+        "septa-bus:30102",
+        "septa-bus:99",
+        "septa-bus:18136",
+        "septa-bus:18138",
+        "septa-bus:18139",
+        "septa-bus:18140",
+        "septa-bus:24973",
+        "septa-bus:11468",
+        "septa-bus:24837",
+        "septa-bus:17362",
+        "septa-bus:24351",
+        "septa-bus:24353",
+        "septa-bus:16496",
+        "septa-bus:732",
+        "septa-bus:24359",
+        "septa-bus:24360",
+        "septa-bus:24361",
+        "septa-bus:103",
+        "septa-bus:24363",
+        "septa-bus:24364",
+        "septa-bus:24365",
+        "septa-bus:24366",
+        "septa-bus:24367",
+        "septa-bus:21346",
+        "septa-bus:24369",
+        "septa-bus:24407",
+        "septa-bus:24408",
+        "septa-bus:105",
+        "septa-bus:30090",
+        "septa-bus:28166",
+        "septa-bus:30091",
+        "septa-bus:24548",
+        "septa-bus:24549",
+        "septa-bus:24550",
+        "septa-bus:95",
+        "septa-bus:96",
+        "septa-bus:24551",
+        "septa-bus:24552",
+        "septa-bus:24553",
+        "septa-bus:24554",
+        "septa-bus:98",
+        "septa-bus:24555",
+        "septa-bus:18577",
+        "septa-bus:24347",
+        "septa-bus:30088",
+        "septa-bus:30089",
+        "septa-bus:25121",
+        "septa-bus:25200",
+        "septa-bus:30105",
+        "septa-bus:25201",
+        "septa-bus:93",
+        "septa-bus:20510",
+        "septa-bus:22234",
+        "septa-bus:31102",
+        "septa-bus:25205",
+        "septa-bus:25206",
+        "septa-bus:25207",
+        "septa-bus:25208",
+        "septa-bus:94",
+        "septa-bus:25209",
+        "septa-bus:25210",
+        "septa-bus:31103",
+        "septa-bus:25211",
+        "septa-bus:25212",
+        "septa-bus:25213",
+        "septa-bus:25214",
+        "septa-bus:25215",
+        "septa-bus:25216",
+        "septa-bus:25217",
+        "septa-bus:25218",
+        "septa-bus:25219",
+        "septa-bus:25220",
+        "septa-bus:25221",
+        "septa-bus:25222",
+        "septa-bus:30083",
+        "septa-bus:30084",
+        "septa-bus:24274",
+        "septa-bus:30086",
+        "septa-bus:25223",
+        "septa-bus:25224",
+        "septa-bus:30087",
+        "septa-bus:25225",
+        "septa-bus:25226",
+        "septa-bus:25124",
+        "septa-bus:25126",
+        "septa-bus:25128",
+        "septa-bus:25130",
+        "septa-bus:25132",
+        "septa-bus:30098",
+        "septa-bus:30890",
+        "septa-bus:24265",
+        "septa-bus:24266",
+        "septa-bus:15272",
+        "septa-bus:31099",
+        "septa-bus:30099",
+        "septa-bus:31655",
+        "septa-bus:31100",
+        "septa-bus:30100",
+        "septa-bus:25136",
+        "septa-bus:25137",
+        "septa-bus:25138",
+        "septa-bus:25139",
+        "septa-bus:25140",
+        "septa-bus:25141",
+        "septa-bus:25142",
+        "septa-bus:25143",
+        "septa-bus:25144",
+        "septa-bus:25145",
+        "septa-bus:25146",
+        "septa-bus:25147",
+        "septa-bus:25148",
+        "septa-bus:25149",
+        "septa-bus:106",
+        "septa-bus:25150",
+        "septa-bus:25151",
+        "septa-bus:25152",
+        "septa-bus:25153",
+        "septa-bus:25154",
+        "septa-bus:30101",
+        "septa-bus:25155",
+        "septa-bus:25156",
+        "septa-bus:21436",
+        "septa-bus:108",
+        "septa-bus:25170",
+        "septa-bus:25172",
+        "septa-bus:25174",
+        "septa-bus:25175",
+        "septa-bus:31101",
+        "septa-bus:30104",
+        "septa-bus:25190"
+      ]
+    },
+    "septa-bus:61": {
+      "route_id": "61",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "61",
+      "route_long_name": "9th-Market to Manayunk",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "ehzrFvtuiMiBYOdCWtDUzDQbCuB[aAKmBWgAOeAOk@IKCwB[a@GIAQCWEQCMA}AUy@K{@MyAQc@Gm@KwAQeBS[GuAbAoDjCKFKF_@ZeBpA]TsAt@e@V{@d@SJSFMDwB~@mBt@aFtBOHMH_Al@IFOPWVk@n@wDnEa@f@kEdFo@v@q@x@}AdBw@~@GFwAfB}@hAONQNo@h@oAt@cAn@mErCyDhBgCjAq@ZcBt@cElBeBv@iClAgAh@mB~@MDQJQJIHEFMNOTs@dAs@hAkBvCe@v@qB`Dw@hAg@r@gDrEq@bAm@|@wCnEiCpDo@~@QZmBtCCBw@lAQVEHOTORQV]f@q@bAyAlB_F~G]d@y@~@oApAoAtA]\\KLs@v@YXQPONIHGHKHKHc@Vu@h@c@V_@VIDUNQJSJm@Vg@TSHy@\\}Ap@e@ViA`@i@Te@PaDrAs@Xu@XOFMDg@LsAV[FMBM@k@DQ?g@BQ?M?{@?W?_D?oA?c@ACACCKAK?G?OAWGa@K_D_AwAc@e@OOE_@MOEk@ME?I?G?G?E@I@KBiB`@iAVeAT[HWD[DIBK@GHO@U@c@Bi@@{@BaBDiABQ@O@ODq@NgCh@KDIBIDEDIDIHGDGDGDCBIHEFEFqArBU\\W`@OVKPIPIVI\\IXERCPCFQ`AId@SlAIb@GZEREPADAJGZCRCLALGXCVc@rCENGNIPCD}@~Ac@z@MZWz@Mf@s@fCw@jCW|@K^{ArFe@vAg@|Aa@rAe@~AM\\Y`AQh@M\\GNGJO\\Q\\QXEFMPOPMNYTe@\\i@\\UPSPONq@h@WVQRKNGJGDINKNADININIPIRITIXIVSv@IXI^U`AQz@ITMj@CLELCNEPa@xCERAF?BCDALETCPMt@GZAHEPALKd@Kh@CHo@vCa@xBKh@AB[xAOh@[`ASl@W`AKd@Mb@EXIv@C\\CRCRGRITKVO^GNILKNo@z@KNMLWTQNWPwC|AKFqClBOJML{@lA{@pAY`@wBvCu@fAwAnBoAhBs@dAs@`A{CjEQT{@nAy@fAg@r@i@v@eAxAKRO\\GP]hA}@`DM`@[`AWt@YbA]hAQl@Ux@m@pBUt@Ux@cAfDM`@a@hAi@`BOb@O^QZQVa@h@]d@g@r@c@l@uAlBs@`AW\\KPEHEH?J?H@LBN",
+      "stop_ids": [
+        "septa-bus:14883",
+        "septa-bus:16846",
+        "septa-bus:16847",
+        "septa-bus:17855",
+        "septa-bus:16849",
+        "septa-bus:16850",
+        "septa-bus:32990",
+        "septa-bus:32991",
+        "septa-bus:12320",
+        "septa-bus:12293",
+        "septa-bus:12307",
+        "septa-bus:18426",
+        "septa-bus:18437",
+        "septa-bus:31688",
+        "septa-bus:18438",
+        "septa-bus:18394",
+        "septa-bus:18395",
+        "septa-bus:24116",
+        "septa-bus:24117",
+        "septa-bus:18396",
+        "septa-bus:18397",
+        "septa-bus:226",
+        "septa-bus:18400",
+        "septa-bus:30916",
+        "septa-bus:21957",
+        "septa-bus:4459",
+        "septa-bus:14933",
+        "septa-bus:18008",
+        "septa-bus:21626",
+        "septa-bus:18013",
+        "septa-bus:18014",
+        "septa-bus:32269",
+        "septa-bus:18017",
+        "septa-bus:32992",
+        "septa-bus:24339",
+        "septa-bus:18441",
+        "septa-bus:18442",
+        "septa-bus:16288",
+        "septa-bus:16289",
+        "septa-bus:728",
+        "septa-bus:16290",
+        "septa-bus:24121",
+        "septa-bus:32524",
+        "septa-bus:915",
+        "septa-bus:1220",
+        "septa-bus:16291",
+        "septa-bus:18393",
+        "septa-bus:30913",
+        "septa-bus:16200",
+        "septa-bus:16201",
+        "septa-bus:16202",
+        "septa-bus:16203",
+        "septa-bus:16204",
+        "septa-bus:16205",
+        "septa-bus:30914",
+        "septa-bus:30915",
+        "septa-bus:30319",
+        "septa-bus:31059",
+        "septa-bus:16028",
+        "septa-bus:16030",
+        "septa-bus:30907",
+        "septa-bus:16033",
+        "septa-bus:16034",
+        "septa-bus:16036",
+        "septa-bus:16037",
+        "septa-bus:16038",
+        "septa-bus:16039",
+        "septa-bus:16040",
+        "septa-bus:30329",
+        "septa-bus:18402",
+        "septa-bus:18405",
+        "septa-bus:31793",
+        "septa-bus:18406",
+        "septa-bus:18407",
+        "septa-bus:912",
+        "septa-bus:18409",
+        "septa-bus:18410",
+        "septa-bus:18411",
+        "septa-bus:18412",
+        "septa-bus:18413",
+        "septa-bus:18414",
+        "septa-bus:18415",
+        "septa-bus:18416",
+        "septa-bus:18418",
+        "septa-bus:18419",
+        "septa-bus:18420",
+        "septa-bus:18421",
+        "septa-bus:913",
+        "septa-bus:18428",
+        "septa-bus:18429",
+        "septa-bus:18430",
+        "septa-bus:18431",
+        "septa-bus:18432",
+        "septa-bus:18433",
+        "septa-bus:18434",
+        "septa-bus:18435",
+        "septa-bus:18436",
+        "septa-bus:32214",
+        "septa-bus:30912",
+        "septa-bus:17860",
+        "septa-bus:17861",
+        "septa-bus:17862",
+        "septa-bus:17863",
+        "septa-bus:17864",
+        "septa-bus:17865",
+        "septa-bus:17867",
+        "septa-bus:30905",
+        "septa-bus:917",
+        "septa-bus:17871",
+        "septa-bus:17873",
+        "septa-bus:17874",
+        "septa-bus:17875",
+        "septa-bus:17876",
+        "septa-bus:17878",
+        "septa-bus:17879",
+        "septa-bus:17883",
+        "septa-bus:17880",
+        "septa-bus:25800",
+        "septa-bus:25801",
+        "septa-bus:17885",
+        "septa-bus:17887",
+        "septa-bus:17888",
+        "septa-bus:17890",
+        "septa-bus:17891",
+        "septa-bus:17892",
+        "septa-bus:918",
+        "septa-bus:17998",
+        "septa-bus:17999",
+        "septa-bus:18000",
+        "septa-bus:18001",
+        "septa-bus:919",
+        "septa-bus:30906",
+        "septa-bus:18003",
+        "septa-bus:30877",
+        "septa-bus:920",
+        "septa-bus:30908"
+      ]
+    }
+  },
+  "docks": {
+    "indego:bcycle_indego_3106": {
+      "station_id": "bcycle_indego_3106",
+      "name": "33rd & Dauphin",
+      "address": "2300 N. 33rd Street",
+      "coordinates": [
+        -75.18637,
+        39.99179
+      ]
+    },
+    "indego:bcycle_indego_3324": {
+      "station_id": "bcycle_indego_3324",
+      "name": "Kelly Drive, Strawberry Mansion Bridge",
+      "address": "2400 Kelly Drive",
+      "coordinates": [
+        -75.19242,
+        39.99484
+      ]
+    }
+  }
+}

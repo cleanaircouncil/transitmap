@@ -198,11 +198,9 @@ import TransitChip from "./transit-chip.astro";
   const PHILLY_LAT = 39.952583;
   const PHILLY_LON = -75.165222;
 
-  import transitData from "../data/networks.json";
-  import septaData from "../data/septa.json";
-  import septaMetroData from "../data/septa-metro.json";
 
-  import listingData from "../data/listing-stops.json";
+
+  // import listingData from "../data/listing-stops.json";
 
 
   
@@ -227,7 +225,7 @@ import TransitChip from "./transit-chip.astro";
     map.dragRotate.disable();
     map.touchZoomRotate.disableRotation();
     
-    map.fitBounds(data.map.bounds, { padding: 80, duration: 0 });
+    map.fitBounds(data.meta.bounds, { padding: 80, duration: 0 });
 
     return new Promise((res) => {
       map.on("load", async () => {
@@ -236,78 +234,16 @@ import TransitChip from "./transit-chip.astro";
     });
   }
 
-  async function initMarkers(map, data) {
-    data.facilities.forEach((facility) => {
-      const markerEl = cloneTemplate("map-marker-stub");
-      populateWithData(markerEl, facility);
-
-      markerEl.addEventListener("click", () => {
-        window.location.hash = `#${facility.slug}`;
-      });
-
-      // add marker to map
-      new maplibregl.Marker({ element: markerEl })
-        .setLngLat([facility.longitude, facility.latitude])
-        .addTo(map);
-    });
-  }
-
-  async function initNetworks(map, data) {
-    map.addSource( "networks", {
-        type: 'geojson',
-        data: {
-          type: 'FeatureCollection',
-          features: data.networks.map( network => network.network_geometry) 
-        }
-      }
-    )
- 
-    map.addLayer( {
-      id: "transit-line",
-      type: 'line',
-      source: "networks",
-      layout: {
-        'line-join': 'round',
-        'line-cap': 'round'
-      },
-      paint: {
-        'line-color': "#888888",
-        'line-width': 8
-      },
-      filter: ['==', '$type', 'Polygon']
-    })
-    
-  }
-
-  async function initSEPTA(map, data) {
-    
-    
-    data.bus.forEach((bus) => {
-      const markerEl = cloneTemplate("map-marker-stub");
-      populateWithData(markerEl, {
-        company_name: bus.route_id
-      })
-
-      // add marker to map
-      new maplibregl.Marker({ element: markerEl })
-        .setLngLat([bus.lng, bus.lat])
-        .addTo(map);
-
-    });
-  }
-
   async function initListings(map, data) {
-    
-    
-    data.listings.forEach((listing) => {
+    data.venues.forEach((venue) => {
       const markerEl = cloneTemplate("map-listing-stub");
-      console.log( listing );
-      
-      populateWithData(markerEl, listing)
+          
+      populateWithData(markerEl, venue)
+
 
       // add marker to map
       new maplibregl.Marker({ element: markerEl })
-        .setLngLat([listing.lng, listing.lat])
+        .setLngLat(venue.coordinates)
         .addTo(map);
 
     });
@@ -336,32 +272,11 @@ import TransitChip from "./transit-chip.astro";
 
   const map = await initMap();
 
-  // await initListings(map, data);
+  await initListings(map, data);
 
   await initCircle(map);
 
-  // await initSEPTA(map, septaData);
 
-  // map.addSource("metro", {
-  //   type: "geojson",
-  //   data: septaMetroData
-  // })
-
-
-  // map.addLayer({
-  //   id: 'septa-metro-routes',
-  //   type: 'line',
-  //   source: 'metro',
-  //   filter: ['==', ['get', 'feature_type'], 'route'],
-  //   paint: {
-  //     'line-color': ['coalesce', ['get', 'route_color'], '#0055AA'],
-  //     'line-width': 10
-  //   }
-  // });
-
-
-  // await initMarkers(map, data);
-  // await initNetworks(map, transitData);
 
   function showRadius( map, center ) {
     const radius = .5; // kilometer
@@ -374,31 +289,62 @@ import TransitChip from "./transit-chip.astro";
     map.getSource('location-radius').setData(circleData);
   }
 
+  async function fetchVenueData(venueSlug) {
+    const result = await fetch(`/data/venues/${venueSlug}.json`);
+    const data = await result.json();
+    return data;
+  }
+
   currentListingSlug.subscribe( slug => {
-    const data = listingData.find( listing => listing.listing_slug == slug );
-    
-    data?.routes.forEach( route => {
-      route.stops.forEach( stop => {
+    const listing = data.listings.find( listing => listing.slug == slug );
+    (async() => {
+      const venue = await fetchVenueData(listing?.venue_id);
+
+      if(!venue) return;
+
+      document.querySelectorAll("[data-map] [data-transit-chip]").forEach( chip => chip.remove() );
+
+      for( const id in venue.stops )
+      {
+        const stop = venue.stops[id];
+        const route_id = stop.routes.at(0).route_id;
+        const route = venue.routes[route_id];
+
         const markerEl = cloneTemplate("map-marker-stub");
 
-        populateWithData(markerEl, route.route)
+        populateWithData(markerEl, route)
 
         // add marker to map
         new maplibregl.Marker({ element: markerEl })
-          .setLngLat([stop.longitude, stop.latitude])
+          .setLngLat(stop.coordinates)
           .addTo(map);
-      })
       
-    })
+      }
 
-    const listingCoordinates = [data?.listing.longitude, data?.listing.latitude];
+      showRadius(map, venue.coordinates);
+
+      map.flyTo({
+        center: venue.coordinates,
+        zoom: 15,
+      })
+    })()
     
-    showRadius(map, listingCoordinates);
     
-    map.flyTo({
-      center: listingCoordinates,
-      zoom: 15,
-    })
+    // data?.routes.forEach( route => {
+    //   route.stops.forEach( stop => {
+    //     const markerEl = cloneTemplate("map-marker-stub");
+
+    //     populateWithData(markerEl, route.route)
+
+    //     // add marker to map
+    //     new maplibregl.Marker({ element: markerEl })
+    //       .setLngLat([stop.longitude, stop.latitude])
+    //       .addTo(map);
+    //   })
+      
+    // })
+
+
 
   })
 

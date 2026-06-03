@@ -1,32 +1,14 @@
 ---
 import TransitChip from "./transit-chip.astro";
 
-const { routes = [] } = Astro.props
+const { routes = []} = Astro.props
 
-const validModes = [
-  {
-    mode: "Bike",
-    names: ["Bikeshare"]
-  },
-  {
-    mode: "Bus",
-    names: ["Bus"]
-  },
-  {
-    mode: "Metro",
-    names: ["Subway", "Trolley"]
-  },
-  {
-    mode: "Rail",
-    names: ["Rail"]
-  }
-]
-
-const categories = [
+const modes = [
   {
     mode: "Bike",
     routes: []
   },
+
   {
     mode: "Bus",
     routes: []
@@ -41,39 +23,37 @@ const categories = [
   }
 ]
 
-const modeNameToInterface = (mode_name) => validModes.find( valid => valid.names.includes(mode_name) )?.mode;
 
-routes.forEach( route => {
-  const mode = modeNameToInterface(route.route.mode_name);
-  
-  if(!mode) return;
+for( const route_id in routes ) {
+  const route = routes[route_id];
+  const transit = modes.find( transit => transit.mode == route.mode );
+  transit.routes.push( route );
+}
 
-  const category = categories.find( category => category.mode == mode )
-  category.routes.push( route.route );
-})
 
 
 
 ---
 
 <div class="transit-selector">
-  <div class="transit-selector__categories gap">
-    { categories
-      .filter( category => category.routes.length )
-      .map( category => <button data-transit-category={ category.mode }>{category.mode}</button> )
+  <div class="transit-selector__modes gap">
+    { modes
+      .filter( transit => transit.routes.length )
+      .map( transit => <button data-transit-mode={ transit.mode }>{transit.mode}</button> )
     }
   </div>
 
   <div class="transit-selector__routes">
     
-    { categories
-      .filter( category => category.routes.length )
-      .map( category => 
+    
+    { modes
+      .filter( transit => transit.routes.length )
+      .map( transit => 
       <>
-      <h4>{ category.mode }</h4>
-        <div class="transit-selector__category gap-tight" data-transit-category={category.mode}>
-          { category.routes
-            .sort( (a, b) => a.real_time_route_id - b.real_time_route_id )
+      <h4>{ transit.mode }</h4>
+        <div class="transit-selector__transit gap-tight" data-transit-mode={transit.mode}>
+          { transit.routes
+            .sort( (a, b) => a.route_id - b.route_id )
             .map( route => <TransitChip route={route}/> )
           }
         </div>
@@ -85,13 +65,13 @@ routes.forEach( route => {
 </div>
 
 <style>
-  .transit-selector__categories {
+  .transit-selector__modes {
     display: flex;
     gap: var(--gap);
     display: none;
   }
 
-  .transit-selector__category {
+  .transit-selector__transit {
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap);

@@ -5,29 +5,6 @@
     39.94671
   ],
   "stops": {
-    "septa-metro:1281": {
-      "stop_id": "1281",
-      "stop_name": "15th St/City Hall",
-      "coordinates": [
-        -75.164129,
-        39.952473
-      ],
-      "wheelchair_boarding": 2,
-      "routes": [
-        {
-          "route_id": "septa-metro:B1",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "NRG"
-        },
-        {
-          "route_id": "septa-metro:B2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Walnut-Locust"
-        }
-      ]
-    },
     "septa-metro:1282": {
       "stop_id": "1282",
       "stop_name": "Walnut-Locust",
@@ -49,41 +26,8 @@
           "direction": "Southbound",
           "headsign": "Walnut-Locust"
         }
-      ]
-    },
-    "septa-metro:1283": {
-      "stop_id": "1283",
-      "stop_name": "Lombard-South",
-      "coordinates": [
-        -75.165471,
-        39.944077
       ],
-      "wheelchair_boarding": 2,
-      "routes": [
-        {
-          "route_id": "septa-metro:B1",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "NRG"
-        }
-      ]
-    },
-    "septa-metro:32139": {
-      "stop_id": "32139",
-      "stop_name": "Lombard-South",
-      "coordinates": [
-        -75.165377,
-        39.944068
-      ],
-      "wheelchair_boarding": 2,
-      "routes": [
-        {
-          "route_id": "septa-metro:B1",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
+      "walk_minutes": 4
     },
     "septa-metro:32140": {
       "stop_id": "32140",
@@ -106,30 +50,8 @@
           "direction": "Northbound",
           "headsign": "Fern Rock Transit Center"
         }
-      ]
-    },
-    "septa-metro:32141": {
-      "stop_id": "32141",
-      "stop_name": "15th St/City Hall",
-      "coordinates": [
-        -75.164059,
-        39.952464
       ],
-      "wheelchair_boarding": 2,
-      "routes": [
-        {
-          "route_id": "septa-metro:B1",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        },
-        {
-          "route_id": "septa-metro:B2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
+      "walk_minutes": 4
     },
     "septa-metro:1392": {
       "stop_id": "1392",
@@ -146,41 +68,8 @@
           "direction": "Eastbound",
           "headsign": "Frankford Transit Center"
         }
-      ]
-    },
-    "septa-metro:2455": {
-      "stop_id": "2455",
-      "stop_name": "13th St",
-      "coordinates": [
-        -75.16145,
-        39.952065
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-metro:L1",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-metro:32174": {
-      "stop_id": "32174",
-      "stop_name": "13th St",
-      "coordinates": [
-        -75.16145,
-        39.952137
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-metro:L1",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        }
-      ]
+      "walk_minutes": 9
     },
     "septa-metro:32175": {
       "stop_id": "32175",
@@ -197,132 +86,8 @@
           "direction": "Westbound",
           "headsign": "69th St Transit Center"
         }
-      ]
-    },
-    "septa-bus:309": {
-      "stop_id": "309",
-      "stop_name": "Locust St & 20th St",
-      "coordinates": [
-        -75.174214,
-        39.94937
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25078": {
-      "stop_id": "25078",
-      "stop_name": "Locust St & Rittenhouse Sq",
-      "coordinates": [
-        -75.173128,
-        39.949216
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25079": {
-      "stop_id": "25079",
-      "stop_name": "Rittenhouse Sq & 19th St",
-      "coordinates": [
-        -75.172693,
-        39.94868
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:MANNLP",
-          "direction_id": 0,
-          "direction": "Loop",
-          "headsign": "Mann Center"
-        }
-      ]
-    },
-    "septa-bus:25080": {
-      "stop_id": "25080",
-      "stop_name": "Rittenhouse Sq & 18th St",
-      "coordinates": [
-        -75.171088,
-        39.94848
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25082": {
-      "stop_id": "25082",
-      "stop_name": "Locust St & 17th St",
-      "coordinates": [
-        -75.169469,
-        39.948771
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25083": {
-      "stop_id": "25083",
-      "stop_name": "Locust St & 16th St",
-      "coordinates": [
-        -75.167911,
-        39.948563
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25084": {
-      "stop_id": "25084",
-      "stop_name": "Locust St & 15th St",
-      "coordinates": [
-        -75.166376,
-        39.948363
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
+      "walk_minutes": 9
     },
     "septa-bus:310": {
       "stop_id": "310",
@@ -345,250 +110,8 @@
           "direction": "Loop",
           "headsign": "Mann Center"
         }
-      ]
-    },
-    "septa-bus:25085": {
-      "stop_id": "25085",
-      "stop_name": "Locust St & 13th St",
-      "coordinates": [
-        -75.162505,
-        39.9479
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25086": {
-      "stop_id": "25086",
-      "stop_name": "Locust St & 12th St",
-      "coordinates": [
-        -75.160888,
-        39.9477
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25087": {
-      "stop_id": "25087",
-      "stop_name": "Locust St & 11th St",
-      "coordinates": [
-        -75.159354,
-        39.947509
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:25088": {
-      "stop_id": "25088",
-      "stop_name": "Locust St & 10th St",
-      "coordinates": [
-        -75.157737,
-        39.9473
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:14884": {
-      "stop_id": "14884",
-      "stop_name": "Walnut St & 10th St",
-      "coordinates": [
-        -75.157213,
-        39.948513
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:14885": {
-      "stop_id": "14885",
-      "stop_name": "Walnut St & 11th St",
-      "coordinates": [
-        -75.15883,
-        39.948704
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:14886": {
-      "stop_id": "14886",
-      "stop_name": "Walnut St & 12th St",
-      "coordinates": [
-        -75.160388,
-        39.948895
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:14887": {
-      "stop_id": "14887",
-      "stop_name": "Walnut St & 13th St",
-      "coordinates": [
-        -75.162005,
-        39.949086
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:130": {
-      "stop_id": "130",
-      "stop_name": "Walnut St & Broad St - MBNS",
-      "coordinates": [
-        -75.163657,
-        39.949303
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
+      "walk_minutes": 3
     },
     "septa-bus:14079": {
       "stop_id": "14079",
@@ -623,182 +146,8 @@
           "direction": "Northbound",
           "headsign": "Andorra"
         }
-      ]
-    },
-    "septa-bus:14080": {
-      "stop_id": "14080",
-      "stop_name": "Walnut St & 16th St",
-      "coordinates": [
-        -75.167399,
-        39.949775
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:14081": {
-      "stop_id": "14081",
-      "stop_name": "Walnut St & 17th St",
-      "coordinates": [
-        -75.168968,
-        39.949975
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:14084": {
-      "stop_id": "14084",
-      "stop_name": "Walnut St & 18th St",
-      "coordinates": [
-        -75.170456,
-        39.950148
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:14085": {
-      "stop_id": "14085",
-      "stop_name": "Walnut St & 19th St",
-      "coordinates": [
-        -75.172108,
-        39.950374
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:14086": {
-      "stop_id": "14086",
-      "stop_name": "Walnut St & 20th St",
-      "coordinates": [
-        -75.173643,
-        39.950574
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        }
-      ]
+      "walk_minutes": 4
     },
     "septa-bus:20414": {
       "stop_id": "20414",
@@ -851,7 +200,74 @@
           "direction": "Northbound",
           "headsign": "Fern Rock Transit Center"
         }
-      ]
+      ],
+      "walk_minutes": 7
+    },
+    "septa-bus:5318": {
+      "stop_id": "5318",
+      "stop_name": "Broad St & Spruce St",
+      "coordinates": [
+        -75.164705,
+        39.946869
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:27",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Plymouth Meeting Mall"
+        },
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:4",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Fern Rock Transit Center"
+        }
+      ],
+      "walk_minutes": 2
+    },
+    "septa-bus:5229": {
+      "stop_id": "5229",
+      "stop_name": "Broad St & Locust St",
+      "coordinates": [
+        -75.164453,
+        39.948082
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:27",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Plymouth Meeting Mall"
+        },
+        {
+          "route_id": "septa-bus:32",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Ridge-Lyceum via Lemon Hill"
+        },
+        {
+          "route_id": "septa-bus:4",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Fern Rock Transit Center"
+        },
+        {
+          "route_id": "septa-bus:B1_OWL",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Fern Rock Transit Center"
+        }
+      ],
+      "walk_minutes": 3
     },
     "septa-bus:20968": {
       "stop_id": "20968",
@@ -892,7 +308,86 @@
           "direction": "Northbound",
           "headsign": "446: Henry-Midvale"
         }
-      ]
+      ],
+      "walk_minutes": 10
+    },
+    "septa-bus:14954": {
+      "stop_id": "14954",
+      "stop_name": "19th St & Spruce St",
+      "coordinates": [
+        -75.172789,
+        39.948073
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:17",
+          "direction_id": 1,
+          "direction": "Southbound",
+          "headsign": "20th-Johnston"
+        }
+      ],
+      "walk_minutes": 8
+    },
+    "septa-bus:10264": {
+      "stop_id": "10264",
+      "stop_name": "Market St & 13th St",
+      "coordinates": [
+        -75.161261,
+        39.952154
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:17",
+          "direction_id": 1,
+          "direction": "Southbound",
+          "headsign": "20th-Johnston"
+        },
+        {
+          "route_id": "septa-bus:33",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "23rd-Venango"
+        },
+        {
+          "route_id": "septa-bus:L1_OWL",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "69th St Transit Center"
+        }
+      ],
+      "walk_minutes": 10
+    },
+    "septa-bus:30082": {
+      "stop_id": "30082",
+      "stop_name": "Market St & 12th St - MBFS",
+      "coordinates": [
+        -75.160529,
+        39.952063
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:62",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Andorra"
+        },
+        {
+          "route_id": "septa-bus:38",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "Wissahickon Transit Center"
+        },
+        {
+          "route_id": "septa-bus:44",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "Ardmore via Narberth"
+        }
+      ],
+      "walk_minutes": 10
     },
     "septa-bus:17842": {
       "stop_id": "17842",
@@ -981,7 +476,32 @@
           "direction": "Westbound",
           "headsign": "Chesterbrook via King of Prussia"
         }
-      ]
+      ],
+      "walk_minutes": 10
+    },
+    "septa-bus:1721": {
+      "stop_id": "1721",
+      "stop_name": "13th St & Market St - MBFS",
+      "coordinates": [
+        -75.161283,
+        39.952672
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:125",
+          "direction_id": 0,
+          "direction": "Westbound",
+          "headsign": "13th-Market"
+        },
+        {
+          "route_id": "septa-bus:124",
+          "direction_id": 0,
+          "direction": "Westbound",
+          "headsign": "13th-Market"
+        }
+      ],
+      "walk_minutes": 10
     },
     "septa-bus:515": {
       "stop_id": "515",
@@ -1010,113 +530,41 @@
           "direction": "Southbound",
           "headsign": "Broad-Pattison"
         }
-      ]
+      ],
+      "walk_minutes": 9
     },
-    "septa-bus:21312": {
-      "stop_id": "21312",
-      "stop_name": "20th St & Lombard St",
+    "septa-bus:145": {
+      "stop_id": "145",
+      "stop_name": "Spruce St & 15th St",
       "coordinates": [
-        -75.17477,
-        39.945739
+        -75.166333,
+        39.947238
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
-          "route_id": "septa-bus:17",
+          "route_id": "septa-bus:27",
           "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
+          "direction": "Southbound",
+          "headsign": "15th-Spruce"
         }
-      ]
+      ],
+      "walk_minutes": 1
     },
-    "septa-bus:21313": {
-      "stop_id": "21313",
-      "stop_name": "20th St & Pine St",
+    "septa-bus:15188": {
+      "stop_id": "15188",
+      "stop_name": "Broad St & Spruce St",
       "coordinates": [
-        -75.17459,
-        39.946622
+        -75.164858,
+        39.947102
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
-          "route_id": "septa-bus:17",
+          "route_id": "septa-bus:27",
           "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        }
-      ]
-    },
-    "septa-bus:21314": {
-      "stop_id": "21314",
-      "stop_name": "20th St & Spruce St",
-      "coordinates": [
-        -75.174266,
-        39.948058
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        }
-      ]
-    },
-    "septa-bus:21315": {
-      "stop_id": "21315",
-      "stop_name": "20th St & Locust St",
-      "coordinates": [
-        -75.174013,
-        39.949271
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        }
-      ]
-    },
-    "septa-bus:358": {
-      "stop_id": "358",
-      "stop_name": "20th St & Walnut St",
-      "coordinates": [
-        -75.173749,
-        39.950422
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        }
-      ]
-    },
-    "septa-bus:18451": {
-      "stop_id": "18451",
-      "stop_name": "Market St & 16th St",
-      "coordinates": [
-        -75.167045,
-        39.952738
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        },
-        {
-          "route_id": "septa-bus:31",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "City Hall"
+          "direction": "Southbound",
+          "headsign": "Broad-Carpenter"
         },
         {
           "route_id": "septa-bus:32",
@@ -1125,48 +573,13 @@
           "headsign": "Broad-Carpenter"
         },
         {
-          "route_id": "septa-bus:33",
+          "route_id": "septa-bus:4",
           "direction_id": 0,
           "direction": "Southbound",
-          "headsign": "5th-Market"
-        },
-        {
-          "route_id": "septa-bus:48",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Front-Market"
-        },
-        {
-          "route_id": "septa-bus:62",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "9th-Market"
-        },
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "5th-Market"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Front-Market"
-        },
-        {
-          "route_id": "septa-bus:125",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "13th-Market"
-        },
-        {
-          "route_id": "septa-bus:124",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "13th-Market"
+          "headsign": "Broad-Pattison"
         }
-      ]
+      ],
+      "walk_minutes": 2
     },
     "septa-bus:10266": {
       "stop_id": "10266",
@@ -1249,860 +662,26 @@
           "direction": "Eastbound",
           "headsign": "13th-Market"
         }
-      ]
+      ],
+      "walk_minutes": 9
     },
-    "septa-bus:10263": {
-      "stop_id": "10263",
-      "stop_name": "Market St & 13th St",
+    "septa-bus:30828": {
+      "stop_id": "30828",
+      "stop_name": "15th St & Ranstead St",
       "coordinates": [
-        -75.161604,
-        39.95203
+        -75.165537,
+        39.951797
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        },
-        {
-          "route_id": "septa-bus:33",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "5th-Market"
-        },
-        {
-          "route_id": "septa-bus:48",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Front-Market"
-        },
-        {
-          "route_id": "septa-bus:L1_OWL",
+          "route_id": "septa-bus:31",
           "direction_id": 0,
           "direction": "Eastbound",
-          "headsign": "Frankford Transit Center"
-        },
-        {
-          "route_id": "septa-bus:62",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "9th-Market"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Front-Market"
+          "headsign": "City Hall"
         }
-      ]
-    },
-    "septa-bus:10259": {
-      "stop_id": "10259",
-      "stop_name": "Market St & 11th St - MBNS",
-      "coordinates": [
-        -75.159208,
-        39.951748
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        },
-        {
-          "route_id": "septa-bus:33",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "5th-Market"
-        },
-        {
-          "route_id": "septa-bus:48",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Front-Market"
-        },
-        {
-          "route_id": "septa-bus:L1_OWL",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center"
-        },
-        {
-          "route_id": "septa-bus:62",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "9th-Market"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Front-Market"
-        }
-      ]
-    },
-    "septa-bus:10262": {
-      "stop_id": "10262",
-      "stop_name": "Market St & 12th St",
-      "coordinates": [
-        -75.15955,
-        39.951954
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        },
-        {
-          "route_id": "septa-bus:33",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "23rd-Venango"
-        },
-        {
-          "route_id": "septa-bus:62",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        },
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wissahickon Transit Center"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Ardmore via Narberth"
-        }
-      ]
-    },
-    "septa-bus:10264": {
-      "stop_id": "10264",
-      "stop_name": "Market St & 13th St",
-      "coordinates": [
-        -75.161261,
-        39.952154
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        },
-        {
-          "route_id": "septa-bus:33",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "23rd-Venango"
-        },
-        {
-          "route_id": "septa-bus:L1_OWL",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        }
-      ]
-    },
-    "septa-bus:14923": {
-      "stop_id": "14923",
-      "stop_name": "19th St & Chestnut St - FS",
-      "coordinates": [
-        -75.17201,
-        39.951617
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:30327": {
-      "stop_id": "30327",
-      "stop_name": "19th St & Moravian St - FS",
-      "coordinates": [
-        -75.172225,
-        39.950758
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:14929": {
-      "stop_id": "14929",
-      "stop_name": "W Rittenhouse Square & Locust St",
-      "coordinates": [
-        -75.173045,
-        39.949368
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:14954": {
-      "stop_id": "14954",
-      "stop_name": "19th St & Spruce St",
-      "coordinates": [
-        -75.172789,
-        39.948073
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:14956": {
-      "stop_id": "14956",
-      "stop_name": "19th St & Pine St",
-      "coordinates": [
-        -75.17309,
-        39.946637
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:14958": {
-      "stop_id": "14958",
-      "stop_name": "19th St & Lombard St",
-      "coordinates": [
-        -75.173306,
-        39.945727
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:14959": {
-      "stop_id": "14959",
-      "stop_name": "19th St & South St",
-      "coordinates": [
-        -75.173522,
-        39.944728
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:14960": {
-      "stop_id": "14960",
-      "stop_name": "19th St & Bainbridge St",
-      "coordinates": [
-        -75.173714,
-        39.943871
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:34": {
-      "stop_id": "34",
-      "stop_name": "17th St & Market St",
-      "coordinates": [
-        -75.168473,
-        39.953124
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:2666": {
-      "stop_id": "2666",
-      "stop_name": "17th St & Chestnut St",
-      "coordinates": [
-        -75.168845,
-        39.951519
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:15399": {
-      "stop_id": "15399",
-      "stop_name": "17th St & Walnut St",
-      "coordinates": [
-        -75.169181,
-        39.950074
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:15400": {
-      "stop_id": "15400",
-      "stop_name": "17th St & Locust St",
-      "coordinates": [
-        -75.169481,
-        39.948637
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:15401": {
-      "stop_id": "15401",
-      "stop_name": "17th St & Spruce St",
-      "coordinates": [
-        -75.169673,
-        39.94771
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:35": {
-      "stop_id": "35",
-      "stop_name": "17th St & Pine St",
-      "coordinates": [
-        -75.169997,
-        39.946264
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:2692": {
-      "stop_id": "2692",
-      "stop_name": "17th St & Lombard St",
-      "coordinates": [
-        -75.17019,
-        39.945372
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:2715": {
-      "stop_id": "2715",
-      "stop_name": "17th St & South St",
-      "coordinates": [
-        -75.170382,
-        39.944364
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:3077": {
-      "stop_id": "3077",
-      "stop_name": "17th St & Bainbridge St",
-      "coordinates": [
-        -75.170574,
-        39.943499
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:2679": {
-      "stop_id": "2679",
-      "stop_name": "17th St & Fitzwater St",
-      "coordinates": [
-        -75.170802,
-        39.942535
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:2664": {
-      "stop_id": "2664",
-      "stop_name": "17th St & Catherine St",
-      "coordinates": [
-        -75.171018,
-        39.941527
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:15403": {
-      "stop_id": "15403",
-      "stop_name": "16th St & Christian St",
-      "coordinates": [
-        -75.169488,
-        39.940364
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:2658": {
-      "stop_id": "2658",
-      "stop_name": "16th St & Catherine St",
-      "coordinates": [
-        -75.169319,
-        39.94114
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:3033": {
-      "stop_id": "3033",
-      "stop_name": "16th St & Fitzwater St",
-      "coordinates": [
-        -75.169114,
-        39.942129
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:2654": {
-      "stop_id": "2654",
-      "stop_name": "16th St & Bainbridge St",
-      "coordinates": [
-        -75.168887,
-        39.94311
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:3063": {
-      "stop_id": "3063",
-      "stop_name": "16th St & South St",
-      "coordinates": [
-        -75.168695,
-        39.943986
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:15404": {
-      "stop_id": "15404",
-      "stop_name": "16th St & Lombard St",
-      "coordinates": [
-        -75.168479,
-        39.945003
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:43": {
-      "stop_id": "43",
-      "stop_name": "16th St & Pine St",
-      "coordinates": [
-        -75.168287,
-        39.945904
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:3064": {
-      "stop_id": "3064",
-      "stop_name": "16th St & Spruce St",
-      "coordinates": [
-        -75.167951,
-        39.947322
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:3042": {
-      "stop_id": "3042",
-      "stop_name": "16th St & Locust St",
-      "coordinates": [
-        -75.167698,
-        39.948535
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:3069": {
-      "stop_id": "3069",
-      "stop_name": "16th St & Walnut St",
-      "coordinates": [
-        -75.167482,
-        39.949642
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:2660": {
-      "stop_id": "2660",
-      "stop_name": "16th St & Chestnut St",
-      "coordinates": [
-        -75.167146,
-        39.95114
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:21213": {
-      "stop_id": "21213",
-      "stop_name": "16th St & Market St",
-      "coordinates": [
-        -75.166822,
-        39.952594
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:3040": {
-      "stop_id": "3040",
-      "stop_name": "16th St & JFK Blvd",
-      "coordinates": [
-        -75.166569,
-        39.953654
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:2",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Pulaski-Hunting Park"
-        }
-      ]
-    },
-    "septa-bus:14906": {
-      "stop_id": "14906",
-      "stop_name": "Chestnut St & 19th St",
-      "coordinates": [
-        -75.172008,
-        39.95182
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "4th-Walnut"
-        }
-      ]
-    },
-    "septa-bus:6062": {
-      "stop_id": "6062",
-      "stop_name": "Chestnut St & 18th St",
-      "coordinates": [
-        -75.170462,
-        39.951602
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "4th-Walnut"
-        }
-      ]
-    },
-    "septa-bus:6061": {
-      "stop_id": "6061",
-      "stop_name": "Chestnut St & 17th St",
-      "coordinates": [
-        -75.168869,
-        39.951385
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "4th-Walnut"
-        }
-      ]
-    },
-    "septa-bus:14907": {
-      "stop_id": "14907",
-      "stop_name": "Chestnut St & 16th St",
-      "coordinates": [
-        -75.167311,
-        39.951203
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "4th-Walnut"
-        }
-      ]
-    },
-    "septa-bus:6060": {
-      "stop_id": "6060",
-      "stop_name": "Chestnut St & 15th St",
-      "coordinates": [
-        -75.165717,
-        39.951012
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "4th-Walnut"
-        }
-      ]
+      "walk_minutes": 8
     },
     "septa-bus:6115": {
       "stop_id": "6115",
@@ -2149,14 +728,75 @@
           "direction": "Eastbound",
           "headsign": "13th-Market"
         }
-      ]
+      ],
+      "walk_minutes": 7
     },
-    "septa-bus:6059": {
-      "stop_id": "6059",
-      "stop_name": "Chestnut St & 13th St",
+    "septa-bus:31564": {
+      "stop_id": "31564",
+      "stop_name": "15th St & Market St - FS",
       "coordinates": [
-        -75.161881,
-        39.95054
+        -75.165393,
+        39.952493
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:B1_OWL",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "NRG Station"
+        },
+        {
+          "route_id": "septa-bus:L1_OWL",
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "69th St Transit Center"
+        }
+      ],
+      "walk_minutes": 9
+    },
+    "septa-bus:15401": {
+      "stop_id": "15401",
+      "stop_name": "17th St & Spruce St",
+      "coordinates": [
+        -75.169673,
+        39.94771
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:2",
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "20th-Johnston"
+        }
+      ],
+      "walk_minutes": 5
+    },
+    "septa-bus:3064": {
+      "stop_id": "3064",
+      "stop_name": "16th St & Spruce St",
+      "coordinates": [
+        -75.167951,
+        39.947322
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:2",
+          "direction_id": 1,
+          "direction": "Northbound",
+          "headsign": "Pulaski-Hunting Park"
+        }
+      ],
+      "walk_minutes": 3
+    },
+    "septa-bus:6060": {
+      "stop_id": "6060",
+      "stop_name": "Chestnut St & 15th St",
+      "coordinates": [
+        -75.165717,
+        39.951012
       ],
       "wheelchair_boarding": 1,
       "routes": [
@@ -2177,130 +817,9 @@
           "direction_id": 0,
           "direction": "Southbound",
           "headsign": "4th-Walnut"
-        },
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "5th-Market"
         }
-      ]
-    },
-    "septa-bus:6058": {
-      "stop_id": "6058",
-      "stop_name": "Chestnut St & 12th St",
-      "coordinates": [
-        -75.160335,
-        39.950349
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "4th-Walnut"
-        },
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "5th-Market"
-        }
-      ]
-    },
-    "septa-bus:6057": {
-      "stop_id": "6057",
-      "stop_name": "Chestnut St & 11th St",
-      "coordinates": [
-        -75.158765,
-        39.950168
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "4th-Walnut"
-        },
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "5th-Market"
-        }
-      ]
-    },
-    "septa-bus:756": {
-      "stop_id": "756",
-      "stop_name": "12th St & Market St",
-      "coordinates": [
-        -75.15995,
-        39.952187
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:23",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "11th-Market"
-        },
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16131": {
-      "stop_id": "16131",
-      "stop_name": "12th St & Chestnut St",
-      "coordinates": [
-        -75.160299,
-        39.950501
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:23",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "11th-Market"
-        },
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
+      "walk_minutes": 6
     },
     "septa-bus:16132": {
       "stop_id": "16132",
@@ -2323,117 +842,44 @@
           "direction": "Southbound",
           "headsign": "Broad-Oregon"
         }
-      ]
+      ],
+      "walk_minutes": 7
     },
-    "septa-bus:16843": {
-      "stop_id": "16843",
-      "stop_name": "11th St & Walnut St",
+    "septa-bus:16498": {
+      "stop_id": "16498",
+      "stop_name": "12th St & Spruce St",
       "coordinates": [
-        -75.158913,
-        39.948579
+        -75.161116,
+        39.946629
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
-          "route_id": "septa-bus:23",
+          "route_id": "septa-bus:45",
           "direction_id": 0,
           "direction": "Southbound",
-          "headsign": "11th-Market"
-        },
+          "headsign": "Broad-Oregon"
+        }
+      ],
+      "walk_minutes": 6
+    },
+    "septa-bus:16841": {
+      "stop_id": "16841",
+      "stop_name": "11th St & Spruce St",
+      "coordinates": [
+        -75.159441,
+        39.946215
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
         {
           "route_id": "septa-bus:45",
           "direction_id": 1,
           "direction": "Northbound",
           "headsign": "Noble-12th"
         }
-      ]
-    },
-    "septa-bus:16844": {
-      "stop_id": "16844",
-      "stop_name": "11th St & Chestnut St",
-      "coordinates": [
-        -75.158576,
-        39.950105
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:23",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "11th-Market"
-        },
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:15185": {
-      "stop_id": "15185",
-      "stop_name": "Broad St & Chestnut St - FS",
-      "coordinates": [
-        -75.164125,
-        39.950482
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        }
-      ]
-    },
-    "septa-bus:15186": {
-      "stop_id": "15186",
-      "stop_name": "Broad St & Walnut St",
-      "coordinates": [
-        -75.164341,
-        39.949457
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        },
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "NRG Station"
-        }
-      ]
+      "walk_minutes": 7
     },
     "septa-bus:15187": {
       "stop_id": "15187",
@@ -2468,454 +914,8 @@
           "direction": "Southbound",
           "headsign": "NRG Station"
         }
-      ]
-    },
-    "septa-bus:15188": {
-      "stop_id": "15188",
-      "stop_name": "Broad St & Spruce St",
-      "coordinates": [
-        -75.164858,
-        39.947102
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        }
-      ]
-    },
-    "septa-bus:15189": {
-      "stop_id": "15189",
-      "stop_name": "Broad St & Pine St",
-      "coordinates": [
-        -75.165158,
-        39.945692
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        }
-      ]
-    },
-    "septa-bus:15190": {
-      "stop_id": "15190",
-      "stop_name": "Broad St & Lombard St",
-      "coordinates": [
-        -75.165362,
-        39.944773
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        },
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "NRG Station"
-        }
-      ]
-    },
-    "septa-bus:15191": {
-      "stop_id": "15191",
-      "stop_name": "Broad St & South St",
-      "coordinates": [
-        -75.165579,
-        39.943756
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        },
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "NRG Station"
-        }
-      ]
-    },
-    "septa-bus:15192": {
-      "stop_id": "15192",
-      "stop_name": "Broad St & Bainbridge St - FS",
-      "coordinates": [
-        -75.165819,
-        39.942632
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        }
-      ]
-    },
-    "septa-bus:15193": {
-      "stop_id": "15193",
-      "stop_name": "Broad St & Fitzwater St",
-      "coordinates": [
-        -75.165987,
-        39.941919
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        }
-      ]
-    },
-    "septa-bus:15194": {
-      "stop_id": "15194",
-      "stop_name": "Broad St & Catharine St",
-      "coordinates": [
-        -75.166203,
-        39.940911
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        }
-      ]
-    },
-    "septa-bus:15195": {
-      "stop_id": "15195",
-      "stop_name": "Broad St & Christian St",
-      "coordinates": [
-        -75.166371,
-        39.940152
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Pattison"
-        }
-      ]
-    },
-    "septa-bus:145": {
-      "stop_id": "145",
-      "stop_name": "Spruce St & 15th St",
-      "coordinates": [
-        -75.166333,
-        39.947238
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "15th-Spruce"
-        }
-      ]
-    },
-    "septa-bus:5166": {
-      "stop_id": "5166",
-      "stop_name": "Broad St & Christian St",
-      "coordinates": [
-        -75.166219,
-        39.939902
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:5152": {
-      "stop_id": "5152",
-      "stop_name": "Broad St & Catharine St",
-      "coordinates": [
-        -75.16605,
-        39.940687
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:5195": {
-      "stop_id": "5195",
-      "stop_name": "Broad St & Fitzwater St",
-      "coordinates": [
-        -75.165834,
-        39.941668
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:5135": {
-      "stop_id": "5135",
-      "stop_name": "Broad St & Bainbridge St",
-      "coordinates": [
-        -75.165618,
-        39.942641
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:14996": {
-      "stop_id": "14996",
-      "stop_name": "Broad St & South St",
-      "coordinates": [
-        -75.165426,
-        39.943524
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        },
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:5233": {
-      "stop_id": "5233",
-      "stop_name": "Broad St & Lombard St",
-      "coordinates": [
-        -75.16521,
-        39.944514
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        },
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
+      "walk_minutes": 3
     },
     "septa-bus:5281": {
       "stop_id": "5281",
@@ -2950,446 +950,8 @@
           "direction": "Eastbound",
           "headsign": "2nd-Lombard via Pine St"
         }
-      ]
-    },
-    "septa-bus:5318": {
-      "stop_id": "5318",
-      "stop_name": "Broad St & Spruce St",
-      "coordinates": [
-        -75.164705,
-        39.946869
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:5229": {
-      "stop_id": "5229",
-      "stop_name": "Broad St & Locust St",
-      "coordinates": [
-        -75.164453,
-        39.948082
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        },
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:15941": {
-      "stop_id": "15941",
-      "stop_name": "Broad St & Walnut St",
-      "coordinates": [
-        -75.164201,
-        39.949206
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:27",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Plymouth Meeting Mall"
-        },
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:4",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        },
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:30828": {
-      "stop_id": "30828",
-      "stop_name": "15th St & Ranstead St",
-      "coordinates": [
-        -75.165537,
-        39.951797
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:31",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "City Hall"
-        }
-      ]
-    },
-    "septa-bus:22241": {
-      "stop_id": "22241",
-      "stop_name": "South St & 19th St",
-      "coordinates": [
-        -75.173569,
-        39.944585
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22242": {
-      "stop_id": "22242",
-      "stop_name": "South St & 18th St",
-      "coordinates": [
-        -75.172012,
-        39.944385
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22243": {
-      "stop_id": "22243",
-      "stop_name": "South St & 17th St",
-      "coordinates": [
-        -75.170418,
-        39.944186
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22244": {
-      "stop_id": "22244",
-      "stop_name": "South St & 16th St",
-      "coordinates": [
-        -75.16886,
-        39.944004
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22245": {
-      "stop_id": "22245",
-      "stop_name": "South St & 15th St",
-      "coordinates": [
-        -75.167291,
-        39.943804
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:660": {
-      "stop_id": "660",
-      "stop_name": "South St & Broad St",
-      "coordinates": [
-        -75.165721,
-        39.943605
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22246": {
-      "stop_id": "22246",
-      "stop_name": "South St & 13th St",
-      "coordinates": [
-        -75.163443,
-        39.943341
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22247": {
-      "stop_id": "22247",
-      "stop_name": "South St & 12th St",
-      "coordinates": [
-        -75.161862,
-        39.943141
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22248": {
-      "stop_id": "22248",
-      "stop_name": "South St & 11th St",
-      "coordinates": [
-        -75.160304,
-        39.942942
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:22249": {
-      "stop_id": "22249",
-      "stop_name": "South St & 10th St",
-      "coordinates": [
-        -75.158722,
-        39.942751
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        }
-      ]
-    },
-    "septa-bus:32128": {
-      "stop_id": "32128",
-      "stop_name": "Pine St & 13th St",
-      "coordinates": [
-        -75.163093,
-        39.945268
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard via Pine St"
-        }
-      ]
-    },
-    "septa-bus:32129": {
-      "stop_id": "32129",
-      "stop_name": "Pine St & 12th St",
-      "coordinates": [
-        -75.161441,
-        39.945059
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard via Pine St"
-        }
-      ]
-    },
-    "septa-bus:32130": {
-      "stop_id": "32130",
-      "stop_name": "Pine St & 11th St",
-      "coordinates": [
-        -75.159942,
-        39.944878
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard via Pine St"
-        }
-      ]
-    },
-    "septa-bus:32131": {
-      "stop_id": "32131",
-      "stop_name": "Pine St & 10th St",
-      "coordinates": [
-        -75.158384,
-        39.944669
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard via Pine St"
-        }
-      ]
-    },
-    "septa-bus:22265": {
-      "stop_id": "22265",
-      "stop_name": "Lombard St & 10th St",
-      "coordinates": [
-        -75.158258,
-        39.943821
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:22266": {
-      "stop_id": "22266",
-      "stop_name": "Lombard St & 11th St",
-      "coordinates": [
-        -75.159874,
-        39.944056
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:22267": {
-      "stop_id": "22267",
-      "stop_name": "Lombard St & 12th St",
-      "coordinates": [
-        -75.161432,
-        39.944247
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:22268": {
-      "stop_id": "22268",
-      "stop_name": "Lombard St & 13th St",
-      "coordinates": [
-        -75.163014,
-        39.944438
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:663": {
-      "stop_id": "663",
-      "stop_name": "Lombard St & Broad St",
-      "coordinates": [
-        -75.165138,
-        39.944701
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
+      "walk_minutes": 2
     },
     "septa-bus:22269": {
       "stop_id": "22269",
@@ -3406,422 +968,8 @@
           "direction": "Westbound",
           "headsign": "Conshohocken-Monument"
         }
-      ]
-    },
-    "septa-bus:22270": {
-      "stop_id": "22270",
-      "stop_name": "Lombard St & 16th St",
-      "coordinates": [
-        -75.168419,
-        39.945119
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:22271": {
-      "stop_id": "22271",
-      "stop_name": "Lombard St & 17th St",
-      "coordinates": [
-        -75.170001,
-        39.945301
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:22272": {
-      "stop_id": "22272",
-      "stop_name": "Lombard St & 18th St",
-      "coordinates": [
-        -75.171582,
-        39.9455
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:22273": {
-      "stop_id": "22273",
-      "stop_name": "Lombard St & 19th St",
-      "coordinates": [
-        -75.17314,
-        39.9457
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:22274": {
-      "stop_id": "22274",
-      "stop_name": "Lombard St & 20th St",
-      "coordinates": [
-        -75.174698,
-        39.94589
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:16495": {
-      "stop_id": "16495",
-      "stop_name": "12th St & Locust St",
-      "coordinates": [
-        -75.160852,
-        39.947843
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16498": {
-      "stop_id": "16498",
-      "stop_name": "12th St & Spruce St",
-      "coordinates": [
-        -75.161116,
-        39.946629
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16499": {
-      "stop_id": "16499",
-      "stop_name": "12th St & Pine St",
-      "coordinates": [
-        -75.161417,
-        39.945184
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16500": {
-      "stop_id": "16500",
-      "stop_name": "12th St & Lombard St",
-      "coordinates": [
-        -75.161598,
-        39.944274
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16501": {
-      "stop_id": "16501",
-      "stop_name": "12th St & South St",
-      "coordinates": [
-        -75.161814,
-        39.94332
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16502": {
-      "stop_id": "16502",
-      "stop_name": "12th St & Bainbridge St",
-      "coordinates": [
-        -75.16203,
-        39.942419
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16503": {
-      "stop_id": "16503",
-      "stop_name": "12th St & Fitzwater St",
-      "coordinates": [
-        -75.162258,
-        39.941447
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16504": {
-      "stop_id": "16504",
-      "stop_name": "12th St & Catharine St",
-      "coordinates": [
-        -75.162474,
-        39.940439
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Oregon"
-        }
-      ]
-    },
-    "septa-bus:16836": {
-      "stop_id": "16836",
-      "stop_name": "11th St & Fitzwater St",
-      "coordinates": [
-        -75.16057,
-        39.941086
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:16837": {
-      "stop_id": "16837",
-      "stop_name": "11th St & Bainbridge St",
-      "coordinates": [
-        -75.160331,
-        39.942049
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:16838": {
-      "stop_id": "16838",
-      "stop_name": "11th St & South St",
-      "coordinates": [
-        -75.160186,
-        39.942897
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:16839": {
-      "stop_id": "16839",
-      "stop_name": "11th St & Lombard St",
-      "coordinates": [
-        -75.159934,
-        39.943914
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:16840": {
-      "stop_id": "16840",
-      "stop_name": "11th St & Pine St",
-      "coordinates": [
-        -75.159742,
-        39.944806
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:16841": {
-      "stop_id": "16841",
-      "stop_name": "11th St & Spruce St",
-      "coordinates": [
-        -75.159441,
-        39.946215
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:16842": {
-      "stop_id": "16842",
-      "stop_name": "11th St & Locust St",
-      "coordinates": [
-        -75.159177,
-        39.947455
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:45",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Noble-12th"
-        }
-      ]
-    },
-    "septa-bus:31564": {
-      "stop_id": "31564",
-      "stop_name": "15th St & Market St - FS",
-      "coordinates": [
-        -75.165393,
-        39.952493
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:B1_OWL",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "NRG Station"
-        },
-        {
-          "route_id": "septa-bus:L1_OWL",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        }
-      ]
-    },
-    "septa-bus:30082": {
-      "stop_id": "30082",
-      "stop_name": "Market St & 12th St - MBFS",
-      "coordinates": [
-        -75.160529,
-        39.952063
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:62",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Andorra"
-        },
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wissahickon Transit Center"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Ardmore via Narberth"
-        }
-      ]
-    },
-    "septa-bus:1721": {
-      "stop_id": "1721",
-      "stop_name": "13th St & Market St - MBFS",
-      "coordinates": [
-        -75.161283,
-        39.952672
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:125",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "13th-Market"
-        },
-        {
-          "route_id": "septa-bus:124",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "13th-Market"
-        }
-      ]
+      "walk_minutes": 3
     },
     "septa-trolley:31140": {
       "stop_id": "31140",
@@ -3862,48 +1010,8 @@
           "direction": "Eastbound",
           "headsign": "13th St"
         }
-      ]
-    },
-    "septa-trolley:283": {
-      "stop_id": "283",
-      "stop_name": "13th St",
-      "coordinates": [
-        -75.162559,
-        39.952532
       ],
-      "wheelchair_boarding": 2,
-      "routes": [
-        {
-          "route_id": "septa-trolley:T2",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "61st-Baltimore"
-        },
-        {
-          "route_id": "septa-trolley:T3",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "13th-Market"
-        },
-        {
-          "route_id": "septa-trolley:T4",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "13th-Market"
-        },
-        {
-          "route_id": "septa-trolley:T5",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Eastwick"
-        },
-        {
-          "route_id": "septa-trolley:T1",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "13th St"
-        }
-      ]
+      "walk_minutes": 9
     },
     "septa-trolley:20659": {
       "stop_id": "20659",
@@ -3944,41 +1052,8 @@
           "direction": "Westbound",
           "headsign": "63rd-Malvern"
         }
-      ]
-    },
-    "patco:12": {
-      "stop_id": "12",
-      "stop_name": "9-10th and Locust",
-      "coordinates": [
-        -75.15751,
-        39.947345
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "patco:2",
-          "direction_id": 0,
-          "direction": "",
-          "headsign": "Philadelphia"
-        }
-      ]
-    },
-    "patco:13": {
-      "stop_id": "13",
-      "stop_name": "12-13th and Locust",
-      "coordinates": [
-        -75.162365,
-        39.947944
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "patco:2",
-          "direction_id": 0,
-          "direction": "",
-          "headsign": "Philadelphia"
-        }
-      ]
+      "walk_minutes": 9
     },
     "patco:14": {
       "stop_id": "14",
@@ -3995,7 +1070,26 @@
           "direction": "",
           "headsign": "Philadelphia"
         }
-      ]
+      ],
+      "walk_minutes": 4
+    },
+    "indego:bcycle_indego_3010": {
+      "stop_id": "bcycle_indego_3010",
+      "stop_name": "15th & Spruce",
+      "coordinates": [
+        -75.16618,
+        39.94711
+      ],
+      "wheelchair_boarding": 0,
+      "routes": [
+        {
+          "route_id": "indego:indego",
+          "direction_id": null,
+          "direction": null,
+          "headsign": null
+        }
+      ],
+      "walk_minutes": 1
     }
   },
   "routes": {
@@ -6075,6 +3169,75 @@
         "septa-bus:30808"
       ]
     },
+    "septa-bus:L1_OWL": {
+      "route_id": "L1_OWL",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "L1 OWL",
+      "route_long_name": "Midnight-5am Service (Bus) for L1",
+      "route_type": 3,
+      "route_color": "#0097D6",
+      "route_text_color": "#FFFFFF",
+      "polyline": "iahsFdsfiMKMGGUUIEUCc@Ea@A@Q?M?g@@S?m@p@DP@L?`@B`@BF?B?FCXd@b@t@Xd@h@|@p@hAj@`A`@n@FLRVRRdAbAnBfBhB`BhB`B~BvBlBbBjC~BLLlE~Db@`@HHHFhBzAt@p@xDjD`A~@pBfB`A|@hEtDPPh@f@`@Z`@TZPdAl@ZNj@ZVLrCdBPJd@VBBRNRRHHFJFFPVTd@L\\z@fBhAhCLXv@dBx@lBpBfEl@rAJRrAzCdDpHt@|AvBzExCrGxB`FpAtCd@fAXn@JR^|@z@lBZr@P^l@pAx@dBJRLXn@tA`AxBrBnE~BhFv@fB`AvB~@tBz@jBz@lB|@jBfA`Cv@hB|@tBp@|ALVLX~@pBp@tAp@vApAtCHPDH|EtKXl@N\\HRVh@dCtF^x@b@|@x@jB~@rBJTHRf@|@~@hBv@bBdA~B`@x@^z@JRFL@@JXDJFLVd@v@hBDLRb@`@x@p@~An@tAn@vAbAzB|@pB|B~E^|@^|@\\r@Zn@\\x@b@`A\\t@@DNRNPFBJBNDH@xCXbBRJ@HBbH`Ad@Hh@FjFp@LBd@DxFv@|Dh@jBTjH~@zBX^Df@FnDd@v@Nj@Np@Lr@NF@PDVF~Dz@d@JNBzDx@pFlAx@PrAXfB`@dB\\StBQzASdBC`@QnBGf@I~@QnBzEl@bAL`BRrC^vAPhFn@rEn@jFr@nEj@|Dd@p@JJBJ@xFr@|Fv@pAPVD`AJzAPHBH@ZDf@FRBNBdBTjBTzBVRB\\FrAPlBVjANvDf@jBTTBTBb@FbBVlBX@H?N?JGpAMnBGbAKzAg@zHi@jICVMxBEn@IbAC\\g@bIMpBWhEe@zHQrCSbDg@zH]xFGfAYzEKtAOjCC\\M\\KJMHMDMBiAQOAOAI?MDGFELEZE`@KlAObBIlAF`A@P@NBNJNFFLLv@f@hANXDdAILCHAFCFCFEDEFK@KDKDYNq@N{CLuB?U?K?IAICGEEGCOEOCc@IsBYiAQOAOAI?MDGFELEZE`@KlAObBIlASdDUtDO~BW|DO`Cg@xHe@zHOnBEl@CXEx@Cf@AT?RH@|@Jj@FrANMpBGbAIhAM|B[xEK`BK|AEf@I`BMdBUpDGx@El@GbAItAIvA?JAFAH?JAB?BARWbDMlBMrBAHANAFCl@UlDEl@Ep@AN?DAFCh@Ep@QrCEl@Gx@Cj@CXEz@C\\CZIvAOrBC\\KdBQhCCb@KvAOdCGt@Cn@a@dGEt@OvBOhCEh@MzBC`@Et@G|@Cb@KnAEt@QpCAJAJIzAMzBInAKhBC^OpBCj@UjDEr@IzAMbBEr@MbBEn@MdCEj@GbAEf@K|AK`BCd@]`FGr@IjAC^QpCKbBE`AEr@APMTGfAGp@?Ja@nHARStAQpBaAtOG~@E|@i@pJUdDY~DInAMtBI|AGr@Gp@WfEMxBIfAc@nGMxBEn@GbAKdBKdBC^OvBMhBI~AIjA?JCZO|B[|EEz@SjCMvBM|AEp@o@bKk@|IEl@Q~BOxBQlCMbCKpBQvCOxBOhCKtAEn@QhCOvBIzAGz@C`AKrBCf@Cd@ANYrDCb@?XAZ?VBf@@j@@H@L?HFJRjCXnDXfDHnAJ`BBf@FdA@XBZDf@Fn@Fr@JhALrAJhAJ`AR`COPIb@P~C",
+      "stop_ids": [
+        "septa-bus:18995",
+        "septa-bus:19026",
+        "septa-bus:21962",
+        "septa-bus:21204",
+        "septa-bus:10266",
+        "septa-bus:10263",
+        "septa-bus:10259",
+        "septa-bus:18457",
+        "septa-bus:14913",
+        "septa-bus:10288",
+        "septa-bus:20961",
+        "septa-bus:3582",
+        "septa-bus:10338",
+        "septa-bus:10258",
+        "septa-bus:10264",
+        "septa-bus:1148",
+        "septa-bus:19032",
+        "septa-bus:18991",
+        "septa-bus:19031",
+        "septa-bus:18992",
+        "septa-bus:1391",
+        "septa-bus:18993",
+        "septa-bus:18996",
+        "septa-bus:19025",
+        "septa-bus:19028",
+        "septa-bus:1396",
+        "septa-bus:19029",
+        "septa-bus:31723",
+        "septa-bus:52",
+        "septa-bus:300",
+        "septa-bus:19014",
+        "septa-bus:51",
+        "septa-bus:22030",
+        "septa-bus:19006",
+        "septa-bus:31564",
+        "septa-bus:18994",
+        "septa-bus:299",
+        "septa-bus:18987",
+        "septa-bus:19003",
+        "septa-bus:19004",
+        "septa-bus:19005",
+        "septa-bus:21175",
+        "septa-bus:19007",
+        "septa-bus:19008",
+        "septa-bus:23961",
+        "septa-bus:23965",
+        "septa-bus:20844",
+        "septa-bus:25421",
+        "septa-bus:24129",
+        "septa-bus:19013",
+        "septa-bus:801",
+        "septa-bus:19016",
+        "septa-bus:19018",
+        "septa-bus:18988",
+        "septa-bus:67",
+        "septa-bus:19027"
+      ]
+    },
     "septa-bus:62": {
       "route_id": "62",
       "namespace": "septa-bus",
@@ -6202,25 +3365,6 @@
         "septa-bus:16092",
         "septa-bus:16093",
         "septa-bus:16094"
-      ]
-    },
-    "septa-bus:78": {
-      "route_id": "78",
-      "namespace": "septa-bus",
-      "mode": "Bus",
-      "route_short_name": "78",
-      "route_long_name": "Express Cornwells Hghts to Ctr City",
-      "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
-      "polyline": "o}yrFxkuiMCb@e@zHQrCSbDg@zH]xFGfAYzEKtAOjCC\\M\\KJMHMDMBiAQOAOAI?MDGFELEZE`@KlAObBIlASdDUtDO~BW|DO`Cg@xHe@zHOnBEl@CXEx@Cf@AT?RCPIPa@pGI~@E`A[|ECXIvAG~@KnAa@vGAXCf@Gv@]`EAJELCF_@KiAYSCICMCCAQCQAI@EBGFEBEHEN?JIx@Et@Gx@SbCEl@AJ@H?FBHBFBDDFFFFBHBVB\\DTB^DvANdANz@Lr@LHBJD@ILsBLmBVcD@S?C@C_AYa@MkA[m@Q_@K[QSKWKQEWIGCKCWIc@MGC]IG?e@Ig@Ci@Ak@?m@Bm@Dm@HSDWDC@c@J_@JWJ]RWJSFE@C?M?MCKGIGIKEKEMAO?QL_C?E?K?KB[B[@MLsBDw@FgADa@HqAh@_JDa@b@}GJqADs@Dq@Du@HmA@KBo@D_@L}BDm@NoBP}CPmC@Oh@yHB[JwAN{BHmAPiCTkDB{@P}CHsABYBYJiBLgBJeBF}@Dk@\\{FF{@Z_E@M@S@KJkA`@oFDk@B_@@QH_BDs@@U@k@?_@?a@?WAY?YAa@C_@Ek@Ea@Ea@CYEQEYEYE[EOMq@CMAMIc@GY?CKg@Ki@AGGa@GWCUIo@Iq@AQCWC{@AW?a@?S?]@U@g@D}@H_ADg@D_@Dc@@OBM@M@SDY@MPiBJy@Dg@Fe@LmARqBNsAB]f@{ED[Bi@@W@OAc@?WAQC_@Ec@Ic@Ka@EMGSO_@O[ACOUOUMOCCEEOMWQUMWKIAOE]Eg@CsBIyACgCMaAG]GIAKAYGwAK]Ma@MYM[OOEqCyAy@e@kAu@g@_@c@Yi@c@q@g@kAeACCUUYYSQYYSUGGCEq@u@U[GGUYQYIKIOGIGIKUMSIQMWIQGMIOCGEIGSGOIQIYKYI[IUI]GWI[ESEMESEQy@aEMe@g@aC_@sBi@gCUcAQ{@g@mCUcAQy@GWI[I]I[IWIYOe@Sk@O_@KWO[IOKUS_@OYS]g@w@m@}@m@}@u@mA{@wAgB{Cm@eAS_@GMU_@OWKQKQMWKSoB{Eq@eBOa@Ui@q@{AeAiCaAwBm@yAa@}@Uo@q@eBeAcCoBuEyAoDaDyHEIyBgFGOQ_@O]Se@_AyB[u@m@{Aa@mA[gAWaAGUGWSaAUkAu@aEO{@Mo@y@mEGUOu@[qAa@uAAGs@wBEMk@}Aa@gA]iA]_AOe@[_Ae@qAKU[aAKWEMYw@[{@e@sAq@mBkAaDWy@w@yB[{@IWwAyDWo@]aAi@qAGQO]Qc@Uk@i@oA_@}@[s@EKKUSe@ISg@mAk@oA]y@i@qASe@KWKUIQ_A{B}@oBAAk@eAe@w@Ya@GKMSU]SW_@c@c@g@k@m@c@c@_@]WUm@e@kAy@w@e@GEg@WMGQKwAy@OICA{Ay@MISKi@[]SUMe@Yo@_@u@e@aBeAi@]}AcAEE}B{AqBwAe@[_@USOSMq@a@ECOKk@]u@i@yAcA[S]SQO}@k@wAaAcAu@qDcCeCcBaCaBwBwAIG_C}Ae@YuCqBi@c@m@c@c@]{@u@e@a@g@a@SQMIUSi@e@GGMMOMIIIKOQKK}AqBo@{@m@}@o@eAOYQWKSo@mAo@qAm@uAk@wAk@yAg@wAg@aB]oAGW[oAOu@Ko@EWCUGg@Iu@SaCGi@c@qEK}@Io@OmAOaAMs@Mo@Ou@I_@EQK_@K[Qq@Sq@i@aBOa@GOQc@MY_AwBa@aAM[ISKWCEGM[q@Wm@]u@o@sAUg@g@gAu@aBO[Sc@]w@m@qAc@eAa@eAu@iBUi@Wq@k@uAm@_B{@uBm@_BWo@o@}Aa@gA}@wB_@aA]{@a@cA_@aAo@_Bo@aBs@gBi@uAc@iAa@aAGKa@iAw@mBa@eAc@gAc@eAo@_BWq@a@eAa@gAa@_Aa@eAWo@a@gAWq@[}@Oi@Sk@Uu@YcAYgASy@YkAa@mBOq@]sAScAu@{CQw@Oi@YwAMe@Ms@YmAI_@GUG[m@qCk@{COcAMw@G_@wA{IQeAO{@Mi@UiAGU[kACK[_ACK[{@c@iA_CoFUi@O_@eA}BKWu@cBg@gAe@gA]u@Sc@]s@iA_CGOGMk@mAYk@Q]W]Q[U]Y[KQi@k@YYUWWUQOOKWSa@[s@c@SIYQYMg@Qu@Wo@Um@Q]K_AYe@OSGcA]g@QCAkAi@KGOIGCc@[YQOKUOYWm@i@MMQSa@c@SWMQS[SWe@u@]m@a@{@a@}@_@}@Qc@Qc@Yw@a@iA]eAOg@Oc@a@sA[gAU}@W}@]oAU{@c@eBa@{A[kAYmAMa@a@wA[iAU}@Y_AYgASs@a@_BAE]qAYeAMc@Ss@Oi@Uo@Ws@Qi@Sc@Qe@Wg@Ym@o@oAs@mAS[GKOSACW_@i@q@c@i@u@{@c@a@g@c@kAaAkA}@o@a@CAe@Yk@YIEKEc@SWMKESKa@OiCeACAeAc@e@SYMw@a@UO]Qe@[_@Yo@g@w@s@o@o@i@m@w@aAWa@g@u@Wc@EI[i@Ym@Ym@Uk@Sk@Qe@GQCGAGWy@Qs@Qs@Mo@Mu@QeA[_CKgAUkBEYSkBYwB[_CKq@Ki@Kg@Kc@Ki@Qs@Os@Ss@Qm@a@oAUq@Qi@Uk@Yq@c@gAg@gAs@oA{@{A{@sAk@w@}@iAaAiAcAeAKIsAqAmAiAOOQO[[e@c@QQOQa@]WQ_@Ye@_@SQOOSOYWCEUSEE[YGGQOOO_@]USSSc@c@SUWYSUGIQS[_@[_@_@e@[a@[e@U]SYS[[g@Q[Wa@[k@Wc@Wk@Q]GOIQO[MYMYKYSg@MWM[K[M]ISGQIQQg@M]M[Qg@Qc@KYQg@i@wAWs@Sg@Uq@ISO]GS}@_CM]IUeAsCs@oBM[ACQe@Um@AE[u@Um@k@aBg@qAM]Qi@M_@Wm@e@qACGSi@Sg@Wq@Qe@Yq@Ug@Wk@Ym@Ue@Ug@]m@GOMSISKM]q@Yc@_BoC_@cAa@w@Yk@IOO[Q_@MWMa@M_@Oc@Uy@Q{@QaAAOIi@k@aFKm@Me@Ka@M[MYQUOOQOSKSISEUCSAWBSBSFUJWPa@V[RUNWRWP}@n@yDpCw@f@i@\\SJUNg@Zs@`@MFIDGBQJIDs@RID]L_@L]J_@F]DW?SAQCOEMIKIIMGMEOCOAS@QBSBQFSJSLQPS\\[r@m@NCJEJ?L@JDLFHFLL^x@p@xAHPRf@DHBFZr@HNHRLXBV?LANCLGLGHY\\EBeBxASNQHODO@O?MAMEKEIIIMIMEOEQAQ?O@QBODQHQLQROVQVQh@a@z@c@h@YJGPKDCJGJKtAy@r@c@\\UXQpA}@hCkB~@q@p@c@PQl@a@NITKNGPGPCNCTAR@RDRFPHPLNLNPLRJTFVFTDV@V@TAVCTGRGRIPKNKJOJMHQDO@O@OCQCMIOKKMKQQ]a@_AEKe@gAa@gACKK[_@oA]iAOaACYAW@UBSDQFQHMJMPOdAu@hAy@f@rA",
-      "stop_ids": [
-        "septa-bus:17842",
-        "septa-bus:8939",
-        "septa-bus:10338",
-        "septa-bus:10258",
-        "septa-bus:31568",
-        "septa-bus:30464"
       ]
     },
     "septa-bus:38": {
@@ -6576,6 +3720,25 @@
         "septa-bus:21799"
       ]
     },
+    "septa-bus:78": {
+      "route_id": "78",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "78",
+      "route_long_name": "Express Cornwells Hghts to Ctr City",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "o}yrFxkuiMCb@e@zHQrCSbDg@zH]xFGfAYzEKtAOjCC\\M\\KJMHMDMBiAQOAOAI?MDGFELEZE`@KlAObBIlASdDUtDO~BW|DO`Cg@xHe@zHOnBEl@CXEx@Cf@AT?RCPIPa@pGI~@E`A[|ECXIvAG~@KnAa@vGAXCf@Gv@]`EAJELCF_@KiAYSCICMCCAQCQAI@EBGFEBEHEN?JIx@Et@Gx@SbCEl@AJ@H?FBHBFBDDFFFFBHBVB\\DTB^DvANdANz@Lr@LHBJD@ILsBLmBVcD@S?C@C_AYa@MkA[m@Q_@K[QSKWKQEWIGCKCWIc@MGC]IG?e@Ig@Ci@Ak@?m@Bm@Dm@HSDWDC@c@J_@JWJ]RWJSFE@C?M?MCKGIGIKEKEMAO?QL_C?E?K?KB[B[@MLsBDw@FgADa@HqAh@_JDa@b@}GJqADs@Dq@Du@HmA@KBo@D_@L}BDm@NoBP}CPmC@Oh@yHB[JwAN{BHmAPiCTkDB{@P}CHsABYBYJiBLgBJeBF}@Dk@\\{FF{@Z_E@M@S@KJkA`@oFDk@B_@@QH_BDs@@U@k@?_@?a@?WAY?YAa@C_@Ek@Ea@Ea@CYEQEYEYE[EOMq@CMAMIc@GY?CKg@Ki@AGGa@GWCUIo@Iq@AQCWC{@AW?a@?S?]@U@g@D}@H_ADg@D_@Dc@@OBM@M@SDY@MPiBJy@Dg@Fe@LmARqBNsAB]f@{ED[Bi@@W@OAc@?WAQC_@Ec@Ic@Ka@EMGSO_@O[ACOUOUMOCCEEOMWQUMWKIAOE]Eg@CsBIyACgCMaAG]GIAKAYGwAK]Ma@MYM[OOEqCyAy@e@kAu@g@_@c@Yi@c@q@g@kAeACCUUYYSQYYSUGGCEq@u@U[GGUYQYIKIOGIGIKUMSIQMWIQGMIOCGEIGSGOIQIYKYI[IUI]GWI[ESEMESEQy@aEMe@g@aC_@sBi@gCUcAQ{@g@mCUcAQy@GWI[I]I[IWIYOe@Sk@O_@KWO[IOKUS_@OYS]g@w@m@}@m@}@u@mA{@wAgB{Cm@eAS_@GMU_@OWKQKQMWKSoB{Eq@eBOa@Ui@q@{AeAiCaAwBm@yAa@}@Uo@q@eBeAcCoBuEyAoDaDyHEIyBgFGOQ_@O]Se@_AyB[u@m@{Aa@mA[gAWaAGUGWSaAUkAu@aEO{@Mo@y@mEGUOu@[qAa@uAAGs@wBEMk@}Aa@gA]iA]_AOe@[_Ae@qAKU[aAKWEMYw@[{@e@sAq@mBkAaDWy@w@yB[{@IWwAyDWo@]aAi@qAGQO]Qc@Uk@i@oA_@}@[s@EKKUSe@ISg@mAk@oA]y@i@qASe@KWKUIQ_A{B}@oBAAk@eAe@w@Ya@GKMSU]SW_@c@c@g@k@m@c@c@_@]WUm@e@kAy@w@e@GEg@WMGQKwAy@OICA{Ay@MISKi@[]SUMe@Yo@_@u@e@aBeAi@]}AcAEE}B{AqBwAe@[_@USOSMq@a@ECOKk@]u@i@yAcA[S]SQO}@k@wAaAcAu@qDcCeCcBaCaBwBwAIG_C}Ae@YuCqBi@c@m@c@c@]{@u@e@a@g@a@SQMIUSi@e@GGMMOMIIIKOQKK}AqBo@{@m@}@o@eAOYQWKSo@mAo@qAm@uAk@wAk@yAg@wAg@aB]oAGW[oAOu@Ko@EWCUGg@Iu@SaCGi@c@qEK}@Io@OmAOaAMs@Mo@Ou@I_@EQK_@K[Qq@Sq@i@aBOa@GOQc@MY_AwBa@aAM[ISKWCEGM[q@Wm@]u@o@sAUg@g@gAu@aBO[Sc@]w@m@qAc@eAa@eAu@iBUi@Wq@k@uAm@_B{@uBm@_BWo@o@}Aa@gA}@wB_@aA]{@a@cA_@aAo@_Bo@aBs@gBi@uAc@iAa@aAGKa@iAw@mBa@eAc@gAc@eAo@_BWq@a@eAa@gAa@_Aa@eAWo@a@gAWq@[}@Oi@Sk@Uu@YcAYgASy@YkAa@mBOq@]sAScAu@{CQw@Oi@YwAMe@Ms@YmAI_@GUG[m@qCk@{COcAMw@G_@wA{IQeAO{@Mi@UiAGU[kACK[_ACK[{@c@iA_CoFUi@O_@eA}BKWu@cBg@gAe@gA]u@Sc@]s@iA_CGOGMk@mAYk@Q]W]Q[U]Y[KQi@k@YYUWWUQOOKWSa@[s@c@SIYQYMg@Qu@Wo@Um@Q]K_AYe@OSGcA]g@QCAkAi@KGOIGCc@[YQOKUOYWm@i@MMQSa@c@SWMQS[SWe@u@]m@a@{@a@}@_@}@Qc@Qc@Yw@a@iA]eAOg@Oc@a@sA[gAU}@W}@]oAU{@c@eBa@{A[kAYmAMa@a@wA[iAU}@Y_AYgASs@a@_BAE]qAYeAMc@Ss@Oi@Uo@Ws@Qi@Sc@Qe@Wg@Ym@o@oAs@mAS[GKOSACW_@i@q@c@i@u@{@c@a@g@c@kAaAkA}@o@a@CAe@Yk@YIEKEc@SWMKESKa@OiCeACAeAc@e@SYMw@a@UO]Qe@[_@Yo@g@w@s@o@o@i@m@w@aAWa@g@u@Wc@EI[i@Ym@Ym@Uk@Sk@Qe@GQCGAGWy@Qs@Qs@Mo@Mu@QeA[_CKgAUkBEYSkBYwB[_CKq@Ki@Kg@Kc@Ki@Qs@Os@Ss@Qm@a@oAUq@Qi@Uk@Yq@c@gAg@gAs@oA{@{A{@sAk@w@}@iAaAiAcAeAKIsAqAmAiAOOQO[[e@c@QQOQa@]WQ_@Ye@_@SQOOSOYWCEUSEE[YGGQOOO_@]USSSc@c@SUWYSUGIQS[_@[_@_@e@[a@[e@U]SYS[[g@Q[Wa@[k@Wc@Wk@Q]GOIQO[MYMYKYSg@MWM[K[M]ISGQIQQg@M]M[Qg@Qc@KYQg@i@wAWs@Sg@Uq@ISO]GS}@_CM]IUeAsCs@oBM[ACQe@Um@AE[u@Um@k@aBg@qAM]Qi@M_@Wm@e@qACGSi@Sg@Wq@Qe@Yq@Ug@Wk@Ym@Ue@Ug@]m@GOMSISKM]q@Yc@_BoC_@cAa@w@Yk@IOO[Q_@MWMa@M_@Oc@Uy@Q{@QaAAOIi@k@aFKm@Me@Ka@M[MYQUOOQOSKSISEUCSAWBSBSFUJWPa@V[RUNWRWP}@n@yDpCw@f@i@\\SJUNg@Zs@`@MFIDGBQJIDs@RID]L_@L]J_@F]DW?SAQCOEMIKIIMGMEOCOAS@QBSBQFSJSLQPS\\[r@m@NCJEJ?L@JDLFHFLL^x@p@xAHPRf@DHBFZr@HNHRLXBV?LANCLGLGHY\\EBeBxASNQHODO@O?MAMEKEIIIMIMEOEQAQ?O@QBODQHQLQROVQVQh@a@z@c@h@YJGPKDCJGJKtAy@r@c@\\UXQpA}@hCkB~@q@p@c@PQl@a@NITKNGPGPCNCTAR@RDRFPHPLNLNPLRJTFVFTDV@V@TAVCTGRGRIPKNKJOJMHQDO@O@OCQCMIOKKMKQQ]a@_AEKe@gAa@gACKK[_@oA]iAOaACYAW@UBSDQFQHMJMPOdAu@hAy@f@rA",
+      "stop_ids": [
+        "septa-bus:17842",
+        "septa-bus:8939",
+        "septa-bus:10338",
+        "septa-bus:10258",
+        "septa-bus:31568",
+        "septa-bus:30464"
+      ]
+    },
     "septa-bus:125": {
       "route_id": "125",
       "namespace": "septa-bus",
@@ -6913,75 +4076,6 @@
         "septa-bus:20601",
         "septa-bus:3189",
         "septa-bus:6287"
-      ]
-    },
-    "septa-bus:L1_OWL": {
-      "route_id": "L1_OWL",
-      "namespace": "septa-bus",
-      "mode": "Bus",
-      "route_short_name": "L1 OWL",
-      "route_long_name": "Midnight-5am Service (Bus) for L1",
-      "route_type": 3,
-      "route_color": "#0097D6",
-      "route_text_color": "#FFFFFF",
-      "polyline": "iahsFdsfiMKMGGUUIEUCc@Ea@A@Q?M?g@@S?m@p@DP@L?`@B`@BF?B?FCXd@b@t@Xd@h@|@p@hAj@`A`@n@FLRVRRdAbAnBfBhB`BhB`B~BvBlBbBjC~BLLlE~Db@`@HHHFhBzAt@p@xDjD`A~@pBfB`A|@hEtDPPh@f@`@Z`@TZPdAl@ZNj@ZVLrCdBPJd@VBBRNRRHHFJFFPVTd@L\\z@fBhAhCLXv@dBx@lBpBfEl@rAJRrAzCdDpHt@|AvBzExCrGxB`FpAtCd@fAXn@JR^|@z@lBZr@P^l@pAx@dBJRLXn@tA`AxBrBnE~BhFv@fB`AvB~@tBz@jBz@lB|@jBfA`Cv@hB|@tBp@|ALVLX~@pBp@tAp@vApAtCHPDH|EtKXl@N\\HRVh@dCtF^x@b@|@x@jB~@rBJTHRf@|@~@hBv@bBdA~B`@x@^z@JRFL@@JXDJFLVd@v@hBDLRb@`@x@p@~An@tAn@vAbAzB|@pB|B~E^|@^|@\\r@Zn@\\x@b@`A\\t@@DNRNPFBJBNDH@xCXbBRJ@HBbH`Ad@Hh@FjFp@LBd@DxFv@|Dh@jBTjH~@zBX^Df@FnDd@v@Nj@Np@Lr@NF@PDVF~Dz@d@JNBzDx@pFlAx@PrAXfB`@dB\\StBQzASdBC`@QnBGf@I~@QnBzEl@bAL`BRrC^vAPhFn@rEn@jFr@nEj@|Dd@p@JJBJ@xFr@|Fv@pAPVD`AJzAPHBH@ZDf@FRBNBdBTjBTzBVRB\\FrAPlBVjANvDf@jBTTBTBb@FbBVlBX@H?N?JGpAMnBGbAKzAg@zHi@jICVMxBEn@IbAC\\g@bIMpBWhEe@zHQrCSbDg@zH]xFGfAYzEKtAOjCC\\M\\KJMHMDMBiAQOAOAI?MDGFELEZE`@KlAObBIlAF`A@P@NBNJNFFLLv@f@hANXDdAILCHAFCFCFEDEFK@KDKDYNq@N{CLuB?U?K?IAICGEEGCOEOCc@IsBYiAQOAOAI?MDGFELEZE`@KlAObBIlASdDUtDO~BW|DO`Cg@xHe@zHOnBEl@CXEx@Cf@AT?RH@|@Jj@FrANMpBGbAIhAM|B[xEK`BK|AEf@I`BMdBUpDGx@El@GbAItAIvA?JAFAH?JAB?BARWbDMlBMrBAHANAFCl@UlDEl@Ep@AN?DAFCh@Ep@QrCEl@Gx@Cj@CXEz@C\\CZIvAOrBC\\KdBQhCCb@KvAOdCGt@Cn@a@dGEt@OvBOhCEh@MzBC`@Et@G|@Cb@KnAEt@QpCAJAJIzAMzBInAKhBC^OpBCj@UjDEr@IzAMbBEr@MbBEn@MdCEj@GbAEf@K|AK`BCd@]`FGr@IjAC^QpCKbBE`AEr@APMTGfAGp@?Ja@nHARStAQpBaAtOG~@E|@i@pJUdDY~DInAMtBI|AGr@Gp@WfEMxBIfAc@nGMxBEn@GbAKdBKdBC^OvBMhBI~AIjA?JCZO|B[|EEz@SjCMvBM|AEp@o@bKk@|IEl@Q~BOxBQlCMbCKpBQvCOxBOhCKtAEn@QhCOvBIzAGz@C`AKrBCf@Cd@ANYrDCb@?XAZ?VBf@@j@@H@L?HFJRjCXnDXfDHnAJ`BBf@FdA@XBZDf@Fn@Fr@JhALrAJhAJ`AR`COPIb@P~C",
-      "stop_ids": [
-        "septa-bus:18995",
-        "septa-bus:19026",
-        "septa-bus:21962",
-        "septa-bus:21204",
-        "septa-bus:10266",
-        "septa-bus:10263",
-        "septa-bus:10259",
-        "septa-bus:18457",
-        "septa-bus:14913",
-        "septa-bus:10288",
-        "septa-bus:20961",
-        "septa-bus:3582",
-        "septa-bus:10338",
-        "septa-bus:10258",
-        "septa-bus:10264",
-        "septa-bus:1148",
-        "septa-bus:19032",
-        "septa-bus:18991",
-        "septa-bus:19031",
-        "septa-bus:18992",
-        "septa-bus:1391",
-        "septa-bus:18993",
-        "septa-bus:18996",
-        "septa-bus:19025",
-        "septa-bus:19028",
-        "septa-bus:1396",
-        "septa-bus:19029",
-        "septa-bus:31723",
-        "septa-bus:52",
-        "septa-bus:300",
-        "septa-bus:19014",
-        "septa-bus:51",
-        "septa-bus:22030",
-        "septa-bus:19006",
-        "septa-bus:31564",
-        "septa-bus:18994",
-        "septa-bus:299",
-        "septa-bus:18987",
-        "septa-bus:19003",
-        "septa-bus:19004",
-        "septa-bus:19005",
-        "septa-bus:21175",
-        "septa-bus:19007",
-        "septa-bus:19008",
-        "septa-bus:23961",
-        "septa-bus:23965",
-        "septa-bus:20844",
-        "septa-bus:25421",
-        "septa-bus:24129",
-        "septa-bus:19013",
-        "septa-bus:801",
-        "septa-bus:19016",
-        "septa-bus:19018",
-        "septa-bus:18988",
-        "septa-bus:67",
-        "septa-bus:19027"
       ]
     },
     "septa-bus:2": {
@@ -8244,214 +5338,328 @@
         "patco:13",
         "patco:14"
       ]
-    }
-  },
-  "docks": {
-    "indego:bcycle_indego_3004": {
-      "station_id": "bcycle_indego_3004",
-      "name": "Municipal Services Building Plaza",
-      "address": "1401 John F. Kennedy Blvd.",
-      "coordinates": [
-        -75.16423,
-        39.95371
-      ]
     },
-    "indego:bcycle_indego_3007": {
-      "station_id": "bcycle_indego_3007",
-      "name": "11th & Pine, Kahn Park",
-      "address": "328 S. 11th St.",
-      "coordinates": [
-        -75.15993,
-        39.94517
-      ]
-    },
-    "indego:bcycle_indego_3010": {
-      "station_id": "bcycle_indego_3010",
-      "name": "15th & Spruce",
-      "address": "1483 Spruce St.",
-      "coordinates": [
-        -75.16618,
-        39.94711
-      ]
-    },
-    "indego:bcycle_indego_3052": {
-      "station_id": "bcycle_indego_3052",
-      "name": "9th & Locust",
-      "address": "923 Locust St.",
-      "coordinates": [
-        -75.15695,
-        39.94732
-      ]
-    },
-    "indego:bcycle_indego_3063": {
-      "station_id": "bcycle_indego_3063",
-      "name": "17th & Pine",
-      "address": "391  S. 17th St.",
-      "coordinates": [
-        -75.1698,
-        39.94633
-      ]
-    },
-    "indego:bcycle_indego_3066": {
-      "station_id": "bcycle_indego_3066",
-      "name": "19th & Lombard",
-      "address": "1910 Lombard St.",
-      "coordinates": [
-        -75.17348,
-        39.94561
-      ]
-    },
-    "indego:bcycle_indego_3086": {
-      "station_id": "bcycle_indego_3086",
-      "name": "Broad & Christian",
-      "address": "1406 Christian Street",
-      "coordinates": [
-        -75.16691,
-        39.94019
-      ]
-    },
-    "indego:bcycle_indego_3101": {
-      "station_id": "bcycle_indego_3101",
-      "name": "11th & South",
-      "address": "1015 South Street",
-      "coordinates": [
-        -75.15955,
-        39.94295
-      ]
-    },
-    "indego:bcycle_indego_3125": {
-      "station_id": "bcycle_indego_3125",
-      "name": "15th & South",
-      "address": "1505 South St. ",
-      "coordinates": [
-        -75.16735,
-        39.94391
-      ]
-    },
-    "indego:bcycle_indego_3182": {
-      "station_id": "bcycle_indego_3182",
-      "name": "17th & Sansom",
-      "address": "17th & Sansom",
-      "coordinates": [
-        -75.16953,
-        39.95081
-      ]
-    },
-    "indego:bcycle_indego_3255": {
-      "station_id": "bcycle_indego_3255",
-      "name": "Broad & Chestnut",
-      "address": "1405 Chestnut Street",
-      "coordinates": [
-        -75.16438,
-        39.95095
-      ]
-    },
-    "indego:bcycle_indego_3294": {
-      "station_id": "bcycle_indego_3294",
-      "name": "18th & Chestnut",
-      "address": "1805 Chestnut St",
-      "coordinates": [
-        -75.17063,
-        39.95174
-      ]
-    },
-    "indego:bcycle_indego_3295": {
-      "station_id": "bcycle_indego_3295",
-      "name": "12th & Chestnut",
-      "address": "118 S. 12th St.",
-      "coordinates": [
-        -75.16027,
-        39.95028
-      ]
-    },
-    "indego:bcycle_indego_3296": {
-      "station_id": "bcycle_indego_3296",
-      "name": "16th & Chestnut",
-      "address": "1603 Chestnut St.",
-      "coordinates": [
-        -75.16758,
-        39.95134
-      ]
-    },
-    "indego:bcycle_indego_3301": {
-      "station_id": "bcycle_indego_3301",
-      "name": "18th & Walnut",
-      "address": "1811 Walnut Street",
-      "coordinates": [
-        -75.17126,
-        39.95029
-      ]
-    },
-    "indego:bcycle_indego_3318": {
-      "station_id": "bcycle_indego_3318",
-      "name": "City Hall South",
-      "address": "5 S Penn Square",
-      "coordinates": [
-        -75.16395,
-        39.95182
-      ]
-    },
-    "indego:bcycle_indego_3359": {
-      "station_id": "bcycle_indego_3359",
-      "name": "17th & Locust",
-      "address": "1717 Locust St",
-      "coordinates": [
-        -75.16978,
-        39.94888
-      ]
-    },
-    "indego:bcycle_indego_3362": {
-      "station_id": "bcycle_indego_3362",
-      "name": "13th & Locust",
-      "address": "221 South 13th Street",
-      "coordinates": [
-        -75.16226,
-        39.94816
-      ]
-    },
-    "indego:bcycle_indego_3363": {
-      "station_id": "bcycle_indego_3363",
-      "name": "13th & Spruce",
-      "address": "303 South 13th Street",
-      "coordinates": [
-        -75.16263,
-        39.94655
-      ]
-    },
-    "indego:bcycle_indego_3382": {
-      "station_id": "bcycle_indego_3382",
-      "name": "Walnut & Rittenhouse",
-      "address": "1906 Walnut Street",
-      "coordinates": [
-        -75.17309,
-        39.95038
-      ]
-    },
-    "indego:bcycle_indego_3400": {
-      "station_id": "bcycle_indego_3400",
-      "name": "12th & Walnut",
-      "address": "1205 Walnut St",
-      "coordinates": [
-        -75.16081,
-        39.949
-      ]
-    },
-    "indego:bcycle_indego_3405": {
-      "station_id": "bcycle_indego_3405",
-      "name": "Fitzwater & Juniper",
-      "address": "1336 Fitzwater Street",
-      "coordinates": [
-        -75.16502,
-        39.94167
-      ]
-    },
-    "indego:bcycle_indego_3448": {
-      "station_id": "bcycle_indego_3448",
-      "name": "Broad & Christian East",
-      "address": "1386 Christian St",
-      "coordinates": [
-        -75.16604,
-        39.93995
+    "indego:indego": {
+      "route_id": "indego",
+      "namespace": "indego",
+      "mode": "Bike",
+      "route_short_name": "Indego",
+      "route_long_name": "Indego Bike Share",
+      "route_type": null,
+      "route_color": "3980C4",
+      "route_text_color": "FFFFFF",
+      "polyline": "",
+      "stop_ids": [
+        "indego:bcycle_indego_3004",
+        "indego:bcycle_indego_3005",
+        "indego:bcycle_indego_3006",
+        "indego:bcycle_indego_3007",
+        "indego:bcycle_indego_3008",
+        "indego:bcycle_indego_3009",
+        "indego:bcycle_indego_3010",
+        "indego:bcycle_indego_3012",
+        "indego:bcycle_indego_3014",
+        "indego:bcycle_indego_3015",
+        "indego:bcycle_indego_3016",
+        "indego:bcycle_indego_3017",
+        "indego:bcycle_indego_3018",
+        "indego:bcycle_indego_3019",
+        "indego:bcycle_indego_3020",
+        "indego:bcycle_indego_3021",
+        "indego:bcycle_indego_3022",
+        "indego:bcycle_indego_3024",
+        "indego:bcycle_indego_3025",
+        "indego:bcycle_indego_3026",
+        "indego:bcycle_indego_3028",
+        "indego:bcycle_indego_3029",
+        "indego:bcycle_indego_3031",
+        "indego:bcycle_indego_3032",
+        "indego:bcycle_indego_3033",
+        "indego:bcycle_indego_3034",
+        "indego:bcycle_indego_3035",
+        "indego:bcycle_indego_3037",
+        "indego:bcycle_indego_3038",
+        "indego:bcycle_indego_3039",
+        "indego:bcycle_indego_3040",
+        "indego:bcycle_indego_3041",
+        "indego:bcycle_indego_3047",
+        "indego:bcycle_indego_3049",
+        "indego:bcycle_indego_3051",
+        "indego:bcycle_indego_3052",
+        "indego:bcycle_indego_3053",
+        "indego:bcycle_indego_3054",
+        "indego:bcycle_indego_3055",
+        "indego:bcycle_indego_3056",
+        "indego:bcycle_indego_3057",
+        "indego:bcycle_indego_3059",
+        "indego:bcycle_indego_3060",
+        "indego:bcycle_indego_3063",
+        "indego:bcycle_indego_3064",
+        "indego:bcycle_indego_3065",
+        "indego:bcycle_indego_3066",
+        "indego:bcycle_indego_3067",
+        "indego:bcycle_indego_3068",
+        "indego:bcycle_indego_3069",
+        "indego:bcycle_indego_3072",
+        "indego:bcycle_indego_3073",
+        "indego:bcycle_indego_3074",
+        "indego:bcycle_indego_3075",
+        "indego:bcycle_indego_3077",
+        "indego:bcycle_indego_3078",
+        "indego:bcycle_indego_3086",
+        "indego:bcycle_indego_3088",
+        "indego:bcycle_indego_3093",
+        "indego:bcycle_indego_3096",
+        "indego:bcycle_indego_3097",
+        "indego:bcycle_indego_3098",
+        "indego:bcycle_indego_3099",
+        "indego:bcycle_indego_3100",
+        "indego:bcycle_indego_3101",
+        "indego:bcycle_indego_3102",
+        "indego:bcycle_indego_3104",
+        "indego:bcycle_indego_3106",
+        "indego:bcycle_indego_3107",
+        "indego:bcycle_indego_3110",
+        "indego:bcycle_indego_3111",
+        "indego:bcycle_indego_3112",
+        "indego:bcycle_indego_3113",
+        "indego:bcycle_indego_3114",
+        "indego:bcycle_indego_3115",
+        "indego:bcycle_indego_3116",
+        "indego:bcycle_indego_3117",
+        "indego:bcycle_indego_3118",
+        "indego:bcycle_indego_3119",
+        "indego:bcycle_indego_3120",
+        "indego:bcycle_indego_3123",
+        "indego:bcycle_indego_3124",
+        "indego:bcycle_indego_3125",
+        "indego:bcycle_indego_3150",
+        "indego:bcycle_indego_3152",
+        "indego:bcycle_indego_3154",
+        "indego:bcycle_indego_3155",
+        "indego:bcycle_indego_3156",
+        "indego:bcycle_indego_3157",
+        "indego:bcycle_indego_3158",
+        "indego:bcycle_indego_3159",
+        "indego:bcycle_indego_3160",
+        "indego:bcycle_indego_3161",
+        "indego:bcycle_indego_3162",
+        "indego:bcycle_indego_3163",
+        "indego:bcycle_indego_3164",
+        "indego:bcycle_indego_3165",
+        "indego:bcycle_indego_3166",
+        "indego:bcycle_indego_3169",
+        "indego:bcycle_indego_3181",
+        "indego:bcycle_indego_3182",
+        "indego:bcycle_indego_3183",
+        "indego:bcycle_indego_3184",
+        "indego:bcycle_indego_3185",
+        "indego:bcycle_indego_3187",
+        "indego:bcycle_indego_3188",
+        "indego:bcycle_indego_3196",
+        "indego:bcycle_indego_3197",
+        "indego:bcycle_indego_3200",
+        "indego:bcycle_indego_3201",
+        "indego:bcycle_indego_3203",
+        "indego:bcycle_indego_3204",
+        "indego:bcycle_indego_3205",
+        "indego:bcycle_indego_3207",
+        "indego:bcycle_indego_3208",
+        "indego:bcycle_indego_3209",
+        "indego:bcycle_indego_3210",
+        "indego:bcycle_indego_3211",
+        "indego:bcycle_indego_3212",
+        "indego:bcycle_indego_3213",
+        "indego:bcycle_indego_3226",
+        "indego:bcycle_indego_3235",
+        "indego:bcycle_indego_3236",
+        "indego:bcycle_indego_3237",
+        "indego:bcycle_indego_3238",
+        "indego:bcycle_indego_3240",
+        "indego:bcycle_indego_3241",
+        "indego:bcycle_indego_3243",
+        "indego:bcycle_indego_3245",
+        "indego:bcycle_indego_3246",
+        "indego:bcycle_indego_3247",
+        "indego:bcycle_indego_3248",
+        "indego:bcycle_indego_3249",
+        "indego:bcycle_indego_3250",
+        "indego:bcycle_indego_3251",
+        "indego:bcycle_indego_3252",
+        "indego:bcycle_indego_3253",
+        "indego:bcycle_indego_3254",
+        "indego:bcycle_indego_3255",
+        "indego:bcycle_indego_3256",
+        "indego:bcycle_indego_3258",
+        "indego:bcycle_indego_3259",
+        "indego:bcycle_indego_3261",
+        "indego:bcycle_indego_3263",
+        "indego:bcycle_indego_3264",
+        "indego:bcycle_indego_3265",
+        "indego:bcycle_indego_3266",
+        "indego:bcycle_indego_3267",
+        "indego:bcycle_indego_3268",
+        "indego:bcycle_indego_3271",
+        "indego:bcycle_indego_3272",
+        "indego:bcycle_indego_3275",
+        "indego:bcycle_indego_3276",
+        "indego:bcycle_indego_3277",
+        "indego:bcycle_indego_3278",
+        "indego:bcycle_indego_3279",
+        "indego:bcycle_indego_3280",
+        "indego:bcycle_indego_3281",
+        "indego:bcycle_indego_3282",
+        "indego:bcycle_indego_3284",
+        "indego:bcycle_indego_3285",
+        "indego:bcycle_indego_3286",
+        "indego:bcycle_indego_3287",
+        "indego:bcycle_indego_3291",
+        "indego:bcycle_indego_3292",
+        "indego:bcycle_indego_3294",
+        "indego:bcycle_indego_3295",
+        "indego:bcycle_indego_3296",
+        "indego:bcycle_indego_3297",
+        "indego:bcycle_indego_3298",
+        "indego:bcycle_indego_3299",
+        "indego:bcycle_indego_3300",
+        "indego:bcycle_indego_3301",
+        "indego:bcycle_indego_3303",
+        "indego:bcycle_indego_3304",
+        "indego:bcycle_indego_3305",
+        "indego:bcycle_indego_3306",
+        "indego:bcycle_indego_3307",
+        "indego:bcycle_indego_3310",
+        "indego:bcycle_indego_3313",
+        "indego:bcycle_indego_3314",
+        "indego:bcycle_indego_3315",
+        "indego:bcycle_indego_3316",
+        "indego:bcycle_indego_3318",
+        "indego:bcycle_indego_3319",
+        "indego:bcycle_indego_3320",
+        "indego:bcycle_indego_3321",
+        "indego:bcycle_indego_3322",
+        "indego:bcycle_indego_3323",
+        "indego:bcycle_indego_3324",
+        "indego:bcycle_indego_3325",
+        "indego:bcycle_indego_3326",
+        "indego:bcycle_indego_3327",
+        "indego:bcycle_indego_3328",
+        "indego:bcycle_indego_3329",
+        "indego:bcycle_indego_3331",
+        "indego:bcycle_indego_3332",
+        "indego:bcycle_indego_3333",
+        "indego:bcycle_indego_3334",
+        "indego:bcycle_indego_3335",
+        "indego:bcycle_indego_3336",
+        "indego:bcycle_indego_3337",
+        "indego:bcycle_indego_3338",
+        "indego:bcycle_indego_3340",
+        "indego:bcycle_indego_3341",
+        "indego:bcycle_indego_3342",
+        "indego:bcycle_indego_3344",
+        "indego:bcycle_indego_3345",
+        "indego:bcycle_indego_3346",
+        "indego:bcycle_indego_3349",
+        "indego:bcycle_indego_3350",
+        "indego:bcycle_indego_3351",
+        "indego:bcycle_indego_3352",
+        "indego:bcycle_indego_3353",
+        "indego:bcycle_indego_3354",
+        "indego:bcycle_indego_3356",
+        "indego:bcycle_indego_3357",
+        "indego:bcycle_indego_3359",
+        "indego:bcycle_indego_3360",
+        "indego:bcycle_indego_3361",
+        "indego:bcycle_indego_3362",
+        "indego:bcycle_indego_3363",
+        "indego:bcycle_indego_3365",
+        "indego:bcycle_indego_3368",
+        "indego:bcycle_indego_3369",
+        "indego:bcycle_indego_3370",
+        "indego:bcycle_indego_3371",
+        "indego:bcycle_indego_3372",
+        "indego:bcycle_indego_3373",
+        "indego:bcycle_indego_3374",
+        "indego:bcycle_indego_3375",
+        "indego:bcycle_indego_3376",
+        "indego:bcycle_indego_3378",
+        "indego:bcycle_indego_3381",
+        "indego:bcycle_indego_3382",
+        "indego:bcycle_indego_3383",
+        "indego:bcycle_indego_3385",
+        "indego:bcycle_indego_3387",
+        "indego:bcycle_indego_3388",
+        "indego:bcycle_indego_3389",
+        "indego:bcycle_indego_3390",
+        "indego:bcycle_indego_3391",
+        "indego:bcycle_indego_3392",
+        "indego:bcycle_indego_3393",
+        "indego:bcycle_indego_3394",
+        "indego:bcycle_indego_3395",
+        "indego:bcycle_indego_3396",
+        "indego:bcycle_indego_3397",
+        "indego:bcycle_indego_3398",
+        "indego:bcycle_indego_3399",
+        "indego:bcycle_indego_3400",
+        "indego:bcycle_indego_3403",
+        "indego:bcycle_indego_3404",
+        "indego:bcycle_indego_3405",
+        "indego:bcycle_indego_3407",
+        "indego:bcycle_indego_3408",
+        "indego:bcycle_indego_3409",
+        "indego:bcycle_indego_3410",
+        "indego:bcycle_indego_3411",
+        "indego:bcycle_indego_3412",
+        "indego:bcycle_indego_3413",
+        "indego:bcycle_indego_3414",
+        "indego:bcycle_indego_3417",
+        "indego:bcycle_indego_3418",
+        "indego:bcycle_indego_3421",
+        "indego:bcycle_indego_3422",
+        "indego:bcycle_indego_3423",
+        "indego:bcycle_indego_3425",
+        "indego:bcycle_indego_3426",
+        "indego:bcycle_indego_3427",
+        "indego:bcycle_indego_3428",
+        "indego:bcycle_indego_3430",
+        "indego:bcycle_indego_3431",
+        "indego:bcycle_indego_3432",
+        "indego:bcycle_indego_3434",
+        "indego:bcycle_indego_3435",
+        "indego:bcycle_indego_3436",
+        "indego:bcycle_indego_3437",
+        "indego:bcycle_indego_3438",
+        "indego:bcycle_indego_3439",
+        "indego:bcycle_indego_3440",
+        "indego:bcycle_indego_3441",
+        "indego:bcycle_indego_3442",
+        "indego:bcycle_indego_3443",
+        "indego:bcycle_indego_3444",
+        "indego:bcycle_indego_3445",
+        "indego:bcycle_indego_3446",
+        "indego:bcycle_indego_3447",
+        "indego:bcycle_indego_3448",
+        "indego:bcycle_indego_3449",
+        "indego:bcycle_indego_3450",
+        "indego:bcycle_indego_3451",
+        "indego:bcycle_indego_3452",
+        "indego:bcycle_indego_3453",
+        "indego:bcycle_indego_3454",
+        "indego:bcycle_indego_3455",
+        "indego:bcycle_indego_3459",
+        "indego:bcycle_indego_3460",
+        "indego:bcycle_indego_3461",
+        "indego:bcycle_indego_3462",
+        "indego:bcycle_indego_3463",
+        "indego:bcycle_indego_3464",
+        "indego:bcycle_indego_3465",
+        "indego:bcycle_indego_3468",
+        "indego:bcycle_indego_3469",
+        "indego:bcycle_indego_3470",
+        "indego:bcycle_indego_3472",
+        "indego:bcycle_indego_3473",
+        "indego:bcycle_indego_3475",
+        "indego:bcycle_indego_3476"
       ]
     }
   }

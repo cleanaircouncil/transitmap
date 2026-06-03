@@ -1,5 +1,5 @@
 import fs from "fs";
-import { featureCollection, point, circle, pointsWithinPolygon, bbox } from "@turf/turf";
+import { featureCollection, point, circle, pointsWithinPolygon, bbox, distance } from "@turf/turf";
 
 
 
@@ -36,7 +36,6 @@ const venueIdToSlug = Object.fromEntries(venuesRaw.map((v) => [v.id, v.slug]));
 
 const allStops = []; // { key, namespace, feature }
 const allRoutes = []; // { key, namespace, routeId, feature }
-const allDocks = []; // { key, feature }
 
 for (const { file, namespace } of GEOJSON_SOURCES) {
   if (!fs.existsSync(file)) {
@@ -53,12 +52,25 @@ for (const { file, namespace } of GEOJSON_SOURCES) {
       const routeId = p.route_id || String(p.osm_id);
       allRoutes.push({ key: `${namespace}:${routeId}`, namespace, routeId, feature });
     } else if (p.feature_type === "dock") {
-      allDocks.push({ key: `${namespace}:${p.station_id}`, feature });
+      // Normalize dock to stop shape; assign synthetic indego route
+      allStops.push({
+        key: `${namespace}:${p.station_id}`,
+        namespace,
+        feature: {
+          ...feature,
+          properties: {
+            ...p,
+            stop_id: p.station_id,
+            stop_name: p.name,
+            routes: [{ route_id: "indego", direction_id: null, direction: null, headsign: null }],
+          },
+        },
+      });
     }
   }
 }
 
-console.log(`Loaded ${allStops.length} stops, ${allRoutes.length} routes, ${allDocks.length} docks`);
+console.log(`Loaded ${allStops.length} stops, ${allRoutes.length} routes`);
 
 // ── Build stops map ───────────────────────────────────────────────────────────
 
@@ -162,6 +174,20 @@ for (const { key, namespace, routeId, feature } of allRoutes) {
   };
 }
 
+// Synthetic Indego route — docks are stops, no path geometry needed
+routes["indego:indego"] = {
+  route_id: "indego",
+  namespace: "indego",
+  mode: "Bike",
+  route_short_name: "Indego",
+  route_long_name: "Indego Bike Share",
+  route_type: null,
+  route_color: "3980C4",
+  route_text_color: "FFFFFF",
+  polyline: "",
+  stop_ids: [],
+};
+
 // ── Reverse-index: routes → stop_ids ─────────────────────────────────────────
 
 for (const [stopKey, stop] of Object.entries(stops)) {
@@ -172,26 +198,9 @@ for (const [stopKey, stop] of Object.entries(stops)) {
   }
 }
 
-// ── Build docks map ───────────────────────────────────────────────────────────
-
-const docks = {};
-
-for (const { key, feature } of allDocks) {
-  const [lon, lat] = feature.geometry.coordinates;
-  docks[key] = {
-    station_id: feature.properties.station_id,
-    name: feature.properties.name,
-    address: feature.properties.address,
-    coordinates: [lon, lat],
-  };
-}
-
 // ── Build venues map ──────────────────────────────────────────────────────────
 
-// Build turf FeatureCollections of stops and docks once for spatial queries
 const stopPoints = featureCollection(Object.entries(stops).map(([key, stop]) => point(stop.coordinates, { key })));
-
-const dockPoints = featureCollection(Object.entries(docks).map(([key, dock]) => point(dock.coordinates, { key })));
 
 const venues = {};
 
@@ -208,16 +217,14 @@ for (const venue of venuesRaw) {
 
   const searchArea = circle([lon, lat], RADIUS_METERS / 1000, { units: "kilometers" });
   const nearbyStops = pointsWithinPolygon(stopPoints, searchArea);
-  const nearbyDocks = pointsWithinPolygon(dockPoints, searchArea);
 
   venues[slug] = {
     name,
     coordinates: [lon, lat],
     stop_ids: nearbyStops.features.map((f) => f.properties.key),
-    dock_ids: nearbyDocks.features.map((f) => f.properties.key),
   };
 
-  console.log(`  ${name}: ${venues[slug].stop_ids.length} stops, ${venues[slug].dock_ids.length} docks within ${RADIUS_METERS}m`);
+  console.log(`  ${name}: ${venues[slug].stop_ids.length} stops within ${RADIUS_METERS}m`);
 }
 
 // ── Build listings map ────────────────────────────────────────────────────────
@@ -258,8 +265,36 @@ if (!fs.existsSync(venuesDir)) fs.mkdirSync(venuesDir);
 const routesByVenue = {};
 
 for (const [slug, venue] of Object.entries(venues)) {
-  const venueStops = Object.fromEntries(
+  const allVenueStops = Object.fromEntries(
     venue.stop_ids.map((key) => [key, stops[key]]).filter(([, s]) => s)
+  );
+
+  // Compute venue→stop distances for all candidates
+  const [vlon, vlat] = venue.coordinates;
+  const stopDist = Object.fromEntries(
+    Object.keys(allVenueStops).map((key) => {
+      const [slon, slat] = allVenueStops[key].coordinates;
+      return [key, distance([vlon, vlat], [slon, slat], { units: "meters" })];
+    })
+  );
+
+  // Pass 1: for each (route, direction) pair, record the nearest stop
+  const nearest = new Map();
+  for (const [key, stop] of Object.entries(allVenueStops)) {
+    for (const r of stop.routes) {
+      const dirKey = `${r.route_id}|${r.direction_id ?? ""}`;
+      if (!nearest.has(dirKey) || stopDist[key] < stopDist[nearest.get(dirKey)]) {
+        nearest.set(dirKey, key);
+      }
+    }
+  }
+
+  // Pass 2: keep stops that won at least one (route, direction) pair
+  const venueStops = Object.fromEntries(
+    [...new Set(nearest.values())].map((key) => [
+      key,
+      { ...allVenueStops[key], walk_minutes: Math.ceil(stopDist[key] / 80) },
+    ])
   );
 
   const routeKeys = new Set(
@@ -282,13 +317,9 @@ for (const [slug, venue] of Object.entries(venues)) {
 
   routesByVenue[slug] = venueRoutes;
 
-  const venueDocks = Object.fromEntries(
-    venue.dock_ids.map((key) => [key, docks[key]]).filter(([, d]) => d)
-  );
-
   fs.writeFileSync(
     `${venuesDir}/${slug}.json`,
-    JSON.stringify({ name: venue.name, coordinates: venue.coordinates, stops: venueStops, routes: venueRoutes, docks: venueDocks }, null, 2)
+    JSON.stringify({ name: venue.name, coordinates: venue.coordinates, stops: venueStops, routes: venueRoutes }, null, 2)
   );
 }
 

@@ -5,74 +5,6 @@
     40.0429
   ],
   "stops": {
-    "septa-bus:15834": {
-      "stop_id": "15834",
-      "stop_name": "Rising Sun Av & Adams Av",
-      "coordinates": [
-        -75.110119,
-        40.039009
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
-    "septa-bus:15835": {
-      "stop_id": "15835",
-      "stop_name": "Rising Sun Av & Adams - MBFS",
-      "coordinates": [
-        -75.108814,
-        40.039872
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
-    "septa-bus:15837": {
-      "stop_id": "15837",
-      "stop_name": "Rising Sun Av & Godfrey Av",
-      "coordinates": [
-        -75.106775,
-        40.041232
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
-    "septa-bus:15838": {
-      "stop_id": "15838",
-      "stop_name": "Rising Sun Av & Sanger St",
-      "coordinates": [
-        -75.105897,
-        40.041819
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
     "septa-bus:15839": {
       "stop_id": "15839",
       "stop_name": "Rising Sun Av & Cheltenham Av",
@@ -88,143 +20,8 @@
           "direction": "Eastbound",
           "headsign": "Fox Chase"
         }
-      ]
-    },
-    "septa-bus:15841": {
-      "stop_id": "15841",
-      "stop_name": "Rising Sun Av & Van Kirk St",
-      "coordinates": [
-        -75.102719,
-        40.043899
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
-    "septa-bus:15842": {
-      "stop_id": "15842",
-      "stop_name": "Rising Sun Av & Comly St",
-      "coordinates": [
-        -75.101141,
-        40.044939
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
-    "septa-bus:15843": {
-      "stop_id": "15843",
-      "stop_name": "Rising Sun Av & Benner St",
-      "coordinates": [
-        -75.099564,
-        40.04597
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
-    "septa-bus:15845": {
-      "stop_id": "15845",
-      "stop_name": "Rising Sun Av & Devereaux Av",
-      "coordinates": [
-        -75.098105,
-        40.046957
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Fox Chase"
-        }
-      ]
-    },
-    "septa-bus:16728": {
-      "stop_id": "16728",
-      "stop_name": "Rising Sun Av & Devereaux Av",
-      "coordinates": [
-        -75.098033,
-        40.047198
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
-    },
-    "septa-bus:16729": {
-      "stop_id": "16729",
-      "stop_name": "Rising Sun Av & Benner St",
-      "coordinates": [
-        -75.099528,
-        40.046158
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
-    },
-    "septa-bus:16730": {
-      "stop_id": "16730",
-      "stop_name": "Rising Sun Av & Comly St",
-      "coordinates": [
-        -75.100987,
-        40.045198
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
-    },
-    "septa-bus:16731": {
-      "stop_id": "16731",
-      "stop_name": "Rising Sun Av & Van Kirk St",
-      "coordinates": [
-        -75.102683,
-        40.044069
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
+      "walk_minutes": 1
     },
     "septa-bus:16732": {
       "stop_id": "16732",
@@ -241,98 +38,8 @@
           "direction": "Westbound",
           "headsign": "Cedarbrook Plaza"
         }
-      ]
-    },
-    "septa-bus:16733": {
-      "stop_id": "16733",
-      "stop_name": "Rising Sun Av & Sanger St",
-      "coordinates": [
-        -75.105849,
-        40.041979
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
-    },
-    "septa-bus:16734": {
-      "stop_id": "16734",
-      "stop_name": "Rising Sun Av & Godfrey Av",
-      "coordinates": [
-        -75.106727,
-        40.041392
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
-    },
-    "septa-bus:16735": {
-      "stop_id": "16735",
-      "stop_name": "Rising Sun Av & Adams Av - MBNS",
-      "coordinates": [
-        -75.108932,
-        40.039961
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
-    },
-    "septa-bus:16736": {
-      "stop_id": "16736",
-      "stop_name": "Rising Sun Av & Adams Av",
-      "coordinates": [
-        -75.109786,
-        40.039392
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:18",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Cedarbrook Plaza"
-        }
-      ]
-    },
-    "septa-bus:15729": {
-      "stop_id": "15729",
-      "stop_name": "Tabor Av & Godfrey Av",
-      "coordinates": [
-        -75.10161,
-        40.038175
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center via Frankford Ave"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "433: Castor-Bleigh"
-        }
-      ]
+      "walk_minutes": 1
     },
     "septa-bus:15730": {
       "stop_id": "15730",
@@ -355,168 +62,8 @@
           "direction": "Eastbound",
           "headsign": "433: Castor-Bleigh"
         }
-      ]
-    },
-    "septa-bus:15731": {
-      "stop_id": "15731",
-      "stop_name": "Tabor Av & Rosaile St - FS",
-      "coordinates": [
-        -75.098737,
-        40.040649
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center via Frankford Ave"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "433: Castor-Bleigh"
-        }
-      ]
-    },
-    "septa-bus:15732": {
-      "stop_id": "15732",
-      "stop_name": "Tabor Av & Van Kirk St",
-      "coordinates": [
-        -75.097966,
-        40.041298
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center via Frankford Ave"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "433: Castor-Bleigh"
-        }
-      ]
-    },
-    "septa-bus:15733": {
-      "stop_id": "15733",
-      "stop_name": "Tabor Av & Comly St",
-      "coordinates": [
-        -75.096601,
-        40.042446
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center via Frankford Ave"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "433: Castor-Bleigh"
-        }
-      ]
-    },
-    "septa-bus:15734": {
-      "stop_id": "15734",
-      "stop_name": "Tabor Av & Benner St - FS",
-      "coordinates": [
-        -75.095246,
-        40.043826
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center via Frankford Ave"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "433: Castor-Bleigh"
-        }
-      ]
-    },
-    "septa-bus:15884": {
-      "stop_id": "15884",
-      "stop_name": "Tabor Av & Benner St",
-      "coordinates": [
-        -75.095376,
-        40.043835
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Pulaski-Rittenhouse"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "433: 10th-Lycoming"
-        }
-      ]
-    },
-    "septa-bus:15885": {
-      "stop_id": "15885",
-      "stop_name": "Tabor Av & Comly St",
-      "coordinates": [
-        -75.0966,
-        40.042589
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Pulaski-Rittenhouse"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "433: 10th-Lycoming"
-        }
-      ]
-    },
-    "septa-bus:15886": {
-      "stop_id": "15886",
-      "stop_name": "Tabor Av & Van Kirk St",
-      "coordinates": [
-        -75.097965,
-        40.041441
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Pulaski-Rittenhouse"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "433: 10th-Lycoming"
-        }
-      ]
+      "walk_minutes": 7
     },
     "septa-bus:15887": {
       "stop_id": "15887",
@@ -539,70 +86,8 @@
           "direction": "Westbound",
           "headsign": "433: 10th-Lycoming"
         }
-      ]
-    },
-    "septa-bus:15888": {
-      "stop_id": "15888",
-      "stop_name": "Tabor Av & Sanger St",
-      "coordinates": [
-        -75.100731,
-        40.039101
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Pulaski-Rittenhouse"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "433: 10th-Lycoming"
-        }
-      ]
-    },
-    "septa-bus:15889": {
-      "stop_id": "15889",
-      "stop_name": "Tabor Av & Godfrey Av",
-      "coordinates": [
-        -75.101585,
-        40.038362
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:26",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Pulaski-Rittenhouse"
-        },
-        {
-          "route_id": "septa-bus:433",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "433: 10th-Lycoming"
-        }
-      ]
-    },
-    "septa-bus:25242": {
-      "stop_id": "25242",
-      "stop_name": "Crescentville Rd & Walnut ParkDr - MBFS",
-      "coordinates": [
-        -75.112966,
-        40.044943
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Whitman Plaza"
-        }
-      ]
+      "walk_minutes": 7
     },
     "septa-bus:25243": {
       "stop_id": "25243",
@@ -619,7 +104,8 @@
           "direction": "Southbound",
           "headsign": "Whitman Plaza"
         }
-      ]
+      ],
+      "walk_minutes": 10
     },
     "septa-bus:24968": {
       "stop_id": "24968",
@@ -636,41 +122,8 @@
           "direction": "Northbound",
           "headsign": "Fern Rock Transit Center"
         }
-      ]
-    },
-    "septa-bus:24969": {
-      "stop_id": "24969",
-      "stop_name": "Crescentville & Walnut Prk Dr - MBNS",
-      "coordinates": [
-        -75.11286,
-        40.044764
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:24690": {
-      "stop_id": "24690",
-      "stop_name": "Adams Av & Hill Creek Dr - FS",
-      "coordinates": [
-        -75.108909,
-        40.037239
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:K",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "Ridge-Midvale"
-        }
-      ]
+      "walk_minutes": 10
     },
     "septa-bus:24689": {
       "stop_id": "24689",
@@ -687,7 +140,8 @@
           "direction": "Westbound",
           "headsign": "Ridge-Midvale"
         }
-      ]
+      ],
+      "walk_minutes": 8
     },
     "septa-bus:24823": {
       "stop_id": "24823",
@@ -704,24 +158,8 @@
           "direction": "Eastbound",
           "headsign": "Arrott Transit Center"
         }
-      ]
-    },
-    "septa-bus:24824": {
-      "stop_id": "24824",
-      "stop_name": "Adams Av & Hill Creek Dr",
-      "coordinates": [
-        -75.109157,
-        40.0374
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:K",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "Arrott Transit Center"
-        }
-      ]
+      "walk_minutes": 9
     }
   },
   "routes": {
@@ -1814,6 +1252,5 @@
         "septa-bus:24836"
       ]
     }
-  },
-  "docks": {}
+  }
 }

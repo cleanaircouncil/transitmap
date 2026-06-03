@@ -5,57 +5,6 @@
     39.981741
   ],
   "stops": {
-    "septa-bus:16553": {
-      "stop_id": "16553",
-      "stop_name": "33rd St & Berks St",
-      "coordinates": [
-        -75.187801,
-        39.985677
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        }
-      ]
-    },
-    "septa-bus:16554": {
-      "stop_id": "16554",
-      "stop_name": "33rd St & Montgomery Av",
-      "coordinates": [
-        -75.188113,
-        39.984187
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        }
-      ]
-    },
-    "septa-bus:16555": {
-      "stop_id": "16555",
-      "stop_name": "33rd St & Cecil B Moore Av",
-      "coordinates": [
-        -75.188461,
-        39.982724
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Broad-Carpenter"
-        }
-      ]
-    },
     "septa-bus:581": {
       "stop_id": "581",
       "stop_name": "33rd St & Oxford St",
@@ -71,7 +20,8 @@
           "direction": "Southbound",
           "headsign": "Broad-Carpenter"
         }
-      ]
+      ],
+      "walk_minutes": 8
     },
     "septa-bus:586": {
       "stop_id": "586",
@@ -100,179 +50,8 @@
           "direction": "Northbound",
           "headsign": "448: Ridge-Summit"
         }
-      ]
-    },
-    "septa-bus:15961": {
-      "stop_id": "15961",
-      "stop_name": "33th St & Cecil B Moore Av",
-      "coordinates": [
-        -75.188331,
-        39.982563
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:446",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "446: Henry-Midvale"
-        },
-        {
-          "route_id": "septa-bus:448",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "448: Ridge-Summit"
-        }
-      ]
-    },
-    "septa-bus:15962": {
-      "stop_id": "15962",
-      "stop_name": "33th St & Montgomery Av",
-      "coordinates": [
-        -75.187995,
-        39.984062
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:446",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "446: Henry-Midvale"
-        },
-        {
-          "route_id": "septa-bus:448",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "448: Ridge-Summit"
-        }
-      ]
-    },
-    "septa-bus:15989": {
-      "stop_id": "15989",
-      "stop_name": "33rd St & Berks St",
-      "coordinates": [
-        -75.187671,
-        39.985578
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:32",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Ridge-Lyceum via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:446",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "446: Henry-Midvale"
-        },
-        {
-          "route_id": "septa-bus:448",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "448: Ridge-Summit"
-        }
-      ]
-    },
-    "septa-bus:25491": {
-      "stop_id": "25491",
-      "stop_name": "Cecil B Moore Av & 32nd St",
-      "coordinates": [
-        -75.186548,
-        39.982443
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:3",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "33rd-Cecil B Moore"
-        }
-      ]
-    },
-    "septa-bus:26263": {
-      "stop_id": "26263",
-      "stop_name": "Cecil B Moore Av & 33rd St",
-      "coordinates": [
-        -75.188248,
-        39.98267
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:3",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "33rd-Cecil B Moore"
-        }
-      ]
-    },
-    "septa-bus:55": {
-      "stop_id": "55",
-      "stop_name": "33rd St & Cecil B Moore Av Loop",
-      "coordinates": [
-        -75.188946,
-        39.982394
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:3",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:30884": {
-      "stop_id": "30884",
-      "stop_name": "Cecil B Moore Av & 33rd St - FS",
-      "coordinates": [
-        -75.188201,
-        39.982536
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:3",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:25369": {
-      "stop_id": "25369",
-      "stop_name": "Cecil B Moore Av & 32nd St",
-      "coordinates": [
-        -75.186808,
-        39.982346
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:3",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
+      "walk_minutes": 8
     },
     "septa-bus:31684": {
       "stop_id": "31684",
@@ -289,7 +68,8 @@
           "direction": "Westbound",
           "headsign": "Smith Memorial Playground"
         }
-      ]
+      ],
+      "walk_minutes": 3
     },
     "septa-bus:31656": {
       "stop_id": "31656",
@@ -306,7 +86,8 @@
           "direction": "Eastbound",
           "headsign": "Frankford Transit Center"
         }
-      ]
+      ],
+      "walk_minutes": 2
     },
     "septa-trolley:30291": {
       "stop_id": "30291",
@@ -323,7 +104,8 @@
           "direction": "Westbound",
           "headsign": "63rd-Girard"
         }
-      ]
+      ],
+      "walk_minutes": 10
     },
     "septa-trolley:30292": {
       "stop_id": "30292",
@@ -340,7 +122,26 @@
           "direction": "Eastbound",
           "headsign": "Richmond-Westmoreland"
         }
-      ]
+      ],
+      "walk_minutes": 10
+    },
+    "indego:bcycle_indego_3107": {
+      "stop_id": "bcycle_indego_3107",
+      "stop_name": "33rd & Reservoir",
+      "coordinates": [
+        -75.18866,
+        39.98203
+      ],
+      "wheelchair_boarding": 0,
+      "routes": [
+        {
+          "route_id": "indego:indego",
+          "direction_id": null,
+          "direction": null,
+          "headsign": null
+        }
+      ],
+      "walk_minutes": 8
     }
   },
   "routes": {
@@ -1018,34 +819,328 @@
         "septa-trolley:21113",
         "septa-trolley:21114"
       ]
-    }
-  },
-  "docks": {
-    "indego:bcycle_indego_3107": {
-      "station_id": "bcycle_indego_3107",
-      "name": "33rd & Reservoir",
-      "address": "1626 N. 33rd Street",
-      "coordinates": [
-        -75.18866,
-        39.98203
-      ]
     },
-    "indego:bcycle_indego_3310": {
-      "station_id": "bcycle_indego_3310",
-      "name": "Oxford & Glenwood",
-      "address": "3111 W Glenwood Avenue",
-      "coordinates": [
-        -75.18651,
-        39.98024
-      ]
-    },
-    "indego:bcycle_indego_3328": {
-      "station_id": "bcycle_indego_3328",
-      "name": "Kelly Drive Grandstand",
-      "address": "1200 Kelly Drive",
-      "coordinates": [
-        -75.1995,
-        39.98798
+    "indego:indego": {
+      "route_id": "indego",
+      "namespace": "indego",
+      "mode": "Bike",
+      "route_short_name": "Indego",
+      "route_long_name": "Indego Bike Share",
+      "route_type": null,
+      "route_color": "3980C4",
+      "route_text_color": "FFFFFF",
+      "polyline": "",
+      "stop_ids": [
+        "indego:bcycle_indego_3004",
+        "indego:bcycle_indego_3005",
+        "indego:bcycle_indego_3006",
+        "indego:bcycle_indego_3007",
+        "indego:bcycle_indego_3008",
+        "indego:bcycle_indego_3009",
+        "indego:bcycle_indego_3010",
+        "indego:bcycle_indego_3012",
+        "indego:bcycle_indego_3014",
+        "indego:bcycle_indego_3015",
+        "indego:bcycle_indego_3016",
+        "indego:bcycle_indego_3017",
+        "indego:bcycle_indego_3018",
+        "indego:bcycle_indego_3019",
+        "indego:bcycle_indego_3020",
+        "indego:bcycle_indego_3021",
+        "indego:bcycle_indego_3022",
+        "indego:bcycle_indego_3024",
+        "indego:bcycle_indego_3025",
+        "indego:bcycle_indego_3026",
+        "indego:bcycle_indego_3028",
+        "indego:bcycle_indego_3029",
+        "indego:bcycle_indego_3031",
+        "indego:bcycle_indego_3032",
+        "indego:bcycle_indego_3033",
+        "indego:bcycle_indego_3034",
+        "indego:bcycle_indego_3035",
+        "indego:bcycle_indego_3037",
+        "indego:bcycle_indego_3038",
+        "indego:bcycle_indego_3039",
+        "indego:bcycle_indego_3040",
+        "indego:bcycle_indego_3041",
+        "indego:bcycle_indego_3047",
+        "indego:bcycle_indego_3049",
+        "indego:bcycle_indego_3051",
+        "indego:bcycle_indego_3052",
+        "indego:bcycle_indego_3053",
+        "indego:bcycle_indego_3054",
+        "indego:bcycle_indego_3055",
+        "indego:bcycle_indego_3056",
+        "indego:bcycle_indego_3057",
+        "indego:bcycle_indego_3059",
+        "indego:bcycle_indego_3060",
+        "indego:bcycle_indego_3063",
+        "indego:bcycle_indego_3064",
+        "indego:bcycle_indego_3065",
+        "indego:bcycle_indego_3066",
+        "indego:bcycle_indego_3067",
+        "indego:bcycle_indego_3068",
+        "indego:bcycle_indego_3069",
+        "indego:bcycle_indego_3072",
+        "indego:bcycle_indego_3073",
+        "indego:bcycle_indego_3074",
+        "indego:bcycle_indego_3075",
+        "indego:bcycle_indego_3077",
+        "indego:bcycle_indego_3078",
+        "indego:bcycle_indego_3086",
+        "indego:bcycle_indego_3088",
+        "indego:bcycle_indego_3093",
+        "indego:bcycle_indego_3096",
+        "indego:bcycle_indego_3097",
+        "indego:bcycle_indego_3098",
+        "indego:bcycle_indego_3099",
+        "indego:bcycle_indego_3100",
+        "indego:bcycle_indego_3101",
+        "indego:bcycle_indego_3102",
+        "indego:bcycle_indego_3104",
+        "indego:bcycle_indego_3106",
+        "indego:bcycle_indego_3107",
+        "indego:bcycle_indego_3110",
+        "indego:bcycle_indego_3111",
+        "indego:bcycle_indego_3112",
+        "indego:bcycle_indego_3113",
+        "indego:bcycle_indego_3114",
+        "indego:bcycle_indego_3115",
+        "indego:bcycle_indego_3116",
+        "indego:bcycle_indego_3117",
+        "indego:bcycle_indego_3118",
+        "indego:bcycle_indego_3119",
+        "indego:bcycle_indego_3120",
+        "indego:bcycle_indego_3123",
+        "indego:bcycle_indego_3124",
+        "indego:bcycle_indego_3125",
+        "indego:bcycle_indego_3150",
+        "indego:bcycle_indego_3152",
+        "indego:bcycle_indego_3154",
+        "indego:bcycle_indego_3155",
+        "indego:bcycle_indego_3156",
+        "indego:bcycle_indego_3157",
+        "indego:bcycle_indego_3158",
+        "indego:bcycle_indego_3159",
+        "indego:bcycle_indego_3160",
+        "indego:bcycle_indego_3161",
+        "indego:bcycle_indego_3162",
+        "indego:bcycle_indego_3163",
+        "indego:bcycle_indego_3164",
+        "indego:bcycle_indego_3165",
+        "indego:bcycle_indego_3166",
+        "indego:bcycle_indego_3169",
+        "indego:bcycle_indego_3181",
+        "indego:bcycle_indego_3182",
+        "indego:bcycle_indego_3183",
+        "indego:bcycle_indego_3184",
+        "indego:bcycle_indego_3185",
+        "indego:bcycle_indego_3187",
+        "indego:bcycle_indego_3188",
+        "indego:bcycle_indego_3196",
+        "indego:bcycle_indego_3197",
+        "indego:bcycle_indego_3200",
+        "indego:bcycle_indego_3201",
+        "indego:bcycle_indego_3203",
+        "indego:bcycle_indego_3204",
+        "indego:bcycle_indego_3205",
+        "indego:bcycle_indego_3207",
+        "indego:bcycle_indego_3208",
+        "indego:bcycle_indego_3209",
+        "indego:bcycle_indego_3210",
+        "indego:bcycle_indego_3211",
+        "indego:bcycle_indego_3212",
+        "indego:bcycle_indego_3213",
+        "indego:bcycle_indego_3226",
+        "indego:bcycle_indego_3235",
+        "indego:bcycle_indego_3236",
+        "indego:bcycle_indego_3237",
+        "indego:bcycle_indego_3238",
+        "indego:bcycle_indego_3240",
+        "indego:bcycle_indego_3241",
+        "indego:bcycle_indego_3243",
+        "indego:bcycle_indego_3245",
+        "indego:bcycle_indego_3246",
+        "indego:bcycle_indego_3247",
+        "indego:bcycle_indego_3248",
+        "indego:bcycle_indego_3249",
+        "indego:bcycle_indego_3250",
+        "indego:bcycle_indego_3251",
+        "indego:bcycle_indego_3252",
+        "indego:bcycle_indego_3253",
+        "indego:bcycle_indego_3254",
+        "indego:bcycle_indego_3255",
+        "indego:bcycle_indego_3256",
+        "indego:bcycle_indego_3258",
+        "indego:bcycle_indego_3259",
+        "indego:bcycle_indego_3261",
+        "indego:bcycle_indego_3263",
+        "indego:bcycle_indego_3264",
+        "indego:bcycle_indego_3265",
+        "indego:bcycle_indego_3266",
+        "indego:bcycle_indego_3267",
+        "indego:bcycle_indego_3268",
+        "indego:bcycle_indego_3271",
+        "indego:bcycle_indego_3272",
+        "indego:bcycle_indego_3275",
+        "indego:bcycle_indego_3276",
+        "indego:bcycle_indego_3277",
+        "indego:bcycle_indego_3278",
+        "indego:bcycle_indego_3279",
+        "indego:bcycle_indego_3280",
+        "indego:bcycle_indego_3281",
+        "indego:bcycle_indego_3282",
+        "indego:bcycle_indego_3284",
+        "indego:bcycle_indego_3285",
+        "indego:bcycle_indego_3286",
+        "indego:bcycle_indego_3287",
+        "indego:bcycle_indego_3291",
+        "indego:bcycle_indego_3292",
+        "indego:bcycle_indego_3294",
+        "indego:bcycle_indego_3295",
+        "indego:bcycle_indego_3296",
+        "indego:bcycle_indego_3297",
+        "indego:bcycle_indego_3298",
+        "indego:bcycle_indego_3299",
+        "indego:bcycle_indego_3300",
+        "indego:bcycle_indego_3301",
+        "indego:bcycle_indego_3303",
+        "indego:bcycle_indego_3304",
+        "indego:bcycle_indego_3305",
+        "indego:bcycle_indego_3306",
+        "indego:bcycle_indego_3307",
+        "indego:bcycle_indego_3310",
+        "indego:bcycle_indego_3313",
+        "indego:bcycle_indego_3314",
+        "indego:bcycle_indego_3315",
+        "indego:bcycle_indego_3316",
+        "indego:bcycle_indego_3318",
+        "indego:bcycle_indego_3319",
+        "indego:bcycle_indego_3320",
+        "indego:bcycle_indego_3321",
+        "indego:bcycle_indego_3322",
+        "indego:bcycle_indego_3323",
+        "indego:bcycle_indego_3324",
+        "indego:bcycle_indego_3325",
+        "indego:bcycle_indego_3326",
+        "indego:bcycle_indego_3327",
+        "indego:bcycle_indego_3328",
+        "indego:bcycle_indego_3329",
+        "indego:bcycle_indego_3331",
+        "indego:bcycle_indego_3332",
+        "indego:bcycle_indego_3333",
+        "indego:bcycle_indego_3334",
+        "indego:bcycle_indego_3335",
+        "indego:bcycle_indego_3336",
+        "indego:bcycle_indego_3337",
+        "indego:bcycle_indego_3338",
+        "indego:bcycle_indego_3340",
+        "indego:bcycle_indego_3341",
+        "indego:bcycle_indego_3342",
+        "indego:bcycle_indego_3344",
+        "indego:bcycle_indego_3345",
+        "indego:bcycle_indego_3346",
+        "indego:bcycle_indego_3349",
+        "indego:bcycle_indego_3350",
+        "indego:bcycle_indego_3351",
+        "indego:bcycle_indego_3352",
+        "indego:bcycle_indego_3353",
+        "indego:bcycle_indego_3354",
+        "indego:bcycle_indego_3356",
+        "indego:bcycle_indego_3357",
+        "indego:bcycle_indego_3359",
+        "indego:bcycle_indego_3360",
+        "indego:bcycle_indego_3361",
+        "indego:bcycle_indego_3362",
+        "indego:bcycle_indego_3363",
+        "indego:bcycle_indego_3365",
+        "indego:bcycle_indego_3368",
+        "indego:bcycle_indego_3369",
+        "indego:bcycle_indego_3370",
+        "indego:bcycle_indego_3371",
+        "indego:bcycle_indego_3372",
+        "indego:bcycle_indego_3373",
+        "indego:bcycle_indego_3374",
+        "indego:bcycle_indego_3375",
+        "indego:bcycle_indego_3376",
+        "indego:bcycle_indego_3378",
+        "indego:bcycle_indego_3381",
+        "indego:bcycle_indego_3382",
+        "indego:bcycle_indego_3383",
+        "indego:bcycle_indego_3385",
+        "indego:bcycle_indego_3387",
+        "indego:bcycle_indego_3388",
+        "indego:bcycle_indego_3389",
+        "indego:bcycle_indego_3390",
+        "indego:bcycle_indego_3391",
+        "indego:bcycle_indego_3392",
+        "indego:bcycle_indego_3393",
+        "indego:bcycle_indego_3394",
+        "indego:bcycle_indego_3395",
+        "indego:bcycle_indego_3396",
+        "indego:bcycle_indego_3397",
+        "indego:bcycle_indego_3398",
+        "indego:bcycle_indego_3399",
+        "indego:bcycle_indego_3400",
+        "indego:bcycle_indego_3403",
+        "indego:bcycle_indego_3404",
+        "indego:bcycle_indego_3405",
+        "indego:bcycle_indego_3407",
+        "indego:bcycle_indego_3408",
+        "indego:bcycle_indego_3409",
+        "indego:bcycle_indego_3410",
+        "indego:bcycle_indego_3411",
+        "indego:bcycle_indego_3412",
+        "indego:bcycle_indego_3413",
+        "indego:bcycle_indego_3414",
+        "indego:bcycle_indego_3417",
+        "indego:bcycle_indego_3418",
+        "indego:bcycle_indego_3421",
+        "indego:bcycle_indego_3422",
+        "indego:bcycle_indego_3423",
+        "indego:bcycle_indego_3425",
+        "indego:bcycle_indego_3426",
+        "indego:bcycle_indego_3427",
+        "indego:bcycle_indego_3428",
+        "indego:bcycle_indego_3430",
+        "indego:bcycle_indego_3431",
+        "indego:bcycle_indego_3432",
+        "indego:bcycle_indego_3434",
+        "indego:bcycle_indego_3435",
+        "indego:bcycle_indego_3436",
+        "indego:bcycle_indego_3437",
+        "indego:bcycle_indego_3438",
+        "indego:bcycle_indego_3439",
+        "indego:bcycle_indego_3440",
+        "indego:bcycle_indego_3441",
+        "indego:bcycle_indego_3442",
+        "indego:bcycle_indego_3443",
+        "indego:bcycle_indego_3444",
+        "indego:bcycle_indego_3445",
+        "indego:bcycle_indego_3446",
+        "indego:bcycle_indego_3447",
+        "indego:bcycle_indego_3448",
+        "indego:bcycle_indego_3449",
+        "indego:bcycle_indego_3450",
+        "indego:bcycle_indego_3451",
+        "indego:bcycle_indego_3452",
+        "indego:bcycle_indego_3453",
+        "indego:bcycle_indego_3454",
+        "indego:bcycle_indego_3455",
+        "indego:bcycle_indego_3459",
+        "indego:bcycle_indego_3460",
+        "indego:bcycle_indego_3461",
+        "indego:bcycle_indego_3462",
+        "indego:bcycle_indego_3463",
+        "indego:bcycle_indego_3464",
+        "indego:bcycle_indego_3465",
+        "indego:bcycle_indego_3468",
+        "indego:bcycle_indego_3469",
+        "indego:bcycle_indego_3470",
+        "indego:bcycle_indego_3472",
+        "indego:bcycle_indego_3473",
+        "indego:bcycle_indego_3475",
+        "indego:bcycle_indego_3476"
       ]
     }
   }

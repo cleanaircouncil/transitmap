@@ -1,16 +1,12 @@
 ---
 const { listing } = Astro.props
-
-// import listingStopsData from "../data/listing-stops.json"
+import routesByVenue from "../data/routes.json"
 import TransitSelector from "./transit-selector.astro";
 
-// const listingStop = listingStopsData.find( data => data.listing_slug === listing.slug );
-// const routes = listingStop?.routes;
+
+const routes = routesByVenue[listing.venue_id];
 
 const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
-
-const month = Intl.DateTimeFormat("en-US", {month: "short"}).format(date);
-const day = Intl.DateTimeFormat("en-US", {day: "numeric"}).format(date);
 const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 ---
 
@@ -27,7 +23,7 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 
     <div class="listing-compact__transit">
       <span>explore car-free ways to go</span>
-      <!-- <TransitSelector routes={ routes }/> -->
+      <TransitSelector routes={ routes } />
     </div>
 
   </a>

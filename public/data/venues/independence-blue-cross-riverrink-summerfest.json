@@ -20,7 +20,8 @@
           "direction": "Eastbound",
           "headsign": "Frankford Transit Center"
         }
-      ]
+      ],
+      "walk_minutes": 5
     },
     "septa-metro:32170": {
       "stop_id": "32170",
@@ -37,64 +38,8 @@
           "direction": "Westbound",
           "headsign": "69th St Transit Center"
         }
-      ]
-    },
-    "septa-bus:32272": {
-      "stop_id": "32272",
-      "stop_name": "Pine St & 2nd St",
-      "coordinates": [
-        -75.145473,
-        39.943061
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        },
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard via Pine St"
-        }
-      ]
-    },
-    "septa-bus:32273": {
-      "stop_id": "32273",
-      "stop_name": "Pine St & Front St",
-      "coordinates": [
-        -75.143774,
-        39.942834
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:32274": {
-      "stop_id": "32274",
-      "stop_name": "Front St & Spruce St",
-      "coordinates": [
-        -75.143284,
-        39.944198
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
+      "walk_minutes": 5
     },
     "septa-bus:32259": {
       "stop_id": "32259",
@@ -117,14 +62,15 @@
           "direction": "Eastbound",
           "headsign": "Columbus-Dock"
         }
-      ]
+      ],
+      "walk_minutes": 6
     },
-    "septa-bus:22137": {
-      "stop_id": "22137",
-      "stop_name": "38th Parellel Pl & Dock St - FS",
+    "septa-bus:32272": {
+      "stop_id": "32272",
+      "stop_name": "Pine St & 2nd St",
       "coordinates": [
-        -75.143978,
-        39.944967
+        -75.145473,
+        39.943061
       ],
       "wheelchair_boarding": 1,
       "routes": [
@@ -134,6 +80,24 @@
           "direction": "Eastbound",
           "headsign": "2nd-Spruce"
         },
+        {
+          "route_id": "septa-bus:40",
+          "direction_id": 0,
+          "direction": "Eastbound",
+          "headsign": "2nd-Lombard via Pine St"
+        }
+      ],
+      "walk_minutes": 10
+    },
+    "septa-bus:20971": {
+      "stop_id": "20971",
+      "stop_name": "Chestnut St & 2nd St",
+      "coordinates": [
+        -75.1442,
+        39.948333
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
         {
           "route_id": "septa-bus:21",
           "direction_id": 0,
@@ -146,7 +110,8 @@
           "direction": "Eastbound",
           "headsign": "2nd-Spruce"
         }
-      ]
+      ],
+      "walk_minutes": 5
     },
     "septa-bus:673": {
       "stop_id": "673",
@@ -169,37 +134,15 @@
           "direction": "Westbound",
           "headsign": "Wycombe"
         }
-      ]
-    },
-    "septa-bus:25095": {
-      "stop_id": "25095",
-      "stop_name": "Spruce St & 3rd St - FS",
-      "coordinates": [
-        -75.147048,
-        39.944831
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:12",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "50th-Woodland"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wycombe"
-        }
-      ]
+      "walk_minutes": 8
     },
-    "septa-bus:14930": {
-      "stop_id": "14930",
-      "stop_name": "Market St & 4th St",
+    "septa-bus:7657": {
+      "stop_id": "7657",
+      "stop_name": "Market St & Front St",
       "coordinates": [
-        -75.147428,
-        39.950312
+        -75.142329,
+        39.949649
       ],
       "wheelchair_boarding": 1,
       "routes": [
@@ -208,6 +151,24 @@
           "direction_id": 0,
           "direction": "Northbound",
           "headsign": "2nd-Market"
+        }
+      ],
+      "walk_minutes": 4
+    },
+    "septa-bus:69": {
+      "stop_id": "69",
+      "stop_name": "Front St & Market St Loop",
+      "coordinates": [
+        -75.142317,
+        39.949765
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "septa-bus:17",
+          "direction_id": 0,
+          "direction": "Northbound",
+          "headsign": "Front-Market"
         },
         {
           "route_id": "septa-bus:48",
@@ -221,36 +182,8 @@
           "direction": "Eastbound",
           "headsign": "Front-Market"
         }
-      ]
-    },
-    "septa-bus:21318": {
-      "stop_id": "21318",
-      "stop_name": "Market St & 3rd St",
-      "coordinates": [
-        -75.14587,
-        39.950103
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        },
-        {
-          "route_id": "septa-bus:48",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Front-Market"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Front-Market"
-        }
-      ]
+      "walk_minutes": 4
     },
     "septa-bus:10288": {
       "stop_id": "10288",
@@ -285,53 +218,8 @@
           "direction": "Eastbound",
           "headsign": "Front-Market"
         }
-      ]
-    },
-    "septa-bus:69": {
-      "stop_id": "69",
-      "stop_name": "Front St & Market St Loop",
-      "coordinates": [
-        -75.142317,
-        39.949765
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "Front-Market"
-        },
-        {
-          "route_id": "septa-bus:48",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Front-Market"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Front-Market"
-        }
-      ]
-    },
-    "septa-bus:7657": {
-      "stop_id": "7657",
-      "stop_name": "Market St & Front St",
-      "coordinates": [
-        -75.142329,
-        39.949649
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "2nd-Market"
-        }
-      ]
+      "walk_minutes": 5
     },
     "septa-bus:31442": {
       "stop_id": "31442",
@@ -354,7 +242,8 @@
           "direction": "Southbound",
           "headsign": "2nd-Market"
         }
-      ]
+      ],
+      "walk_minutes": 6
     },
     "septa-bus:20961": {
       "stop_id": "20961",
@@ -377,139 +266,32 @@
           "direction": "Westbound",
           "headsign": "69th St Transit Center"
         }
-      ]
+      ],
+      "walk_minutes": 5
     },
-    "septa-bus:30079": {
-      "stop_id": "30079",
-      "stop_name": "Market St & 3rd St",
+    "septa-bus:18095": {
+      "stop_id": "18095",
+      "stop_name": "4th St & Walnut St",
       "coordinates": [
-        -75.145492,
-        39.950201
+        -75.148006,
+        39.947413
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:10311": {
-      "stop_id": "10311",
-      "stop_name": "Market St & 4th St",
-      "coordinates": [
-        -75.147085,
-        39.950401
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:17",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "20th-Johnston"
-        }
-      ]
-    },
-    "septa-bus:14909": {
-      "stop_id": "14909",
-      "stop_name": "Chestnut St & 4th St - MBNS",
-      "coordinates": [
-        -75.14826,
-        39.948868
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
+          "route_id": "septa-bus:57",
           "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
+          "direction": "Southbound",
+          "headsign": "Whitman Plaza"
         },
         {
           "route_id": "septa-bus:9",
           "direction_id": 0,
           "direction": "Southbound",
-          "headsign": "4th-Walnut"
+          "headsign": "Andorra"
         }
-      ]
-    },
-    "septa-bus:20970": {
-      "stop_id": "20970",
-      "stop_name": "Chestnut St & 3rd St",
-      "coordinates": [
-        -75.146148,
-        39.948587
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:20971": {
-      "stop_id": "20971",
-      "stop_name": "Chestnut St & 2nd St",
-      "coordinates": [
-        -75.1442,
-        39.948333
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
-    },
-    "septa-bus:20974": {
-      "stop_id": "20974",
-      "stop_name": "2nd St & Walnut St",
-      "coordinates": [
-        -75.144466,
-        39.946959
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Columbus-Dock"
-        },
-        {
-          "route_id": "septa-bus:42",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Spruce"
-        }
-      ]
+      "walk_minutes": 10
     },
     "septa-bus:20972": {
       "stop_id": "20972",
@@ -526,24 +308,8 @@
           "direction": "Westbound",
           "headsign": "69th St Transit Center"
         }
-      ]
-    },
-    "septa-bus:20973": {
-      "stop_id": "20973",
-      "stop_name": "Walnut St & 4th St - MBFS",
-      "coordinates": [
-        -75.148455,
-        39.947432
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:21",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "69th St Transit Center"
-        }
-      ]
+      "walk_minutes": 8
     },
     "septa-bus:14931": {
       "stop_id": "14931",
@@ -572,93 +338,8 @@
           "direction": "Westbound",
           "headsign": "Ardmore via Narberth"
         }
-      ]
-    },
-    "septa-bus:4467": {
-      "stop_id": "4467",
-      "stop_name": "Arch St & 3rd St",
-      "coordinates": [
-        -75.145082,
-        39.952208
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:48",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "27th-Allegheny via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:5",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Ardmore via Narberth"
-        }
-      ]
-    },
-    "septa-bus:3492": {
-      "stop_id": "3492",
-      "stop_name": "Arch St & 4th St - FS",
-      "coordinates": [
-        -75.147018,
-        39.952444
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:48",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "27th-Allegheny via Lemon Hill"
-        },
-        {
-          "route_id": "septa-bus:44",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Ardmore via Narberth"
-        }
-      ]
-    },
-    "septa-bus:18093": {
-      "stop_id": "18093",
-      "stop_name": "4th St & Arch St",
-      "coordinates": [
-        -75.146853,
-        39.952497
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Whitman Plaza"
-        }
-      ]
-    },
-    "septa-bus:850": {
-      "stop_id": "850",
-      "stop_name": "4th St & Market St",
-      "coordinates": [
-        -75.147309,
-        39.950481
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Whitman Plaza"
-        }
-      ]
+      "walk_minutes": 7
     },
     "septa-bus:18094": {
       "stop_id": "18094",
@@ -675,81 +356,8 @@
           "direction": "Southbound",
           "headsign": "Whitman Plaza"
         }
-      ]
-    },
-    "septa-bus:18095": {
-      "stop_id": "18095",
-      "stop_name": "4th St & Walnut St",
-      "coordinates": [
-        -75.148006,
-        39.947413
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Whitman Plaza"
-        },
-        {
-          "route_id": "septa-bus:9",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Andorra"
-        }
-      ]
-    },
-    "septa-bus:18098": {
-      "stop_id": "18098",
-      "stop_name": "4th St & Locust St",
-      "coordinates": [
-        -75.148283,
-        39.946128
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "Whitman Plaza"
-        }
-      ]
-    },
-    "septa-bus:17560": {
-      "stop_id": "17560",
-      "stop_name": "3rd St & Spruce St",
-      "coordinates": [
-        -75.146813,
-        39.944688
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:17564": {
-      "stop_id": "17564",
-      "stop_name": "3rd St & Walnut St",
-      "coordinates": [
-        -75.146308,
-        39.947007
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
+      "walk_minutes": 9
     },
     "septa-bus:17567": {
       "stop_id": "17567",
@@ -766,166 +374,8 @@
           "direction": "Northbound",
           "headsign": "Fern Rock Transit Center"
         }
-      ]
-    },
-    "septa-bus:857": {
-      "stop_id": "857",
-      "stop_name": "3rd St & Market St",
-      "coordinates": [
-        -75.145646,
-        39.950023
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:17571": {
-      "stop_id": "17571",
-      "stop_name": "3rd St & Arch St",
-      "coordinates": [
-        -75.145177,
-        39.952092
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        }
-      ]
-    },
-    "septa-bus:17575": {
-      "stop_id": "17575",
-      "stop_name": "3rd St & Race St",
-      "coordinates": [
-        -75.144793,
-        39.953849
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:57",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Fern Rock Transit Center"
-        },
-        {
-          "route_id": "septa-bus:5",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:24170": {
-      "stop_id": "24170",
-      "stop_name": "2nd St & Race St",
-      "coordinates": [
-        -75.14295,
-        39.953908
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:5",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "2nd-Market"
-        }
-      ]
-    },
-    "septa-bus:24171": {
-      "stop_id": "24171",
-      "stop_name": "2nd St & Arch St",
-      "coordinates": [
-        -75.143359,
-        39.952043
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:5",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "2nd-Market"
-        }
-      ]
-    },
-    "septa-bus:23983": {
-      "stop_id": "23983",
-      "stop_name": "Columbus Blvd & Spruce St",
-      "coordinates": [
-        -75.141903,
-        39.944061
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:30892": {
-      "stop_id": "30892",
-      "stop_name": "Columbus Blvd & Dock St",
-      "coordinates": [
-        -75.141769,
-        39.945025
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:23984": {
-      "stop_id": "23984",
-      "stop_name": "Columbus Blvd & Walnut St",
-      "coordinates": [
-        -75.141493,
-        39.946327
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:30893": {
-      "stop_id": "30893",
-      "stop_name": "Columbus Blvd & Chestnut St",
-      "coordinates": [
-        -75.141216,
-        39.947612
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
+      "walk_minutes": 7
     },
     "septa-bus:23985": {
       "stop_id": "23985",
@@ -942,75 +392,8 @@
           "direction": "Northbound",
           "headsign": "Frankford Transit Center"
         }
-      ]
-    },
-    "septa-bus:23986": {
-      "stop_id": "23986",
-      "stop_name": "Columbus Blvd & Race St",
-      "coordinates": [
-        -75.139752,
-        39.953401
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:23987": {
-      "stop_id": "23987",
-      "stop_name": "Columbus Blvd & Vine St - FS",
-      "coordinates": [
-        -75.139071,
-        39.955291
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 0,
-          "direction": "Northbound",
-          "headsign": "Frankford Transit Center"
-        }
-      ]
-    },
-    "septa-bus:24042": {
-      "stop_id": "24042",
-      "stop_name": "Columbus Blvd & Vine St",
-      "coordinates": [
-        -75.139425,
-        39.955408
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "Columbus Commons"
-        }
-      ]
-    },
-    "septa-bus:30898": {
-      "stop_id": "30898",
-      "stop_name": "Columbus Blvd & Race St - MBFS",
-      "coordinates": [
-        -75.140357,
-        39.952688
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "Columbus Commons"
-        }
-      ]
+      "walk_minutes": 3
     },
     "septa-bus:24043": {
       "stop_id": "24043",
@@ -1027,75 +410,26 @@
           "direction": "Southbound",
           "headsign": "Columbus Commons"
         }
-      ]
-    },
-    "septa-bus:30899": {
-      "stop_id": "30899",
-      "stop_name": "Columbus Blvd & Walnut St",
-      "coordinates": [
-        -75.141834,
-        39.946605
       ],
-      "wheelchair_boarding": 1,
+      "walk_minutes": 3
+    },
+    "indego:bcycle_indego_3005": {
+      "stop_id": "bcycle_indego_3005",
+      "stop_name": "Welcome Park, NPS",
+      "coordinates": [
+        -75.14403,
+        39.94733
+      ],
+      "wheelchair_boarding": 0,
       "routes": [
         {
-          "route_id": "septa-bus:25",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "Columbus Commons"
+          "route_id": "indego:indego",
+          "direction_id": null,
+          "direction": null,
+          "headsign": null
         }
-      ]
-    },
-    "septa-bus:30900": {
-      "stop_id": "30900",
-      "stop_name": "Columbus Blvd & Dock St",
-      "coordinates": [
-        -75.142099,
-        39.945222
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "Columbus Commons"
-        }
-      ]
-    },
-    "septa-bus:24044": {
-      "stop_id": "24044",
-      "stop_name": "Columbus Blvd & Spruce St",
-      "coordinates": [
-        -75.142257,
-        39.944232
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "Columbus Commons"
-        }
-      ]
-    },
-    "septa-bus:24045": {
-      "stop_id": "24045",
-      "stop_name": "Columbus Blvd & I95 Ramp",
-      "coordinates": [
-        -75.142432,
-        39.941715
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:25",
-          "direction_id": 1,
-          "direction": "Southbound",
-          "headsign": "Columbus Commons"
-        }
-      ]
+      "walk_minutes": 6
     }
   },
   "routes": {
@@ -1274,6 +608,147 @@
         "septa-bus:24844",
         "septa-bus:31480",
         "septa-bus:20957"
+      ]
+    },
+    "septa-bus:21": {
+      "route_id": "21",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "21",
+      "route_long_name": "Columbus-Dock to 69th St TC",
+      "route_type": 3,
+      "route_color": "#000000",
+      "route_text_color": "#FFFFFF",
+      "polyline": "ab|rF~zijMXhCh@HE_AQcCOqBGo@UgCKaAI}@AKEc@Go@IaAGm@CWC]Eo@IoACa@Em@IsAIsAGy@M_BAMKkAMcBYqDAOAW?Q@k@@UBq@@Q@Q@QL_BJuADo@B]Ba@D{@RCFADADCDEBCFIVa@TBt@Lx@JxARHqAN}BLcBLeBd@sHHwAPuCPmCJgBPuCNqBLeCb@}GLkBNgCNqBNgCHqABa@HqAFu@@SNcCPoCFcAB]F{@@GBe@F_AT}CPeCNiCN}BLiBJ}BTkDN{BJ}AJ{AZoEJ_B`@_HLoBTwDJeBJeBLoBJaBDg@@ILcCF}@^oFJiBLgBHyADo@HeA@IFiA@ONwB^}FZ{EJiBBc@L{BJ}APyCPsCN_CDg@RcDDm@Fw@FaAHsAV{DDm@NuBFcABg@NmCDo@@SJeBDu@PoCBYFs@@MFcADm@ZoFJiBVgDN_CJ_Bp@eLJqBHmANaCB_@FkAH}AHgAh@yHHgA@Od@oGHoAF}@j@uHTcEBe@@U@WHmA@K?I@[@c@LmBLmBB]B_@V{DNeCH_AFcAFgAH{ATeDP_DF_Ah@_IHoA\\gFLqBXcEd@}Hj@}Hb@yHPoCFcAJgB@ON_CJaBXsEj@wHL}BR}Dd@{HReDRsCTmDPkCZkELkBd@{HBa@BWDu@NyBDs@BWFaAF_ALwBFiALcBDm@@MRyCR_DDs@Fy@N{BzAZt@DTBN@h@FlATPBh@HNB@QDOHOPORKb@Wd@QTGVAVAX?t@LT@bAJl@HBa@NeBBYBa@De@@SBa@B]@O@SBa@@SSCo@Gq@I{@IOAAVCZE\\CVIdACZE|@",
+      "stop_ids": [
+        "septa-bus:433",
+        "septa-bus:421",
+        "septa-bus:32259",
+        "septa-bus:22137",
+        "septa-bus:14882",
+        "septa-bus:14883",
+        "septa-bus:14884",
+        "septa-bus:14885",
+        "septa-bus:14886",
+        "septa-bus:14887",
+        "septa-bus:130",
+        "septa-bus:14079",
+        "septa-bus:14080",
+        "septa-bus:14081",
+        "septa-bus:14084",
+        "septa-bus:14085",
+        "septa-bus:14086",
+        "septa-bus:14088",
+        "septa-bus:14089",
+        "septa-bus:1148",
+        "septa-bus:30632",
+        "septa-bus:21351",
+        "septa-bus:21352",
+        "septa-bus:25707",
+        "septa-bus:19032",
+        "septa-bus:18991",
+        "septa-bus:19073",
+        "septa-bus:25708",
+        "septa-bus:19074",
+        "septa-bus:19075",
+        "septa-bus:419",
+        "septa-bus:19076",
+        "septa-bus:19077",
+        "septa-bus:19078",
+        "septa-bus:19079",
+        "septa-bus:19080",
+        "septa-bus:19081",
+        "septa-bus:19120",
+        "septa-bus:420",
+        "septa-bus:19121",
+        "septa-bus:19122",
+        "septa-bus:30195",
+        "septa-bus:30194",
+        "septa-bus:19123",
+        "septa-bus:30633",
+        "septa-bus:19124",
+        "septa-bus:19149",
+        "septa-bus:516",
+        "septa-bus:590",
+        "septa-bus:591",
+        "septa-bus:592",
+        "septa-bus:598",
+        "septa-bus:622",
+        "septa-bus:623",
+        "septa-bus:21353",
+        "septa-bus:21354",
+        "septa-bus:30634",
+        "septa-bus:21356",
+        "septa-bus:21357",
+        "septa-bus:20976",
+        "septa-bus:32637",
+        "septa-bus:6067",
+        "septa-bus:6066",
+        "septa-bus:6065",
+        "septa-bus:6064",
+        "septa-bus:14906",
+        "septa-bus:6062",
+        "septa-bus:6061",
+        "septa-bus:14907",
+        "septa-bus:6060",
+        "septa-bus:6115",
+        "septa-bus:6059",
+        "septa-bus:6058",
+        "septa-bus:6057",
+        "septa-bus:14908",
+        "septa-bus:6114",
+        "septa-bus:6113",
+        "septa-bus:6112",
+        "septa-bus:6111",
+        "septa-bus:14909",
+        "septa-bus:20970",
+        "septa-bus:20971",
+        "septa-bus:20974",
+        "septa-bus:20972",
+        "septa-bus:20973",
+        "septa-bus:14880",
+        "septa-bus:14881",
+        "septa-bus:131",
+        "septa-bus:19542",
+        "septa-bus:432",
+        "septa-bus:25704",
+        "septa-bus:21359",
+        "septa-bus:21360",
+        "septa-bus:21361",
+        "septa-bus:21362",
+        "septa-bus:21363",
+        "septa-bus:21364",
+        "septa-bus:21365",
+        "septa-bus:21366",
+        "septa-bus:21367",
+        "septa-bus:21368",
+        "septa-bus:21369",
+        "septa-bus:21370",
+        "septa-bus:31148",
+        "septa-bus:21371",
+        "septa-bus:21372",
+        "septa-bus:21374",
+        "septa-bus:21375",
+        "septa-bus:21376",
+        "septa-bus:434",
+        "septa-bus:21377",
+        "septa-bus:21378",
+        "septa-bus:21379",
+        "septa-bus:21380",
+        "septa-bus:21381",
+        "septa-bus:21382",
+        "septa-bus:21383",
+        "septa-bus:435",
+        "septa-bus:436",
+        "septa-bus:21384",
+        "septa-bus:21385",
+        "septa-bus:31291",
+        "septa-bus:25711",
+        "septa-bus:21387",
+        "septa-bus:19031",
+        "septa-bus:25706",
+        "septa-bus:21388",
+        "septa-bus:21390"
       ]
     },
     "septa-bus:40": {
@@ -1474,147 +949,6 @@
         "septa-bus:31585",
         "septa-bus:21580",
         "septa-bus:26001"
-      ]
-    },
-    "septa-bus:21": {
-      "route_id": "21",
-      "namespace": "septa-bus",
-      "mode": "Bus",
-      "route_short_name": "21",
-      "route_long_name": "Columbus-Dock to 69th St TC",
-      "route_type": 3,
-      "route_color": "#000000",
-      "route_text_color": "#FFFFFF",
-      "polyline": "ab|rF~zijMXhCh@HE_AQcCOqBGo@UgCKaAI}@AKEc@Go@IaAGm@CWC]Eo@IoACa@Em@IsAIsAGy@M_BAMKkAMcBYqDAOAW?Q@k@@UBq@@Q@Q@QL_BJuADo@B]Ba@D{@RCFADADCDEBCFIVa@TBt@Lx@JxARHqAN}BLcBLeBd@sHHwAPuCPmCJgBPuCNqBLeCb@}GLkBNgCNqBNgCHqABa@HqAFu@@SNcCPoCFcAB]F{@@GBe@F_AT}CPeCNiCN}BLiBJ}BTkDN{BJ}AJ{AZoEJ_B`@_HLoBTwDJeBJeBLoBJaBDg@@ILcCF}@^oFJiBLgBHyADo@HeA@IFiA@ONwB^}FZ{EJiBBc@L{BJ}APyCPsCN_CDg@RcDDm@Fw@FaAHsAV{DDm@NuBFcABg@NmCDo@@SJeBDu@PoCBYFs@@MFcADm@ZoFJiBVgDN_CJ_Bp@eLJqBHmANaCB_@FkAH}AHgAh@yHHgA@Od@oGHoAF}@j@uHTcEBe@@U@WHmA@K?I@[@c@LmBLmBB]B_@V{DNeCH_AFcAFgAH{ATeDP_DF_Ah@_IHoA\\gFLqBXcEd@}Hj@}Hb@yHPoCFcAJgB@ON_CJaBXsEj@wHL}BR}Dd@{HReDRsCTmDPkCZkELkBd@{HBa@BWDu@NyBDs@BWFaAF_ALwBFiALcBDm@@MRyCR_DDs@Fy@N{BzAZt@DTBN@h@FlATPBh@HNB@QDOHOPORKb@Wd@QTGVAVAX?t@LT@bAJl@HBa@NeBBYBa@De@@SBa@B]@O@SBa@@SSCo@Gq@I{@IOAAVCZE\\CVIdACZE|@",
-      "stop_ids": [
-        "septa-bus:433",
-        "septa-bus:421",
-        "septa-bus:32259",
-        "septa-bus:22137",
-        "septa-bus:14882",
-        "septa-bus:14883",
-        "septa-bus:14884",
-        "septa-bus:14885",
-        "septa-bus:14886",
-        "septa-bus:14887",
-        "septa-bus:130",
-        "septa-bus:14079",
-        "septa-bus:14080",
-        "septa-bus:14081",
-        "septa-bus:14084",
-        "septa-bus:14085",
-        "septa-bus:14086",
-        "septa-bus:14088",
-        "septa-bus:14089",
-        "septa-bus:1148",
-        "septa-bus:30632",
-        "septa-bus:21351",
-        "septa-bus:21352",
-        "septa-bus:25707",
-        "septa-bus:19032",
-        "septa-bus:18991",
-        "septa-bus:19073",
-        "septa-bus:25708",
-        "septa-bus:19074",
-        "septa-bus:19075",
-        "septa-bus:419",
-        "septa-bus:19076",
-        "septa-bus:19077",
-        "septa-bus:19078",
-        "septa-bus:19079",
-        "septa-bus:19080",
-        "septa-bus:19081",
-        "septa-bus:19120",
-        "septa-bus:420",
-        "septa-bus:19121",
-        "septa-bus:19122",
-        "septa-bus:30195",
-        "septa-bus:30194",
-        "septa-bus:19123",
-        "septa-bus:30633",
-        "septa-bus:19124",
-        "septa-bus:19149",
-        "septa-bus:516",
-        "septa-bus:590",
-        "septa-bus:591",
-        "septa-bus:592",
-        "septa-bus:598",
-        "septa-bus:622",
-        "septa-bus:623",
-        "septa-bus:21353",
-        "septa-bus:21354",
-        "septa-bus:30634",
-        "septa-bus:21356",
-        "septa-bus:21357",
-        "septa-bus:20976",
-        "septa-bus:32637",
-        "septa-bus:6067",
-        "septa-bus:6066",
-        "septa-bus:6065",
-        "septa-bus:6064",
-        "septa-bus:14906",
-        "septa-bus:6062",
-        "septa-bus:6061",
-        "septa-bus:14907",
-        "septa-bus:6060",
-        "septa-bus:6115",
-        "septa-bus:6059",
-        "septa-bus:6058",
-        "septa-bus:6057",
-        "septa-bus:14908",
-        "septa-bus:6114",
-        "septa-bus:6113",
-        "septa-bus:6112",
-        "septa-bus:6111",
-        "septa-bus:14909",
-        "septa-bus:20970",
-        "septa-bus:20971",
-        "septa-bus:20974",
-        "septa-bus:20972",
-        "septa-bus:20973",
-        "septa-bus:14880",
-        "septa-bus:14881",
-        "septa-bus:131",
-        "septa-bus:19542",
-        "septa-bus:432",
-        "septa-bus:25704",
-        "septa-bus:21359",
-        "septa-bus:21360",
-        "septa-bus:21361",
-        "septa-bus:21362",
-        "septa-bus:21363",
-        "septa-bus:21364",
-        "septa-bus:21365",
-        "septa-bus:21366",
-        "septa-bus:21367",
-        "septa-bus:21368",
-        "septa-bus:21369",
-        "septa-bus:21370",
-        "septa-bus:31148",
-        "septa-bus:21371",
-        "septa-bus:21372",
-        "septa-bus:21374",
-        "septa-bus:21375",
-        "septa-bus:21376",
-        "septa-bus:434",
-        "septa-bus:21377",
-        "septa-bus:21378",
-        "septa-bus:21379",
-        "septa-bus:21380",
-        "septa-bus:21381",
-        "septa-bus:21382",
-        "septa-bus:21383",
-        "septa-bus:435",
-        "septa-bus:436",
-        "septa-bus:21384",
-        "septa-bus:21385",
-        "septa-bus:31291",
-        "septa-bus:25711",
-        "septa-bus:21387",
-        "septa-bus:19031",
-        "septa-bus:25706",
-        "septa-bus:21388",
-        "septa-bus:21390"
       ]
     },
     "septa-bus:42": {
@@ -2467,130 +1801,6 @@
         "septa-bus:23969"
       ]
     },
-    "septa-bus:9": {
-      "route_id": "9",
-      "namespace": "septa-bus",
-      "mode": "Bus",
-      "route_short_name": "9",
-      "route_long_name": "4th-Walnut to Andorra",
-      "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
-      "polyline": "seyrFjitiMMbCGfAM|BSpCUbDM~A[xEKbBYvES~CQxCM~BUvDKtAIdAE`@C^M|AS~CQ|CSbCAPATQhCYnEKlBKtBAJUfDQvCS`DS|CIpA]`Fg@zHMvBStDALOfBSdDEf@g@pHKpAS~CS`DOvBMlBGfAAHATK~AUhDGdAGz@Cd@A|@OtBCb@E~@cCcAaDoAcC}@}@[eBm@m@UcA_@a@Mq@Si@Mk@MeASe@I[Ge@IYEq@IUCc@C_@Ao@?W@S@Q@g@F_@Hc@Lc@NYLeAf@o@Zu@\\]P_@TOHk@\\mAv@iAt@s@d@m@b@]X_@Ze@`@q@n@u@r@yAvASRURi@d@eAz@oAbAu@t@QReAlAmCjDkAzA_@f@[b@SZS\\S^S`@Q^Q`@O^Sj@mAvDUr@Yx@Sh@O^KTKTMVOXMR_@j@_@l@m@r@q@x@}@r@k@d@mAr@gAh@a@NgAXWHUF_@HeGlAkDp@]Fe@Ju@Nk@Lo@Na@J_@Jg@PYLMFSLSNOLUTQPOPQTQVMRMTKTKVO`@K\\Kb@GZId@Gb@K|@MrAYbDKfAK~@M`AMx@Mt@Mp@Qv@Mf@Oj@Sv@IXITKXOb@Uj@Uf@Wh@Yj@S^a@t@y@zAi@~@cBtCYh@MRyCjFy@rA_AnAaAdAqA`A}@j@e@RkA`@_@HODy@Nc@Da@Be@Fg@ByABk@?k@AyAIo@Gi@Gk@IaB]mBk@i@SoAi@mAq@e@Wc@[eCqB_A_Aq@}@s@aAQYw@mA]m@Yk@g@gAc@eAa@cAm@}AO_@k@yAs@cBw@cB{@_B_A_BaAyAaAwAaAoAmAsAmAmAo@k@a@_@sAgAuAaA{@m@a@Y]So@_@qAq@oAk@UK}@]k@SwAc@yAa@iCs@qAWs@OwAWwASuAMsAKuAEk@Ak@@k@Bm@Fs@Ne@Jk@Vg@TSLc@\\[Ta@\\UTSRQRORMPQXS\\Ud@O\\MXSd@Uj@KXKXM`@Qj@o@vBy@zCmArEYfAm@|BSZEN]hAkBnF_B~E}@|BmBlEu@`BQXKLKHODQ?UAKKOMOMSSY_@c@i@OUkAgBKQKOKQQYSSc@OQKOCQA[?s@BO@m@BS@QDc@Ni@P_@FSFm@BAD]vAa@lCEVETEXAFCJY|AG^]~As@rCw@`Co@rBc@lAYp@Wn@}@xBS`@EFGHSJ_@LU?a@As@GUAsAKYCa@Ma@MqCy@IEYO]Wk@g@i@c@qAs@aB}@sAm@yAs@[U_A_AII][WWaAeAUQOGIEMEe@OKEg@O{An@mAh@w@\\[Lq@VYL]N_A`@EBo@Xe@RUJWLQH_@PKDMF[Le@Ts@X_Br@i@Vs@\\cBz@u@f@o@`@GDuAz@w@`AUVUXc@h@GHe@f@cAhAKLQPm@p@e@h@cApA[^wAdBSX_A~@s@|@g@j@[^y@`Aa@^u@r@]\\IHa@^EDuArAy@v@oBlB[^U`@Wh@Wv@y@lCs@jDS`AS|@I^On@Mf@Sz@Oh@Ob@M^ELYp@INONe@ZSLUN]R]V_An@YPEBGDYRGDyBzAq@f@OLQNSNEBEDID_Ap@URWP_@\\WRGFIFWVqAlAQR[^a@r@i@`Ay@xAq@lAKRMTGJS`@Yh@IPWf@GNKXOd@K\\Sp@IVK`@YnAK\\ERENI\\Oh@Kb@Up@]bA_@~@O\\[j@U\\CD]b@SV_@h@W\\yAjBcAjAiArA]`@a@Rk@TmDvA{Ah@y@TQFqBd@_@J[F[Ha@NSDUFIBg@DW?Q?U?YASAS?QAQ?u@COA[A]Ae@A]Cc@Ci@GaAKa@EwAOe@EUAE?UAq@?E?{BAyADy@HYBUB]Fa@L[Pm@\\wDjCi@^cAt@C@i@\\oAz@GDi@`@MHUD[J_@LSDWFm@D[AK?q@GEAgCc@OC_@E{@KYAi@HSHQLSNQNI@yAtBOTIJm@n@U`@|@E",
-      "stop_ids": [
-        "septa-bus:14882",
-        "septa-bus:14883",
-        "septa-bus:14884",
-        "septa-bus:14885",
-        "septa-bus:14886",
-        "septa-bus:14887",
-        "septa-bus:130",
-        "septa-bus:14079",
-        "septa-bus:14080",
-        "septa-bus:14081",
-        "septa-bus:14084",
-        "septa-bus:14085",
-        "septa-bus:14086",
-        "septa-bus:14088",
-        "septa-bus:14089",
-        "septa-bus:32637",
-        "septa-bus:6067",
-        "septa-bus:6066",
-        "septa-bus:6065",
-        "septa-bus:6064",
-        "septa-bus:14906",
-        "septa-bus:6062",
-        "septa-bus:6061",
-        "septa-bus:14907",
-        "septa-bus:6060",
-        "septa-bus:6115",
-        "septa-bus:6059",
-        "septa-bus:6058",
-        "septa-bus:6057",
-        "septa-bus:14908",
-        "septa-bus:6114",
-        "septa-bus:6113",
-        "septa-bus:6112",
-        "septa-bus:6111",
-        "septa-bus:14909",
-        "septa-bus:14880",
-        "septa-bus:14881",
-        "septa-bus:131",
-        "septa-bus:19542",
-        "septa-bus:19281",
-        "septa-bus:12397",
-        "septa-bus:12275",
-        "septa-bus:123",
-        "septa-bus:17345",
-        "septa-bus:12261",
-        "septa-bus:32990",
-        "septa-bus:32991",
-        "septa-bus:14995",
-        "septa-bus:12319",
-        "septa-bus:12274",
-        "septa-bus:1537",
-        "septa-bus:16185",
-        "septa-bus:16186",
-        "septa-bus:16187",
-        "septa-bus:19477",
-        "septa-bus:16020",
-        "septa-bus:16021",
-        "septa-bus:12302",
-        "septa-bus:17338",
-        "septa-bus:12269",
-        "septa-bus:20405",
-        "septa-bus:18045",
-        "septa-bus:16181",
-        "septa-bus:14893",
-        "septa-bus:12331",
-        "septa-bus:12300",
-        "septa-bus:16064",
-        "septa-bus:30920",
-        "septa-bus:16168",
-        "septa-bus:16169",
-        "septa-bus:16170",
-        "septa-bus:16172",
-        "septa-bus:16173",
-        "septa-bus:907",
-        "septa-bus:20404",
-        "septa-bus:12322",
-        "septa-bus:16179",
-        "septa-bus:16180",
-        "septa-bus:12305",
-        "septa-bus:12335",
-        "septa-bus:16182",
-        "septa-bus:12324",
-        "septa-bus:12296",
-        "septa-bus:17343",
-        "septa-bus:12304",
-        "septa-bus:17331",
-        "septa-bus:12323",
-        "septa-bus:12278",
-        "septa-bus:12336",
-        "septa-bus:14891",
-        "septa-bus:14892",
-        "septa-bus:604",
-        "septa-bus:16066",
-        "septa-bus:16068",
-        "septa-bus:15392",
-        "septa-bus:16072",
-        "septa-bus:20408",
-        "septa-bus:16073",
-        "septa-bus:12329",
-        "septa-bus:12346",
-        "septa-bus:16079",
-        "septa-bus:16082",
-        "septa-bus:16084",
-        "septa-bus:20409",
-        "septa-bus:16347",
-        "septa-bus:20410",
-        "septa-bus:31281",
-        "septa-bus:18095",
-        "septa-bus:122",
-        "septa-bus:20407",
-        "septa-bus:30576"
-      ]
-    },
     "septa-bus:57": {
       "route_id": "57",
       "namespace": "septa-bus",
@@ -2865,6 +2075,130 @@
         "septa-bus:17362"
       ]
     },
+    "septa-bus:9": {
+      "route_id": "9",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "9",
+      "route_long_name": "4th-Walnut to Andorra",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "seyrFjitiMMbCGfAM|BSpCUbDM~A[xEKbBYvES~CQxCM~BUvDKtAIdAE`@C^M|AS~CQ|CSbCAPATQhCYnEKlBKtBAJUfDQvCS`DS|CIpA]`Fg@zHMvBStDALOfBSdDEf@g@pHKpAS~CS`DOvBMlBGfAAHATK~AUhDGdAGz@Cd@A|@OtBCb@E~@cCcAaDoAcC}@}@[eBm@m@UcA_@a@Mq@Si@Mk@MeASe@I[Ge@IYEq@IUCc@C_@Ao@?W@S@Q@g@F_@Hc@Lc@NYLeAf@o@Zu@\\]P_@TOHk@\\mAv@iAt@s@d@m@b@]X_@Ze@`@q@n@u@r@yAvASRURi@d@eAz@oAbAu@t@QReAlAmCjDkAzA_@f@[b@SZS\\S^S`@Q^Q`@O^Sj@mAvDUr@Yx@Sh@O^KTKTMVOXMR_@j@_@l@m@r@q@x@}@r@k@d@mAr@gAh@a@NgAXWHUF_@HeGlAkDp@]Fe@Ju@Nk@Lo@Na@J_@Jg@PYLMFSLSNOLUTQPOPQTQVMRMTKTKVO`@K\\Kb@GZId@Gb@K|@MrAYbDKfAK~@M`AMx@Mt@Mp@Qv@Mf@Oj@Sv@IXITKXOb@Uj@Uf@Wh@Yj@S^a@t@y@zAi@~@cBtCYh@MRyCjFy@rA_AnAaAdAqA`A}@j@e@RkA`@_@HODy@Nc@Da@Be@Fg@ByABk@?k@AyAIo@Gi@Gk@IaB]mBk@i@SoAi@mAq@e@Wc@[eCqB_A_Aq@}@s@aAQYw@mA]m@Yk@g@gAc@eAa@cAm@}AO_@k@yAs@cBw@cB{@_B_A_BaAyAaAwAaAoAmAsAmAmAo@k@a@_@sAgAuAaA{@m@a@Y]So@_@qAq@oAk@UK}@]k@SwAc@yAa@iCs@qAWs@OwAWwASuAMsAKuAEk@Ak@@k@Bm@Fs@Ne@Jk@Vg@TSLc@\\[Ta@\\UTSRQRORMPQXS\\Ud@O\\MXSd@Uj@KXKXM`@Qj@o@vBy@zCmArEYfAm@|BSZEN]hAkBnF_B~E}@|BmBlEu@`BQXKLKHODQ?UAKKOMOMSSY_@c@i@OUkAgBKQKOKQQYSSc@OQKOCQA[?s@BO@m@BS@QDc@Ni@P_@FSFm@BAD]vAa@lCEVETEXAFCJY|AG^]~As@rCw@`Co@rBc@lAYp@Wn@}@xBS`@EFGHSJ_@LU?a@As@GUAsAKYCa@Ma@MqCy@IEYO]Wk@g@i@c@qAs@aB}@sAm@yAs@[U_A_AII][WWaAeAUQOGIEMEe@OKEg@O{An@mAh@w@\\[Lq@VYL]N_A`@EBo@Xe@RUJWLQH_@PKDMF[Le@Ts@X_Br@i@Vs@\\cBz@u@f@o@`@GDuAz@w@`AUVUXc@h@GHe@f@cAhAKLQPm@p@e@h@cApA[^wAdBSX_A~@s@|@g@j@[^y@`Aa@^u@r@]\\IHa@^EDuArAy@v@oBlB[^U`@Wh@Wv@y@lCs@jDS`AS|@I^On@Mf@Sz@Oh@Ob@M^ELYp@INONe@ZSLUN]R]V_An@YPEBGDYRGDyBzAq@f@OLQNSNEBEDID_Ap@URWP_@\\WRGFIFWVqAlAQR[^a@r@i@`Ay@xAq@lAKRMTGJS`@Yh@IPWf@GNKXOd@K\\Sp@IVK`@YnAK\\ERENI\\Oh@Kb@Up@]bA_@~@O\\[j@U\\CD]b@SV_@h@W\\yAjBcAjAiArA]`@a@Rk@TmDvA{Ah@y@TQFqBd@_@J[F[Ha@NSDUFIBg@DW?Q?U?YASAS?QAQ?u@COA[A]Ae@A]Cc@Ci@GaAKa@EwAOe@EUAE?UAq@?E?{BAyADy@HYBUB]Fa@L[Pm@\\wDjCi@^cAt@C@i@\\oAz@GDi@`@MHUD[J_@LSDWFm@D[AK?q@GEAgCc@OC_@E{@KYAi@HSHQLSNQNI@yAtBOTIJm@n@U`@|@E",
+      "stop_ids": [
+        "septa-bus:14882",
+        "septa-bus:14883",
+        "septa-bus:14884",
+        "septa-bus:14885",
+        "septa-bus:14886",
+        "septa-bus:14887",
+        "septa-bus:130",
+        "septa-bus:14079",
+        "septa-bus:14080",
+        "septa-bus:14081",
+        "septa-bus:14084",
+        "septa-bus:14085",
+        "septa-bus:14086",
+        "septa-bus:14088",
+        "septa-bus:14089",
+        "septa-bus:32637",
+        "septa-bus:6067",
+        "septa-bus:6066",
+        "septa-bus:6065",
+        "septa-bus:6064",
+        "septa-bus:14906",
+        "septa-bus:6062",
+        "septa-bus:6061",
+        "septa-bus:14907",
+        "septa-bus:6060",
+        "septa-bus:6115",
+        "septa-bus:6059",
+        "septa-bus:6058",
+        "septa-bus:6057",
+        "septa-bus:14908",
+        "septa-bus:6114",
+        "septa-bus:6113",
+        "septa-bus:6112",
+        "septa-bus:6111",
+        "septa-bus:14909",
+        "septa-bus:14880",
+        "septa-bus:14881",
+        "septa-bus:131",
+        "septa-bus:19542",
+        "septa-bus:19281",
+        "septa-bus:12397",
+        "septa-bus:12275",
+        "septa-bus:123",
+        "septa-bus:17345",
+        "septa-bus:12261",
+        "septa-bus:32990",
+        "septa-bus:32991",
+        "septa-bus:14995",
+        "septa-bus:12319",
+        "septa-bus:12274",
+        "septa-bus:1537",
+        "septa-bus:16185",
+        "septa-bus:16186",
+        "septa-bus:16187",
+        "septa-bus:19477",
+        "septa-bus:16020",
+        "septa-bus:16021",
+        "septa-bus:12302",
+        "septa-bus:17338",
+        "septa-bus:12269",
+        "septa-bus:20405",
+        "septa-bus:18045",
+        "septa-bus:16181",
+        "septa-bus:14893",
+        "septa-bus:12331",
+        "septa-bus:12300",
+        "septa-bus:16064",
+        "septa-bus:30920",
+        "septa-bus:16168",
+        "septa-bus:16169",
+        "septa-bus:16170",
+        "septa-bus:16172",
+        "septa-bus:16173",
+        "septa-bus:907",
+        "septa-bus:20404",
+        "septa-bus:12322",
+        "septa-bus:16179",
+        "septa-bus:16180",
+        "septa-bus:12305",
+        "septa-bus:12335",
+        "septa-bus:16182",
+        "septa-bus:12324",
+        "septa-bus:12296",
+        "septa-bus:17343",
+        "septa-bus:12304",
+        "septa-bus:17331",
+        "septa-bus:12323",
+        "septa-bus:12278",
+        "septa-bus:12336",
+        "septa-bus:14891",
+        "septa-bus:14892",
+        "septa-bus:604",
+        "septa-bus:16066",
+        "septa-bus:16068",
+        "septa-bus:15392",
+        "septa-bus:16072",
+        "septa-bus:20408",
+        "septa-bus:16073",
+        "septa-bus:12329",
+        "septa-bus:12346",
+        "septa-bus:16079",
+        "septa-bus:16082",
+        "septa-bus:16084",
+        "septa-bus:20409",
+        "septa-bus:16347",
+        "septa-bus:20410",
+        "septa-bus:31281",
+        "septa-bus:18095",
+        "septa-bus:122",
+        "septa-bus:20407",
+        "septa-bus:30576"
+      ]
+    },
     "septa-bus:25": {
       "route_id": "25",
       "namespace": "septa-bus",
@@ -3069,61 +2403,328 @@
         "septa-bus:30096",
         "septa-bus:31358"
       ]
-    }
-  },
-  "docks": {
-    "indego:bcycle_indego_3005": {
-      "station_id": "bcycle_indego_3005",
-      "name": "Welcome Park, NPS",
-      "address": "191 S. 2nd St.",
-      "coordinates": [
-        -75.14403,
-        39.94733
-      ]
     },
-    "indego:bcycle_indego_3049": {
-      "station_id": "bcycle_indego_3049",
-      "name": "Foglietta Plaza",
-      "address": "3 Dock St.",
-      "coordinates": [
-        -75.1425,
-        39.94509
-      ]
-    },
-    "indego:bcycle_indego_3124": {
-      "station_id": "bcycle_indego_3124",
-      "name": "Race Street Pier",
-      "address": "N Christopher Columbus Blvd (approx.)",
-      "coordinates": [
-        -75.13956,
-        39.95367
-      ]
-    },
-    "indego:bcycle_indego_3169": {
-      "station_id": "bcycle_indego_3169",
-      "name": "2nd & Race",
-      "address": "151 Race St",
-      "coordinates": [
-        -75.14263,
-        39.95382
-      ]
-    },
-    "indego:bcycle_indego_3378": {
-      "station_id": "bcycle_indego_3378",
-      "name": "4th & Arch",
-      "address": "424 Arch Street",
-      "coordinates": [
-        -75.14728,
-        39.95238
-      ]
-    },
-    "indego:bcycle_indego_3447": {
-      "station_id": "bcycle_indego_3447",
-      "name": "2nd & Market",
-      "address": "225 Market St",
-      "coordinates": [
-        -75.14467,
-        39.95009
+    "indego:indego": {
+      "route_id": "indego",
+      "namespace": "indego",
+      "mode": "Bike",
+      "route_short_name": "Indego",
+      "route_long_name": "Indego Bike Share",
+      "route_type": null,
+      "route_color": "3980C4",
+      "route_text_color": "FFFFFF",
+      "polyline": "",
+      "stop_ids": [
+        "indego:bcycle_indego_3004",
+        "indego:bcycle_indego_3005",
+        "indego:bcycle_indego_3006",
+        "indego:bcycle_indego_3007",
+        "indego:bcycle_indego_3008",
+        "indego:bcycle_indego_3009",
+        "indego:bcycle_indego_3010",
+        "indego:bcycle_indego_3012",
+        "indego:bcycle_indego_3014",
+        "indego:bcycle_indego_3015",
+        "indego:bcycle_indego_3016",
+        "indego:bcycle_indego_3017",
+        "indego:bcycle_indego_3018",
+        "indego:bcycle_indego_3019",
+        "indego:bcycle_indego_3020",
+        "indego:bcycle_indego_3021",
+        "indego:bcycle_indego_3022",
+        "indego:bcycle_indego_3024",
+        "indego:bcycle_indego_3025",
+        "indego:bcycle_indego_3026",
+        "indego:bcycle_indego_3028",
+        "indego:bcycle_indego_3029",
+        "indego:bcycle_indego_3031",
+        "indego:bcycle_indego_3032",
+        "indego:bcycle_indego_3033",
+        "indego:bcycle_indego_3034",
+        "indego:bcycle_indego_3035",
+        "indego:bcycle_indego_3037",
+        "indego:bcycle_indego_3038",
+        "indego:bcycle_indego_3039",
+        "indego:bcycle_indego_3040",
+        "indego:bcycle_indego_3041",
+        "indego:bcycle_indego_3047",
+        "indego:bcycle_indego_3049",
+        "indego:bcycle_indego_3051",
+        "indego:bcycle_indego_3052",
+        "indego:bcycle_indego_3053",
+        "indego:bcycle_indego_3054",
+        "indego:bcycle_indego_3055",
+        "indego:bcycle_indego_3056",
+        "indego:bcycle_indego_3057",
+        "indego:bcycle_indego_3059",
+        "indego:bcycle_indego_3060",
+        "indego:bcycle_indego_3063",
+        "indego:bcycle_indego_3064",
+        "indego:bcycle_indego_3065",
+        "indego:bcycle_indego_3066",
+        "indego:bcycle_indego_3067",
+        "indego:bcycle_indego_3068",
+        "indego:bcycle_indego_3069",
+        "indego:bcycle_indego_3072",
+        "indego:bcycle_indego_3073",
+        "indego:bcycle_indego_3074",
+        "indego:bcycle_indego_3075",
+        "indego:bcycle_indego_3077",
+        "indego:bcycle_indego_3078",
+        "indego:bcycle_indego_3086",
+        "indego:bcycle_indego_3088",
+        "indego:bcycle_indego_3093",
+        "indego:bcycle_indego_3096",
+        "indego:bcycle_indego_3097",
+        "indego:bcycle_indego_3098",
+        "indego:bcycle_indego_3099",
+        "indego:bcycle_indego_3100",
+        "indego:bcycle_indego_3101",
+        "indego:bcycle_indego_3102",
+        "indego:bcycle_indego_3104",
+        "indego:bcycle_indego_3106",
+        "indego:bcycle_indego_3107",
+        "indego:bcycle_indego_3110",
+        "indego:bcycle_indego_3111",
+        "indego:bcycle_indego_3112",
+        "indego:bcycle_indego_3113",
+        "indego:bcycle_indego_3114",
+        "indego:bcycle_indego_3115",
+        "indego:bcycle_indego_3116",
+        "indego:bcycle_indego_3117",
+        "indego:bcycle_indego_3118",
+        "indego:bcycle_indego_3119",
+        "indego:bcycle_indego_3120",
+        "indego:bcycle_indego_3123",
+        "indego:bcycle_indego_3124",
+        "indego:bcycle_indego_3125",
+        "indego:bcycle_indego_3150",
+        "indego:bcycle_indego_3152",
+        "indego:bcycle_indego_3154",
+        "indego:bcycle_indego_3155",
+        "indego:bcycle_indego_3156",
+        "indego:bcycle_indego_3157",
+        "indego:bcycle_indego_3158",
+        "indego:bcycle_indego_3159",
+        "indego:bcycle_indego_3160",
+        "indego:bcycle_indego_3161",
+        "indego:bcycle_indego_3162",
+        "indego:bcycle_indego_3163",
+        "indego:bcycle_indego_3164",
+        "indego:bcycle_indego_3165",
+        "indego:bcycle_indego_3166",
+        "indego:bcycle_indego_3169",
+        "indego:bcycle_indego_3181",
+        "indego:bcycle_indego_3182",
+        "indego:bcycle_indego_3183",
+        "indego:bcycle_indego_3184",
+        "indego:bcycle_indego_3185",
+        "indego:bcycle_indego_3187",
+        "indego:bcycle_indego_3188",
+        "indego:bcycle_indego_3196",
+        "indego:bcycle_indego_3197",
+        "indego:bcycle_indego_3200",
+        "indego:bcycle_indego_3201",
+        "indego:bcycle_indego_3203",
+        "indego:bcycle_indego_3204",
+        "indego:bcycle_indego_3205",
+        "indego:bcycle_indego_3207",
+        "indego:bcycle_indego_3208",
+        "indego:bcycle_indego_3209",
+        "indego:bcycle_indego_3210",
+        "indego:bcycle_indego_3211",
+        "indego:bcycle_indego_3212",
+        "indego:bcycle_indego_3213",
+        "indego:bcycle_indego_3226",
+        "indego:bcycle_indego_3235",
+        "indego:bcycle_indego_3236",
+        "indego:bcycle_indego_3237",
+        "indego:bcycle_indego_3238",
+        "indego:bcycle_indego_3240",
+        "indego:bcycle_indego_3241",
+        "indego:bcycle_indego_3243",
+        "indego:bcycle_indego_3245",
+        "indego:bcycle_indego_3246",
+        "indego:bcycle_indego_3247",
+        "indego:bcycle_indego_3248",
+        "indego:bcycle_indego_3249",
+        "indego:bcycle_indego_3250",
+        "indego:bcycle_indego_3251",
+        "indego:bcycle_indego_3252",
+        "indego:bcycle_indego_3253",
+        "indego:bcycle_indego_3254",
+        "indego:bcycle_indego_3255",
+        "indego:bcycle_indego_3256",
+        "indego:bcycle_indego_3258",
+        "indego:bcycle_indego_3259",
+        "indego:bcycle_indego_3261",
+        "indego:bcycle_indego_3263",
+        "indego:bcycle_indego_3264",
+        "indego:bcycle_indego_3265",
+        "indego:bcycle_indego_3266",
+        "indego:bcycle_indego_3267",
+        "indego:bcycle_indego_3268",
+        "indego:bcycle_indego_3271",
+        "indego:bcycle_indego_3272",
+        "indego:bcycle_indego_3275",
+        "indego:bcycle_indego_3276",
+        "indego:bcycle_indego_3277",
+        "indego:bcycle_indego_3278",
+        "indego:bcycle_indego_3279",
+        "indego:bcycle_indego_3280",
+        "indego:bcycle_indego_3281",
+        "indego:bcycle_indego_3282",
+        "indego:bcycle_indego_3284",
+        "indego:bcycle_indego_3285",
+        "indego:bcycle_indego_3286",
+        "indego:bcycle_indego_3287",
+        "indego:bcycle_indego_3291",
+        "indego:bcycle_indego_3292",
+        "indego:bcycle_indego_3294",
+        "indego:bcycle_indego_3295",
+        "indego:bcycle_indego_3296",
+        "indego:bcycle_indego_3297",
+        "indego:bcycle_indego_3298",
+        "indego:bcycle_indego_3299",
+        "indego:bcycle_indego_3300",
+        "indego:bcycle_indego_3301",
+        "indego:bcycle_indego_3303",
+        "indego:bcycle_indego_3304",
+        "indego:bcycle_indego_3305",
+        "indego:bcycle_indego_3306",
+        "indego:bcycle_indego_3307",
+        "indego:bcycle_indego_3310",
+        "indego:bcycle_indego_3313",
+        "indego:bcycle_indego_3314",
+        "indego:bcycle_indego_3315",
+        "indego:bcycle_indego_3316",
+        "indego:bcycle_indego_3318",
+        "indego:bcycle_indego_3319",
+        "indego:bcycle_indego_3320",
+        "indego:bcycle_indego_3321",
+        "indego:bcycle_indego_3322",
+        "indego:bcycle_indego_3323",
+        "indego:bcycle_indego_3324",
+        "indego:bcycle_indego_3325",
+        "indego:bcycle_indego_3326",
+        "indego:bcycle_indego_3327",
+        "indego:bcycle_indego_3328",
+        "indego:bcycle_indego_3329",
+        "indego:bcycle_indego_3331",
+        "indego:bcycle_indego_3332",
+        "indego:bcycle_indego_3333",
+        "indego:bcycle_indego_3334",
+        "indego:bcycle_indego_3335",
+        "indego:bcycle_indego_3336",
+        "indego:bcycle_indego_3337",
+        "indego:bcycle_indego_3338",
+        "indego:bcycle_indego_3340",
+        "indego:bcycle_indego_3341",
+        "indego:bcycle_indego_3342",
+        "indego:bcycle_indego_3344",
+        "indego:bcycle_indego_3345",
+        "indego:bcycle_indego_3346",
+        "indego:bcycle_indego_3349",
+        "indego:bcycle_indego_3350",
+        "indego:bcycle_indego_3351",
+        "indego:bcycle_indego_3352",
+        "indego:bcycle_indego_3353",
+        "indego:bcycle_indego_3354",
+        "indego:bcycle_indego_3356",
+        "indego:bcycle_indego_3357",
+        "indego:bcycle_indego_3359",
+        "indego:bcycle_indego_3360",
+        "indego:bcycle_indego_3361",
+        "indego:bcycle_indego_3362",
+        "indego:bcycle_indego_3363",
+        "indego:bcycle_indego_3365",
+        "indego:bcycle_indego_3368",
+        "indego:bcycle_indego_3369",
+        "indego:bcycle_indego_3370",
+        "indego:bcycle_indego_3371",
+        "indego:bcycle_indego_3372",
+        "indego:bcycle_indego_3373",
+        "indego:bcycle_indego_3374",
+        "indego:bcycle_indego_3375",
+        "indego:bcycle_indego_3376",
+        "indego:bcycle_indego_3378",
+        "indego:bcycle_indego_3381",
+        "indego:bcycle_indego_3382",
+        "indego:bcycle_indego_3383",
+        "indego:bcycle_indego_3385",
+        "indego:bcycle_indego_3387",
+        "indego:bcycle_indego_3388",
+        "indego:bcycle_indego_3389",
+        "indego:bcycle_indego_3390",
+        "indego:bcycle_indego_3391",
+        "indego:bcycle_indego_3392",
+        "indego:bcycle_indego_3393",
+        "indego:bcycle_indego_3394",
+        "indego:bcycle_indego_3395",
+        "indego:bcycle_indego_3396",
+        "indego:bcycle_indego_3397",
+        "indego:bcycle_indego_3398",
+        "indego:bcycle_indego_3399",
+        "indego:bcycle_indego_3400",
+        "indego:bcycle_indego_3403",
+        "indego:bcycle_indego_3404",
+        "indego:bcycle_indego_3405",
+        "indego:bcycle_indego_3407",
+        "indego:bcycle_indego_3408",
+        "indego:bcycle_indego_3409",
+        "indego:bcycle_indego_3410",
+        "indego:bcycle_indego_3411",
+        "indego:bcycle_indego_3412",
+        "indego:bcycle_indego_3413",
+        "indego:bcycle_indego_3414",
+        "indego:bcycle_indego_3417",
+        "indego:bcycle_indego_3418",
+        "indego:bcycle_indego_3421",
+        "indego:bcycle_indego_3422",
+        "indego:bcycle_indego_3423",
+        "indego:bcycle_indego_3425",
+        "indego:bcycle_indego_3426",
+        "indego:bcycle_indego_3427",
+        "indego:bcycle_indego_3428",
+        "indego:bcycle_indego_3430",
+        "indego:bcycle_indego_3431",
+        "indego:bcycle_indego_3432",
+        "indego:bcycle_indego_3434",
+        "indego:bcycle_indego_3435",
+        "indego:bcycle_indego_3436",
+        "indego:bcycle_indego_3437",
+        "indego:bcycle_indego_3438",
+        "indego:bcycle_indego_3439",
+        "indego:bcycle_indego_3440",
+        "indego:bcycle_indego_3441",
+        "indego:bcycle_indego_3442",
+        "indego:bcycle_indego_3443",
+        "indego:bcycle_indego_3444",
+        "indego:bcycle_indego_3445",
+        "indego:bcycle_indego_3446",
+        "indego:bcycle_indego_3447",
+        "indego:bcycle_indego_3448",
+        "indego:bcycle_indego_3449",
+        "indego:bcycle_indego_3450",
+        "indego:bcycle_indego_3451",
+        "indego:bcycle_indego_3452",
+        "indego:bcycle_indego_3453",
+        "indego:bcycle_indego_3454",
+        "indego:bcycle_indego_3455",
+        "indego:bcycle_indego_3459",
+        "indego:bcycle_indego_3460",
+        "indego:bcycle_indego_3461",
+        "indego:bcycle_indego_3462",
+        "indego:bcycle_indego_3463",
+        "indego:bcycle_indego_3464",
+        "indego:bcycle_indego_3465",
+        "indego:bcycle_indego_3468",
+        "indego:bcycle_indego_3469",
+        "indego:bcycle_indego_3470",
+        "indego:bcycle_indego_3472",
+        "indego:bcycle_indego_3473",
+        "indego:bcycle_indego_3475",
+        "indego:bcycle_indego_3476"
       ]
     }
   }

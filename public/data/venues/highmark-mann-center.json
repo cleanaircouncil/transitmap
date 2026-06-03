@@ -20,145 +20,8 @@
           "direction": "Loop",
           "headsign": "Mann Center"
         }
-      ]
-    },
-    "septa-bus:22217": {
-      "stop_id": "22217",
-      "stop_name": "54th St & Montgomery Av",
-      "coordinates": [
-        -75.231365,
-        39.984155
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21689": {
-      "stop_id": "21689",
-      "stop_name": "54th St & Upland Way",
-      "coordinates": [
-        -75.230826,
-        39.982575
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21690": {
-      "stop_id": "21690",
-      "stop_name": "54th St & Oxford St",
-      "coordinates": [
-        -75.230321,
-        39.981771
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:25982": {
-      "stop_id": "25982",
-      "stop_name": "Jefferson St & 53rd St",
-      "coordinates": [
-        -75.228269,
-        39.980438
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21691": {
-      "stop_id": "21691",
-      "stop_name": "Jefferson St & Lindenwood St",
-      "coordinates": [
-        -75.227301,
-        39.980097
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21721": {
-      "stop_id": "21721",
-      "stop_name": "52nd St & Heston St",
-      "coordinates": [
-        -75.225069,
-        39.979772
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "50th-Parkside"
-        }
-      ]
+      "walk_minutes": 2
     },
     "septa-bus:21722": {
       "stop_id": "21722",
@@ -181,68 +44,47 @@
           "direction": "Northbound",
           "headsign": "50th-Parkside"
         }
-      ]
+      ],
+      "walk_minutes": 4
     },
-    "septa-bus:21724": {
-      "stop_id": "21724",
+    "septa-bus:21754": {
+      "stop_id": "21754",
       "stop_name": "Parkside Av & 51st St",
       "coordinates": [
-        -75.221581,
-        39.980721
+        -75.221392,
+        39.980775
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
           "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
+          "direction_id": 1,
+          "direction": "Westbound",
+          "headsign": "Conshohocken-Monument"
         },
         {
           "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "50th-Parkside"
+          "direction_id": 0,
+          "direction": "Southbound",
+          "headsign": "49th-Woodland"
         }
-      ]
+      ],
+      "walk_minutes": 5
     },
-    "septa-bus:21725": {
-      "stop_id": "21725",
-      "stop_name": "Parkside Av & 50th St",
+    "septa-bus:30766": {
+      "stop_id": "30766",
+      "stop_name": "50th St & Jefferson St - MBNS",
       "coordinates": [
-        -75.219422,
-        39.979923
+        -75.220787,
+        39.977659
       ],
       "wheelchair_boarding": 1,
       "routes": [
         {
-          "route_id": "septa-bus:40",
+          "route_id": "septa-bus:43",
           "direction_id": 0,
           "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "50th-Parkside"
-        }
-      ]
-    },
-    "septa-bus:21726": {
-      "stop_id": "21726",
-      "stop_name": "Parkside Av & 49th St - FS",
-      "coordinates": [
-        -75.216637,
-        39.978892
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "2nd-Lombard"
+          "headsign": "Richmond-Cumberland"
         },
         {
           "route_id": "septa-bus:64",
@@ -250,7 +92,8 @@
           "direction": "Eastbound",
           "headsign": "Columbus Blvd Pier 70"
         }
-      ]
+      ],
+      "walk_minutes": 9
     },
     "septa-bus:30771": {
       "stop_id": "30771",
@@ -285,196 +128,8 @@
           "direction": "Southbound",
           "headsign": "50th-Parkside"
         }
-      ]
-    },
-    "septa-bus:22210": {
-      "stop_id": "22210",
-      "stop_name": "Parkside Av & 49th St",
-      "coordinates": [
-        -75.216589,
-        39.97899
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        },
-        {
-          "route_id": "septa-bus:64",
-          "direction_id": 0,
-          "direction": "Westbound",
-          "headsign": "50th-Parkside"
-        }
-      ]
-    },
-    "septa-bus:21753": {
-      "stop_id": "21753",
-      "stop_name": "Parkside Av & 50th St",
-      "coordinates": [
-        -75.219292,
-        39.979995
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:21754": {
-      "stop_id": "21754",
-      "stop_name": "Parkside Av & 51st St",
-      "coordinates": [
-        -75.221392,
-        39.980775
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21760": {
-      "stop_id": "21760",
-      "stop_name": "54th St & Oxford St",
-      "coordinates": [
-        -75.229967,
-        39.981467
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "54th-City"
-        }
-      ]
-    },
-    "septa-bus:21761": {
-      "stop_id": "21761",
-      "stop_name": "54th St & Columbia Av",
-      "coordinates": [
-        -75.230602,
-        39.982414
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "54th-City"
-        }
-      ]
-    },
-    "septa-bus:21762": {
-      "stop_id": "21762",
-      "stop_name": "54th St & Montgomery Av",
-      "coordinates": [
-        -75.231165,
-        39.984003
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        },
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "54th-City"
-        }
-      ]
-    },
-    "septa-bus:22294": {
-      "stop_id": "22294",
-      "stop_name": "Wynnefield Av & Parkside Av",
-      "coordinates": [
-        -75.220585,
-        39.990323
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:40",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Conshohocken-Monument"
-        }
-      ]
-    },
-    "septa-bus:30766": {
-      "stop_id": "30766",
-      "stop_name": "50th St & Jefferson St - MBNS",
-      "coordinates": [
-        -75.220787,
-        39.977659
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:43",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Richmond-Cumberland"
-        },
-        {
-          "route_id": "septa-bus:64",
-          "direction_id": 1,
-          "direction": "Eastbound",
-          "headsign": "Columbus Blvd Pier 70"
-        }
-      ]
-    },
-    "septa-bus:766": {
-      "stop_id": "766",
-      "stop_name": "49th St & Parkside Av Loop",
-      "coordinates": [
-        -75.216873,
-        39.978875
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:43",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "Richmond-Cumberland"
-        }
-      ]
+      "walk_minutes": 9
     },
     "septa-bus:31336": {
       "stop_id": "31336",
@@ -491,7 +146,8 @@
           "direction": "Westbound",
           "headsign": "50th-Parkside"
         }
-      ]
+      ],
+      "walk_minutes": 9
     },
     "septa-bus:22319": {
       "stop_id": "22319",
@@ -508,41 +164,8 @@
           "direction": "Eastbound",
           "headsign": "5th-Market"
         }
-      ]
-    },
-    "septa-bus:22320": {
-      "stop_id": "22320",
-      "stop_name": "Belmont Av & Lansdowne Dr",
-      "coordinates": [
-        -75.214772,
-        39.982174
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "5th-Market"
-        }
-      ]
-    },
-    "septa-bus:21570": {
-      "stop_id": "21570",
-      "stop_name": "Belmont Av & Lansdowne Dr - FS",
-      "coordinates": [
-        -75.214572,
-        39.982048
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:38",
-          "direction_id": 1,
-          "direction": "Westbound",
-          "headsign": "Wissahickon Transit Center"
-        }
-      ]
+      "walk_minutes": 9
     },
     "septa-bus:21571": {
       "stop_id": "21571",
@@ -559,194 +182,8 @@
           "direction": "Westbound",
           "headsign": "Wissahickon Transit Center"
         }
-      ]
-    },
-    "septa-bus:22218": {
-      "stop_id": "22218",
-      "stop_name": "Jefferson St & 52nd St",
-      "coordinates": [
-        -75.225507,
-        39.979443
       ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21692": {
-      "stop_id": "21692",
-      "stop_name": "52nd St & Lancaster Av - FS",
-      "coordinates": [
-        -75.22692,
-        39.977017
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:31039": {
-      "stop_id": "31039",
-      "stop_name": "Parkwest Town Center",
-      "coordinates": [
-        -75.222733,
-        39.978715
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:30844": {
-      "stop_id": "30844",
-      "stop_name": "50th St & Parkside Av",
-      "coordinates": [
-        -75.219328,
-        39.979825
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21757": {
-      "stop_id": "21757",
-      "stop_name": "52nd St & Columbia Av",
-      "coordinates": [
-        -75.224748,
-        39.980566
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:31270": {
-      "stop_id": "31270",
-      "stop_name": "52nd St & Jefferson St",
-      "coordinates": [
-        -75.225341,
-        39.979594
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 0,
-          "direction": "Southbound",
-          "headsign": "49th-Woodland"
-        }
-      ]
-    },
-    "septa-bus:21752": {
-      "stop_id": "21752",
-      "stop_name": "52nd St & Lancaster Av - FS",
-      "coordinates": [
-        -75.226422,
-        39.977632
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "54th-City"
-        }
-      ]
-    },
-    "septa-bus:21758": {
-      "stop_id": "21758",
-      "stop_name": "Jefferson St & 52nd St - FS",
-      "coordinates": [
-        -75.225554,
-        39.979577
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "54th-City"
-        }
-      ]
-    },
-    "septa-bus:21759": {
-      "stop_id": "21759",
-      "stop_name": "Jefferson St & Lindenwood St",
-      "coordinates": [
-        -75.227041,
-        39.980123
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "54th-City"
-        }
-      ]
-    },
-    "septa-bus:22290": {
-      "stop_id": "22290",
-      "stop_name": "Jefferson St & 53rd St",
-      "coordinates": [
-        -75.227997,
-        39.980455
-      ],
-      "wheelchair_boarding": 1,
-      "routes": [
-        {
-          "route_id": "septa-bus:52",
-          "direction_id": 1,
-          "direction": "Northbound",
-          "headsign": "54th-City"
-        }
-      ]
-    },
-    "septa-trolley:20624": {
-      "stop_id": "20624",
-      "stop_name": "Lansdowne Av & Lancaster Av",
-      "coordinates": [
-        -75.227451,
-        39.977295
-      ],
-      "wheelchair_boarding": 2,
-      "routes": [
-        {
-          "route_id": "septa-trolley:T1",
-          "direction_id": 0,
-          "direction": "Eastbound",
-          "headsign": "13th St"
-        }
-      ]
+      "walk_minutes": 9
     },
     "septa-trolley:20625": {
       "stop_id": "20625",
@@ -763,7 +200,8 @@
           "direction": "Eastbound",
           "headsign": "13th St"
         }
-      ]
+      ],
+      "walk_minutes": 10
     },
     "septa-trolley:20681": {
       "stop_id": "20681",
@@ -780,7 +218,8 @@
           "direction": "Westbound",
           "headsign": "63rd-Malvern"
         }
-      ]
+      ],
+      "walk_minutes": 10
     },
     "septa-regional-rail:90003": {
       "stop_id": "90003",
@@ -797,7 +236,26 @@
           "direction": "Inbound",
           "headsign": "Suburban Station"
         }
-      ]
+      ],
+      "walk_minutes": 10
+    },
+    "indego:bcycle_indego_3450": {
+      "stop_id": "bcycle_indego_3450",
+      "stop_name": "53rd & Morse",
+      "coordinates": [
+        -75.2287,
+        39.98525
+      ],
+      "wheelchair_boarding": 0,
+      "routes": [
+        {
+          "route_id": "indego:indego",
+          "direction_id": null,
+          "direction": null,
+          "headsign": null
+        }
+      ],
+      "walk_minutes": 7
     }
   },
   "routes": {
@@ -1215,6 +673,134 @@
         "septa-bus:21768"
       ]
     },
+    "septa-bus:43": {
+      "route_id": "43",
+      "namespace": "septa-bus",
+      "mode": "Bus",
+      "route_short_name": "43",
+      "route_long_name": "Richmond-Cumberland to 50th-Parksde",
+      "route_type": 3,
+      "route_color": "#FFFFFF",
+      "route_text_color": "#000000",
+      "polyline": "cf_sF~ibjMWMUHe@jBp@\\nDjBP@JIlD}MyFyCk@UoBgA_CqAnAyEd@cBbAsDRs@l@{Bn@Kv@MlAQ\\Ed@O^Gl@ILEv@OzBa@jASZGh@KZG`AQl@KdAQd@Ih@Kf@G|@KXCnAOd@Gp@Ip@IjBSdBQd@GhAKp@IxASj@G\\o@DIf@}@HO~@cBr@qArAmCdAsBN]j@aAt@qAt@wAd@{@b@}@p@kAb@w@@Cb@w@JSn@mAf@}@Xi@v@_BVg@`@w@t@uAVg@d@}@b@w@p@qAjAmCp@_BLYXq@\\w@MaAGeA_@wGQeDa@cHa@}Ga@eH_@yGMiCA[MyBUiEI{AGaBA[I}AIuAAQEy@C_@SiBKs@Kc@Oo@Mi@IYI_@Ka@GYI]WaAOs@Ga@Ko@E]Ei@Cc@A[?i@@g@H[J_@L_@L]Pc@BITk@\\{@b@mAf@kAj@iAVyAXeARw@PcABm@Ao@Ce@IYKQQQu@a@qAq@g@WMKMSIQIWI]Gg@AYHWB[Dq@JyADo@Ds@JgBB_@F{@@UJ_BN}BJyAF}@JgBXiELqBToDNeCVuDPeCJgBHmANgCJeBHyA@ILqBVeEF}@B[BUDWJ]Rs@FWF]D_@@IBUDw@Dk@@O@MHyAZ{EDm@Ds@Bu@@]B}@BcA?QBwABuBB{A?IBcB?Q@w@@iA@w@@a@@i@@e@Bk@Bu@?K?M?IBc@?O@m@@m@@c@F_D@s@B}ADyCB}@DqBBo@Be@Bk@@QBg@B_@J_BB_@FkAD}@Du@D{@Bk@Bc@Be@HqAB_@L{BFeBH_BHyAHcBJiB@[Ba@HqABo@Dq@Ec@LcCFyAFiADg@BUFk@Fi@DYDWw@S_@KaAUe@KEAa@KWG[Ee@BkA[QGICq@Uy@Yc@YWS[Y{@eAMMa@e@}@gA{AiBa@e@[a@c@q@W]Q_@Qc@Mc@i@cBMa@Me@WeAW_AQg@m@mBa@mA@YEs@Ic@Om@s@_CK[GUcBl@EWAGAIAGCKCIGMo@_AW_@sB}CYc@iAaBMSMUGKEIEKEKGQMa@K_@Ka@K]K]IUGOKUEIc@y@_@s@MWIQGMGMCGEKGQCICKCMCMEUIk@WHKBgBo@eAk@{BuAi@]aAk@o@_@OEOAOAm@?eA@mA?QCUG]QcBgBMCO?Qa@Yk@KSMYO[Se@IKG_@GYGSIUIQp@i@JIr@m@|@w@PMt@m@f@c@PQp@q@Xp@",
+      "stop_ids": [
+        "septa-bus:21225",
+        "septa-bus:22002",
+        "septa-bus:30771",
+        "septa-bus:22103",
+        "septa-bus:30766",
+        "septa-bus:30767",
+        "septa-bus:766",
+        "septa-bus:22003",
+        "septa-bus:30845",
+        "septa-bus:678",
+        "septa-bus:30846",
+        "septa-bus:22005",
+        "septa-bus:22006",
+        "septa-bus:22007",
+        "septa-bus:20632",
+        "septa-bus:20633",
+        "septa-bus:20634",
+        "septa-bus:20635",
+        "septa-bus:22008",
+        "septa-bus:22009",
+        "septa-bus:22010",
+        "septa-bus:30849",
+        "septa-bus:30850",
+        "septa-bus:22011",
+        "septa-bus:679",
+        "septa-bus:22012",
+        "septa-bus:22013",
+        "septa-bus:22014",
+        "septa-bus:22015",
+        "septa-bus:680",
+        "septa-bus:22016",
+        "septa-bus:22017",
+        "septa-bus:22019",
+        "septa-bus:22018",
+        "septa-bus:22020",
+        "septa-bus:22021",
+        "septa-bus:22022",
+        "septa-bus:681",
+        "septa-bus:22023",
+        "septa-bus:22024",
+        "septa-bus:18437",
+        "septa-bus:31688",
+        "septa-bus:18438",
+        "septa-bus:18439",
+        "septa-bus:22025",
+        "septa-bus:22026",
+        "septa-bus:22027",
+        "septa-bus:22028",
+        "septa-bus:22029",
+        "septa-bus:32375",
+        "septa-bus:22030",
+        "septa-bus:31687",
+        "septa-bus:30602",
+        "septa-bus:24072",
+        "septa-bus:25918",
+        "septa-bus:30851",
+        "septa-bus:684",
+        "septa-bus:686",
+        "septa-bus:22033",
+        "septa-bus:22034",
+        "septa-bus:25793",
+        "septa-bus:30603",
+        "septa-bus:31753",
+        "septa-bus:25794",
+        "septa-bus:687",
+        "septa-bus:22035",
+        "septa-bus:25795",
+        "septa-bus:22036",
+        "septa-bus:22037",
+        "septa-bus:22038",
+        "septa-bus:22039",
+        "septa-bus:22040",
+        "septa-bus:22041",
+        "septa-bus:22042",
+        "septa-bus:22043",
+        "septa-bus:22044",
+        "septa-bus:22045",
+        "septa-bus:22046",
+        "septa-bus:689",
+        "septa-bus:22048",
+        "septa-bus:22049",
+        "septa-bus:20412",
+        "septa-bus:22051",
+        "septa-bus:22052",
+        "septa-bus:22053",
+        "septa-bus:22054",
+        "septa-bus:690",
+        "septa-bus:22055",
+        "septa-bus:20440",
+        "septa-bus:21545",
+        "septa-bus:22076",
+        "septa-bus:691",
+        "septa-bus:22079",
+        "septa-bus:22088",
+        "septa-bus:22089",
+        "septa-bus:22090",
+        "septa-bus:22091",
+        "septa-bus:22093",
+        "septa-bus:22095",
+        "septa-bus:20670",
+        "septa-bus:20671",
+        "septa-bus:20672",
+        "septa-bus:20673",
+        "septa-bus:20674",
+        "septa-bus:22098",
+        "septa-bus:22099",
+        "septa-bus:25914",
+        "septa-bus:692",
+        "septa-bus:22100",
+        "septa-bus:22102",
+        "septa-bus:31336",
+        "septa-bus:30770",
+        "septa-bus:1133",
+        "septa-bus:31463",
+        "septa-bus:31458"
+      ]
+    },
     "septa-bus:64": {
       "route_id": "64",
       "namespace": "septa-bus",
@@ -1385,134 +971,6 @@
         "septa-bus:30882",
         "septa-bus:24736",
         "septa-bus:24050"
-      ]
-    },
-    "septa-bus:43": {
-      "route_id": "43",
-      "namespace": "septa-bus",
-      "mode": "Bus",
-      "route_short_name": "43",
-      "route_long_name": "Richmond-Cumberland to 50th-Parksde",
-      "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
-      "polyline": "cf_sF~ibjMWMUHe@jBp@\\nDjBP@JIlD}MyFyCk@UoBgA_CqAnAyEd@cBbAsDRs@l@{Bn@Kv@MlAQ\\Ed@O^Gl@ILEv@OzBa@jASZGh@KZG`AQl@KdAQd@Ih@Kf@G|@KXCnAOd@Gp@Ip@IjBSdBQd@GhAKp@IxASj@G\\o@DIf@}@HO~@cBr@qArAmCdAsBN]j@aAt@qAt@wAd@{@b@}@p@kAb@w@@Cb@w@JSn@mAf@}@Xi@v@_BVg@`@w@t@uAVg@d@}@b@w@p@qAjAmCp@_BLYXq@\\w@MaAGeA_@wGQeDa@cHa@}Ga@eH_@yGMiCA[MyBUiEI{AGaBA[I}AIuAAQEy@C_@SiBKs@Kc@Oo@Mi@IYI_@Ka@GYI]WaAOs@Ga@Ko@E]Ei@Cc@A[?i@@g@H[J_@L_@L]Pc@BITk@\\{@b@mAf@kAj@iAVyAXeARw@PcABm@Ao@Ce@IYKQQQu@a@qAq@g@WMKMSIQIWI]Gg@AYHWB[Dq@JyADo@Ds@JgBB_@F{@@UJ_BN}BJyAF}@JgBXiELqBToDNeCVuDPeCJgBHmANgCJeBHyA@ILqBVeEF}@B[BUDWJ]Rs@FWF]D_@@IBUDw@Dk@@O@MHyAZ{EDm@Ds@Bu@@]B}@BcA?QBwABuBB{A?IBcB?Q@w@@iA@w@@a@@i@@e@Bk@Bu@?K?M?IBc@?O@m@@m@@c@F_D@s@B}ADyCB}@DqBBo@Be@Bk@@QBg@B_@J_BB_@FkAD}@Du@D{@Bk@Bc@Be@HqAB_@L{BFeBH_BHyAHcBJiB@[Ba@HqABo@Dq@Ec@LcCFyAFiADg@BUFk@Fi@DYDWw@S_@KaAUe@KEAa@KWG[Ee@BkA[QGICq@Uy@Yc@YWS[Y{@eAMMa@e@}@gA{AiBa@e@[a@c@q@W]Q_@Qc@Mc@i@cBMa@Me@WeAW_AQg@m@mBa@mA@YEs@Ic@Om@s@_CK[GUcBl@EWAGAIAGCKCIGMo@_AW_@sB}CYc@iAaBMSMUGKEIEKEKGQMa@K_@Ka@K]K]IUGOKUEIc@y@_@s@MWIQGMGMCGEKGQCICKCMCMEUIk@WHKBgBo@eAk@{BuAi@]aAk@o@_@OEOAOAm@?eA@mA?QCUG]QcBgBMCO?Qa@Yk@KSMYO[Se@IKG_@GYGSIUIQp@i@JIr@m@|@w@PMt@m@f@c@PQp@q@Xp@",
-      "stop_ids": [
-        "septa-bus:21225",
-        "septa-bus:22002",
-        "septa-bus:30771",
-        "septa-bus:22103",
-        "septa-bus:30766",
-        "septa-bus:30767",
-        "septa-bus:766",
-        "septa-bus:22003",
-        "septa-bus:30845",
-        "septa-bus:678",
-        "septa-bus:30846",
-        "septa-bus:22005",
-        "septa-bus:22006",
-        "septa-bus:22007",
-        "septa-bus:20632",
-        "septa-bus:20633",
-        "septa-bus:20634",
-        "septa-bus:20635",
-        "septa-bus:22008",
-        "septa-bus:22009",
-        "septa-bus:22010",
-        "septa-bus:30849",
-        "septa-bus:30850",
-        "septa-bus:22011",
-        "septa-bus:679",
-        "septa-bus:22012",
-        "septa-bus:22013",
-        "septa-bus:22014",
-        "septa-bus:22015",
-        "septa-bus:680",
-        "septa-bus:22016",
-        "septa-bus:22017",
-        "septa-bus:22019",
-        "septa-bus:22018",
-        "septa-bus:22020",
-        "septa-bus:22021",
-        "septa-bus:22022",
-        "septa-bus:681",
-        "septa-bus:22023",
-        "septa-bus:22024",
-        "septa-bus:18437",
-        "septa-bus:31688",
-        "septa-bus:18438",
-        "septa-bus:18439",
-        "septa-bus:22025",
-        "septa-bus:22026",
-        "septa-bus:22027",
-        "septa-bus:22028",
-        "septa-bus:22029",
-        "septa-bus:32375",
-        "septa-bus:22030",
-        "septa-bus:31687",
-        "septa-bus:30602",
-        "septa-bus:24072",
-        "septa-bus:25918",
-        "septa-bus:30851",
-        "septa-bus:684",
-        "septa-bus:686",
-        "septa-bus:22033",
-        "septa-bus:22034",
-        "septa-bus:25793",
-        "septa-bus:30603",
-        "septa-bus:31753",
-        "septa-bus:25794",
-        "septa-bus:687",
-        "septa-bus:22035",
-        "septa-bus:25795",
-        "septa-bus:22036",
-        "septa-bus:22037",
-        "septa-bus:22038",
-        "septa-bus:22039",
-        "septa-bus:22040",
-        "septa-bus:22041",
-        "septa-bus:22042",
-        "septa-bus:22043",
-        "septa-bus:22044",
-        "septa-bus:22045",
-        "septa-bus:22046",
-        "septa-bus:689",
-        "septa-bus:22048",
-        "septa-bus:22049",
-        "septa-bus:20412",
-        "septa-bus:22051",
-        "septa-bus:22052",
-        "septa-bus:22053",
-        "septa-bus:22054",
-        "septa-bus:690",
-        "septa-bus:22055",
-        "septa-bus:20440",
-        "septa-bus:21545",
-        "septa-bus:22076",
-        "septa-bus:691",
-        "septa-bus:22079",
-        "septa-bus:22088",
-        "septa-bus:22089",
-        "septa-bus:22090",
-        "septa-bus:22091",
-        "septa-bus:22093",
-        "septa-bus:22095",
-        "septa-bus:20670",
-        "septa-bus:20671",
-        "septa-bus:20672",
-        "septa-bus:20673",
-        "septa-bus:20674",
-        "septa-bus:22098",
-        "septa-bus:22099",
-        "septa-bus:25914",
-        "septa-bus:692",
-        "septa-bus:22100",
-        "septa-bus:22102",
-        "septa-bus:31336",
-        "septa-bus:30770",
-        "septa-bus:1133",
-        "septa-bus:31463",
-        "septa-bus:31458"
       ]
     },
     "septa-bus:38": {
@@ -1778,25 +1236,328 @@
         "septa-regional-rail:90004",
         "septa-regional-rail:90005"
       ]
-    }
-  },
-  "docks": {
-    "indego:bcycle_indego_3117": {
-      "station_id": "bcycle_indego_3117",
-      "name": "ParkWest Town Center",
-      "address": "1575 N 52nd St.",
-      "coordinates": [
-        -75.22399,
-        39.97841
-      ]
     },
-    "indego:bcycle_indego_3450": {
-      "station_id": "bcycle_indego_3450",
-      "name": "53rd & Morse",
-      "address": "5300 Morse St",
-      "coordinates": [
-        -75.2287,
-        39.98525
+    "indego:indego": {
+      "route_id": "indego",
+      "namespace": "indego",
+      "mode": "Bike",
+      "route_short_name": "Indego",
+      "route_long_name": "Indego Bike Share",
+      "route_type": null,
+      "route_color": "3980C4",
+      "route_text_color": "FFFFFF",
+      "polyline": "",
+      "stop_ids": [
+        "indego:bcycle_indego_3004",
+        "indego:bcycle_indego_3005",
+        "indego:bcycle_indego_3006",
+        "indego:bcycle_indego_3007",
+        "indego:bcycle_indego_3008",
+        "indego:bcycle_indego_3009",
+        "indego:bcycle_indego_3010",
+        "indego:bcycle_indego_3012",
+        "indego:bcycle_indego_3014",
+        "indego:bcycle_indego_3015",
+        "indego:bcycle_indego_3016",
+        "indego:bcycle_indego_3017",
+        "indego:bcycle_indego_3018",
+        "indego:bcycle_indego_3019",
+        "indego:bcycle_indego_3020",
+        "indego:bcycle_indego_3021",
+        "indego:bcycle_indego_3022",
+        "indego:bcycle_indego_3024",
+        "indego:bcycle_indego_3025",
+        "indego:bcycle_indego_3026",
+        "indego:bcycle_indego_3028",
+        "indego:bcycle_indego_3029",
+        "indego:bcycle_indego_3031",
+        "indego:bcycle_indego_3032",
+        "indego:bcycle_indego_3033",
+        "indego:bcycle_indego_3034",
+        "indego:bcycle_indego_3035",
+        "indego:bcycle_indego_3037",
+        "indego:bcycle_indego_3038",
+        "indego:bcycle_indego_3039",
+        "indego:bcycle_indego_3040",
+        "indego:bcycle_indego_3041",
+        "indego:bcycle_indego_3047",
+        "indego:bcycle_indego_3049",
+        "indego:bcycle_indego_3051",
+        "indego:bcycle_indego_3052",
+        "indego:bcycle_indego_3053",
+        "indego:bcycle_indego_3054",
+        "indego:bcycle_indego_3055",
+        "indego:bcycle_indego_3056",
+        "indego:bcycle_indego_3057",
+        "indego:bcycle_indego_3059",
+        "indego:bcycle_indego_3060",
+        "indego:bcycle_indego_3063",
+        "indego:bcycle_indego_3064",
+        "indego:bcycle_indego_3065",
+        "indego:bcycle_indego_3066",
+        "indego:bcycle_indego_3067",
+        "indego:bcycle_indego_3068",
+        "indego:bcycle_indego_3069",
+        "indego:bcycle_indego_3072",
+        "indego:bcycle_indego_3073",
+        "indego:bcycle_indego_3074",
+        "indego:bcycle_indego_3075",
+        "indego:bcycle_indego_3077",
+        "indego:bcycle_indego_3078",
+        "indego:bcycle_indego_3086",
+        "indego:bcycle_indego_3088",
+        "indego:bcycle_indego_3093",
+        "indego:bcycle_indego_3096",
+        "indego:bcycle_indego_3097",
+        "indego:bcycle_indego_3098",
+        "indego:bcycle_indego_3099",
+        "indego:bcycle_indego_3100",
+        "indego:bcycle_indego_3101",
+        "indego:bcycle_indego_3102",
+        "indego:bcycle_indego_3104",
+        "indego:bcycle_indego_3106",
+        "indego:bcycle_indego_3107",
+        "indego:bcycle_indego_3110",
+        "indego:bcycle_indego_3111",
+        "indego:bcycle_indego_3112",
+        "indego:bcycle_indego_3113",
+        "indego:bcycle_indego_3114",
+        "indego:bcycle_indego_3115",
+        "indego:bcycle_indego_3116",
+        "indego:bcycle_indego_3117",
+        "indego:bcycle_indego_3118",
+        "indego:bcycle_indego_3119",
+        "indego:bcycle_indego_3120",
+        "indego:bcycle_indego_3123",
+        "indego:bcycle_indego_3124",
+        "indego:bcycle_indego_3125",
+        "indego:bcycle_indego_3150",
+        "indego:bcycle_indego_3152",
+        "indego:bcycle_indego_3154",
+        "indego:bcycle_indego_3155",
+        "indego:bcycle_indego_3156",
+        "indego:bcycle_indego_3157",
+        "indego:bcycle_indego_3158",
+        "indego:bcycle_indego_3159",
+        "indego:bcycle_indego_3160",
+        "indego:bcycle_indego_3161",
+        "indego:bcycle_indego_3162",
+        "indego:bcycle_indego_3163",
+        "indego:bcycle_indego_3164",
+        "indego:bcycle_indego_3165",
+        "indego:bcycle_indego_3166",
+        "indego:bcycle_indego_3169",
+        "indego:bcycle_indego_3181",
+        "indego:bcycle_indego_3182",
+        "indego:bcycle_indego_3183",
+        "indego:bcycle_indego_3184",
+        "indego:bcycle_indego_3185",
+        "indego:bcycle_indego_3187",
+        "indego:bcycle_indego_3188",
+        "indego:bcycle_indego_3196",
+        "indego:bcycle_indego_3197",
+        "indego:bcycle_indego_3200",
+        "indego:bcycle_indego_3201",
+        "indego:bcycle_indego_3203",
+        "indego:bcycle_indego_3204",
+        "indego:bcycle_indego_3205",
+        "indego:bcycle_indego_3207",
+        "indego:bcycle_indego_3208",
+        "indego:bcycle_indego_3209",
+        "indego:bcycle_indego_3210",
+        "indego:bcycle_indego_3211",
+        "indego:bcycle_indego_3212",
+        "indego:bcycle_indego_3213",
+        "indego:bcycle_indego_3226",
+        "indego:bcycle_indego_3235",
+        "indego:bcycle_indego_3236",
+        "indego:bcycle_indego_3237",
+        "indego:bcycle_indego_3238",
+        "indego:bcycle_indego_3240",
+        "indego:bcycle_indego_3241",
+        "indego:bcycle_indego_3243",
+        "indego:bcycle_indego_3245",
+        "indego:bcycle_indego_3246",
+        "indego:bcycle_indego_3247",
+        "indego:bcycle_indego_3248",
+        "indego:bcycle_indego_3249",
+        "indego:bcycle_indego_3250",
+        "indego:bcycle_indego_3251",
+        "indego:bcycle_indego_3252",
+        "indego:bcycle_indego_3253",
+        "indego:bcycle_indego_3254",
+        "indego:bcycle_indego_3255",
+        "indego:bcycle_indego_3256",
+        "indego:bcycle_indego_3258",
+        "indego:bcycle_indego_3259",
+        "indego:bcycle_indego_3261",
+        "indego:bcycle_indego_3263",
+        "indego:bcycle_indego_3264",
+        "indego:bcycle_indego_3265",
+        "indego:bcycle_indego_3266",
+        "indego:bcycle_indego_3267",
+        "indego:bcycle_indego_3268",
+        "indego:bcycle_indego_3271",
+        "indego:bcycle_indego_3272",
+        "indego:bcycle_indego_3275",
+        "indego:bcycle_indego_3276",
+        "indego:bcycle_indego_3277",
+        "indego:bcycle_indego_3278",
+        "indego:bcycle_indego_3279",
+        "indego:bcycle_indego_3280",
+        "indego:bcycle_indego_3281",
+        "indego:bcycle_indego_3282",
+        "indego:bcycle_indego_3284",
+        "indego:bcycle_indego_3285",
+        "indego:bcycle_indego_3286",
+        "indego:bcycle_indego_3287",
+        "indego:bcycle_indego_3291",
+        "indego:bcycle_indego_3292",
+        "indego:bcycle_indego_3294",
+        "indego:bcycle_indego_3295",
+        "indego:bcycle_indego_3296",
+        "indego:bcycle_indego_3297",
+        "indego:bcycle_indego_3298",
+        "indego:bcycle_indego_3299",
+        "indego:bcycle_indego_3300",
+        "indego:bcycle_indego_3301",
+        "indego:bcycle_indego_3303",
+        "indego:bcycle_indego_3304",
+        "indego:bcycle_indego_3305",
+        "indego:bcycle_indego_3306",
+        "indego:bcycle_indego_3307",
+        "indego:bcycle_indego_3310",
+        "indego:bcycle_indego_3313",
+        "indego:bcycle_indego_3314",
+        "indego:bcycle_indego_3315",
+        "indego:bcycle_indego_3316",
+        "indego:bcycle_indego_3318",
+        "indego:bcycle_indego_3319",
+        "indego:bcycle_indego_3320",
+        "indego:bcycle_indego_3321",
+        "indego:bcycle_indego_3322",
+        "indego:bcycle_indego_3323",
+        "indego:bcycle_indego_3324",
+        "indego:bcycle_indego_3325",
+        "indego:bcycle_indego_3326",
+        "indego:bcycle_indego_3327",
+        "indego:bcycle_indego_3328",
+        "indego:bcycle_indego_3329",
+        "indego:bcycle_indego_3331",
+        "indego:bcycle_indego_3332",
+        "indego:bcycle_indego_3333",
+        "indego:bcycle_indego_3334",
+        "indego:bcycle_indego_3335",
+        "indego:bcycle_indego_3336",
+        "indego:bcycle_indego_3337",
+        "indego:bcycle_indego_3338",
+        "indego:bcycle_indego_3340",
+        "indego:bcycle_indego_3341",
+        "indego:bcycle_indego_3342",
+        "indego:bcycle_indego_3344",
+        "indego:bcycle_indego_3345",
+        "indego:bcycle_indego_3346",
+        "indego:bcycle_indego_3349",
+        "indego:bcycle_indego_3350",
+        "indego:bcycle_indego_3351",
+        "indego:bcycle_indego_3352",
+        "indego:bcycle_indego_3353",
+        "indego:bcycle_indego_3354",
+        "indego:bcycle_indego_3356",
+        "indego:bcycle_indego_3357",
+        "indego:bcycle_indego_3359",
+        "indego:bcycle_indego_3360",
+        "indego:bcycle_indego_3361",
+        "indego:bcycle_indego_3362",
+        "indego:bcycle_indego_3363",
+        "indego:bcycle_indego_3365",
+        "indego:bcycle_indego_3368",
+        "indego:bcycle_indego_3369",
+        "indego:bcycle_indego_3370",
+        "indego:bcycle_indego_3371",
+        "indego:bcycle_indego_3372",
+        "indego:bcycle_indego_3373",
+        "indego:bcycle_indego_3374",
+        "indego:bcycle_indego_3375",
+        "indego:bcycle_indego_3376",
+        "indego:bcycle_indego_3378",
+        "indego:bcycle_indego_3381",
+        "indego:bcycle_indego_3382",
+        "indego:bcycle_indego_3383",
+        "indego:bcycle_indego_3385",
+        "indego:bcycle_indego_3387",
+        "indego:bcycle_indego_3388",
+        "indego:bcycle_indego_3389",
+        "indego:bcycle_indego_3390",
+        "indego:bcycle_indego_3391",
+        "indego:bcycle_indego_3392",
+        "indego:bcycle_indego_3393",
+        "indego:bcycle_indego_3394",
+        "indego:bcycle_indego_3395",
+        "indego:bcycle_indego_3396",
+        "indego:bcycle_indego_3397",
+        "indego:bcycle_indego_3398",
+        "indego:bcycle_indego_3399",
+        "indego:bcycle_indego_3400",
+        "indego:bcycle_indego_3403",
+        "indego:bcycle_indego_3404",
+        "indego:bcycle_indego_3405",
+        "indego:bcycle_indego_3407",
+        "indego:bcycle_indego_3408",
+        "indego:bcycle_indego_3409",
+        "indego:bcycle_indego_3410",
+        "indego:bcycle_indego_3411",
+        "indego:bcycle_indego_3412",
+        "indego:bcycle_indego_3413",
+        "indego:bcycle_indego_3414",
+        "indego:bcycle_indego_3417",
+        "indego:bcycle_indego_3418",
+        "indego:bcycle_indego_3421",
+        "indego:bcycle_indego_3422",
+        "indego:bcycle_indego_3423",
+        "indego:bcycle_indego_3425",
+        "indego:bcycle_indego_3426",
+        "indego:bcycle_indego_3427",
+        "indego:bcycle_indego_3428",
+        "indego:bcycle_indego_3430",
+        "indego:bcycle_indego_3431",
+        "indego:bcycle_indego_3432",
+        "indego:bcycle_indego_3434",
+        "indego:bcycle_indego_3435",
+        "indego:bcycle_indego_3436",
+        "indego:bcycle_indego_3437",
+        "indego:bcycle_indego_3438",
+        "indego:bcycle_indego_3439",
+        "indego:bcycle_indego_3440",
+        "indego:bcycle_indego_3441",
+        "indego:bcycle_indego_3442",
+        "indego:bcycle_indego_3443",
+        "indego:bcycle_indego_3444",
+        "indego:bcycle_indego_3445",
+        "indego:bcycle_indego_3446",
+        "indego:bcycle_indego_3447",
+        "indego:bcycle_indego_3448",
+        "indego:bcycle_indego_3449",
+        "indego:bcycle_indego_3450",
+        "indego:bcycle_indego_3451",
+        "indego:bcycle_indego_3452",
+        "indego:bcycle_indego_3453",
+        "indego:bcycle_indego_3454",
+        "indego:bcycle_indego_3455",
+        "indego:bcycle_indego_3459",
+        "indego:bcycle_indego_3460",
+        "indego:bcycle_indego_3461",
+        "indego:bcycle_indego_3462",
+        "indego:bcycle_indego_3463",
+        "indego:bcycle_indego_3464",
+        "indego:bcycle_indego_3465",
+        "indego:bcycle_indego_3468",
+        "indego:bcycle_indego_3469",
+        "indego:bcycle_indego_3470",
+        "indego:bcycle_indego_3472",
+        "indego:bcycle_indego_3473",
+        "indego:bcycle_indego_3475",
+        "indego:bcycle_indego_3476"
       ]
     }
   }

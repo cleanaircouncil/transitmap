@@ -45,6 +45,17 @@ const { route = {} } = Astro.props;
       margin: 2px;
     }
 
+    &[data-mode="Bike"] {
+      border-radius: 50%;
+      background: #3980C4;
+      color: var(--color-white);
+
+      .transit-chip__text {
+        display: none;
+      }
+    }
+
+
     &[data-mode="Bus"] {
       border-radius: 50%;
       background: var(--color-black);

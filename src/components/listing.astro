@@ -26,7 +26,7 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     </div>
 
     <div class="listing__transit stack">
-      <a href={ listing.link } target="_blank" "listing-btn">Learn More&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+      <a href={ listing.link } target="_blank" class="listing-btn">Learn More&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
 
       <a href={`http://maps.apple.com/?q=${venue?.address}`} target="directions" class="listing-btn listing-btn--go">GO CAR-FREE&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
       <TransitSelector routes={ routes } />

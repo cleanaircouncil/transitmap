@@ -168,7 +168,7 @@
       "namespace": "septa-bus",
       "agency": "SEPTA",
       "mode": "Bus",
-      "route_short_name": "MANNLP",
+      "route_short_name": "Mann Loop",
       "route_long_name": "Mann Loop",
       "route_type": 3,
       "route_color": "#FFFFFF",

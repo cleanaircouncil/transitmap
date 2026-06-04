@@ -316,6 +316,24 @@
         }
       ],
       "walk_minutes": 6
+    },
+    "phlash:18": {
+      "stop_id": "18",
+      "stop_name": "Penn's Landing & Independence Seaport Musuem",
+      "coordinates": [
+        -75.14394,
+        39.949858
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "phlash:PHLASH",
+          "direction_id": 0,
+          "direction": "",
+          "headsign": "Downtown"
+        }
+      ],
+      "walk_minutes": 6
     }
   },
   "routes": {
@@ -1464,8 +1482,8 @@
       "route_short_name": "Indego",
       "route_long_name": "Indego Bike Share",
       "route_type": null,
-      "route_color": "3980C4",
-      "route_text_color": "FFFFFF",
+      "route_color": "#3980C4",
+      "route_text_color": "#FFFFFF",
       "polyline": "",
       "stop_ids": [
         "indego:bcycle_indego_3004",
@@ -1778,6 +1796,39 @@
         "indego:bcycle_indego_3473",
         "indego:bcycle_indego_3475",
         "indego:bcycle_indego_3476"
+      ]
+    },
+    "phlash:PHLASH": {
+      "route_id": "PHLASH",
+      "namespace": "phlash",
+      "agency": "Philly Phlash",
+      "mode": "Bus",
+      "route_short_name": "PHLASH",
+      "route_long_name": "PHLASH Downtown Loop",
+      "route_type": 3,
+      "route_color": "#4C388B",
+      "route_text_color": "#FFFFFF",
+      "polyline": "wzyrFjvtiMiCla@aBrWcAtOKx@QV]FuAQW?MDUXGVMfB?l@Gv@_@tCUhCO`CSnACTKLMH[HgC[Hu@ZyFzAR@?`ALd@@E\\O`CGxAqAbSEt@_KqAiDg@_AtAa@\\]J]?[A_@@]N]ZQ^Or@Ch@Hr@AZG^M`@sArBm@MiDfFsGrJKP_Fo@_HcA}RiC?dASv`@?JAt@vCiDL`@n@v@JRBJ?NSl@_AtAQd@K`@E`@?`@Dl@Lh@Rd@~@lAh@r@b@f@~@Zj@BVAXIbAeARMLAb@RDc@b@sAnDyIbBaHLi@DwAA]E[Wi@}@m@w@Ry@Z}@f@g@^y@lA_@l@EJE\\ANBf@`@nA~@pAn@j@PHVFN?REXQNQ^o@x@cB`@cBLi@ZcAPwANi@|L_R|FyIj@{APF`Eh@tOrBrB\\tDZbAiObCq`@dANXAb@MLKHQNoBFkBLoALiB?WGQKK[KaAYIGGOAM@y@p@yJF_A~Egw@n@iKHe@b@aHjCZ@?xC^X_ENwBiHaAj@_Jl@cJyGgAmAOu@GkApRs@pK|G|@rBZc@dH?d@YrE",
+      "stop_ids": [
+        "phlash:1",
+        "phlash:2",
+        "phlash:3",
+        "phlash:4",
+        "phlash:5",
+        "phlash:6",
+        "phlash:7",
+        "phlash:8",
+        "phlash:9",
+        "phlash:10",
+        "phlash:11",
+        "phlash:12",
+        "phlash:13",
+        "phlash:14",
+        "phlash:15",
+        "phlash:16",
+        "phlash:17",
+        "phlash:18",
+        "phlash:19"
       ]
     }
   }

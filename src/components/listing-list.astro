@@ -15,6 +15,7 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
 
   if( !schedule ) {
     schedule = {
+      luxonDate: date,
       day: listingDay,
       displayDay: date.toFormat("EEEE, MMMM d"),
       month: date.toFormat("MMM"),
@@ -27,16 +28,21 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
   schedule.listings.push(listing);
   
   return schedules;
-}, []).toSorted( (a, b) => a.day > b.day ? 1 : -1);
+}, [])
+  .filter( schedule => schedule.luxonDate >= DateTime.now() || schedule.luxonDate.hasSame(DateTime.now(), "day") )
+  .toSorted( (a, b) => a.day > b.day ? 1 : -1);
 
 
 ---
 
 <div class="listing-list">
+  <div class="listing-list__blurb padding">
+    Some text
+  </div>
   { listingsByDay.map( schedule => 
-    <div class="listing-schedule">
+    <div class="listing-schedule" data-schedule data-date={schedule.day}>
       <div class="listing-schedule__date padding">
-        <time class="listing-date" data-date={schedule.day}>
+        <time class="listing-date" data-date-display data-date={schedule.day}>
           <span class="listing-date__month">{ schedule.month }</span>
           <span class="listing-date__day">{ schedule.date }</span>
           <span class="listing-date__today">TODAY</span>
@@ -51,6 +57,8 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
 
 
 <style>
+
+
   .listing-list {
      background: var(--color-beige);
      overflow: auto;
@@ -64,6 +72,10 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
     border-radius: 1rem;
     /* overflow: hidden; */
     /* box-shadow: var(--box-shadow); */
+
+    &[hidden] {
+      display: none;
+    }
   }
 
   .listing-schedule__date {
@@ -123,8 +135,16 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
 
 
 <script>
-  const dateEl = document.querySelector("[data-date]");
   const dateToday = new Date().toISOString().split("T")[0];
+  // const scheduleEls = document.querySelectorAll("[data-schedule]");
+
+  // scheduleEls.forEach( scheduleEl => {
+  //   console.log(  scheduleEl.dataset.date, dateToday,  scheduleEl.dataset.date < dateToday)
+  //   scheduleEl.toggleAttribute("hidden", scheduleEl.dataset.date < dateToday )
+  // })
+
+  const dateEl = document.querySelector("[data-date-display]");
+  
   if( dateEl.dataset.date == dateToday ) {
     dateEl.classList.add("is-today");
   }

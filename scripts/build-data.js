@@ -24,6 +24,7 @@ const GEOJSON_SOURCES = [
   { file: "./data/patco.geojson", namespace: "patco" },
   { file: "./data/njtransit-bus-philly.geojson", namespace: "njtransit-bus" },
   { file: "./data/indego.geojson", namespace: "indego" },
+  { file: "./data/phlash.geojson", namespace: "phlash" },
 ];
 
 // ── Load inputs ───────────────────────────────────────────────────────────────
@@ -81,6 +82,7 @@ function agencyName(namespace) {
   if (namespace === "patco") return "PATCO";
   if (namespace === "njtransit-bus") return "NJ Transit";
   if (namespace === "indego") return "Indego";
+  if (namespace === "phlash") return "Philly Phlash";
   return namespace;
 }
 
@@ -177,8 +179,8 @@ for (const { key, namespace, routeId, feature } of allRoutes) {
     route_short_name: p.route_short_name || p.route_ref || routeId,
     route_long_name: p.route_long_name || p.route_name || "",
     route_type: p.route_type ?? null,
-    route_color: p.route_color || null,
-    route_text_color: p.route_text_color || null,
+    route_color: namespace === "phlash" ? "#4C388B" : (p.route_color ? `#${p.route_color.replace(/^#/, "")}` : null),
+    route_text_color: namespace === "phlash" ? "#FFFFFF" : (p.route_text_color ? `#${p.route_text_color.replace(/^#/, "")}` : null),
     geometry,
     polyline: encodePolyline(geometry),
     stop_ids: [], // populated below
@@ -194,8 +196,8 @@ routes["indego:indego"] = {
   route_short_name: "Indego",
   route_long_name: "Indego Bike Share",
   route_type: null,
-  route_color: "3980C4",
-  route_text_color: "FFFFFF",
+  route_color: "#3980C4",
+  route_text_color: "#FFFFFF",
   polyline: "",
   stop_ids: [],
 };
@@ -232,6 +234,7 @@ for (const venue of venuesRaw) {
 
   venues[slug] = {
     name,
+    address: venue.address ?? venue.fields?.Address ?? "",
     coordinates: [lon, lat],
     stop_ids: nearbyStops.features.map((f) => f.properties.key),
   };
@@ -261,7 +264,7 @@ const indexOut = {
     radius_meters: RADIUS_METERS,
     bounds: bbox(featureCollection(Object.values(venues).map((v) => point(v.coordinates)))),
   },
-  venues: Object.entries(venues).map(([slug, v]) => ({ slug, name: v.name, coordinates: v.coordinates })),
+  venues: Object.entries(venues).map(([slug, v]) => ({ slug, name: v.name, address: v.address, coordinates: v.coordinates })),
   listings: listingsOut,
 };
 

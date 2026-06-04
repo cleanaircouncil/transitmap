@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-06-03T21:17:57.204Z",
+    "generated": "2026-06-04T00:07:25.719Z",
     "radius_meters": 800,
     "bounds": [
       -75.222908,
@@ -13,6 +13,7 @@
     {
       "slug": "the-kimmel-center-for-the-performing-arts",
       "name": "The Kimmel Center for the Performing Arts",
+      "address": "300 S Broad St, Philadelphia, PA 19102",
       "coordinates": [
         -75.165834,
         39.94671
@@ -21,6 +22,7 @@
     {
       "slug": "dock-street",
       "name": "Dock Street",
+      "address": "2 Dock St, Philadelphia, PA 19106",
       "coordinates": [
         -75.143814,
         39.945423
@@ -29,6 +31,7 @@
     {
       "slug": "benjamin-franklin-parkway",
       "name": "Benjamin Franklin Parkway",
+      "address": "Benjamin Franklin Pkwy, Philadelphia, PA 19103",
       "coordinates": [
         -75.173247,
         39.960266
@@ -37,6 +40,7 @@
     {
       "slug": "pennsylvania-convention-center",
       "name": "Pennsylvania Convention Center",
+      "address": "1101 Arch St, Philadelphia, PA 19107",
       "coordinates": [
         -75.159533,
         39.954821
@@ -45,6 +49,7 @@
     {
       "slug": "centennial-district",
       "name": "Centennial District",
+      "address": "4231 Avenue of the Republic, Philadelphia, PA 19131",
       "coordinates": [
         -75.209129,
         39.979491
@@ -53,6 +58,7 @@
     {
       "slug": "citizens-bank-park",
       "name": "Citizens Bank Park",
+      "address": "1 Citizens Bank Way, Philadelphia, PA 19148",
       "coordinates": [
         -75.166473,
         39.90617
@@ -61,6 +67,7 @@
     {
       "slug": "smith-memorial-playground",
       "name": "Smith Memorial Playground",
+      "address": "3500 Reservoir Dr, Philadelphia, PA 19121",
       "coordinates": [
         -75.195543,
         39.981741
@@ -69,6 +76,7 @@
     {
       "slug": "love-park",
       "name": "Love Park",
+      "address": "1500 John F Kennedy Blvd, Philadelphia, PA 19102",
       "coordinates": [
         -75.165812,
         39.953507
@@ -77,6 +85,7 @@
     {
       "slug": "highmark-mann-center",
       "name": "Highmark Mann Center",
+      "address": "5201 Parkside Ave, Philadelphia, PA 19131",
       "coordinates": [
         -75.222908,
         39.983433
@@ -85,6 +94,7 @@
     {
       "slug": "independence-blue-cross-riverrink-summerfest",
       "name": "Independence Blue Cross RiverRink Summerfest",
+      "address": "101 S Christopher Columbus Blvd, Philadelphia, PA 19106",
       "coordinates": [
         -75.139575,
         39.948505
@@ -93,6 +103,7 @@
     {
       "slug": "historic-district",
       "name": "Historic District",
+      "address": "Philadelphia, PA 19106",
       "coordinates": [
         -75.143753,
         39.949889
@@ -101,6 +112,7 @@
     {
       "slug": "independence-national-historic-park",
       "name": "Independence National Historic Park",
+      "address": "143 S 3rd St, Philadelphia, PA 19106",
       "coordinates": [
         -75.146075,
         39.94728
@@ -109,6 +121,7 @@
     {
       "slug": "the-dell-music-center",
       "name": "The Dell Music Center",
+      "address": "3600 Strawberry Mansion Dr, Philadelphia, PA 19132",
       "coordinates": [
         -75.189787,
         39.995881
@@ -117,6 +130,7 @@
     {
       "slug": "five-points",
       "name": "Five Points",
+      "address": "Rising Sun Ave & Cheltenham Ave, Philadelphia, PA 19120",
       "coordinates": [
         -75.104332,
         40.0429
@@ -125,6 +139,7 @@
     {
       "slug": "independence-mall",
       "name": "Independence Mall",
+      "address": "526 Market St, Philadelphia, PA 19106",
       "coordinates": [
         -75.150287,
         39.949619
@@ -133,6 +148,7 @@
     {
       "slug": "lincoln-financial-field",
       "name": "Lincoln Financial Field",
+      "address": "1020 Pattison Ave, Philadelphia, PA 19148",
       "coordinates": [
         -75.167594,
         39.901733

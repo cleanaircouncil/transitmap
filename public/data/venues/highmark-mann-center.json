@@ -703,8 +703,8 @@
       "route_short_name": "Indego",
       "route_long_name": "Indego Bike Share",
       "route_type": null,
-      "route_color": "3980C4",
-      "route_text_color": "FFFFFF",
+      "route_color": "#3980C4",
+      "route_text_color": "#FFFFFF",
       "polyline": "",
       "stop_ids": [
         "indego:bcycle_indego_3004",

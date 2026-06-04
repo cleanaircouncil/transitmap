@@ -270,11 +270,13 @@ async function main() {
   const septaZip  = join(GTFS_CACHE, "septa.zip");
   const patcoZip  = join(GTFS_CACHE, "patco.zip");
   const njtZip    = join(GTFS_CACHE, "njtransit-bus.zip");
+  const phlashZip = join(GTFS_CACHE, "phlash.zip");
   const septaDir  = join(GTFS_CACHE, "septa");
   const septaRail = join(septaDir, "rail");
   const septaBus  = join(septaDir, "bus");
   const patcoDir  = join(GTFS_CACHE, "patco");
   const njtDir    = join(GTFS_CACHE, "njtransit-bus");
+  const phlashDir = join(GTFS_CACHE, "phlash");
 
   // ── SEPTA GTFS ────────────────────────────────────────────────────────────
 
@@ -340,29 +342,36 @@ async function main() {
 
   // ── NJ Transit Bus (GTFS) ─────────────────────────────────────────────────
   console.log("[NJ Transit Bus]");
-  if (!existsSync(njtDir)) {
-    if (!existsSync(njtZip)) {
-      console.log("[Downloading NJ Transit GTFS]");
-      download(
-        "https://www.njtransit.com/mmClient/clients/NJT_BASIC/web/nvbw.ns/googletransit/NJTransitGTFS.zip",
-        njtZip
-      );
+  try {
+    if (!existsSync(njtDir)) {
+      if (!existsSync(njtZip)) {
+        console.log("[Downloading NJ Transit GTFS]");
+        download(
+          "https://www.njtransit.com/mmClient/clients/NJT_BASIC/web/nvbw.ns/googletransit/NJTransitGTFS.zip",
+          njtZip
+        );
+      } else {
+        console.log("[Using cached njtransit-bus.zip]");
+      }
+      mkdirSync(njtDir, { recursive: true });
+      unzip(njtZip, njtDir);
+      console.log();
     } else {
-      console.log("[Using cached njtransit-bus.zip]");
+      console.log("[NJ Transit GTFS already extracted — skipping download]\n");
     }
-    mkdirSync(njtDir, { recursive: true });
-    unzip(njtZip, njtDir);
-    console.log();
-  } else {
-    console.log("[NJ Transit GTFS already extracted — skipping download]\n");
+    // Keep only stops within the Philadelphia metro area bounding box
+    const njtFeatures = processGtfs(njtDir, "NJ Transit Bus", [3]).filter((f) => {
+      if (f.properties.feature_type !== "stop") return true;
+      const [lon, lat] = f.geometry.coordinates as [number, number];
+      return lon >= -75.30 && lon <= -74.90 && lat >= 39.85 && lat <= 40.10;
+    });
+    save("njtransit-bus-philly", njtFeatures);
+  } catch (err) {
+    console.error("  ✗ NJ Transit GTFS failed:", (err as Error).message);
+    console.error("  Place njtransit-bus.zip in ~/Production/GTFS/ manually and re-run.");
+    // Remove failed artifacts so next run retries cleanly
+    execSync(`rm -rf "${njtDir}" "${njtZip}"`, { stdio: "inherit" });
   }
-  // Keep only stops within the Philadelphia metro area bounding box
-  const njtFeatures = processGtfs(njtDir, "NJ Transit Bus", [3]).filter((f) => {
-    if (f.properties.feature_type !== "stop") return true;
-    const [lon, lat] = f.geometry.coordinates as [number, number];
-    return lon >= -75.30 && lon <= -74.90 && lat >= 39.85 && lat <= 40.10;
-  });
-  save("njtransit-bus-philly", njtFeatures);
 
   // ── Indego bikeshare docks (GBFS snapshot) ────────────────────────────────
   const indegoFile = join(OUT_DIR, "indego.geojson");
@@ -375,6 +384,23 @@ async function main() {
     } catch (err) {
       console.error("  ✗ Indego fetch failed:", err);
     }
+  }
+
+  // ── Philly Phlash (GTFS) ─────────────────────────────────────────────────
+  console.log("[Philly Phlash]");
+  if (!existsSync(phlashDir)) {
+    if (!existsSync(phlashZip)) {
+      console.warn("  ✗ phlash.zip not found — place it in ~/Production/GTFS/ and re-run");
+    } else {
+      mkdirSync(phlashDir, { recursive: true });
+      unzip(phlashZip, phlashDir);
+      console.log();
+    }
+  } else {
+    console.log("[Philly Phlash GTFS already extracted — skipping]\n");
+  }
+  if (existsSync(phlashDir)) {
+    save("phlash", processGtfs(phlashDir, "Philly Phlash", [3]));
   }
 
   console.log("\nDone. Files saved to data/");

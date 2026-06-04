@@ -78,15 +78,15 @@ const { route = {} } = Astro.props;
 
     &[data-mode="Bus"] {
       border-radius: 50%;
-      background: var(--color-black);
-      color: var(--color-white);
+      background: var(--route-color);
+      color: var(--text-color);
 
       &[data-agency="NJ Transit"] {
-        background: red;
+        /* background: red; */
       }
 
       .transit-chip__text {
-        border: 1px solid white;
+        border: 1px solid var(--text-color);
         border-radius: 50%;
       }
     }

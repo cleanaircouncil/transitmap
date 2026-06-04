@@ -26,7 +26,7 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     </div>
 
     <div class="listing__transit stack">
-      <a href={`http://maps.apple.com/?q=${venue?.coordinates.toReversed().join(',+')}`} class="listing__go-btn">GO CAR-FREE <i class="fa fa-external-link"></i></a>
+      <a href={`http://maps.apple.com/?q=${venue?.address}`} class="listing__go-btn">GO CAR-FREE <i class="fa fa-external-link"></i></a>
       <TransitSelector routes={ routes } />
     </div>
 
@@ -42,7 +42,7 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 <style>
   .listing {
     background: var(--color-white);
-    scroll-margin-top: 1rem;
+    scroll-margin-top: 3rem;
     position: relative;
     padding-block: 2rem;
     padding-inline: 1rem;

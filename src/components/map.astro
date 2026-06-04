@@ -360,8 +360,6 @@ import TransitChip from "./transit-chip.astro";
         const stop = venue.stops[id];
         const groupEl = cloneTemplate("map-stop-group-stub");
 
-        console.log( venue.routes );
-
         for( const stopRoute of stop.routes ){
           
           const route = venue.routes[stopRoute.route_id];

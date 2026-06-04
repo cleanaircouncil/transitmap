@@ -142,6 +142,24 @@
         }
       ],
       "walk_minutes": 5
+    },
+    "phlash:WL3": {
+      "stop_id": "WL3",
+      "stop_name": "Please Touch Museum",
+      "coordinates": [
+        -75.209924,
+        39.97881
+      ],
+      "wheelchair_boarding": 1,
+      "routes": [
+        {
+          "route_id": "phlash:West",
+          "direction_id": 0,
+          "direction": "",
+          "headsign": "West Park Loop"
+        }
+      ],
+      "walk_minutes": 2
     }
   },
   "routes": {
@@ -635,8 +653,8 @@
       "route_short_name": "Indego",
       "route_long_name": "Indego Bike Share",
       "route_type": null,
-      "route_color": "3980C4",
-      "route_text_color": "FFFFFF",
+      "route_color": "#3980C4",
+      "route_text_color": "#FFFFFF",
       "polyline": "",
       "stop_ids": [
         "indego:bcycle_indego_3004",
@@ -949,6 +967,27 @@
         "indego:bcycle_indego_3473",
         "indego:bcycle_indego_3475",
         "indego:bcycle_indego_3476"
+      ]
+    },
+    "phlash:West": {
+      "route_id": "West",
+      "namespace": "phlash",
+      "agency": "Philly Phlash",
+      "mode": "Bus",
+      "route_short_name": "West",
+      "route_long_name": "PHLASH West Park Loop",
+      "route_type": 3,
+      "route_color": "#4C388B",
+      "route_text_color": "#FFFFFF",
+      "polyline": "mnzrFb|wiMCTKLMH[HgC[Ix@a@bGRFtDd@a@bG?@Et@qOsBtKcPDOHu@ZyF~C`@d@@E\\O`CGxAYlE??mCnb@VFtDZoAdSqArS??c@|GsBk@eEiAiBs@y@SyAO_BEgAFsATc@PsBbA}@n@sAr@kC~AqD`C{AnA_IpHkC|B{A`B{EvFwBdDu@pAs@fB}CjJcAzBkAnBo@z@}@~@q@n@_An@kAr@_Ab@cBf@cDVsHnAg@PSPOT_AdCYZSNsD`@[H_@^Ud@K^Kt@GjAk@nDMpAKzAI~ACjCB|@Jv@d@bBD`@@p@Cb@E\\m@bCOz@E|@?l@Dl@Fj@rAfHkBv@u@p@c@j@m@p@Q@S@QPEZF`@OtAsGjVs@fCuBjIkCpJ|E}@@?db@uH??dAQkDqo@KWe@kIq@cMAiAImCc@}I?@w@qNbBSbCg@v@[f\\yJrEoAvH_Aja@kElBUNE`HAhI~@@?xFt@~Fk_AqBk@@?g@M]_@E[dA{PPaCt@gMh@uHCi@VFtDZbAiO??LsBU?yDi@oAbSVFtDZeEvp@wCy@]_@E[d@}H?@p@aKt@gMh@uHCi@VFtDZXcE??bCq`@kEk@gB]}AOHu@ZyF~C`@d@@E\\O`CSnA",
+      "stop_ids": [
+        "phlash:4",
+        "phlash:5",
+        "phlash:14",
+        "phlash:WL1",
+        "phlash:WL2",
+        "phlash:WL3",
+        "phlash:WL4"
       ]
     }
   }

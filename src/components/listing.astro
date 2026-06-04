@@ -26,7 +26,9 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     </div>
 
     <div class="listing__transit stack">
-      <a href={`http://maps.apple.com/?q=${venue?.address}`} class="listing__go-btn">GO CAR-FREE <i class="fa fa-external-link"></i></a>
+      <a href={ listing.link } target="_blank" "listing-btn">Learn More&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+
+      <a href={`http://maps.apple.com/?q=${venue?.address}`} target="directions" class="listing-btn listing-btn--go">GO CAR-FREE&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
       <TransitSelector routes={ routes } />
     </div>
 
@@ -98,16 +100,16 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     color: var(--color-black);
   }
 
-  .listing__go-btn {
-    background: var(--color-green);
-    color: var(--color-white);
+  .listing-btn {
+    background: var(--color-white);
+    color: var(--color-black);
     font-family: var(--font-default);
     font-weight: 900;
     font-style: italic;
     font-size: 1rem;
     padding: .5rem;
-    border-radius: 1rem;
-    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    box-shadow: 0px 3px 0px rgba(0,0,0,.1);
     text-decoration: none;
     border: none;
     /* position: absolute; */
@@ -120,6 +122,11 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
   }
   
 
+  .listing-btn--go {
+    background: var(--color-green);
+    color: var(--color-white);
+  }
+
 
   .listing:target {
     background: white;
@@ -128,7 +135,7 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
       display: block;
     }
 
-    .listing__go-btn {
+    .listing-btn {
       display: inline-block;
     }
   }

@@ -27,6 +27,11 @@ const GEOJSON_SOURCES = [
   { file: "./data/phlash.geojson", namespace: "phlash" },
 ];
 
+// Route short-name overrides — keyed by "namespace:route_id"
+const ROUTE_ALIASES = {
+  "septa-bus:MANNLP": "Mann Loop",
+};
+
 // ── Load inputs ───────────────────────────────────────────────────────────────
 
 const listings = JSON.parse(fs.readFileSync(LISTINGS_PATH, "utf8"));
@@ -176,7 +181,7 @@ for (const { key, namespace, routeId, feature } of allRoutes) {
     namespace,
     agency: agencyName(namespace),
     mode: routeMode(p.route_type, namespace),
-    route_short_name: p.route_short_name || p.route_ref || routeId,
+    route_short_name: ROUTE_ALIASES[key] || p.route_short_name || p.route_ref || routeId,
     route_long_name: p.route_long_name || p.route_name || "",
     route_type: p.route_type ?? null,
     route_color: namespace === "phlash" ? "#4C388B" : (p.route_color ? `#${p.route_color.replace(/^#/, "")}` : null),

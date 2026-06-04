@@ -3,13 +3,18 @@ import Nav from "./nav.astro";
 import Header from "./header.astro";
 import Map from "./map.astro";
 import ListingList from "./listing-list.astro";
+import ResponsiveSheet from "./responsive-sheet.astro";
 ---
 
 <main id="app" class="app layout-app" data-app>
-  <section class="in-list">
+  <section class="in-header">
     <Header/>
-    <ListingList/>
   </section>
+
+  <ResponsiveSheet class="in-list">
+    <ListingList/>
+  </ResponsiveSheet>
+
   
   <section class="in-main">
     <Map />
@@ -38,9 +43,9 @@ import ListingList from "./listing-list.astro";
 
   .in-list {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden;
     display: grid;
-    grid-template-rows: min-content 1fr;
+    grid-template-rows: min-content 1fr; */
   }
 
   .in-main {
@@ -77,7 +82,7 @@ import ListingList from "./listing-list.astro";
       grid-template-columns: min(40vw, 450px) 1fr;
       grid-template-rows: min-content 1fr;
       grid-template-areas:
-        "nav nav"
+        "header main"
         "list main";
     }
 

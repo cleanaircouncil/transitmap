@@ -7,6 +7,10 @@ export function updateHash(hash) {
 
 export function updateSearchParam(name, value) {
   const url = new URL(window.location);
-  url.searchParams.set(name, value);
+  if( value )
+    url.searchParams.set(name, value);
+  else 
+    url.searchParams.delete(name);
+  
   history.replaceState({}, "", url);
 }

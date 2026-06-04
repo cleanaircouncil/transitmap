@@ -115,6 +115,13 @@ for (const { key, namespace, feature } of allStops) {
   };
 }
 
+// Returns true if a color is absent or is plain black/white (no brand value)
+function isGenericColor(color) {
+  if (!color) return true;
+  const c = color.replace(/^#/, "").toUpperCase();
+  return c === "000000" || c === "FFFFFF";
+}
+
 // ── Encoded polyline ──────────────────────────────────────────────────────────
 
 // Encodes [[lon, lat], ...] (GeoJSON order) to a Google encoded polyline string.
@@ -184,8 +191,20 @@ for (const { key, namespace, routeId, feature } of allRoutes) {
     route_short_name: (ROUTE_ALIASES[key] || p.route_short_name || p.route_ref || routeId).replace(/"/g, ""),
     route_long_name: p.route_long_name || p.route_name || "",
     route_type: p.route_type ?? null,
-    route_color: namespace === "phlash" ? "#4C388B" : (p.route_color ? `#${p.route_color.replace(/^#/, "")}` : null),
-    route_text_color: namespace === "phlash" ? "#FFFFFF" : (p.route_text_color ? `#${p.route_text_color.replace(/^#/, "")}` : null),
+    route_color: (() => {
+      const raw = p.route_color ? `#${p.route_color.replace(/^#/, "")}` : null;
+      if (namespace === "phlash") return "#4C388B";
+      if (namespace === "septa-bus" && isGenericColor(raw)) return "#2C2B27";
+      if (namespace === "njtransit-bus" && isGenericColor(raw)) return "#FCF9F5";
+      return raw;
+    })(),
+    route_text_color: (() => {
+      const raw = p.route_text_color ? `#${p.route_text_color.replace(/^#/, "")}` : null;
+      if (namespace === "phlash") return "#FFFFFF";
+      if (namespace === "septa-bus" && isGenericColor(raw)) return "#FCF9F5";
+      if (namespace === "njtransit-bus" && isGenericColor(raw)) return "#2C2B27";
+      return raw;
+    })(),
     geometry,
     polyline: encodePolyline(geometry),
     stop_ids: [], // populated below
@@ -346,7 +365,7 @@ for (const [slug, venue] of Object.entries(venues)) {
       })
       .map((key) => {
         const { geometry, ...rest } = routes[key];
-        return [key, rest];
+        return [key, { key, ...rest }];
       })
   );
 

@@ -44,6 +44,7 @@
   },
   "routes": {
     "septa-bus:18": {
+      "key": "septa-bus:18",
       "route_id": "18",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -51,8 +52,8 @@
       "route_short_name": "18",
       "route_long_name": "Fox Chase to Cedarbrook Plaza",
       "route_type": 3,
-      "route_color": "#000000",
-      "route_text_color": "#FFFFFF",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "anrsFlchiMRTJHHFJFh@kAZaAdGe@fCSZCdBOtBO~CW~Dc@f@ERAb@?hA@nABbEH~BB|@?NARCPCtCu@XGf@MtA[vBg@NCJAH?F?b@AlECz@CzA?nF@X?RHD@RJPJ\\\\dHjHrBvB~B~BrBpB|FvFnClC`B`B`C~BrBpBJJ`BbBTTnBjB\\\\pApAlBjBnBjBhBhBtApAvEpEtFlF`C|BtBpBLNNTh@`Ap@hArA|BnEvHbBzCjB`DdAhBd@z@Zh@nAxBbBtCdBxCpBnDfAlB`E`HXd@R`@p@hAJRx@xAlArBDFHNR^Tb@vAdCV`@PVLNTP|BnB|ApAhA|@pA~@z@p@lEpDADCVIlAOhCQfCQnCMrBe@xGCf@Eb@Cd@C\\[dF}@lNW`EMhB]bF]`FWdEUjDYhEYhEW~DUdDSbDM|BOpBOdCGr@ATALCLCL_AlGQtAObAOhASrAQnAOfAOjASpAEZKn@OlAQhAOlAQlA[xB]lCMdAALEN?h@@t@BhG@tA@`A?b@DlE@jD@vBGtBC`@QjCMpBSzCS~CQbCALAHGP?BKT_@`AoC`H{@~B_BzD]p@MXU`@INIP{@|Am@lA}@bBa@v@wB`EkDvGkAzBs@rAcCrE}AvCw@|AeBbDgBbDmBrDa@v@q@pA{@zAmBlDQ`@MV_BbDaB~Cc@|@w@xA_BzCoAxBs@vAOVeAnBeC|Ea@r@ABA@u@xAe@|@iBhDKRGPcAnBGHKTcAjBOZMTqAbCuCuCoCoCyC}C{C_DOZWl@KFKDMDI@I@I?K?IAMCKCYGk@m@MM_AcASQIGGEKEUISEMAMAOAsCGs@EWEWGUIWKy@e@i@Y}@i@cDkBcBaA_DcBOKBCn@uAp@uAf@eAHO^y@~AeDn@uAHOZo@HO\\w@h@eAb@}@f@cAw@y@aCeCyCcDwAuA{AcB_BeB{D_EwAwASUQUc@o@s@uAS]_@i@s@{@KQk@q@c@c@e@bAc@z@c@|@_@v@_DrGcGhMk@hA_BfDoDpH{CtGaCaCgCiCgBaBeBeBkBgBoAjC}D`IgDbHsDxHaBrDmBbEgBeBaB_BgBeByEqEUWMMfA{BbAqBjA_CHOTK@CRa@b@}@Vi@FO`@y@LWGCU?YQGGIGe@g@gByAZo@vC{FtBqBnBaEuC{Ci@?{DkEi@R",
       "stop_ids": [
         "septa-bus:369",

@@ -10,10 +10,12 @@ const { route = {} } = Astro.props;
     route_color: --route-color, 
     route_text_color: --text-color, 
     mode: @data-mode,
-    agency: @data-agency
+    agency: @data-agency,
+    key: @data-key
   "
   data-mode={route.mode}
   data-agency={route.agency}
+  data-key={route.key}
   style={`
     --route-color: ${route.route_color};
     --text-color: ${route.route_text_color};
@@ -82,7 +84,7 @@ const { route = {} } = Astro.props;
       background: var(--route-color);
       color: var(--text-color);
       
-      &[data-agency="SEPTA"] {
+      /* &[data-agency="SEPTA"] {
         background: var(--color-black);
         color: var(--color-white);
       }
@@ -90,7 +92,7 @@ const { route = {} } = Astro.props;
       &[data-agency="NJ Transit"] {
         background: var(--color-white);
         color: var(--color-black);
-      }
+      } */
 
       .transit-chip__text {
         border: 2px solid currentColor;
@@ -135,4 +137,70 @@ const { route = {} } = Astro.props;
     }
   }
 
+
+  .transit-chip:hover {
+    z-index: 2;
+  }
+
+  .transit-chip.is-dimmed {
+    --factor: 0.8; /* Should range only between 0 and 1 */
+    filter: invert(calc(var(--factor) / 2)) brightness(calc(1 + var(--factor)));
+  }
+
+  .transit-chip:not(.is-dimmed) {
+    z-index: 20;
+  }
+
 </style>
+
+
+
+
+
+<script>
+  // import { dispatch } from "../helpers/events";
+  import { updateSearchParam } from "../helpers/location";
+  import { currentRoute, toggleRouteDisplay } from "../helpers/store";
+
+  console.log("hi there");
+  document.addEventListener("click", (e) => {
+    const transitChipEl = e.target.closest("[data-transit-chip]");
+    
+    if( !transitChipEl )
+      return;
+
+    e.preventDefault();
+    
+    toggleRouteDisplay( transitChipEl.dataset.key );
+  })
+
+  currentRoute.subscribe( (key) => {
+    updateSearchParam("route", key);
+    
+    const transitChipEls = document.querySelectorAll(`[data-transit-chip]`)
+    transitChipEls.forEach( transitChipEl => {
+      transitChipEl.classList.toggle("is-dimmed", Boolean(key) && (transitChipEl.dataset.key != key))
+    })
+  })
+
+  // if (inputEl instanceof HTMLInputElement) {
+  //   search.subscribe((query) => {
+  //     inputEl.value = query;
+  //   });
+
+  //   const updateSearch = () => {
+  //     updateSearchParam("query", inputEl.value);
+  //     dispatch("search", { value: inputEl.value });
+  //     clearButtonEl.toggleAttribute("hidden", !inputEl.value);
+  //   };
+
+  //   inputEl.addEventListener("input", updateSearch);
+
+  //   if (clearButtonEl instanceof HTMLButtonElement) {
+  //     clearButtonEl.addEventListener("click", () => {
+  //       inputEl.value = "";
+  //       updateSearch();
+  //     });
+  //   }
+  // }
+</script> 

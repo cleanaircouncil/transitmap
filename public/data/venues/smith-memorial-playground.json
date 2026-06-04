@@ -152,6 +152,7 @@
   },
   "routes": {
     "septa-bus:3": {
+      "key": "septa-bus:3",
       "route_id": "3",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -159,8 +160,8 @@
       "route_short_name": "3",
       "route_long_name": "33rd-Cecil B. Moore to Frankford TC",
       "route_type": 3,
-      "route_color": "#000000",
-      "route_text_color": "#FFFFFF",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "ia`sFti|iMP@J}Ai@IUEDo@HoABc@RiDNgCVoDBi@Do@\\gEBa@XiEHeAFm@Bk@FoAHaBNkBNgCRsCPoBFo@Dm@LkBJuBL{ALoBf@aITqDPwCJmAHaARaDTeDF_AJyALeCLkBNcCR_DTyCV}CHgAHuAT}CP{CT}CJaBF{@R{CR}CPcCDw@RuCPkBLwAB]FaADs@JsAFy@B]JkBHgABe@@IJ_BBg@@IBe@Be@JyADo@Dk@Bg@Bm@Bi@FwA?GRgCHiADq@Fw@FeAFgAFu@LaBDy@B[PcCqHw@mHw@HgAJsAT}C\\_GLqBT{CB[HmA@ML_BJ}ANmB^kF?K@KDk@HqAJsBNiBJiBJ}AJyAJ_BH{ALiBFwA{BWe@GcC]eHcAgIoAsHaA_Fq@w@KSCYe@e@aAWi@i@oA{@oBO[Yq@Qa@[s@g@kAc@cAUi@w@iBKU_@y@Ug@Sg@Wm@w@cBq@}As@_Bo@wAk@mAIQQ_@mAgCy@eBcAyBsBqEgCyFaAsB]w@O]]w@GOgAaC]u@}AeDi@iAkBcEcBoDm@sAw@cBeA_Cy@cBKWcAwB{@mBeA_Co@iB_AqBy@mB}@oBaAuB_AoB{BeFmBeEgCsFmBgEUc@iCgGiCqF{B}EMYu@cBc@aAo@yAgA}BUi@_@y@y@eBa@}@oAmCo@}AO]cA}Bm@qAIQkAuCISM[[m@Ug@O[y@_BsBuE]y@Q]e@w@SWQYa@Qi@[WOg@YeAm@e@Yw@a@[QSKa@U[QQI[S_@WWU][WUo@k@m@g@_@]u@q@qAkAoBeBeAaAgA_AqBgBk@g@{AwAk@g@c@a@qAiAkC_CcA_AeA_AwAqAYW[W_BwAuAmASSWUsAkAq@k@k@e@USe@a@[[OQKOU_@Ua@GKq@iAo@iAe@w@k@_Am@_A_@@aAG{@EIjBfBAzAL",
       "stop_ids": [
         "septa-bus:21204",
@@ -312,6 +313,7 @@
       ]
     },
     "septa-trolley:G1": {
+      "key": "septa-trolley:G1",
       "route_id": "G1",
       "namespace": "septa-trolley",
       "agency": "SEPTA",
@@ -441,6 +443,7 @@
       ]
     },
     "indego:indego": {
+      "key": "indego:indego",
       "route_id": "indego",
       "namespace": "indego",
       "agency": "Indego",
@@ -765,6 +768,7 @@
       ]
     },
     "phlash:West": {
+      "key": "phlash:West",
       "route_id": "West",
       "namespace": "phlash",
       "agency": "Philly Phlash",

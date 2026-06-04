@@ -164,6 +164,7 @@
   },
   "routes": {
     "septa-bus:MANNLP": {
+      "key": "septa-bus:MANNLP",
       "route_id": "MANNLP",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -171,8 +172,8 @@
       "route_short_name": "Mann Loop",
       "route_long_name": "Mann Loop",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "mnyrFdcyiMTyDJoByASPcCTwDd@yHN}CP}Cj@_I@OkAMYEo@ImAOoAQiAMkAQkAOaAOw@KEIIQCKCOCIDi@Dg@?M?GAIAECGCEEEGEGCQEMCICa@EaAIi@Gs@KOAK?I@GBGBGHGJENCRCZKhAK`BQtCI`BGb@Gh@CRMlBEr@Ev@KrBIpAObCANIvAEr@Gz@Ef@Cb@YxEMhBYbEQfCk@GOC_@EgBUcBWyAUsDe@yB]u@MoB[MAQC[GWC_@j@yCtEw@hAmC`EOVm@~@eAM{BYm@Ii@Ia@GaAnA{@hAgArA[`@[Zo@v@g@p@_@d@iBpBe@f@e@Z]^uCdD_AjA}@fAm@z@q@`AoFrGc@IeBS_AMoAQ{Eq@uFu@}@KWEe@Gw@KwASQlCQlCk@|Hk@dIg@~HGhAATMbBKxASrCGbAUtDOhBI~A?x@Br@Dn@Dx@@L^rGBl@FdABh@Bd@HtAJjB@^Dp@L`CBZB\\FnAF`AJlAD~@HtAF|@Bh@@XLrCDz@F|@Dr@FjADx@J`BDv@HpADp@LbCMTK\\On@Uv@[hAyBfICNOh@gAfEc@~ASn@q@nCCJiA|Dk@xBW~@m@zBg@jB]nAm@vBm@zBSr@cArDe@bBoAxEe@dBi@lB]pAQp@KZm@|BwAjGm@~AW`A_@tAi@rBs@jCc@lB?d@F`@{@w@OUGQC}@Ci@OiCO{BK{Bk@r@s@|@MRGRAX",
       "stop_ids": [
         "septa-bus:25079",
@@ -192,6 +193,7 @@
       ]
     },
     "septa-bus:40": {
+      "key": "septa-bus:40",
       "route_id": "40",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -199,8 +201,8 @@
       "route_short_name": "40",
       "route_long_name": "2nd-Lombard to Conshohocken-Monumnt",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "gfxrFv_tiMIfAMbC[hEOpBYpEKjBIjAAF?HI~@Ej@MlBYnFInASnDWfCUvEKbBQzCOzBANCNE\\E^UvDIfAIlAIjAGdAIvAS|CGbAKvAUlEIjAMtCWdESjCUxCU|CWpEKjB[|EK|AWzDOxBSzCEj@KnBa@tGMlBSvCAVQjCMxBOlBK`BKjBOxBMbBOhCMhBMtBOvA?H?FBDDBTDrAPtANGfA?PQvCCd@CREPEHCHMRW`@CDQXoCjEEFEHW\\GJOVEFIL}@tAS\\QXsAtBKPIJi@~@sGfKEJELCLCTAVMfBeA`Pa@zGMhB[lFEr@IvAmC]gBUmC]sAQq@IgBUgAOqAOsC]cAOMAiAOAJAJIzAMzBInAKhBC^OpBCj@UjDEr@IzAMbBEr@MbBEn@MdCEj@GAI?M?qAHcDNgAJiDPqFVgCLsBH{D\\cEZI?C?E?EAECCC_Ay@ECCAEAE?c@?iCNI@}ENeBF{AFuBHgBDsEHcA@k@Fc@Ba@B]B]Bg@FMB]BgBTkCXaCVG@E@S@iCVUDo@HO@I?GAGAIEIXIZ]pAGXIVYhAOh@c@~AMd@g@fBQn@e@lBQn@g@hBMb@Qn@Sx@gAhEIZ[bAQj@K^_@tAU~@K\\EN_C|IOl@_@pAI\\}BtIMd@_@tAMf@oAtEQn@St@[hASr@Ux@i@bBYfASx@Sp@CNEPCVAR@J?JDX??@D?FRpB?F@X?H?\\Ar@Eh@CZKf@K^IFMP]Zm@l@_@XYR{@l@FNBBDLFFHFTH`Cv@hC|@dBl@PFa@rASr@m@~BMb@EHGJGFIFc@Xa@VuAz@kAn@a@RqEdAiBb@oBf@UDa@JYF[Hy@RmAZiAVkAXeAXuA\\gAVe@Lg@L_ATyAZyA^sA\\mAZyAZe@Fm@Dg@D}@D{@DJqGJwFL{FP{INiHF{DDwB@a@FsC?G@q@B]DY^mBJ_@t@_D`BmHH]H_@H]l@mCa@OyAUmBQe@Ik@Sm@WSKKG[QYSWUQOSOWa@ACGIGMKUGKGSCIODkARk@JUDQDmB\\[J_@Fa@HYFQDmAPqAToATcBXoATs@N_@FaDh@_Dj@y@NqATuCh@cAPsAVICA?WD}AVE@GFO@KB@Q@MHo@BSHe@NcAx@mFzA}J`@aCpBqMfD{So@SSGOCM@MBKDKHEDILm@hAc@n@[\\[VkAj@cCv@RhBnBbO",
       "stop_ids": [
         "septa-bus:21425",
@@ -393,6 +395,7 @@
       ]
     },
     "septa-bus:52": {
+      "key": "septa-bus:52",
       "route_id": "52",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -400,8 +403,8 @@
       "route_short_name": "52",
       "route_long_name": "49th-Woodlnd to 54th-City/Parksd Lp",
       "route_type": 3,
-      "route_color": "#000000",
-      "route_text_color": "#FFFFFF",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "cvbsFnfejM`Au@LILEPCTCTCbBK~N{@z@Gz@E|@Ef@El@Ed@GxA[lA[rA]xA_@xA[~@Uf@Md@MfAWtA]dAYjAYhAWlA[x@SZIXG`@KTEnBg@hBc@pEeA`@SjAo@tA{@`@Wb@YHGFGFKDILc@l@_CRs@`@sA^yAb@eBb@_BbBoGdAl@bCrAbAl@ZPB@h@Th@Z^R\\TF@LBP@H?XAJCTARAdAINAhAK|Dc@ZEtASfAKv@Gl@IpAMdAM|@ITCf@GnBUbBWvAStAS\\ElASdAM\\E`AKXCtAOdAK^C|AMVApAKjAMvAM|@Ip@Gh@IVC\\Et@KhDe@tAOLAJ@ZBp@HjC\\pAPvC`@pCZD?FBDDHB~APp@Hd@DXDpALxCZrC^lAPf@Hb@FjANfALp@Hh@FpAPhAN^D\\FhANdALf@F|APXDlAL`ALb@Fh@Fr@Hb@FhANfANpAPbALlANdALVDr@H`ANN@F?BAHI|AmBpDbGPVDFDHLTh@v@zBlDpAeB`AqAtAeBnA{AfAsAtAaBlAyAfCaDxAcB`AoAlA_BfBwBdByB^c@T[HMHQHOFIHM`@g@dAqARWFGHGHGLO\\e@~@mArAcBmAmBqBcD}@uAy@qAgAkBqAsBGKcAaBsAwB_BaC{@sAo@gAaAyAzAoBfB{BNQ",
       "stop_ids": [
         "septa-bus:317",
@@ -581,6 +584,7 @@
       ]
     },
     "septa-trolley:T1": {
+      "key": "septa-trolley:T1",
       "route_id": "T1",
       "namespace": "septa-trolley",
       "agency": "SEPTA",
@@ -677,6 +681,7 @@
       ]
     },
     "septa-regional-rail:CYN": {
+      "key": "septa-regional-rail:CYN",
       "route_id": "CYN",
       "namespace": "septa-regional-rail",
       "agency": "SEPTA",
@@ -696,6 +701,7 @@
       ]
     },
     "indego:indego": {
+      "key": "indego:indego",
       "route_id": "indego",
       "namespace": "indego",
       "agency": "Indego",

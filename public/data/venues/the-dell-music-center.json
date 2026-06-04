@@ -122,6 +122,7 @@
   },
   "routes": {
     "septa-bus:32": {
+      "key": "septa-bus:32",
       "route_id": "32",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -129,8 +130,8 @@
       "route_short_name": "32",
       "route_long_name": "Broad-Carpenter to Ridge-Lyceum",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "{zisF~kajM|@`BhBfDzDjHpDxG}BdC}BdCqAcC}AyC{@yA_CoEqEkIvAaB`@c@bBoBT[FGdCyCFGr@w@n@s@nCaDf@k@xAeBNOPQPQk@_B_AoCy@cC}@kCGWoAoDLILIlD}BjCeBp@a@fAu@r@g@LIv@c@hBoAl@a@zAaAp@c@nCgBTUFGNORYV_@NWJUHUFSJc@Hi@Fa@DaA?E@e@Ac@Ag@OyAIs@Ec@a@qDMiACk@AU?[@_@@YD]BUDYFYHYFUL[P]NWLQTWPUfCsCrBwBJIFIFGlCcCp@m@b@a@XWTUVU`As@h@]bAs@RKROVSPQLKLQNOHMBENUv@uAZk@NW@APSZYb@[\\YJKPQLOJQFMDKBQDOLe@FUL]FOJQFOJMFIHKXWZUPMJIXQNMPM@APORQJKNMz@cALOVYp@{@`AkAn@w@\\c@TWv@_Ax@eAh@q@zAiBbEcFjB}B`@g@|@cA~@kAZ_@nAwAFILQV]RUNQJI^[RQLKf@e@VUjBaBTSNMNK@CLIHIDGRSRABAZWJGLGNGZKPEHCjFsAjBi@xCw@nCi@VG^KT[|@Kp@GWk@Ua@m@wAo@{AkAmCLIHCFAJ@`Fp@zBVjAPL@fBVpAR|Df@b@FXB\\HjANxC^jC`@zC^P`@t@pAh@v@|BxDFJHHHDFDK`BEFIvAO|BOnB[tEG~@MfB@HAPMzBzEl@`BXnAPzEn@vAPnEl@nB^dBRzARlBT~ATfBTvBZtBXjANVDzARvAP`BTdBV`BRdBT|En@nAPvC^`ALrARfANhANf@DzARB?NBZFHJ^HF@xANdBRr@H\\Bd@Fj@HTDNHNLJHHLZ\\TRPLTHRFRBT@RATEVGh@OPE`@MZKJEFAt@WZOHCHENIZSXQLKNKBCLMRSTWZ]NSLSBEFOFKBIDOHIFGFGx@e@f@W|@g@FCjBeACIAI?IAM@Q?Q@Q@WBa@T_DJkBZuEf@eIPqCNkCJoAFmAJyAFcAtFt@tC^bAN~ARTBv@L`ALhCV|ATH@D@D@BBDDBDdAmA\\a@~AiB`@e@|BkCr@w@~@cAr@u@Z_@t@}@X]r@_Ad@i@`@i@pDoEd@o@PWPYLUBKDOBY@OAKP}ClAP`@D\\DVDdCZ~@N^Fn@HL@JBZBRD~@JXDN@VDn@H^uGBq@Ve@e@IJQb@s@PYLMRKRGvAKFAHAHCFETQJODKFOFWBS@O\\JrDl@j@HlC\\jBX|AP??hAP|BZZqELiBVmEJqB\\kFHkAVaELwBXDdAILCHAFCFCFEDEFK@KDKDYNq@N{CbBTn@HvC^fAN`ALLBtBXp@JZB\\Db@F~BZlANhANzARp@HdANrBVdANnBXtAPrAPxARhAPvBVvAPnBVfAPl@Hb@FVBfDb@g@nItBVxBZLiBLmBLyBmAQqAOk@G",
       "stop_ids": [
         "septa-bus:20414",
@@ -293,6 +294,7 @@
       ]
     },
     "septa-bus:54": {
+      "key": "septa-bus:54",
       "route_id": "54",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -300,8 +302,8 @@
       "route_short_name": "54",
       "route_long_name": "Richmond-Cambria to 33rd-Dauphin",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "wl_sFvvliMZWBClAvCp@bBx@tBUPYTeAx@}@v@aAx@kBbByAnAkA`AgA~@iA|@oAbAoAdA_BtAaBtAqAfAgB~AaAv@cAx@kA`AaEnDiBzAmAdAuAhAmCpBO\\gBvAk@h@UPo@b@}ArA_BtAuBjBoBrAv@bBdA~B`@x@^z@JRFL@@JXDJFLVd@v@hBILs@|@EFEJCHCJAJItAGz@Ej@MhBEb@[vFk@lIGt@OhBKhBKzAIzAEf@Gt@AXI|@M|AALCXIrAG~@Gt@MnBCXCZQzBE^Er@MdBIbAC\\Cf@Er@IbAAXMvAEr@Cn@ObCO~BQdCGt@Ej@GbAUdDQ~BIpAEl@K~AKbBCp@Ej@E`AOlCGz@e@jGMbBC`@AHCd@Cf@I~Ae@xHK|AEd@Gp@_@|FANARCTC^IjAC^Cf@KzAMlBKzAMpBIvACRAVIbAOpBInAObCCf@G~@IrAEr@SzCANCVQnBIfAEn@Cf@CVCPEHA@GxAYbEEv@Ef@SnC?@BJCXIlAATC^IdAKzAMtBADAVKpAARIdAAXI|AOlBK~AKnBM~AEj@Et@Cb@KzAc@|HKvAEf@CTCb@M~AOhBIpAARCNKbBIfAEn@Ep@E`@OtBK`BEFIvAO|BOnB[tEG~@MfB@HAPMzBzEl@`BXnAPzEn@vAPnEl@nB^bBEn@U",
       "stop_ids": [
         "septa-bus:16543",
@@ -414,6 +416,7 @@
       ]
     },
     "septa-bus:446": {
+      "key": "septa-bus:446",
       "route_id": "446",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -421,8 +424,8 @@
       "route_short_name": "446",
       "route_long_name": "Henry-Cinnaminsn to Junipr-Commerce",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "yamsFvjbjM\\cAXw@Re@P[PUXa@RUNMNONKRMRMPIRI^OXGPCTCNCH?JAR?f@A^?^?t@?|A@dD@NAdAAtCQH?b@CXEJAJCLCJEJEPMLKNMVSb@c@bAcATUJMX[V[V_@\\g@b@s@b@o@j@_AhAoBt@oAb@w@\\m@pAsBtAcCl@aA`A_BFJN^jGfPpGtPrCoCp@q@rAqATYvAaB`@c@bBoBTYDIhCyCDGr@w@n@s@nCaDf@m@xAcBNOPQPQi@_BaAqCy@aC}@kCGWoAoDLILIlD}BlBoA\\Wp@_@fAu@r@g@LIv@c@hBoAl@a@zAaAp@c@nCgBTUFGNORYV_@NWJUHUFSJc@Hi@Fa@DaA?E@e@Ac@Ag@OyAIs@Ec@a@qDMiACk@AU?Y@a@@YD]BUDYFYHYFUL[P]NWLQTWPUfCuCrBuBJIFIFGbCyBHIp@m@b@a@XWTUVU`As@h@]bAs@RKROVSPQLKLQNOHMBENUv@uAZk@NW@APSd@c@TQRMPQNMJOLONYFM@A?KFQLe@FUL]FOHQHOJMFIHKXWZUPMJIXQNMPM@APORQJKNMz@cALOVYp@{@@A~@iAn@w@\\c@TWv@_Ax@eAh@q@zAiBbEcFjB}B`@g@|@cA~@kAZ_@nAwAFILQV]RUFEFKJI^[RQLKf@e@VUjBaBTSNMNK@CLIHIDGRSRABAZWJGLGNGZKPEHCdFqABAlBi@xCw@nCi@VG^KT[??|@Kp@G?AWi@Ua@m@wAo@{AkAmC??LIHCFAJ@`Fp@",
       "stop_ids": [
         "septa-bus:20968",
@@ -538,6 +541,7 @@
       ]
     },
     "septa-bus:448": {
+      "key": "septa-bus:448",
       "route_id": "448",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -545,8 +549,8 @@
       "route_short_name": "448",
       "route_long_name": "Broad-Vine to Upper Roxborough",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "amdsFphziMQA??In@q@F}@J_@Co@N{@Pq@L]Hy@Pq@Rq@RaBf@UFgBb@}A^e@NIBWHQFOHMFMHSPKJGTSREFIHMHABOJOLURkB`BWTg@d@MJSP_@ZKHGJGDSTW\\MPGHoAvA[^_AjA}@bAa@f@kB|BcEbF{AhBi@p@y@dAw@~@UV]b@o@v@_AhAA@q@z@WXMN{@bAOLKJSPQNA@QLOLYPKHQL[TYVIJGHKLGNKPGNM\\GTMd@GPIFCDEFEJMPQRQRSN[RGDULUVKLIJEFGH]l@g@|@U^W^Y\\[X]Xi@^qAz@g@^MHsAfAYTaBtAeCzBGFIHKJA@{BdC}@`AqArAa@f@U^Sd@GNMd@GTG`@Id@Cf@AZ?R?N?J@f@Dl@Fh@PjBR~AFh@Ht@Fj@Ft@@j@?T?JCl@Ef@CVCTCJKd@IZITIPMXQZORSXUTKDoCdBq@b@{AbAm@^OJ{A|@yB|Ay@l@KHm@^a@XkBjAoCdBSJQLWHDLBHnAnDFV|@jCx@`C`ApCh@~AQPQPONyAbBg@l@oC`Do@r@s@v@GFgCxCEHUXcBnBa@b@wA`BUXsApAq@p@sCnCmBhBQPMPQXOXM\\Sp@]dAKXM`@I\\ERI^Mj@Kb@UjAo@fCETOh@I\\Qn@_@nAQd@GRIPIHMJQLUNaAj@GDWRgBjA_DtBcAr@KHi@`@aBnAURURa@b@cB`B_@^A@QROTW`@g@bAw@vAkC|EGNUd@Up@Od@Od@y@bDI`@Oj@Sx@GRGVENM\\ITIPENMZWj@CFEJCBWd@MVILKNILc@j@]b@Y^eArAe@l@oAxAIJOPQPEDSPQNULQJUJg@R{@\\kAb@A@m@Xa@LKBkAXoCt@uA\\SF_@HYDY@Y?Q?c@AeCGgACo@Cu@Gs@Gy@MwBS_@EUA_@As@?gBAi@@iABo@Dk@F",
       "stop_ids": [
         "septa-bus:19699",
@@ -634,6 +638,7 @@
       ]
     },
     "septa-bus:61": {
+      "key": "septa-bus:61",
       "route_id": "61",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -641,8 +646,8 @@
       "route_short_name": "61",
       "route_long_name": "9th-Market to Manayunk",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "ehzrFvtuiMiBYOdCWtDUzDQbCuB[aAKmBWgAOeAOk@IKCwB[a@GIAQCWEQCMA}AUy@K{@MyAQc@Gm@KwAQeBS[GuAbAoDjCKFKF_@ZeBpA]TsAt@e@V{@d@SJSFMDwB~@mBt@aFtBOHMH_Al@IFOPWVk@n@wDnEa@f@kEdFo@v@q@x@}AdBw@~@GFwAfB}@hAONQNo@h@oAt@cAn@mErCyDhBgCjAq@ZcBt@cElBeBv@iClAgAh@mB~@MDQJQJIHEFMNOTs@dAs@hAkBvCe@v@qB`Dw@hAg@r@gDrEq@bAm@|@wCnEiCpDo@~@QZmBtCCBw@lAQVEHOTORQV]f@q@bAyAlB_F~G]d@y@~@oApAoAtA]\\KLs@v@YXQPONIHGHKHKHc@Vu@h@c@V_@VIDUNQJSJm@Vg@TSHy@\\}Ap@e@ViA`@i@Te@PaDrAs@Xu@XOFMDg@LsAV[FMBM@k@DQ?g@BQ?M?{@?W?_D?oA?c@ACACCKAK?G?OAWGa@K_D_AwAc@e@OOE_@MOEk@ME?I?G?G?E@I@KBiB`@iAVeAT[HWD[DIBK@GHO@U@c@Bi@@{@BaBDiABQ@O@ODq@NgCh@KDIBIDEDIDIHGDGDGDCBIHEFEFqArBU\\W`@OVKPIPIVI\\IXERCPCFQ`AId@SlAIb@GZEREPADAJGZCRCLALGXCVc@rCENGNIPCD}@~Ac@z@MZWz@Mf@s@fCw@jCW|@K^{ArFe@vAg@|Aa@rAe@~AM\\Y`AQh@M\\GNGJO\\Q\\QXEFMPOPMNYTe@\\i@\\UPSPONq@h@WVQRKNGJGDINKNADININIPIRITIXIVSv@IXI^U`AQz@ITMj@CLELCNEPa@xCERAF?BCDALETCPMt@GZAHEPALKd@Kh@CHo@vCa@xBKh@AB[xAOh@[`ASl@W`AKd@Mb@EXIv@C\\CRCRGRITKVO^GNILKNo@z@KNMLWTQNWPwC|AKFqClBOJML{@lA{@pAY`@wBvCu@fAwAnBoAhBs@dAs@`A{CjEQT{@nAy@fAg@r@i@v@eAxAKRO\\GP]hA}@`DM`@[`AWt@YbA]hAQl@Ux@m@pBUt@Ux@cAfDM`@a@hAi@`BOb@O^QZQVa@h@]d@g@r@c@l@uAlBs@`AW\\KPEHEH?J?H@LBN",
       "stop_ids": [
         "septa-bus:14883",
@@ -784,6 +789,7 @@
       ]
     },
     "indego:indego": {
+      "key": "indego:indego",
       "route_id": "indego",
       "namespace": "indego",
       "agency": "Indego",

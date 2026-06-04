@@ -116,6 +116,7 @@
   },
   "routes": {
     "septa-metro:B1": {
+      "key": "septa-metro:B1",
       "route_id": "B1",
       "namespace": "septa-metro",
       "agency": "SEPTA",
@@ -173,6 +174,7 @@
       ]
     },
     "septa-bus:17": {
+      "key": "septa-bus:17",
       "route_id": "17",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -180,8 +182,8 @@
       "route_short_name": "17",
       "route_long_name": "Front-Mkt to 20-Johnston/Broad-Pat",
       "route_type": 3,
-      "route_color": "#000000",
-      "route_text_color": "#FFFFFF",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "mxyrFznsiMnANQvBMjBGjAKvAc@xHObCGdAOdCATC^InAGt@M~AOxBEr@UtCe@xHSzCS`DQtCS`Dg@vHg@~He@rHOzBE|@ELGLIHOHi@Gs@KOAK?I@GBGBGHGJENCRCZKhAK`BQtCI`BGb@Gh@CRMlBEr@Ev@KrBIpAObCANIvAEr@Gz@Ef@Cb@YxEMhBfALdCZ|BZdAPfBTvCb@|@HzAROfB`BT`AH~@J`BRFaAB]hALjANxAPb@FTBp@JJ@hAP`APVDL@bAPl@H~@Ld@Hz@F|ANpAP`BT`BTfEj@jANlANbBT|ARrAV~@J`AJZBjBXxAPlANxARtATR@pANxARf@Fb@FLBtC^VBlAPhAPnANtAPrFt@tAPjAPrAPpAPnANtARpAPdALzARlANjANtAT`Fn@LBjFt@J@^DD?n@HjALzARpAPhAPvAPvAPhALxATxFv@tAPt@JRBzARTFjBV`@FnBVxFp@tATZAPGLK`Au@d@vAt@`CX|@ALJn@EpBq@IsKwAqC_@SC",
       "stop_ids": [
         "septa-bus:17842",
@@ -320,6 +322,7 @@
       ]
     },
     "indego:indego": {
+      "key": "indego:indego",
       "route_id": "indego",
       "namespace": "indego",
       "agency": "Indego",

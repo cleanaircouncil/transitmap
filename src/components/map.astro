@@ -100,6 +100,13 @@ import TransitChip from "./transit-chip.astro";
     /* padding: .25rem; */
   }
 
+  .map-stop-group:hover {
+    z-index: 2;
+  }
+
+  body:has.is-dimmed .map-stop-group:has(.transit-chip:not(.is-dimmed)) {
+    z-index: 3;
+  }
 
   .map-marker {
     width: 36px;
@@ -229,10 +236,11 @@ import TransitChip from "./transit-chip.astro";
 </style>
 
 <script>
-  import { data, currentListingSlug } from "../helpers/store";
+  import { data, currentListingSlug, fetchVenueData, currentRoute, currentVenue } from "../helpers/store";
   import { cloneTemplate, populateWithData } from "../helpers/populate";
   import { decodeRoutePolyline } from "../helpers/maps";
   import { circle } from "@turf/turf";
+
 
   const PHILLY_LAT = 39.952583;
   const PHILLY_LON = -75.165222;
@@ -253,7 +261,7 @@ import TransitChip from "./transit-chip.astro";
     const map = new maplibregl.Map({
       container: "map", // container id
       style:
-        "https://api.maptiler.com/maps/0197e64b-47f4-71b6-9770-751526b1f31b/style.json?key=v64Bpd9Og2E4Zm916XUB", // style URL
+        "https://api.maptiler.com/maps/019e92f0-bef2-77ae-9e7e-3033c15fbb6a/style.json?key=v64Bpd9Og2E4Zm916XUB", // style URL
       center: PHILLY_CENTER,
       attributionControl: false,
     });
@@ -328,11 +336,11 @@ import TransitChip from "./transit-chip.astro";
     map.getSource('location-radius').setData(circleData);
   }
 
-  async function fetchVenueData(venueSlug) {
-    const result = await fetch(`/data/venues/${venueSlug}.json`);
-    const data = await result.json();
-    return data;
-  }
+  // async function fetchVenueData(venueSlug) {
+  //   const result = await fetch(`/data/venues/${venueSlug}.json`);
+  //   const data = await result.json();
+  //   return data;
+  // }
 
 
   function setCurrentMarker(venue) {
@@ -358,7 +366,7 @@ import TransitChip from "./transit-chip.astro";
       for( const id in venue.stops )
       {
         const stop = venue.stops[id];
-        const groupEl = cloneTemplate("map-stop-group-stub");
+        // const groupEl = cloneTemplate("map-stop-group-stub");
 
         for( const stopRoute of stop.routes ){
           
@@ -370,15 +378,17 @@ import TransitChip from "./transit-chip.astro";
           populateWithData(markerEl, route)
 
           // add marker to map
-          groupEl?.appendChild(markerEl);
-
-          break;
+          // groupEl?.appendChild(markerEl);
+        new maplibregl.Marker({ element: markerEl })
+          .setLngLat(stop.coordinates)
+          .addTo(map);
+          // break;
       
         }
 
-        new maplibregl.Marker({ element: groupEl })
-          .setLngLat(stop.coordinates)
-          .addTo(map);
+        // new maplibregl.Marker({ element: groupEl })
+        //   .setLngLat(stop.coordinates)
+        //   .addTo(map);
 
        
       }
@@ -396,6 +406,43 @@ import TransitChip from "./transit-chip.astro";
 
 
 
+  })
+
+
+
+   map.addSource('route-display', {
+        type: 'geojson',
+        data: {}
+    });
+
+  // Add a fill layer with some transparency
+  map.addLayer({
+      id: 'route-display',
+      type: 'line',
+      source: 'route-display',
+      paint: {
+          'line-width': 10
+      }
+  });
+
+
+  currentRoute.subscribe( (route_id) => {
+    (async() => {
+      if(!route_id) {
+        map.getSource("route-display").setData({ type: "FeatureCollection", features: [] });
+        return;
+      }
+
+      
+      
+      const venue = await fetchVenueData( currentVenue.get() );
+      const route = venue.routes[route_id];
+
+      const geometry = decodeRoutePolyline(route.polyline);
+      map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
+      map.getSource("route-display").setData( geometry );
+      
+    })()
   })
 
 </script>

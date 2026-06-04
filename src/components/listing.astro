@@ -8,7 +8,6 @@ import TransitSelector from "./transit-selector.astro";
 const routes = routesByVenue[listing.venue_id];
 
 const venue = data.venues.find( venue => venue.slug == listing.venue_id );
-console.log( venue );
 
 const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
 const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);

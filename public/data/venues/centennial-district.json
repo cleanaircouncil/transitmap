@@ -164,6 +164,7 @@
   },
   "routes": {
     "septa-bus:40": {
+      "key": "septa-bus:40",
       "route_id": "40",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -171,8 +172,8 @@
       "route_short_name": "40",
       "route_long_name": "2nd-Lombard to Conshohocken-Monumnt",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "gfxrFv_tiMIfAMbC[hEOpBYpEKjBIjAAF?HI~@Ej@MlBYnFInASnDWfCUvEKbBQzCOzBANCNE\\E^UvDIfAIlAIjAGdAIvAS|CGbAKvAUlEIjAMtCWdESjCUxCU|CWpEKjB[|EK|AWzDOxBSzCEj@KnBa@tGMlBSvCAVQjCMxBOlBK`BKjBOxBMbBOhCMhBMtBOvA?H?FBDDBTDrAPtANGfA?PQvCCd@CREPEHCHMRW`@CDQXoCjEEFEHW\\GJOVEFIL}@tAS\\QXsAtBKPIJi@~@sGfKEJELCLCTAVMfBeA`Pa@zGMhB[lFEr@IvAmC]gBUmC]sAQq@IgBUgAOqAOsC]cAOMAiAOAJAJIzAMzBInAKhBC^OpBCj@UjDEr@IzAMbBEr@MbBEn@MdCEj@GAI?M?qAHcDNgAJiDPqFVgCLsBH{D\\cEZI?C?E?EAECCC_Ay@ECCAEAE?c@?iCNI@}ENeBF{AFuBHgBDsEHcA@k@Fc@Ba@B]B]Bg@FMB]BgBTkCXaCVG@E@S@iCVUDo@HO@I?GAGAIEIXIZ]pAGXIVYhAOh@c@~AMd@g@fBQn@e@lBQn@g@hBMb@Qn@Sx@gAhEIZ[bAQj@K^_@tAU~@K\\EN_C|IOl@_@pAI\\}BtIMd@_@tAMf@oAtEQn@St@[hASr@Ux@i@bBYfASx@Sp@CNEPCVAR@J?JDX??@D?FRpB?F@X?H?\\Ar@Eh@CZKf@K^IFMP]Zm@l@_@XYR{@l@FNBBDLFFHFTH`Cv@hC|@dBl@PFa@rASr@m@~BMb@EHGJGFIFc@Xa@VuAz@kAn@a@RqEdAiBb@oBf@UDa@JYF[Hy@RmAZiAVkAXeAXuA\\gAVe@Lg@L_ATyAZyA^sA\\mAZyAZe@Fm@Dg@D}@D{@DJqGJwFL{FP{INiHF{DDwB@a@FsC?G@q@B]DY^mBJ_@t@_D`BmHH]H_@H]l@mCa@OyAUmBQe@Ik@Sm@WSKKG[QYSWUQOSOWa@ACGIGMKUGKGSCIODkARk@JUDQDmB\\[J_@Fa@HYFQDmAPqAToATcBXoATs@N_@FaDh@_Dj@y@NqATuCh@cAPsAVICA?WD}AVE@GFO@KB@Q@MHo@BSHe@NcAx@mFzA}J`@aCpBqMfD{So@SSGOCM@MBKDKHEDILm@hAc@n@[\\[VkAj@cCv@RhBnBbO",
       "stop_ids": [
         "septa-bus:21425",
@@ -365,6 +366,7 @@
       ]
     },
     "septa-bus:38": {
+      "key": "septa-bus:38",
       "route_id": "38",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -372,8 +374,8 @@
       "route_short_name": "38",
       "route_long_name": "5th-Market to Wissahickon TC",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "eifsF~a`jMNJHTWzA]d@o@QMw@GE_A_@c@Or@sC@GDQBK@IDSNs@He@Lq@BMBK@GDYDUDWZg@l@{AJQ`@]`@SXGXEZAl@@d@?h@Bp@?RBNFPJXZPRHLJPPVx@nANTb@p@Xb@JLJNPTNTXl@^h@Zd@f@x@R\\PZNVPVLVp@lAfA~B^v@f@jATh@JRLTLNRJnAaAPOx@o@|@s@n@k@RSnCqDNUFSHm@Am@Mi@c@y@s@{@e@u@Ug@W_A{BoPC[?e@Bq@Fc@Hg@Lg@\\uArAz@VBRKd@o@Rc@DSFg@E{A@i@P}@FQ\\[b@Of@Ad@J^XJNFPd@zBV~@j@nAb@b@ZRnBpAd@Z\\ZTTXd@TpAJzADj@VzCf@bG`@~EDd@Dl@H|@BZVnCD`@Jt@Hz@BRFp@JfARtBfASf@OhAo@x@s@^_@Vg@d@mATQVGL?B@r@Nd@P}@pFaAbGi@bDWfBWjB_@xBKv@WjASrAsAtI[tBe@~Ci@fDO~@AVzCm@`AQbAQLCd@ItAWn@KtAWj@IlDe@`@O\\Mb@Cb@EJCdAQVElAWlBe@nAYp@KXG~AYn@MrAWnB[FAx@OtAU|AYl@KlFaAbGgA`GgAx@OpAWnDo@l@MhDo@|AWb@Ix@ObAQjHsAh@KlCg@hGeAfAQZGpAWl@Kx@Or@M~AYv@OlB_@l@wB\\oAf@kBl@{BV_Aj@yBwBiA_CkAwBiA_@rA_@vAxBlAnBjAAF@FBDD@DABElBbAV_Aj@yBhA}DBKp@oCRo@b@_BfAgENi@BOxBgIZiATw@F@F?XAJApCYhCWxAMp@In@GxBU~ASnAO|C_@nEg@jBSbBQKiBMsB_@gHk@}LSqCMmCEaAMkC\\}A~B_Jn@cCr@qClBUpBWlBSrBUn@IbAM`AKl@Gx@Gp@EMiCA[MyBUiEI{AGaBA[I}AIuAAQEy@C_@SiBKs@Kc@Oo@Mi@IYI_@Ka@GYI]WaAOs@Ga@Ko@E]Ei@Cc@A[?i@@g@]CUDUJk@j@SRSHi@DK?]ESEa@S[Yg@o@[c@g@u@W_@Mk@Gm@?W?QD[DULWVq@Ve@Zo@DQBi@Ke@~Aa@zA[TGf@ER@PHLHNLLTZ^JNHJd@p@b@V\\JR?PCRINKVYRWLSZo@XeARw@PcANg@F[Da@Jk@Nm@Re@|@sAfDaF|@uApAoB`AwA|@qAxA_Cf@}@Ta@JSNa@DWFe@L@nBZt@LxB\\rDd@xATbBVfBT^DNBj@FfAJn@FxAHX{ELcBXwEJ_BPkCDu@JuBHwADm@B_@FkAHmAViEP{BRB`@FN@ZLr@Ld@Jj@JfAJPoCFcAJgB@ON_CJaBXsEj@wHL}BR}Dd@{HReDRsCTmDPkCZkELkBd@{HBa@BWDu@NyBDs@BWSCcBOyAO_BO",
       "stop_ids": [
         "septa-bus:17842",
@@ -517,6 +519,7 @@
       ]
     },
     "septa-trolley:G1": {
+      "key": "septa-trolley:G1",
       "route_id": "G1",
       "namespace": "septa-trolley",
       "agency": "SEPTA",
@@ -646,6 +649,7 @@
       ]
     },
     "indego:indego": {
+      "key": "indego:indego",
       "route_id": "indego",
       "namespace": "indego",
       "agency": "Indego",
@@ -970,6 +974,7 @@
       ]
     },
     "phlash:West": {
+      "key": "phlash:West",
       "route_id": "West",
       "namespace": "phlash",
       "agency": "Philly Phlash",

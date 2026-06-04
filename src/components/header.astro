@@ -1,13 +1,12 @@
 <header class="header padding">
   <hgroup>
-    <a href="https://cleanair.org" title="Clean Air Council"
-      ><img
-        class="logo"
-        src="/assets/img/cac-logo.png"
-        alt="Clean Air Council Logo"
-      /></a
-    >
-    <h1>Go Philly Go: Car-Free Routes</h1>
+    <h1>GoPhillyGo<br/><span>Car-Free Routes</span></h1>
+    <span>
+    provided by
+    <a href="https://cleanair.org" title="Clean Air Council">
+      <img class="logo" src="/assets/img/cac-logo.png" alt="Clean Air Council Logo"/>
+    </a>
+    </span>
   </hgroup>
   <slot/>
 </header>
@@ -26,6 +25,17 @@
     margin-block: 0.5rem;
   }
 
+  .header h1 {
+    font-style: italic;
+    font-size: 1.5rem;
+    line-height: 1;
+
+    span {
+      font-weight: 300;
+      font-size: 2rem;
+    }
+  }
+
   .header h1,
   h2,
   h3 {
@@ -34,6 +44,7 @@
 
   .header .logo {
     width: 10rem;
+    display: inline-block;
   }
 </style>
 

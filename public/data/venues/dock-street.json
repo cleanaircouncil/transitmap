@@ -266,6 +266,7 @@
   },
   "routes": {
     "septa-metro:L1": {
+      "key": "septa-metro:L1",
       "route_id": "L1",
       "namespace": "septa-metro",
       "agency": "SEPTA",
@@ -336,6 +337,7 @@
       ]
     },
     "septa-bus:12": {
+      "key": "septa-bus:12",
       "route_id": "12",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -343,8 +345,8 @@
       "route_short_name": "12",
       "route_long_name": "Columbus-Dock to 50th-Woodland",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "{wwrFpeajMRUxAgBNQlAaBmD{FcA_Bs@eA_A}AkBqCAoBAuA?aA@g@?e@?{@?[?OB_BHqCJoBLkBH_ATuB`@aD\\cCXaBNy@Ly@TsAJs@L_ADa@XgBToBD_@^_DTkB@INgAJW@EJs@BSHm@Hs@Hw@Dk@Be@@{@?{@?aD?gA?yA?uE?mB?iB?}BAi@Co@Ee@Kq@GUIYUw@i@iAy@aBUg@i@iAKWMMUUmAmBw@uA]m@g@cAw@uAkBwD[i@s@qAw@aByBiEWe@Yk@oA}Bi@eAa@_AFo@^gIoAQm@Km@Iy@Kq@Ie@Iy@Kq@K_CY_AMe@I{@IQCgBSkAQo@Ko@IkAQRcDRyCd@mHJsAHiANkC`BRFaAB]@QTyDJoByASPcCTwDd@yHN}CP}Cj@_I@OLiCJ{AFkAN}BDk@LqBT}CJuAFeAH}@J_BP_DRwCDo@Dq@D{@BW@SLoBPsCTgDfBTp@HRB`AN~Cd@B@tBVd@sHd@cHDg@d@kHRgDR_DToDPaCb@eHHeAB]@UPkDLyBiB]kCY[EBYBa@De@@SBa@B]@O@SBa@@SSCo@Gq@I{@IOAAVCZE\\CVIdACZE|@MhCt@LT@",
       "stop_ids": [
         "septa-bus:317",
@@ -445,6 +447,7 @@
       ]
     },
     "septa-bus:40": {
+      "key": "septa-bus:40",
       "route_id": "40",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -452,8 +455,8 @@
       "route_short_name": "40",
       "route_long_name": "2nd-Lombard to Conshohocken-Monumnt",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "gfxrFv_tiMIfAMbC[hEOpBYpEKjBIjAAF?HI~@Ej@MlBYnFInASnDWfCUvEKbBQzCOzBANCNE\\E^UvDIfAIlAIjAGdAIvAS|CGbAKvAUlEIjAMtCWdESjCUxCU|CWpEKjB[|EK|AWzDOxBSzCEj@KnBa@tGMlBSvCAVQjCMxBOlBK`BKjBOxBMbBOhCMhBMtBOvA?H?FBDDBTDrAPtANGfA?PQvCCd@CREPEHCHMRW`@CDQXoCjEEFEHW\\GJOVEFIL}@tAS\\QXsAtBKPIJi@~@sGfKEJELCLCTAVMfBeA`Pa@zGMhB[lFEr@IvAmC]gBUmC]sAQq@IgBUgAOqAOsC]cAOMAiAOAJAJIzAMzBInAKhBC^OpBCj@UjDEr@IzAMbBEr@MbBEn@MdCEj@GAI?M?qAHcDNgAJiDPqFVgCLsBH{D\\cEZI?C?E?EAECCC_Ay@ECCAEAE?c@?iCNI@}ENeBF{AFuBHgBDsEHcA@k@Fc@Ba@B]B]Bg@FMB]BgBTkCXaCVG@E@S@iCVUDo@HO@I?GAGAIEIXIZ]pAGXIVYhAOh@c@~AMd@g@fBQn@e@lBQn@g@hBMb@Qn@Sx@gAhEIZ[bAQj@K^_@tAU~@K\\EN_C|IOl@_@pAI\\}BtIMd@_@tAMf@oAtEQn@St@[hASr@Ux@i@bBYfASx@Sp@CNEPCVAR@J?JDX??@D?FRpB?F@X?H?\\Ar@Eh@CZKf@K^IFMP]Zm@l@_@XYR{@l@FNBBDLFFHFTH`Cv@hC|@dBl@PFa@rASr@m@~BMb@EHGJGFIFc@Xa@VuAz@kAn@a@RqEdAiBb@oBf@UDa@JYF[Hy@RmAZiAVkAXeAXuA\\gAVe@Lg@L_ATyAZyA^sA\\mAZyAZe@Fm@Dg@D}@D{@DJqGJwFL{FP{INiHF{DDwB@a@FsC?G@q@B]DY^mBJ_@t@_D`BmHH]H_@H]l@mCa@OyAUmBQe@Ik@Sm@WSKKG[QYSWUQOSOWa@ACGIGMKUGKGSCIODkARk@JUDQDmB\\[J_@Fa@HYFQDmAPqAToATcBXoATs@N_@FaDh@_Dj@y@NqATuCh@cAPsAVICA?WD}AVE@GFO@KB@Q@MHo@BSHe@NcAx@mFzA}J`@aCpBqMfD{So@SSGOCM@MBKDKHEDILm@hAc@n@[\\[VkAj@cCv@RhBnBbO",
       "stop_ids": [
         "septa-bus:21425",
@@ -646,6 +649,7 @@
       ]
     },
     "septa-bus:21": {
+      "key": "septa-bus:21",
       "route_id": "21",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -653,8 +657,8 @@
       "route_short_name": "21",
       "route_long_name": "Columbus-Dock to 69th St TC",
       "route_type": 3,
-      "route_color": "#000000",
-      "route_text_color": "#FFFFFF",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "ab|rF~zijMXhCh@HE_AQcCOqBGo@UgCKaAI}@AKEc@Go@IaAGm@CWC]Eo@IoACa@Em@IsAIsAGy@M_BAMKkAMcBYqDAOAW?Q@k@@UBq@@Q@Q@QL_BJuADo@B]Ba@D{@RCFADADCDEBCFIVa@TBt@Lx@JxARHqAN}BLcBLeBd@sHHwAPuCPmCJgBPuCNqBLeCb@}GLkBNgCNqBNgCHqABa@HqAFu@@SNcCPoCFcAB]F{@@GBe@F_AT}CPeCNiCN}BLiBJ}BTkDN{BJ}AJ{AZoEJ_B`@_HLoBTwDJeBJeBLoBJaBDg@@ILcCF}@^oFJiBLgBHyADo@HeA@IFiA@ONwB^}FZ{EJiBBc@L{BJ}APyCPsCN_CDg@RcDDm@Fw@FaAHsAV{DDm@NuBFcABg@NmCDo@@SJeBDu@PoCBYFs@@MFcADm@ZoFJiBVgDN_CJ_Bp@eLJqBHmANaCB_@FkAH}AHgAh@yHHgA@Od@oGHoAF}@j@uHTcEBe@@U@WHmA@K?I@[@c@LmBLmBB]B_@V{DNeCH_AFcAFgAH{ATeDP_DF_Ah@_IHoA\\gFLqBXcEd@}Hj@}Hb@yHPoCFcAJgB@ON_CJaBXsEj@wHL}BR}Dd@{HReDRsCTmDPkCZkELkBd@{HBa@BWDu@NyBDs@BWFaAF_ALwBFiALcBDm@@MRyCR_DDs@Fy@N{BzAZt@DTBN@h@FlATPBh@HNB@QDOHOPORKb@Wd@QTGVAVAX?t@LT@bAJl@HBa@NeBBYBa@De@@SBa@B]@O@SBa@@SSCo@Gq@I{@IOAAVCZE\\CVIdACZE|@",
       "stop_ids": [
         "septa-bus:433",
@@ -788,6 +792,7 @@
       ]
     },
     "septa-bus:42": {
+      "key": "septa-bus:42",
       "route_id": "42",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -795,8 +800,8 @@
       "route_short_name": "42",
       "route_long_name": "2nd-Spruce to 61st-Pine/Wycombe",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "_wxrFlpsiMbAJl@HUrDUxCGfAWlDStCSxCS|CUfDaAMqCc@q@I}@OgC[SpCUbDM~A[xEKbBYvES~CQxCM~BUvDKtAIdAE`@C^M|AS~CQ|CSbCAPATQhCYnEKlBKtBAJUfDQvCS`DS|CIpA]`Fg@zHMvBStDALOfBSdDEf@g@pHKpAS~CS`DOvBMlBGfAAHATK~AUhDGdAGz@Cd@A|@OtBCb@E~@ARAPEh@ATI~@MxAEf@UjDObCCVEp@Ex@IjAU`EARAHALAH?DEn@G~@En@_@lGYzEItAANKxAdBR`BTVB~@Lr@Jb@F`BRp@Cv@BvB^ZDzATB?jAPZLRXTn@Rj@Rr@|AhEd@pAx@~BvA`Ep@|BF\\@^AfBu@@wAB]DUBk@Nm@Fk@LcAZODKDm@X[NWL]PSLc@XMHMJ[JMB[BW?UCg@Ik@SSE{@Qo@KkAQMdCSlDUjDG|@]fFa@hF[fGa@jGSxDCPa@dG[dGKxA]jFWrEUpDYfEYdES|C]pFYfEIjBEn@Cf@Y~DWfEWdEYfEo@jKq@dKk@dJu@lLW~DO`CKzAMnCOnBSnCQlCMnBOdCGpAUdDCVC^KzAa@bHKfBg@xHInAq@jKOtCOpBMxCQdCA|@Bd@D\\FZFR\\bAT`@XZj@`@dBpAn@f@b@n@Rx@Nf@DPLj@t@lCn@xBpBfHLn@?h@Ch@WxAc@pCCd@Bf@Zx@HPTd@Tf@Td@Zn@HPXj@H`@Nn@Dl@B^RpCR~BTxBDb@N|AFn@D\\H|@Jj@L\\DLb@nATd@`AfC`@`AdAvCNf@Rl@Ph@Ph@]ZMLM`A[~BE\\EVY|BP@^uB",
       "stop_ids": [
         "septa-bus:21449",
@@ -950,6 +955,7 @@
       ]
     },
     "septa-bus:57": {
+      "key": "septa-bus:57",
       "route_id": "57",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -957,8 +963,8 @@
       "route_short_name": "57",
       "route_long_name": "WhitmnPlz to RisngSun-Olney/FernRck",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "qsrrFjzuiMMxA?BAAkEi@V{DBi@PaCNqBJwAHsA@WFs@F_ABQFsAIAMC_Gs@yFu@sAQmAOsASyAQkAQwASsAQkAO{AQoFq@OtBMpBq@jKOAUGq@UcA]mAc@kFaBw@U[MgAYqA_@uAa@eAYqA_@mA[{@WgA[]KqAYaAW}Ag@[IMQ}@Us@SGAAAIBIAIAG?EAE?E@C?KBARaBQcAQiAQ{ASgAMuASqCa@]EYEE?wB[aBU_C[gAQaAM}Ca@m@KsAOcAOgAQq@IsAOcAOmCYg@MkDg@gBSSCkAQyAQ_BUqBWiAOaBUuBUqCa@[ESEC?y@M}ASm@I_Dc@cBU{B[QCQCoC]}B]aBUiAOmBWkDe@yASgBUiBU[CSEeBUmBWkBUeAKMCSAa@GSC]EUEwEo@gEg@_Gw@KAGAeBSsBWkAQ_@Gq@I{BY}HaAcIcAwAOeC_@_Gw@uC]uFs@}AQmEt@qFbAuCh@mAPmATB_@?KPmCFs@LuBNuB@Q}G}@kH_AuDg@qBWmH_AgH_A}HcA}HeAkH}@iH_AeC]i@Ey@K_AMqBWqEm@BYLoBFu@F_AHsABY@ML}AH}@@YFu@Dg@H{AJ{AJiBNiBgBWu@KmAOuAOuEq@sAQmAOe@GKAi@IWCi@E{@M}Ek@kAOcC[qAUgBSgAMqFu@oDg@yB[kHy@cC]{@Mo@MQCgBOOAa@Ey@GaJmAi@Ie@I{AQUEWCwDm@_Eg@{BUkAQ_AKgEo@eBSy@Ki@I}@Ma@GgAMw@IgGu@gKuAeBUW`E_@lFa@QUI[IqAa@uA_@g@Qk@OoA_@WIMEKCKEGEqBaBuCcCkCwBaCmBIImC{Ba@]_BqAw@q@[Wo@g@US[WWU{BgBk@c@iA{@i@a@aCkBeBsAgCoBmCuB}@q@yEwDuAgAeEgDmCuBgAy@aAw@ADCVIlAEl@K|AOdCQnCMrBe@xGCf@Eb@Cd@C\\[dFeCYuDg@eEm@oBUmH}@eBU_BScBWJeBHiA@WHuADm@Fu@@UFkADe@Bg@Dk@@a@@o@?a@Co@Ei@G_@Mu@[gAOg@KSACQ[MQa@i@}@}@c@e@{AuA]WWMSIYK_@I_AMe@GkBW}@MSCuC_@_CWUCiC_@_AMQCMCi@lAYj@wDbIaAhBoDtHu@~AeD|GIRm@lAy@dBu@bB{A|CyA|C}@hB?C?BJ@v@HXDj@FnEb@z@HpHv@fHp@|@JZB^Dz@Jv@DlAP`BLx@Hd@DD@jBLs@xKWlEKlAGbA[`EC\\KlBKxAC^UbDGx@Cr@Ev@EdDCtAEhACfAEzAGbE?DExCAR?BAPCNEPGLGLILEHCBILCBABGLELIVEPCPCRCTCb@KpAN@R@rGz@lHdArH~@T_DP{C",
       "stop_ids": [
         "septa-bus:15698",
@@ -1225,6 +1231,7 @@
       ]
     },
     "septa-bus:25": {
+      "key": "septa-bus:25",
       "route_id": "25",
       "namespace": "septa-bus",
       "agency": "SEPTA",
@@ -1232,8 +1239,8 @@
       "route_short_name": "25",
       "route_long_name": "Frankford TC to Columbus Commons",
       "route_type": 3,
-      "route_color": "#FFFFFF",
-      "route_text_color": "#000000",
+      "route_color": "#2C2B27",
+      "route_text_color": "#FCF9F5",
       "polyline": "wksrFtlsiMKDq@X{Al@e@TSHmAh@_HdDWLkAp@OFMDGBG?K@H}A@S\\_FDi@??JuAFcA\\aF?AB]??@Y@W??mBhAoDvBkAn@k@\\m@\\q@^UNQJc@VcBz@w@iC_@yAe@eBAa@?CSAO?ODy@h@UJgAp@KFyBnA[L[HY?a@EMCSzCg@`H[E}@MeAQsAUwDk@y@OoC_@wAS[EaAMgGy@k@IUEUGQEGC[IOGQGOI_CcA_Bq@YOIEMGc@Q_@KGCe@Me@Kg@EG?]C_AAy@?qD?cA@sA@_@@]?sD@_B@W?iB@_@?oB?oGMyBIg@AqAIs@EkCUg@GsBWcBSQC}B[qBYcAOuAQkBYk@Gk@KeAOc@GiG_A_BWq@Mi@Ia@KoBc@]ISGy@Q_@K_@IOE_AW]IyA_@{@SKCYGwCu@OCa@Io@S[KKGMGu@_@QKgCqAq@W{@SaBa@_AUOE_Be@{@WKEICCVCXQtCK~AAX?@Eh@qDy@YvBWbBAJO~@Gb@CTADEZ_@`C|Dd@p@JJBJ@JiBB[@e@@KFaA@YJeBBm@@UF_AJyAB]Bk@PuCBYBUKEICgCo@y@Sk@K[Ee@BkA[QGICq@Uy@Yc@YWS[Y{@eAMMa@e@}@gA{AiBID_@Hg@?a@Aw@@iC@wBAi@?W?yB@wF?yF?S?i@?iBCwC@cBCMAMCC?GC}Au@{Aw@qCsACAmAi@u@]oBcASImCqAiCoA}CyAQIUMIGIGSQwBwBx@eBr@{AdBoDhCiFEMK_@m@wAuAcD{@uBe@gAWm@{@kB}@wBw@kBaA}Bi@oAWi@{@uBw@mB{@sBi@mAIU[s@[q@]_A{@oBw@iBbAaAQO[]_CkBoBcBuAcAAAIGIGIKGKGKWc@y@uAGOIQSe@uBaF}DkJgFyLy@qBi@qA}@{BuC{Go@_BqA{C]w@{AsDsAyC}CoHoFoMqFgMs@gBi@qAgAgCm@wAUi@Ue@fB{ApBaBfAaAlB_Br@m@rHqGlBaB~BmB|BkB_A}BSe@iDiISi@IUKUQe@u@iByAiDoEsKoC}G_@_A[u@a@cAGOSg@AEM[O[EKEK?MSo@KUSg@IUISEKKSc@aAEKs@}AGCGQw@oBq@_Bs@eBSc@y@iBiBqE}@yBcAgCy@oBy@mBy@oBsAgDcDxBeC`BoBpA{AdAuA~@cBfAOLa@VoAx@qAz@MJ}FzDWNSLEBUFMBG@MBg@HI@SBM@E@GBM@IBMBOBcBVQBgCZcCZeC^wC^UD}BZeCd@yBZk@Jq@sBUs@gAmDEMCMCMEY]gC[aCQkA]eCa@{Ca@wCKq@SsAiFxAq@Ro@PwA^e@LyA^eBf@gBd@uBl@u@Ru@Ry@Tu@TUFE@MFKHEFSRWZa@b@GHGFEBg@`@}@p@i@b@IHw@l@q@h@]XIH[TWRe@`@YZ_A`AaAhAeAfAqCzCA@k@aAgAiBc@s@CIEGMUg@cAuBcEc@}@Ym@IUGOGSsA|As@|@_CbDe@j@SVGNCHCLxAhAfAz@\\R\\PHBl@TJBRBLBx@H\\FzANv@F\\@|@VZDf@B",
       "stop_ids": [
         "septa-bus:30389",
@@ -1431,6 +1438,7 @@
       ]
     },
     "indego:indego": {
+      "key": "indego:indego",
       "route_id": "indego",
       "namespace": "indego",
       "agency": "Indego",
@@ -1755,6 +1763,7 @@
       ]
     },
     "phlash:PHLASH": {
+      "key": "phlash:PHLASH",
       "route_id": "PHLASH",
       "namespace": "phlash",
       "agency": "Philly Phlash",

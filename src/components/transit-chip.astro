@@ -148,7 +148,7 @@ const { route = {} } = Astro.props;
   }
 
   .transit-chip:not(.is-dimmed) {
-    z-index: 20;
+    z-index: 1;
   }
 
 </style>
@@ -183,24 +183,4 @@ const { route = {} } = Astro.props;
     })
   })
 
-  // if (inputEl instanceof HTMLInputElement) {
-  //   search.subscribe((query) => {
-  //     inputEl.value = query;
-  //   });
-
-  //   const updateSearch = () => {
-  //     updateSearchParam("query", inputEl.value);
-  //     dispatch("search", { value: inputEl.value });
-  //     clearButtonEl.toggleAttribute("hidden", !inputEl.value);
-  //   };
-
-  //   inputEl.addEventListener("input", updateSearch);
-
-  //   if (clearButtonEl instanceof HTMLButtonElement) {
-  //     clearButtonEl.addEventListener("click", () => {
-  //       inputEl.value = "";
-  //       updateSearch();
-  //     });
-  //   }
-  // }
 </script> 

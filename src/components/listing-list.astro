@@ -36,9 +36,6 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
 ---
 
 <div class="listing-list">
-  <div class="listing-list__blurb padding">
-    Some text
-  </div>
   { listingsByDay.map( schedule => 
     <div class="listing-schedule" data-schedule data-date={schedule.day}>
       <div class="listing-schedule__date padding">
@@ -84,13 +81,14 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
     display: flex;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
   }
 
   .listing-date {
     
     font-size: 2rem;
     line-height: 1;
+    
     
 
     .listing-date__month {

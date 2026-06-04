@@ -1,5 +1,5 @@
 import fs from "fs";
-import { featureCollection, point, circle, pointsWithinPolygon, bbox, distance } from "@turf/turf";
+import { featureCollection, point, circle, pointsWithinPolygon, booleanIntersects, bbox, distance } from "@turf/turf";
 
 
 
@@ -39,6 +39,13 @@ const venuesRaw = JSON.parse(fs.readFileSync(VENUES_PATH, "utf8"));
 
 // Lookup: Airtable record ID → slug, used to resolve cross-references
 const venueIdToSlug = Object.fromEntries(venuesRaw.map((v) => [v.id, v.slug]));
+
+// Bike network segments — pre-encoded, filtered per venue at output time
+const BIKE_NETWORK_PATH = "./data/bike-network.geojson";
+const bikeSegments = fs.existsSync(BIKE_NETWORK_PATH)
+  ? JSON.parse(fs.readFileSync(BIKE_NETWORK_PATH, "utf8")).features
+  : [];
+console.log(`Loaded ${bikeSegments.length} bike network segments`);
 
 // ── Ingest GeoJSON ────────────────────────────────────────────────────────────
 
@@ -354,6 +361,13 @@ for (const [slug, venue] of Object.entries(venues)) {
   const routeKeys = new Set(
     Object.values(venueStops).flatMap((s) => s.routes.map((r) => r.route_id))
   );
+
+  // Bike segments that intersect the venue search circle
+  const searchCircle = circle([vlon, vlat], RADIUS_METERS / 1000, { units: "kilometers" });
+  const nearbyBikePolylines = bikeSegments
+    .filter((seg) => booleanIntersects(seg, searchCircle))
+    .map((seg) => encodePolyline(seg.geometry.coordinates));
+
   const venueRoutes = Object.fromEntries(
     [...routeKeys]
       .filter((key) => {
@@ -365,7 +379,8 @@ for (const [slug, venue] of Object.entries(venues)) {
       })
       .map((key) => {
         const { geometry, ...rest } = routes[key];
-        return [key, { key, ...rest }];
+        const extra = key === "indego:indego" ? { polyline: nearbyBikePolylines } : {};
+        return [key, { key, ...rest, ...extra }];
       })
   );
 

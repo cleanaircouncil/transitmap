@@ -453,7 +453,21 @@
       "route_type": null,
       "route_color": "#3980C4",
       "route_text_color": "#FFFFFF",
-      "polyline": "",
+      "polyline": [
+        "gz~rF~d~iMC`D@XHr@Lj@Tt@Jh@Bf@Al@Ef@Ql@a@bBIb@Eh@Cn@@f@LpArAdH",
+        "ys~rFbo}iMs@z@m@~@MhAS~AY`BUlBQ|BGfA",
+        "wz~rF|k|iMuBv@qBl@cBRwAk@g@m@YWSMi@OwLcB",
+        "gz~rF~d~iM{CWQAi@E",
+        "iu`sFdb|iMeBU",
+        "kn`sFtc|iM}Eo@",
+        "{k`sFfd|iMoAQ",
+        "cg`sFhe|iMwCa@",
+        "mb`sFhf|iMuC_@",
+        "y}_sFjg|iMsCa@",
+        "sy_sFbh|iMeCW",
+        "}u_sFnb~iMsCaAy@KaBJ_CTw@?iAImA]_Ae@wBy@",
+        "uo`sFz|}iMkCq@_AS"
+      ],
       "stop_ids": [
         "indego:bcycle_indego_3004",
         "indego:bcycle_indego_3005",

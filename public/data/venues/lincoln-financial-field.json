@@ -332,7 +332,7 @@
       "route_type": null,
       "route_color": "#3980C4",
       "route_text_color": "#FFFFFF",
-      "polyline": "",
+      "polyline": [],
       "stop_ids": [
         "indego:bcycle_indego_3004",
         "indego:bcycle_indego_3005",

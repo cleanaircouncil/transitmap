@@ -1,18 +1,23 @@
 import polyline from '@mapbox/polyline';
 
-export const decodeRoutePolyline = (
-  encodedPolyline
-) => {
-  const decoded = polyline.decode(encodedPolyline);
+const decode = (encoded) =>
+  polyline.decode(encoded).map(([lat, lng]) => [lng, lat]);
 
-  // Google: [lat, lng] → MapLibre: [lng, lat]
-  const coordinates = decoded.map(([lat, lng]) => [lng, lat]);
-
+export const decodeRoutePolyline = (encodedPolyline) => {
+  if (Array.isArray(encodedPolyline)) {
+    return {
+      type: 'Feature',
+      geometry: {
+        type: 'MultiLineString',
+        coordinates: encodedPolyline.map(decode),
+      },
+    };
+  }
   return {
     type: 'Feature',
     geometry: {
       type: 'LineString',
-      coordinates,
-    }
+      coordinates: decode(encodedPolyline),
+    },
   };
 };

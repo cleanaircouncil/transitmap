@@ -63,7 +63,7 @@ import TransitChip from "./transit-chip.astro";
   .map-venue {
     width: 48px;
     height: 48px;
-    color: var(--text-color);
+    color: var(--color-red);
     font-family: var(--font-default);
     font-weight: 900;
     text-align: center;
@@ -86,26 +86,10 @@ import TransitChip from "./transit-chip.astro";
   }
 
   .map-venue[data-current] {
+    
     &::after {
       color: magenta;
     }
-  }
-
-  .map-stop-group {
-    
-    display: grid;
-    /* grid-template-columns: repeat(1fr); */
-    /* gap: .25rem; */
-    /* background: var(--color-white); */
-    /* padding: .25rem; */
-  }
-
-  .map-stop-group:hover {
-    z-index: 2;
-  }
-
-  body:has.is-dimmed .map-stop-group:has(.transit-chip:not(.is-dimmed)) {
-    z-index: 3;
   }
 
   .map-marker {
@@ -147,28 +131,11 @@ import TransitChip from "./transit-chip.astro";
     }
   }
 
-  .map-marker[data-alert] {
-    width: 32px;
-    height: 32px;
-    background-image: url("/assets/img/marker-dot-alert.png");
-    z-index: 1;
-  }
-
-  .map-marker[data-current] {
-    background-image: url("/assets/img/marker-current.png");
-    width: 32px;
-    height: 40px;
-    margin-top: -8px;
-    z-index: 1;
-  }
 
   .map-marker:hover {
     z-index: 2;
   }
 
-  .map-marker[data-alert][data-current] {
-    background-image: url("/assets/img/marker-current-alert.png");
-  }
 
   .map-marker__label {
     font-family: var(--font-default);
@@ -439,10 +406,18 @@ import TransitChip from "./transit-chip.astro";
       const route = venue.routes[route_id];
 
       const geometry = decodeRoutePolyline(route.polyline);
+
+      map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 10);
       map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
       map.getSource("route-display").setData( geometry );
       
     })()
   })
+
+  // currentVenue.subscribe( (venue_id) => {
+  //   document.querySelectorAll("[data-venue-marker]").forEach( venueEl => {
+  //     venueEl.toggleAttribute("data-current", venueEl.dataset.venue == venue_id )
+  //   })
+  // })
 
 </script>

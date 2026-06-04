@@ -1229,7 +1229,15 @@
       "route_type": null,
       "route_color": "#3980C4",
       "route_text_color": "#FFFFFF",
-      "polyline": "",
+      "polyline": [
+        "kgrrFhbyiMUnA",
+        "c}qrFfjwiMaCbM",
+        "mxqrFb|viMuCbM",
+        "wqqrFrdviMK|AS~@_@pBs@dDaBxH",
+        "_frrFrzxiMInAMdBS~@",
+        "ierrFvuxiMKjAInA",
+        "earrFjxwiMm@nGiAfQABInA"
+      ],
       "stop_ids": [
         "indego:bcycle_indego_3004",
         "indego:bcycle_indego_3005",

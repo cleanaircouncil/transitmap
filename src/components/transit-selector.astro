@@ -85,7 +85,10 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
       .filter( group => group.agencies.length )
       .map( mode => 
       <div class="transit-selector__group">
-        <h2><i class={`fa ${mode.icon}`}></i></h2>
+        <div class="transit-selector__mode">
+          <i class={`fa ${mode.icon}`}></i>
+          <span>{ mode.mode }</span>
+        </div>
         <div class="transit-selector__group-agencies">
       {
         mode.agencies.map( agency => 
@@ -123,15 +126,26 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
   h4 {
     font-size: 1.2rem;
     background: var(--color-beige);
+    display: grid;
+    align-content: center;
     padding: 1rem;
   }
 
-  h2 {
+  .transit-selector__mode {
     display: grid;
     place-content: center;
     background: var(--color-black);
     color: var(--color-white);
     font-size: 2rem;
+    text-align: center;
+
+    span {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: .6rem;
+      display: block;
+      margin-top: .2rem;
+    }
   }
 
 
@@ -144,11 +158,11 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
 
   .transit-selector__group {
     display: grid;
-    grid-template-columns: 10% 1fr;
+    grid-template-columns: max(60px, 10%) 1fr;
     background: var(--color-white);
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: var(--box-shadow);
+    border: 1px solid rgba(0,0,0,.1);
   }
 
   .transit-selector__group-agencies {
@@ -159,7 +173,7 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
 
   .transit-selector__group-agency {
     display: grid;
-    grid-template-columns: 20% 1fr;
+    grid-template-columns: max(100px, 20%) 1fr;
   }
 
   .transit-selector__transit {

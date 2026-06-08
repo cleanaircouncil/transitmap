@@ -1,7 +1,14 @@
-<div data-partial>
+<div class="partial" data-partial>
   <slot/>
 </div>
 
+<style>
+  .partial {
+    overflow: auto;
+    height: 100%;
+    padding-bottom: 10vh;
+  }
+</style>
 
 <script>
   

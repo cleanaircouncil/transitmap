@@ -11,47 +11,54 @@ const routes = routesByVenue[listing.venue_id];
 const venue = data.venues.find( venue => venue.slug == listing.venue_id );
 ---
 
-<div id={listing.slug} class="listing padding" data-listing={ listing.slug }>
+<div id={listing.slug} class="listing stack padding" data-listing={ listing.slug }>
   <ListingInfo listing={listing}/>
 
   <div class="listing__transit stack">
-    <a href={ listing.link } target="_blank" class="listing-btn">Learn More&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+    <div class="listing__transit-nav">
+      <a href={ listing.link } target="_blank" class="listing-btn">Learn More&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+      <a href={`http://maps.apple.com/?q=${venue?.address}`} target="directions" class="listing-btn listing-btn--go">GO CAR-FREE&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+    </div>
 
-    <a href={`http://maps.apple.com/?q=${venue?.address}`} target="directions" class="listing-btn listing-btn--go">GO CAR-FREE&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
     <TransitSelector routes={ routes } />
   </div>
 </div>
 
 
 <style>
-    .listing-btn {
-      background: var(--color-white);
-      color: var(--color-black);
-      font-family: var(--font-default);
-      font-weight: 900;
-      font-style: italic;
-      font-size: 1rem;
-      padding: .5rem;
-      border-radius: .5rem;
-      box-shadow: 0px 3px 0px rgba(0,0,0,.1);
-      text-decoration: none;
-      border: none;
-      /* position: absolute; */
-      /* top: 0px;
-      right: 0px;
-      translate: 50% 0%; */
-      cursor: pointer;
-    }
-  
-
-  .listing-btn--go {
-    background: var(--color-gpg-green-dark);
-    color: var(--color-white);
-
-    &:hover {
-      background: var(--color-gpg-green-light);
-    }
+  .listing {
+    background: var(--color-white);
   }
+
+  .listing-btn {
+    display: inline-block;
+    background: var(--color-white);
+    color: var(--color-black);
+    font-family: var(--font-default);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 0px 3px 0px rgba(0,0,0,.1);
+    text-decoration: none;
+    border: none;
+    /* position: absolute; */
+    /* top: 0px;
+    right: 0px;
+    translate: 50% 0%; */
+    cursor: pointer;
+  }
+
+
+.listing-btn--go {
+  background: var(--color-gpg-green-dark);
+  color: var(--color-white);
+
+  &:hover {
+    background: var(--color-gpg-green-light);
+  }
+}
 
 
 

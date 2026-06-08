@@ -6,12 +6,12 @@ import Layout from "./layout.astro";
 import "../styles/styles.css";
 
 
-const { title = "Go Philly Go: Car-Free Routes"} = Astro.props;
+const { title = "Go Philly Go: Car-Free Routes", venue } = Astro.props;
 ---
 
 
 <Layout title={ title }>
-  <App>
+  <App venue={venue}>
     <Partial>
       <slot/>
     </Partial>

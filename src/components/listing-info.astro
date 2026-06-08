@@ -9,20 +9,20 @@ const flagToCode = flag => [...flag].map(c => String.fromCharCode(c.codePointAt(
 const nameSplit = listing.name.split(flagRegex).filter(Boolean)
 ---
 
-<div class="listing_info stack">
-<div class="listing__group">{ listing.group_name }</div>
+<div class="listing_info stack-tight">
+  <div class="listing__group">{ listing.group_name }</div>
 
-<div class="listing__name">
-  { nameSplit.map( 
-    piece => piece.match(flagRegex) ? <span class={`fi fi-${flagToCode(piece)}`}/> : piece 
-  )}
-</div>
+  <div class="listing__name">
+    { nameSplit.map( 
+      piece => piece.match(flagRegex) ? <span class={`fi fi-${flagToCode(piece)}`}/> : piece 
+    )}
+  </div>
 
-<div class="listing__meta">
-  <span class="listing__time">{ time }</span>
-  <span>@</span>
-  <span class="listing__venue" data-partial-link={`/venues/${listing.venue_id}`}>{ listing.venue }</span>
-</div>
+  <div class="listing__meta">
+    <span class="listing__time">{ time }</span>
+    <span>@</span>
+    <span class="listing__venue" data-partial-link={`/venues/${listing.venue_id}`}>{ listing.venue }</span>
+  </div>
 
 </div>
 

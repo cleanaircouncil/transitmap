@@ -1,14 +1,19 @@
 ---
 import Button from "./button.astro";
 import TransitChip from "./transit-chip.astro";
+
+const { venue } = Astro.props;
+console.log( venue );
 ---
 
 <Fragment>
-  <figure id="map" class="map" data-map transition:persist="map"></figure>
+  <figure id="map" class="map" data-map data-venue={ venue }></figure>
 
   <Button class="map-view-all-button box-shadow" data-map-view-all aria-label="View All Facilities">
     <i class="fa fa-expand"></i><span class="map-view-all-text">&nbsp;View All</span>
   </Button>
+
+  <TransitChip/>
 
   <template id="map-stop-group-stub">
     <div class="map-stop-group" data-transit-chip>
@@ -291,6 +296,14 @@ import TransitChip from "./transit-chip.astro";
 
   await initCircle(map);
 
+  const mapEl = document.querySelector("[data-map]");
+  console.log( mapEl, mapEl.dataset.venue);
+
+  if( mapEl.dataset.venue ) {
+    const venue = await fetchVenueData( mapEl.dataset.venue );
+    console.log( venue );
+    focusOnVenue(venue);
+  }
 
 
   function showRadius( map, center ) {
@@ -400,29 +413,25 @@ import TransitChip from "./transit-chip.astro";
   });
 
 
-  // currentRoute.subscribe( (route_id) => {
-  //   (async() => {
-  //     if(!route_id) {
-  //       map.getSource("route-display").setData({ type: "FeatureCollection", features: [] });
-  //       return;
-  //     }
+  currentRoute.subscribe( (route_id) => {
+    (async() => {
+      if(!route_id) {
+        map.getSource("route-display").setData({ type: "FeatureCollection", features: [] });
+        return;
+      }
+
+      const venue = await fetchVenueData( currentVenue.get() );
+      const route = venue.routes[route_id];
 
       
-      
-  //     const venue = await fetchVenueData( currentVenue.get() );
-  //     const route = venue.routes[route_id];
-
-      
-  //     const features = decodeRoutePolyline( route.polylines );
-      
-      
+      const features = decodeRoutePolyline( route.polylines );
       
 
-  //     map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
-  //     map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
-  //     map.getSource("route-display").setData( features );
-  //   })()
-  // })
+      map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
+      map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
+      map.getSource("route-display").setData( features );
+    })()
+  })
 
   currentVenue.subscribe( (venue_id) => {
     document.querySelectorAll("[data-venue-marker]").forEach( venueEl => {
@@ -444,6 +453,11 @@ import TransitChip from "./transit-chip.astro";
       currentVenue.set(slug);
     })()
     
+  })
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+
   })
 
 </script>

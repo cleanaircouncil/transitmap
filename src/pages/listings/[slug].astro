@@ -3,7 +3,7 @@ import type { GetStaticPaths } from "astro";
 import data from "../../data/index.json";
 import ListingDetail from "../../components/listing-detail.astro"
 import AppLayout from "../../layouts/app-layout.astro";
-
+import BackToHome from "../../components/back-to-home.astro";
 
 
 export const getStaticPaths = (() => {
@@ -20,6 +20,7 @@ export const getStaticPaths = (() => {
 const { listing } = Astro.props;
 ---
 
-<AppLayout>
+<AppLayout venue={listing.venue_id}>
+  <BackToHome/> 
   <ListingDetail listing={listing} />
 </AppLayout>

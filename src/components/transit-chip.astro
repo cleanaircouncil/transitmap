@@ -162,10 +162,9 @@ const { route = {} } = Astro.props;
   import { updateSearchParam } from "../helpers/location";
   import { currentRoute, toggleRouteDisplay } from "../helpers/store";
 
-  
+
   document.addEventListener("click", (e) => {
     const transitChipEl = e.target.closest("[data-transit-chip]");
-    
     if( !transitChipEl )
       return;
 

@@ -4,7 +4,7 @@ import TransitChip from "./transit-chip.astro";
 ---
 
 <Fragment>
-  <figure id="map" class="map" data-map></figure>
+  <figure id="map" class="map" data-map transition:persist="map"></figure>
 
   <Button class="map-view-all-button box-shadow" data-map-view-all aria-label="View All Facilities">
     <i class="fa fa-expand"></i><span class="map-view-all-text">&nbsp;View All</span>
@@ -24,13 +24,14 @@ import TransitChip from "./transit-chip.astro";
 
   <template id="map-venue-stub">
     <div
+      data-partial-link
       class="map-venue map-marker"
       data-venue-marker
       data-venue=""
-      data-populate="slug: @data-venue"
+      data-populate="slug: @data-venue, href: @data-partial-link"
     >
       <span class="map-marker__label" data-populate="name"></span>
-    </div>
+  </div>
   </template>
 
 
@@ -251,7 +252,7 @@ import TransitChip from "./transit-chip.astro";
   async function initVenues(map, data) {
     data.venues.forEach((venue) => {
       const markerEl = cloneTemplate("map-venue-stub");
-          
+      venue.href = `/venues/${venue.slug}`;
       populateWithData(markerEl, venue)
 
 
@@ -321,63 +322,64 @@ import TransitChip from "./transit-chip.astro";
   }
 
 
-  currentListingSlug.subscribe( slug => {
+  // currentListingSlug.subscribe( slug => {
     
-    const listing = data.listings.find( listing => listing.slug == slug );
-    (async() => {
-      const venue = await fetchVenueData(listing?.venue_id);
+  //   const listing = data.listings.find( listing => listing.slug == slug );
+  //   (async() => {
+  //     const venue = await fetchVenueData(listing?.venue_id);
 
-      if(!venue) return;
+  //     focusOnVenue(venue);
 
-      document.querySelectorAll("[data-map] [data-transit-chip]").forEach( chip => chip.remove() );
+  //     currentRoute.set("")
+  //   })()
+    
+  // })
 
-      for( const id in venue.stops )
-      {
-        const stop = venue.stops[id];
-        // const groupEl = cloneTemplate("map-stop-group-stub");
 
-        for( const stopRoute of stop.routes ){
-          
-          const route = venue.routes[stopRoute.route_id];
-          // console.log( route_id, route );
+  function focusOnVenue( venue ) {
+    if(!venue) return;
 
-          const markerEl = cloneTemplate("map-marker-stub");
+    document.querySelectorAll("[data-map] [data-transit-chip]").forEach( chip => chip.remove() );
 
-          populateWithData(markerEl, route)
+    for( const id in venue.stops )
+    {
+      const stop = venue.stops[id];
+      // const groupEl = cloneTemplate("map-stop-group-stub");
 
-          // add marker to map
-          // groupEl?.appendChild(markerEl);
-        new maplibregl.Marker({ element: markerEl })
-          .setLngLat(stop.coordinates)
-          .addTo(map);
-          // break;
-      
-        }
+      for( const stopRoute of stop.routes ){
+        
+        const route = venue.routes[stopRoute.route_id];
+        // console.log( route_id, route );
 
-        // new maplibregl.Marker({ element: groupEl })
-        //   .setLngLat(stop.coordinates)
-        //   .addTo(map);
+        const markerEl = cloneTemplate("map-marker-stub");
 
-       
+        populateWithData(markerEl, route)
+
+        // add marker to map
+        // groupEl?.appendChild(markerEl);
+      new maplibregl.Marker({ element: markerEl })
+        .setLngLat(stop.coordinates)
+        .addTo(map);
+        // break;
+    
       }
 
-      showRadius(map, venue.coordinates);
+      // new maplibregl.Marker({ element: groupEl })
+      //   .setLngLat(stop.coordinates)
+      //   .addTo(map);
 
-      setCurrentMarker(venue);
+      
+    }
 
-      map.flyTo({
-        center: venue.coordinates,
-        zoom: 15,
-      })
+    showRadius(map, venue.coordinates);
 
-      currentRoute.set("")
-    })()
-    
+    setCurrentMarker(venue);
 
-
-
-  })
-
+    map.flyTo({
+      center: venue.coordinates,
+      zoom: 15,
+    })
+  }
 
 
    map.addSource('route-display', {
@@ -398,34 +400,50 @@ import TransitChip from "./transit-chip.astro";
   });
 
 
-  currentRoute.subscribe( (route_id) => {
-    (async() => {
-      if(!route_id) {
-        map.getSource("route-display").setData({ type: "FeatureCollection", features: [] });
-        return;
-      }
+  // currentRoute.subscribe( (route_id) => {
+  //   (async() => {
+  //     if(!route_id) {
+  //       map.getSource("route-display").setData({ type: "FeatureCollection", features: [] });
+  //       return;
+  //     }
 
       
       
-      const venue = await fetchVenueData( currentVenue.get() );
-      const route = venue.routes[route_id];
+  //     const venue = await fetchVenueData( currentVenue.get() );
+  //     const route = venue.routes[route_id];
 
       
-      const features = decodeRoutePolyline( route.polylines );
+  //     const features = decodeRoutePolyline( route.polylines );
       
       
       
 
-      map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
-      map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
-      map.getSource("route-display").setData( features );
-    })()
+  //     map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
+  //     map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
+  //     map.getSource("route-display").setData( features );
+  //   })()
+  // })
+
+  currentVenue.subscribe( (venue_id) => {
+    document.querySelectorAll("[data-venue-marker]").forEach( venueEl => {
+      venueEl.toggleAttribute("data-current", venueEl.dataset.venue == venue_id )
+    })
   })
 
-  // currentVenue.subscribe( (venue_id) => {
-  //   document.querySelectorAll("[data-venue-marker]").forEach( venueEl => {
-  //     venueEl.toggleAttribute("data-current", venueEl.dataset.venue == venue_id )
-  //   })
-  // })
+
+  document.addEventListener("click", (e) => {
+    const venueMarkerEl = e.target.closest("[data-venue-marker]");
+    
+    if( !venueMarkerEl )
+      return;
+
+    (async() => {
+      const slug = venueMarkerEl.dataset.venue;
+      const venue = await fetchVenueData(slug);
+      focusOnVenue(venue);
+      currentVenue.set(slug);
+    })()
+    
+  })
 
 </script>

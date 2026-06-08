@@ -1,0 +1,13 @@
+---
+const { title } = Astro.props;
+
+const flagRegex = /([\u{1F1E6}-\u{1F1FF}]{2})/gu;
+const flagToCode = flag => [...flag].map(c => String.fromCharCode(c.codePointAt(0) - 127397)).join('').toLowerCase();
+const nameSplit = title.split(flagRegex).filter(Boolean)
+---
+
+<>
+  { nameSplit.map( 
+    piece => piece.match(flagRegex) ? <span class={`fi fi-${flagToCode(piece)}`}/> : piece 
+  )}
+</>

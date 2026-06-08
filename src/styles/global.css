@@ -71,3 +71,7 @@ a.button {
 .box-shadow {
   box-shadow: var(--box-shadow);
 }
+
+[data-partial-link] {
+  cursor: pointer;
+}

@@ -1,0 +1,70 @@
+---
+const { listing } = Astro.props;
+
+const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
+const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
+
+const flagRegex = /([\u{1F1E6}-\u{1F1FF}]{2})/gu;
+const flagToCode = flag => [...flag].map(c => String.fromCharCode(c.codePointAt(0) - 127397)).join('').toLowerCase();
+const nameSplit = listing.name.split(flagRegex).filter(Boolean)
+---
+
+<div class="listing_info stack">
+<div class="listing__group">{ listing.group_name }</div>
+
+<div class="listing__name">
+  { nameSplit.map( 
+    piece => piece.match(flagRegex) ? <span class={`fi fi-${flagToCode(piece)}`}/> : piece 
+  )}
+</div>
+
+<div class="listing__meta">
+  <span class="listing__time">{ time }</span>
+  <span>@</span>
+  <span class="listing__venue" data-partial-link={`/venues/${listing.venue_id}`}>{ listing.venue }</span>
+</div>
+
+</div>
+
+
+<style>
+
+  .listing__explore {
+    text-align: center;
+    
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .listing__details {
+    color: var(--color-black);
+    text-decoration: none;
+  }
+  
+  .listing__group {
+    color: var(--color-red);
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .listing__meta {
+    color: var(--color-gray);
+    font-weight: 700;
+    /* text-transform: uppercase; */
+  }
+
+  .listing__name {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  .listing__time {
+    color: var(--color-black);
+  }
+
+
+  </style>

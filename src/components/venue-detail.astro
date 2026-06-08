@@ -1,5 +1,6 @@
 ---
 import data from "../data/index.json";
+import Listing from "./listing.astro";
 
 const { venue = {} } = Astro.props
 
@@ -7,6 +8,25 @@ const listings = data.listings.filter( listing => listing.venue_id == venue.slug
 
 ---
 
-<div>
-  
+<div class="venue" data-venue={ venue.slug }>
+  <h2 class="venue__name">{venue.name}</h2>
+  <div class="venue__address"><i class="fa fa-location-dot"></i> {venue.address}</div>
+
+  <h3>Upcoming Events</h3>
+  { listings.map( listing => <Listing listing={listing}/> )}
 </div>
+
+<style>
+  .venue {
+
+  } 
+
+  .venue__name {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+
+</style>

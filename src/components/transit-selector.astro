@@ -55,7 +55,6 @@ const groups = [
 ];
 
 
-
 for( const route_id in routes ) {
   const route = routes[route_id];
   let mode = groups.find( a => a.mode == route.mode );
@@ -73,11 +72,8 @@ for( const route_id in routes ) {
   agency.routes.push(route);
 }
 
-
-
 const modeOrder = ["Bike", "Bus", "Metro", "Rail"];
 groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
-
 
 ---
 

@@ -1,9 +1,10 @@
 ---
 import type { GetStaticPaths } from "astro";
-import data from "../../../data/index.json";
-import ListingDetail from "../../../components/listing-detail.astro"
+import data from "../../data/index.json";
+import ListingDetail from "../../components/listing-detail.astro"
+import AppLayout from "../../layouts/app-layout.astro";
 
-export const partial = true;
+
 
 export const getStaticPaths = (() => {
   return data.listings.map((listing) => ({
@@ -19,4 +20,6 @@ export const getStaticPaths = (() => {
 const { listing } = Astro.props;
 ---
 
-<ListingDetail listing={listing} />
+<AppLayout>
+  <ListingDetail listing={listing} />
+</AppLayout>

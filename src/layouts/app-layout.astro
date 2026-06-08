@@ -1,0 +1,19 @@
+---
+import App from "../components/app.astro";
+import Partial from "../components/partial.astro";
+import Layout from "./layout.astro";
+
+import "../styles/styles.css";
+
+
+const { title = "Go Philly Go: Car-Free Routes"} = Astro.props;
+---
+
+
+<Layout title={ title }>
+  <App>
+    <Partial>
+      <slot/>
+    </Partial>
+  </App>
+</Layout>

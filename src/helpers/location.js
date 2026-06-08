@@ -14,3 +14,11 @@ export function updateSearchParam(name, value) {
   
   history.replaceState({}, "", url);
 }
+
+export async function loadPartial(url, target) {
+  history.pushState({}, '', url);
+  const html = await fetch(url).then(r => r.text());
+  const doc = new DOMParser().parseFromString(html, "text/html");
+  
+  document.querySelector(target).innerHTML = doc.querySelector(target).innerHTML;
+}

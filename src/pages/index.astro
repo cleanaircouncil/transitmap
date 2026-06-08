@@ -1,8 +1,12 @@
 ---
 import App from "../components/app.astro";
+import ListingList from "../components/listing-list.astro";
 import Layout from "../layouts/layout.astro";
+import Partial from "../components/partial.astro";
+import AppLayout from "../layouts/app-layout.astro";
 ---
 
-<Layout title="Go Philly Go: Car-Free Routes">
-  <App />
-</Layout>
+<AppLayout>
+  <ListingList/>
+</AppLayout>
+

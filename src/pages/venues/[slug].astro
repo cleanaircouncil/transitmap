@@ -2,8 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import VenueDetail from "../../components/venue-detail.astro";
 import data from "../../data/index.json"
-
-export const partial = true;
+import AppLayout from "../../layouts/app-layout.astro";
 
 export const getStaticPaths = (() => {
   return data.venues.map((venue) => ({
@@ -17,6 +16,9 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const { venue } = Astro.props;
+
 ---
 
-<VenueDetail venue={venue} />
+<AppLayout>
+  <VenueDetail venue={venue} />
+</AppLayout>

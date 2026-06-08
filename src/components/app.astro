@@ -1,9 +1,13 @@
 ---
 import Nav from "./nav.astro";
 import Header from "./header.astro";
-import Map from "./map.astro";
+import ListingDetail from "./listing-detail.astro";
+import VenueDetail from "./venue-detail.astro";
 import ListingList from "./listing-list.astro";
+
+import Map from "./map.astro";
 import ResponsiveSheet from "./responsive-sheet.astro";
+
 ---
 
 <main id="app" class="app layout-app" data-app>
@@ -12,17 +16,17 @@ import ResponsiveSheet from "./responsive-sheet.astro";
   </section> -->
 
   <ResponsiveSheet class="in-list">
-    <ListingList/>
+    <slot/>
   </ResponsiveSheet>
 
   
   <section class="in-main">
     <Map />
   </section>
-
+<!-- 
   <section class="in-nav">
     <Nav/>
-  </section>
+  </section> -->
 </main>
 
 <style>
@@ -101,11 +105,11 @@ import ResponsiveSheet from "./responsive-sheet.astro";
   import { listen } from "../helpers/events";
   import { currentListingSlug } from "../helpers/store";
 
-  function setCurrentListingSlug() {
-    const slug = window.location.hash?.substring(1) || "";
-    currentListingSlug.set(slug);
-  }
+  // function setCurrentListingSlug() {
+  //   const slug = window.location.hash?.substring(1) || "";
+  //   currentListingSlug.set(slug);
+  // }
 
-  listen("hashchange", setCurrentListingSlug);
-  setCurrentListingSlug();
+  // listen("hashchange", setCurrentListingSlug);
+  // setCurrentListingSlug();
 </script>

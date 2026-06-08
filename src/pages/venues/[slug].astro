@@ -1,0 +1,21 @@
+---
+import type { GetStaticPaths } from "astro";
+import data from "../../data/index.json"
+
+export const partial = true;
+
+export const getStaticPaths = (() => {
+  return data.venues.map((venue) => ({
+    params: {
+      slug: venue.slug,
+    },
+    props: {
+      venue,
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { venue } = Astro.props;
+---
+
+<VenueDetail venue={venue} />

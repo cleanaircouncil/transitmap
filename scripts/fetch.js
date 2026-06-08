@@ -100,12 +100,12 @@ base('Listings')
 
 
     console.log( "💾 Writing data.json...")
-    fs.writeFileSync("./data/listings.json", JSON.stringify( listings, null, 2 ));
+    fs.writeFileSync("./data/airtable/listings.json", JSON.stringify( listings, null, 2 ));
 
 
     // const mapData = produceMapData(data);
     // console.log( "💾 Writing map-data.json...")
-    // fs.writeFileSync("./data/map-data.json", JSON.stringify( mapData ));
+    // fs.writeFileSync("./data/airtable/map-data.json", JSON.stringify( mapData ));
 
     console.log("✅ Done!")
   })
@@ -130,7 +130,7 @@ base("Venues")
       }
 
       console.log("💾 Writing venues.json...");
-      fs.writeFileSync("./data/venues.json", JSON.stringify(venues, null, 2));
+      fs.writeFileSync("./data/airtable/venues.json", JSON.stringify(venues, null, 2));
 
       // const mapData = produceMapData(data);
       // console.log("💾 Writing map-data.json...");

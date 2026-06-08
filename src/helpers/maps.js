@@ -13,6 +13,9 @@ export const decodeRoutePolyline = (encodedPolyline) => {
       },
     };
   }
+  if (!encodedPolyline) {
+    return { type: 'Feature', geometry: { type: 'MultiLineString', coordinates: [] } };
+  }
   return {
     type: 'Feature',
     geometry: {

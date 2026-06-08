@@ -11,13 +11,22 @@ const venue = data.venues.find( venue => venue.slug == listing.venue_id );
 
 const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
 const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
+
+
+const flagRegex = /([\u{1F1E6}-\u{1F1FF}]{2})/gu;
+const flagToCode = flag => [...flag].map(c => String.fromCharCode(c.codePointAt(0) - 127397)).join('').toLowerCase();
+const nameSplit = listing.name.split(flagRegex).filter(Boolean)
+
+
 ---
 
 <div id={listing.slug} class="listing" data-listing={ listing.slug }>
 
   <a href={`#${listing.slug}`} class="listing__details stack-tight">
     <div class="listing__group">{ listing.group_name }</div>
-    <div class="listing__name">{ listing.name }</div>
+    <div class="listing__name">{ nameSplit.map( 
+        piece => piece.match(flagRegex) ? <span class={`fi fi-${flagToCode(piece)}`}/> : piece 
+    )}</div>
     <div class="listing__meta">
       <span class="listing__time">{ time }</span>
       <span>@</span>
@@ -122,8 +131,12 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
   
 
   .listing-btn--go {
-    background: var(--color-green);
+    background: var(--color-gpg-green-dark);
     color: var(--color-white);
+
+    &:hover {
+      background: var(--color-gpg-green-light);
+    }
   }
 
 

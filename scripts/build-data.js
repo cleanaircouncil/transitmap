@@ -10,21 +10,21 @@ const SHORT_RADIUS = 400; // buses and bikes try this first, expand to RADIUS_ME
 const SHORT_RADIUS_NS = new Set(["septa-bus", "septa-trolley", "njtransit-bus", "indego"]);
 
 // Path to listings JSON — array of listing objects with id, venue, date, etc.
-const LISTINGS_PATH = "./data/listings.json";
+const LISTINGS_PATH = "./data/airtable/listings.json";
 
 // Path to venues JSON — array pulled from Airtable, each with id, name, latitude, longitude
-const VENUES_PATH = "./data/venues.json";
+const VENUES_PATH = "./data/airtable/venues.json";
 
 // GeoJSON files to include, each tagged with a namespace to avoid ID collisions
 const GEOJSON_SOURCES = [
-  { file: "./data/septa-metro.geojson", namespace: "septa-metro" },
-  { file: "./data/septa-bus.geojson", namespace: "septa-bus" },
-  { file: "./data/septa-trolley.geojson", namespace: "septa-trolley" },
-  { file: "./data/septa-regional-rail.geojson", namespace: "septa-regional-rail" },
-  { file: "./data/patco.geojson", namespace: "patco" },
-  { file: "./data/njtransit-bus-philly.geojson", namespace: "njtransit-bus" },
-  { file: "./data/indego.geojson", namespace: "indego" },
-  { file: "./data/phlash.geojson", namespace: "phlash" },
+  { file: "./data/agencies/septa-metro.geojson", namespace: "septa-metro" },
+  { file: "./data/agencies/septa-bus.geojson", namespace: "septa-bus" },
+  { file: "./data/agencies/septa-trolley.geojson", namespace: "septa-trolley" },
+  { file: "./data/agencies/septa-regional-rail.geojson", namespace: "septa-regional-rail" },
+  { file: "./data/agencies/patco.geojson", namespace: "patco" },
+  { file: "./data/agencies/njtransit-bus-philly.geojson", namespace: "njtransit-bus" },
+  { file: "./data/agencies/indego.geojson", namespace: "indego" },
+  { file: "./data/agencies/phlash.geojson", namespace: "phlash" },
 ];
 
 // Route short-name overrides — keyed by "namespace:route_id"
@@ -41,7 +41,7 @@ const venuesRaw = JSON.parse(fs.readFileSync(VENUES_PATH, "utf8"));
 const venueIdToSlug = Object.fromEntries(venuesRaw.map((v) => [v.id, v.slug]));
 
 // Bike network segments — pre-encoded, filtered per venue at output time
-const BIKE_NETWORK_PATH = "./data/bike-network.geojson";
+const BIKE_NETWORK_PATH = "./data/agencies/bike-network.geojson";
 const bikeSegments = fs.existsSync(BIKE_NETWORK_PATH)
   ? JSON.parse(fs.readFileSync(BIKE_NETWORK_PATH, "utf8")).features
   : [];
@@ -129,7 +129,19 @@ function isGenericColor(color) {
   return c === "000000" || c === "FFFFFF";
 }
 
-// ── Encoded polyline ──────────────────────────────────────────────────────────
+// ── Polyline helpers ──────────────────────────────────────────────────────────
+
+// Removes polylines that are geographic prefixes of longer ones.
+// Delta-encoded polylines have the prefix property: if route A is a sub-path of
+// route B starting from the same point, encoded(A) is a string prefix of encoded(B).
+function dedupePolylines(polylines) {
+  const sorted = [...polylines].sort((a, b) => b.length - a.length);
+  const kept = [];
+  for (const p of sorted) {
+    if (!kept.some((k) => k.startsWith(p))) kept.push(p);
+  }
+  return kept;
+}
 
 // Encodes [[lon, lat], ...] (GeoJSON order) to a Google encoded polyline string.
 // Consumers: Google Maps, Mapbox, Leaflet (via plugin), or any polyline decoder.
@@ -179,16 +191,27 @@ function routeMode(routeType, namespace) {
 
 const routes = {};
 
-for (const { key, namespace, routeId, feature } of allRoutes) {
+// Group route features by namespace:route_id — fetch emits one per direction
+const routeGroups = new Map();
+for (const r of allRoutes) {
+  if (!routeGroups.has(r.key)) routeGroups.set(r.key, []);
+  routeGroups.get(r.key).push(r);
+}
+
+for (const [key, group] of routeGroups) {
+  const { namespace, routeId, feature } = group[0];
   const p = feature.properties;
 
-  // Geometry: LineString → coords array; MultiLineString → flatten segments
-  let geometry = [];
-  if (feature.geometry.type === "LineString") {
-    geometry = feature.geometry.coordinates;
-  } else if (feature.geometry.type === "MultiLineString") {
-    geometry = feature.geometry.coordinates.flat();
-  }
+  const polylines = dedupePolylines(group.flatMap(({ feature: f }) => {
+    if (f.geometry.type === "LineString") {
+      return f.geometry.coordinates.length >= 2 ? [encodePolyline(f.geometry.coordinates)] : [];
+    } else if (f.geometry.type === "MultiLineString") {
+      return f.geometry.coordinates
+        .filter((coords) => coords.length >= 2)
+        .map((coords) => encodePolyline(coords));
+    }
+    return [];
+  }));
 
   routes[key] = {
     route_id: routeId,
@@ -212,9 +235,8 @@ for (const { key, namespace, routeId, feature } of allRoutes) {
       if (namespace === "njtransit-bus" && isGenericColor(raw)) return "#2C2B27";
       return raw;
     })(),
-    geometry,
-    polyline: encodePolyline(geometry),
-    stop_ids: [], // populated below
+    polylines,
+    stop_ids: [],
   };
 }
 
@@ -229,7 +251,7 @@ routes["indego:indego"] = {
   route_type: null,
   route_color: "#3980C4",
   route_text_color: "#FFFFFF",
-  polyline: "",
+  polylines: [],
   stop_ids: [],
 };
 
@@ -299,7 +321,7 @@ const indexOut = {
   listings: listingsOut,
 };
 
-fs.writeFileSync("./src/data/index.json", JSON.stringify(indexOut, null, 2));
+fs.writeFileSync("./src/data/index.json", JSON.stringify(indexOut));
 console.log(`\nWrote ./src/data/index.json`);
 console.log(`  ${listingsOut.length} listings`);
 console.log(`  ${indexOut.venues.length} venues`);
@@ -379,7 +401,7 @@ for (const [slug, venue] of Object.entries(venues)) {
       })
       .map((key) => {
         const { geometry, ...rest } = routes[key];
-        const extra = key === "indego:indego" ? { polyline: nearbyBikePolylines } : {};
+        const extra = key === "indego:indego" ? { polylines: nearbyBikePolylines } : {};
         return [key, { key, ...rest, ...extra }];
       })
   );
@@ -388,11 +410,11 @@ for (const [slug, venue] of Object.entries(venues)) {
 
   fs.writeFileSync(
     `${venuesDir}/${slug}.json`,
-    JSON.stringify({ name: venue.name, coordinates: venue.coordinates, stops: venueStops, routes: venueRoutes }, null, 2)
+    JSON.stringify({ name: venue.name, coordinates: venue.coordinates, stops: venueStops, routes: venueRoutes })
   );
 }
 
 console.log(`Wrote ${Object.keys(venues).length} files to ${venuesDir}/`);
 
-fs.writeFileSync("./src/data/routes.json", JSON.stringify(routesByVenue, null, 2));
+fs.writeFileSync("./src/data/routes.json", JSON.stringify(routesByVenue));
 console.log(`Wrote ./src/data/routes.json`);

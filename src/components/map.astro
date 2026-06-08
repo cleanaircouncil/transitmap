@@ -74,7 +74,7 @@ import TransitChip from "./transit-chip.astro";
 
     &::after {
       content: '\f3c5';
-      color: var(--color-red);
+      color: var(--color-gpg-green-dark);
       display: block;
       font: var(--fa-font-solid);
       width: 100%;
@@ -322,6 +322,7 @@ import TransitChip from "./transit-chip.astro";
 
 
   currentListingSlug.subscribe( slug => {
+    
     const listing = data.listings.find( listing => listing.slug == slug );
     (async() => {
       const venue = await fetchVenueData(listing?.venue_id);
@@ -368,6 +369,8 @@ import TransitChip from "./transit-chip.astro";
         center: venue.coordinates,
         zoom: 15,
       })
+
+      currentRoute.set("")
     })()
     
 
@@ -388,7 +391,9 @@ import TransitChip from "./transit-chip.astro";
       type: 'line',
       source: 'route-display',
       paint: {
-          'line-width': 10
+          'line-width': 10,
+          'line-color-transition': { duration: 0, delay: 0},
+          'line-width-transition': { duration: 0, delay: 0},
       }
   });
 
@@ -405,12 +410,15 @@ import TransitChip from "./transit-chip.astro";
       const venue = await fetchVenueData( currentVenue.get() );
       const route = venue.routes[route_id];
 
-      const geometry = decodeRoutePolyline(route.polyline);
-
-      map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 10);
-      map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
-      map.getSource("route-display").setData( geometry );
       
+      const features = decodeRoutePolyline( route.polylines );
+      
+      
+      
+
+      map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
+      map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
+      map.getSource("route-display").setData( features );
     })()
   })
 

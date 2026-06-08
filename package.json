@@ -19,6 +19,7 @@
     "airtable": "^0.12.2",
     "astro": "^5.13.7",
     "dotenv": "^16.5.0",
+    "flag-icons": "^7.5.0",
     "luxon": "^3.7.2",
     "marked": "^16.0.0",
     "nanostores": "^1.0.1"

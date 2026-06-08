@@ -21,14 +21,22 @@ function isCurrent(path) {
     </button>
 
     <a href="/" class="nav-button" aria-current={isCurrent("explore")}>
-      <i class="fa fa-location-dot"></i> Explore Permits
+      <i class="fa fa-calendar"></i> Events
     </a>
+
+    <a href="/about" class="nav-button" aria-current={isCurrent("listing")}>
+      <i class="fa fa-list"></i> Listing
+    </a>
+
+    <a href="/about" class="nav-button" aria-current={isCurrent("venue")}>
+      <i class="fa fa-ticket"></i> Venue
+    </a>
+
     <a href="/about" class="nav-button" aria-current={isCurrent("about")}>
-      <i class="fa fa-certificate"></i> About The Tracker
+      <i class="fa fa-certificate"></i> About
     </a>
-    <a href="https://cleanair.org/take-action/" class="nav-button" target="_blank">
-      <i class="fa fa-hand"></i> Get Involved
-    </a>
+
+  
   </div>
 </nav>
 

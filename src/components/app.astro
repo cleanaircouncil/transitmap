@@ -15,7 +15,9 @@ const { venue } = Astro.props
   </section> -->
 
   <ResponsiveSheet class="in-list">
-    <slot/>
+    <div class="scroller">
+      <slot/>
+    </div>
   </ResponsiveSheet>
 
   
@@ -46,9 +48,13 @@ const { venue } = Astro.props
 
   .in-list {
     position: relative;
-    /* overflow: hidden;
-    display: grid;
-    grid-template-rows: min-content 1fr; */
+   
+  }
+
+  .scroller {
+    overflow: auto;
+    padding-bottom: 10vh;
+    height: 100%;
   }
 
   .in-main {
@@ -60,7 +66,7 @@ const { venue } = Astro.props
     grid-area: header;
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 600px) {
     .layout-app {
       grid-template-rows: min-content 1fr min-content;
       grid-template-areas:
@@ -80,7 +86,7 @@ const { venue } = Astro.props
     }
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 600px) {
     .layout-app {
       grid-template-columns: min(40vw, 450px) 1fr;
       grid-template-rows: min-content 1fr;
@@ -99,7 +105,3 @@ const { venue } = Astro.props
     }
   }
 </style>
-
-<script>
-  import { listen } from "../helpers/events";
-</script>

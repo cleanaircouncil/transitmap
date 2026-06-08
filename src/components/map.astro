@@ -7,7 +7,7 @@ console.log( venue );
 ---
 
 <Fragment>
-  <figure id="map" class="map" data-map data-venue={ venue }></figure>
+  <figure id="map" class="map" data-map data-venue={ venue } transition:persist="map"></figure>
 
   <Button class="map-view-all-button box-shadow" data-map-view-all aria-label="View All Facilities">
     <i class="fa fa-expand"></i><span class="map-view-all-text">&nbsp;View All</span>
@@ -29,14 +29,14 @@ console.log( venue );
 
   <template id="map-venue-stub">
     <div
-      data-partial-link
       class="map-venue map-marker"
       data-venue-marker
       data-venue=""
-      data-populate="slug: @data-venue, href: @data-partial-link"
+      data-populate="slug: @data-venue"
     >
+      <a class="stretched-link" data-populate="href: @href" aria-label="View venue"></a>
       <span class="map-marker__label" data-populate="name"></span>
-  </div>
+    </div>
   </template>
 
 
@@ -297,7 +297,6 @@ console.log( venue );
   await initCircle(map);
 
   const mapEl = document.querySelector("[data-map]");
-  console.log( mapEl, mapEl.dataset.venue);
 
   if( mapEl.dataset.venue ) {
     const venue = await fetchVenueData( mapEl.dataset.venue );
@@ -317,13 +316,6 @@ console.log( venue );
     map.getSource('location-radius').setData(circleData);
   }
 
-  // async function fetchVenueData(venueSlug) {
-  //   const result = await fetch(`/data/venues/${venueSlug}.json`);
-  //   const data = await result.json();
-  //   return data;
-  // }
-
-
   function setCurrentMarker(venue) {
     const markers = document.querySelectorAll("[data-venue-marker]");
     markers.forEach((marker) => {
@@ -333,20 +325,6 @@ console.log( venue );
       );
     });
   }
-
-
-  // currentListingSlug.subscribe( slug => {
-    
-  //   const listing = data.listings.find( listing => listing.slug == slug );
-  //   (async() => {
-  //     const venue = await fetchVenueData(listing?.venue_id);
-
-  //     focusOnVenue(venue);
-
-  //     currentRoute.set("")
-  //   })()
-    
-  // })
 
 
   function focusOnVenue( venue ) {
@@ -387,6 +365,7 @@ console.log( venue );
     showRadius(map, venue.coordinates);
 
     setCurrentMarker(venue);
+    currentRoute.set("");
 
     map.flyTo({
       center: venue.coordinates,
@@ -423,7 +402,7 @@ console.log( venue );
       const venue = await fetchVenueData( currentVenue.get() );
       const route = venue.routes[route_id];
 
-      
+      console.log( currentVenue )
       const features = decodeRoutePolyline( route.polylines );
       
 
@@ -434,30 +413,24 @@ console.log( venue );
   })
 
   currentVenue.subscribe( (venue_id) => {
+    
     document.querySelectorAll("[data-venue-marker]").forEach( venueEl => {
       venueEl.toggleAttribute("data-current", venueEl.dataset.venue == venue_id )
     })
+    if (venue_id) {
+      (async () => {
+        const venue = await fetchVenueData(venue_id);
+        console.log(venue_id, venue);
+        focusOnVenue(venue);
+      })();
+    }
   })
 
 
   document.addEventListener("click", (e) => {
     const venueMarkerEl = e.target.closest("[data-venue-marker]");
-    
-    if( !venueMarkerEl )
-      return;
-
-    (async() => {
-      const slug = venueMarkerEl.dataset.venue;
-      const venue = await fetchVenueData(slug);
-      focusOnVenue(venue);
-      currentVenue.set(slug);
-    })()
-    
-  })
-
-
-  document.addEventListener("DOMContentLoaded", () => {
-
+    if (!venueMarkerEl) return;
+    currentVenue.set(venueMarkerEl.dataset.venue);
   })
 
 </script>

@@ -1,0 +1,7 @@
+.stretched-link {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  text-decoration: none;
+  color: inherit;
+}

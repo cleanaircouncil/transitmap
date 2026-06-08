@@ -5,7 +5,8 @@ import ListingInfo from "./listing-info.astro";
 ---
 
 <div id={listing.slug} class="listing" data-listing={ listing.slug }>
-  <div data-partial-link={`/listings/${listing.slug}`} class="listing__details stack-tight">
+  <a href={`/listings/${listing.slug}`} class="stretched-link" aria-label={listing.name}></a>
+  <div class="listing__details stack-tight">
     <ListingInfo listing={listing}/>
   </div>
 </div>
@@ -18,5 +19,5 @@ import ListingInfo from "./listing-info.astro";
     position: relative;
     padding-block: 2rem;
     padding-inline: 1rem;
-  } 
+  }
 </style>

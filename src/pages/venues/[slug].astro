@@ -3,7 +3,7 @@ import type { GetStaticPaths } from "astro";
 import VenueDetail from "../../components/venue-detail.astro";
 import data from "../../data/index.json"
 import AppLayout from "../../layouts/app-layout.astro";
-import BackToHome from "../../components/back-to-home.astro";
+import Button from "../../components/button.astro";
 
 export const getStaticPaths = (() => {
   return data.venues.map((venue) => ({
@@ -20,6 +20,22 @@ const { venue } = Astro.props;
 ---
 
 <AppLayout venue={venue.slug}>
-  <BackToHome/>
+  <Button href="/"><i class="fa fa-arrow-left"></i>Back to event schedule</Button>
+  
   <VenueDetail venue={venue} />
 </AppLayout>
+
+<script is:inline define:vars={{ venueSlug: venue.slug }}>
+  window.__pendingVenue = venueSlug;
+</script>
+
+<script>
+  import { currentVenue } from "../../helpers/store";
+  document.addEventListener('astro:page-load', () => {
+    const w = window as any;
+    if (w.__pendingVenue) {
+      currentVenue.set(w.__pendingVenue);
+      w.__pendingVenue = null;
+    }
+  });
+</script>

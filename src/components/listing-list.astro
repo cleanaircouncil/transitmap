@@ -55,20 +55,10 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
 
 <style>
 
-
-  .listing-list {
-     background: var(--color-beige);
-     overflow: auto;
-     scroll-behavior: smooth;
-     height: 100%;
-  }
-
   .listing-schedule {
     display: grid;
     grid-template-rows: min-content 1fr;
     border-radius: 1rem;
-    /* overflow: hidden; */
-    /* box-shadow: var(--box-shadow); */
 
     &[hidden] {
       display: none;

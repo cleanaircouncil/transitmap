@@ -7,9 +7,9 @@ import ResponsiveSheet from "./responsive-sheet.astro";
 ---
 
 <main id="app" class="app layout-app" data-app>
-  <section class="in-header">
+  <!-- <section class="in-header">
     <Header/>
-  </section>
+  </section> -->
 
   <ResponsiveSheet class="in-list">
     <ListingList/>
@@ -20,9 +20,9 @@ import ResponsiveSheet from "./responsive-sheet.astro";
     <Map />
   </section>
 
-  <!-- <section class="in-nav">
+  <section class="in-nav">
     <Nav/>
-  </section> -->
+  </section>
 </main>
 
 <style>
@@ -83,7 +83,8 @@ import ResponsiveSheet from "./responsive-sheet.astro";
       grid-template-rows: min-content 1fr;
       grid-template-areas:
         "header main"
-        "list main";
+        "list main"
+        "nav main";
     }
 
     .in-list {

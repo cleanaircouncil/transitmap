@@ -30,37 +30,85 @@ for( const route_id in routes ) {
   transit.routes.push( route );
 }
 
+const groups = [
+  {
+    mode: "Bike",
+    icon: "fa-bicycle",
+    agencies: []
+  },
 
+  {
+    mode: "Bus",
+    icon: "fa-bus-simple",
+    agencies: []
+  },
+  {
+    mode: "Metro",
+    icon: "fa-train-subway",
+    agencies: []
+  },
+  {
+    mode: "Rail",
+    icon: "fa-train",
+    agencies: []
+  }
+];
+
+
+
+for( const route_id in routes ) {
+  const route = routes[route_id];
+  let mode = groups.find( a => a.mode == route.mode );
+  let agency = mode?.agencies.find( a => a.agency == route.agency );
+
+  if( !agency ) {
+    agency = {
+      agency: route.agency,
+      routes: []
+    };
+
+    mode?.agencies.push( agency );
+  }
+
+  agency.routes.push(route);
+}
+
+
+
+const modeOrder = ["Bike", "Bus", "Metro", "Rail"];
+groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
 
 
 ---
 
 <div class="transit-selector">
-  <div class="transit-selector__modes gap">
-    { modes
-      .filter( transit => transit.routes.length )
-      .map( transit => <button data-transit-mode={ transit.mode }>{transit.mode}</button> )
-    }
-  </div>
 
-  <div class="transit-selector__routes stack">
+  <div class="transit-selector__routes">
     
-    
-    { modes
-      .filter( transit => transit.routes.length )
-      .map( transit => 
-      <>
-      <h4>{ transit.mode }</h4>
-        <div class="transit-selector__transit gap-tight" data-transit-mode={transit.mode}>
-          { transit.routes
-            .sort( (a, b) => parseInt(a.route_id) 
-              ? (parseInt(a.route_id) > parseInt(b.route_id) ? 1 : -1) 
-              : (a.route_id > b.route_id ? 1 : -1) 
-            )
-            .map( route => <TransitChip route={route}/> )
-          }
+    { groups
+      .filter( group => group.agencies.length )
+      .map( mode => 
+      <div class="transit-selector__group">
+        <h2><i class={`fa ${mode.icon}`}></i></h2>
+        <div class="transit-selector__group-agencies">
+      {
+        mode.agencies.map( agency => 
+          <div class="transit-selector__group-agency">
+              <h4>{ agency.agency }</h4>
+              <div class="transit-selector__transit gap-tight" data-transit-mode={mode.mode}>
+                { agency.routes
+                  .sort( (a, b) => parseInt(a.route_id) 
+                    ? (parseInt(a.route_id) > parseInt(b.route_id) ? 1 : -1) 
+                    : (a.route_id > b.route_id ? 1 : -1) 
+                  )
+                  .map( route => <TransitChip route={route}/> )
+                }
+              </div>
+          </div>
+        )
+      }
+      </div>
         </div>
-        </>
       )
     }
   </div>
@@ -68,15 +116,58 @@ for( const route_id in routes ) {
 </div>
 
 <style>
-  .transit-selector__modes {
-    display: flex;
-    gap: var(--gap);
-    display: none;
-  }
+
 
   .transit-selector__transit {
     display: flex;
     flex-wrap: wrap;
     gap: var(--gap);
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    background: var(--color-beige);
+    padding: 1rem;
+  }
+
+  h2 {
+    display: grid;
+    place-content: center;
+    background: var(--color-black);
+    color: var(--color-white);
+    font-size: 2rem;
+  }
+
+
+  .transit-selector__routes {
+    display: grid;
+    
+    
+    gap: 1rem;
+  }
+
+  .transit-selector__group {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    background: var(--color-white);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+  }
+
+  .transit-selector__group-agencies {
+    display: grid;
+    background: var(--color-gray);
+    gap: 1px;
+  }
+
+  .transit-selector__group-agency {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+  }
+
+  .transit-selector__transit {
+    padding: 1rem;
+    background: var(--color-white);
   }
 </style>

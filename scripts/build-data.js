@@ -256,6 +256,15 @@ for (const [stopKey, stop] of Object.entries(stops)) {
   }
 }
 
+// ── Stop mode ────────────────────────────────────────────────────────────────
+
+const MODE_PRIORITY = ["Rail", "Metro", "Bus", "Bike"];
+
+function dominantMode(stop) {
+  const modes = stop.routes.map((r) => routes[r.route_id]?.mode).filter(Boolean);
+  return MODE_PRIORITY.find((m) => modes.includes(m)) ?? modes[0] ?? null;
+}
+
 // ── Build venues map ──────────────────────────────────────────────────────────
 
 const stopPoints = featureCollection(Object.entries(stops).map(([key, stop]) => point(stop.coordinates, { key })));
@@ -368,7 +377,7 @@ for (const [slug, venue] of Object.entries(venues)) {
   const venueStops = Object.fromEntries(
     Object.keys(candidateStops)
       .filter((key) => keptKeys.has(key) || key.startsWith("indego:"))
-      .map((key) => [key, { ...candidateStops[key], walk_minutes: Math.ceil(stopDist[key] / 80) }])
+      .map((key) => [key, { ...candidateStops[key], walk_minutes: Math.ceil(stopDist[key] / 80), mode: dominantMode(candidateStops[key]) }])
   );
 
   const routeKeys = new Set(

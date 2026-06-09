@@ -165,27 +165,58 @@ const { venue } = Astro.props;
 </style>
 
 <script>
+  // ─── Imports ─────────────────────────────────────────────────────────────────
   import { data, currentListingSlug, fetchVenueData, currentRoute, currentVenue } from "../helpers/store";
   import { cloneTemplate, populateWithData } from "../helpers/populate";
   import { decodeRoutePolyline } from "../helpers/maps";
   import { circle } from "@turf/turf";
+  import Supercluster from "supercluster";
 
-
+  // ─── Constants ───────────────────────────────────────────────────────────────
   const PHILLY_LAT = 39.952583;
   const PHILLY_LON = -75.165222;
-
-
+  const PHILLY_CENTER = [PHILLY_LON, PHILLY_LAT];
 
   // import listingData from "../data/listing-stops.json";
 
-
-  
-  const PHILLY_CENTER = [PHILLY_LON, PHILLY_LAT];
-  
-
   const maplibregl = window["maplibregl"];
-  
 
+  // ─── Helpers ─────────────────────────────────────────────────────────────────
+  function getMapPadding() {
+    if (window.innerWidth >= 600) return 80;
+
+    const sheetEl = document.querySelector("[data-sheet]");
+    const sheetHeight = sheetEl?.getBoundingClientRect().height ?? 0;
+    return { bottom: sheetHeight, top: 40, left: 20, right: 20 };
+  }
+
+  function getMapZoom() {
+    if (window.innerWidth >= 600) return 15;
+    else return 13;
+  }
+
+  function showRadius( map, center ) {
+    const radius = .5; // kilometer
+    const options = {
+        steps: 64,
+        units: 'miles'
+    };
+    const circleData = circle(center, radius, options);
+
+    map.getSource('location-radius').setData(circleData);
+  }
+
+  function setCurrentMarker(venue) {
+    const markers = document.querySelectorAll("[data-venue-marker]");
+    markers.forEach((marker) => {
+      marker.toggleAttribute(
+        "data-current",
+        marker.matches(`[data-venue="${venue.slug}"]`)
+      );
+    });
+  }
+
+  // ─── Initialization ───────────────────────────────────────────────────────────
   async function initMap() {
     const map = new maplibregl.Map({
       container: "map", // container id
@@ -200,8 +231,8 @@ const { venue } = Astro.props;
     map.touchPitch.disable();
     map.dragRotate.disable();
     map.touchZoomRotate.disableRotation();
-    
-    map.fitBounds(data.meta.bounds, { padding: 80, duration: 0 });
+
+    map.fitBounds(data.meta.bounds, { padding: getMapPadding(), duration: 0 });
 
     return new Promise((res) => {
       map.on("load", async () => {
@@ -246,43 +277,7 @@ const { venue } = Astro.props;
     showRadius(map, PHILLY_CENTER);
   }
 
-  const map = await initMap();
-
-  await initVenues(map, data);
-
-  await initCircle(map);
-
-  const mapEl = document.querySelector("[data-map]");
-
-  if( mapEl.dataset.venue ) {
-    const venue = await fetchVenueData( mapEl.dataset.venue );
-    console.log( venue );
-    focusOnVenue(venue);
-  }
-
-
-  function showRadius( map, center ) {
-    const radius = .5; // kilometer
-    const options = {
-        steps: 64,
-        units: 'miles'
-    };
-    const circleData = circle(center, radius, options);
-    
-    map.getSource('location-radius').setData(circleData);
-  }
-
-  function setCurrentMarker(venue) {
-    const markers = document.querySelectorAll("[data-venue-marker]");
-    markers.forEach((marker) => {
-      marker.toggleAttribute(
-        "data-current",
-        marker.matches(`[data-venue="${venue.slug}"]`)
-      );
-    });
-  }
-
-
+  // ─── Venue Focus ─────────────────────────────────────────────────────────────
   function focusOnVenue( venue ) {
     if(!venue) return;
 
@@ -291,31 +286,19 @@ const { venue } = Astro.props;
     for( const id in venue.stops )
     {
       const stop = venue.stops[id];
-      // const groupEl = cloneTemplate("map-stop-group-stub");
-
+      // console.log( venue );
       for( const stopRoute of stop.routes ){
-        
-        const route = venue.routes[stopRoute.route_id];
-        // console.log( route_id, route );
 
+        const route = venue.routes[stopRoute.route_id];
         const markerEl = cloneTemplate("map-marker-stub");
 
         populateWithData(markerEl, route)
 
-        // add marker to map
-        // groupEl?.appendChild(markerEl);
+
       new maplibregl.Marker({ element: markerEl })
         .setLngLat(stop.coordinates)
         .addTo(map);
-        // break;
-    
       }
-
-      // new maplibregl.Marker({ element: groupEl })
-      //   .setLngLat(stop.coordinates)
-      //   .addTo(map);
-
-      
     }
 
     showRadius(map, venue.coordinates);
@@ -325,17 +308,22 @@ const { venue } = Astro.props;
 
     map.flyTo({
       center: venue.coordinates,
-      zoom: 15,
+      zoom: getMapZoom(),
+      padding: getMapPadding()
     })
   }
 
+  // ─── Bootstrap ───────────────────────────────────────────────────────────────
+  const map = await initMap();
 
-   map.addSource('route-display', {
-        type: 'geojson',
-        data: {}
-    });
+  await initVenues(map, data);
+  await initCircle(map);
 
-  // Add a fill layer with some transparency
+  map.addSource('route-display', {
+      type: 'geojson',
+      data: {}
+  });
+
   map.addLayer({
       id: 'route-display',
       type: 'line',
@@ -347,7 +335,50 @@ const { venue } = Astro.props;
       }
   });
 
+  const mapEl = document.querySelector("[data-map]");
+  
+  if( mapEl.dataset.venue ) {
+    const venue = await fetchVenueData( mapEl.dataset.venue );
+    focusOnVenue(venue);
+  }
 
+
+
+
+  // map.on("moveend", () => {
+  //   // console.log("hey");
+
+  //   (async () => {
+  //     const venue_id = currentVenue.get();
+  //     if(!venue_id) 
+  //       return;
+
+  //     const venue = await fetchVenueData(venue_id);
+
+  //     const points = Object.entries(venue.stops).map(([key, stop]) => ({
+  //       type: "Feature",
+  //       geometry: { type: "Point", coordinates: stop.coordinates },
+  //       properties: {
+  //         stop_key: key,
+  //         stop_name: stop.stop_name,
+  //         mode: stop.mode,
+  //         route_count: stop.routes.length,
+  //         routes: stop.routes.map(r => r.route_id),
+  //       }
+  //     }));
+
+  //     const bounds = map.getBounds();
+  //     const bbox = [bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()];
+  //     const zoom = Math.floor(map.getZoom());
+  //     const index = new Supercluster({ radius: 80, maxZoom: 16 }).load(points)
+
+  //     const clusters = index.getClusters(bbox, zoom);
+  //     console.log( clusters);
+
+  //   })()
+  // })
+
+  // ─── Subscriptions & Events ───────────────────────────────────────────────────
   currentRoute.subscribe( (route_id) => {
     (async() => {
       if(!route_id) {
@@ -358,9 +389,9 @@ const { venue } = Astro.props;
       const venue = await fetchVenueData( currentVenue.get() );
       const route = venue.routes[route_id];
 
-      console.log( currentVenue )
+      // console.log( currentVenue )
       const features = decodeRoutePolyline( route.polylines );
-      
+
 
       map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
       map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
@@ -369,19 +400,19 @@ const { venue } = Astro.props;
   })
 
   currentVenue.subscribe( (venue_id) => {
-    
+
     document.querySelectorAll("[data-venue-marker]").forEach( venueEl => {
       venueEl.toggleAttribute("data-current", venueEl.dataset.venue == venue_id )
     })
     if (venue_id) {
       (async () => {
         const venue = await fetchVenueData(venue_id);
-        console.log(venue_id, venue);
         focusOnVenue(venue);
       })();
     }
   })
 
+  
 
   document.addEventListener("click", (e) => {
     const venueMarkerEl = e.target.closest("[data-venue-marker]");

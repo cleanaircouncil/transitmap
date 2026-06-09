@@ -22,7 +22,8 @@
     "flag-icons": "^7.5.0",
     "luxon": "^3.7.2",
     "marked": "^16.0.0",
-    "nanostores": "^1.0.1"
+    "nanostores": "^1.0.1",
+    "supercluster": "^8.0.1"
   },
   "devDependencies": {
     "@turf/turf": "^7.2.0",

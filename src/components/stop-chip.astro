@@ -1,0 +1,54 @@
+---
+const { route = {} } = Astro.props;
+
+---
+
+<div
+  class="stop-chip"
+  data-stop-chip
+  data-populate="
+    mode: @data-mode,
+  "
+  data-mode={route.mode}
+>
+  <div class="stop-chip__icon">
+    <!-- <i data-mode="Bike" class="fa fa-bicycle"></i> -->
+    <i data-mode="Bus" class="fa fa-bus-simple"></i>
+    <!-- <i data-mode="Rail" class="fa fa-train"></i>
+    <i data-mode="Metro" class="fa fa-train-subway"></i> -->
+  </div>
+
+  <span class="stop-chip__count" data-populate="count"></span>
+</div>
+
+
+<style is:global>
+ 
+
+  .stop-chip {
+    min-width: 2rem;
+    height: 2rem;
+    background: var(--route-color);
+    color: var(--text-color);
+    font-family: var(--font-default);
+    font-weight: 900;
+    place-content: center;
+    text-align: center;
+    background-size: contain;
+    cursor: pointer;
+
+    box-shadow: 0px 5px 0px rgba(0,0,0,.10);
+
+    .transit-chip__count {
+      display: block;
+      width: calc( 100% - 4px );
+      height: calc( 100% - 4px );
+      font-size: 1em;
+      line-height: 1;
+      place-content: center;
+      margin: 2px;
+    }
+
+  }
+
+</style>

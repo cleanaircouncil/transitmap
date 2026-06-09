@@ -8,12 +8,12 @@ export const cloneTemplate = ( templateId, cloneId = "" ) => {
 
   const clonedNodes = templateEl.content.cloneNode(true).childNodes;
   if (clonedNodes.length == 0) {
-    console.log(`Template ${templateEl} has no children, returning null.`)
+    // console.log(`Template ${templateEl} has no children, returning null.`)
     return null;
   }
 
   if (clonedNodes.length > 1) {
-    console.log(`Template ${templateEl} has multiple children, only returning the first.`)
+    // console.log(`Template ${templateEl} has multiple children, only returning the first.`)
   }
 
   const result = clonedNodes[0];

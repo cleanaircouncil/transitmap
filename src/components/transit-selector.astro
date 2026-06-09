@@ -34,7 +34,6 @@ for( const route_id in routes ) {
 const groups = [
   {
     mode: "Bike",
-    title: "Bikeshare",
     icon: "fa-bicycle",
     agencies: []
   },
@@ -60,11 +59,11 @@ const groups = [
 for( const route_id in routes ) {
   const route = routes[route_id];
   let mode = groups.find( a => a.mode == route.mode );
-  let agency = mode?.agencies.find( a => a.agency == route.agency );
+  let agency = mode?.agencies.find( a => a.agency == route.service_name );
 
   if( !agency ) {
     agency = {
-      agency: route.agency,
+      agency: route.service_name,
       routes: []
     };
 

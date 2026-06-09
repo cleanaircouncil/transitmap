@@ -98,6 +98,20 @@ function agencyName(namespace) {
   return namespace;
 }
 
+function serviceName(namespace) {
+  switch (namespace) {
+    case "septa-metro":         return "SEPTA Metro";
+    case "septa-bus":           return "SEPTA Bus";
+    case "septa-trolley":       return "SEPTA Metro";
+    case "septa-regional-rail": return "SEPTA Regional Rail";
+    case "patco":               return "PATCO";
+    case "njtransit-bus":       return "NJ Transit Bus";
+    case "indego":              return "Indego Bike Share";
+    case "phlash":              return "Philly Phlash";
+    default:                    return namespace;
+  }
+}
+
 const stops = {};
 
 for (const { key, namespace, feature } of allStops) {
@@ -210,6 +224,7 @@ for (const [key, group] of routeGroups) {
     route_id: routeId,
     namespace,
     agency: agencyName(namespace),
+    service_name: serviceName(namespace),
     mode: routeMode(p.route_type, namespace),
     route_short_name: (ROUTE_ALIASES[key] || p.route_short_name || p.route_ref || routeId).replace(/"/g, ""),
     route_long_name: p.route_long_name || p.route_name || "",
@@ -236,6 +251,7 @@ routes["indego:indego"] = {
   route_id: "indego",
   namespace: "indego",
   agency: "Indego",
+  service_name: "Indego Bike Share",
   mode: "Bike",
   route_short_name: "Indego",
   route_long_name: "Indego Bike Share",

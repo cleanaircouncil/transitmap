@@ -3,31 +3,28 @@ layout: ../layouts/md-layout.astro
 title: About the Tracker
 slug: about
 ---
-      
 
-# About the Tracker
+# About
+During large sporting events and celebrations, the Greater Philadelphia region experiences increased traffic congestion. Being stuck in traffic wastes time and increases air pollution. To help residents and visitors get around more sustainably, Clean Air Council developed this map to highlight event locations, offering ways to get around without driving. This easy-to-use map can help you plan your car-free route using available public transportation with SEPTA, PATCO, New Jersey Transit, Indego bike share, or finding park-and-ride locations.
 
-During large sporting events and celebrations, the Greater Philadelphia region experiences increased traffic. Being stuck in traffic wastes time and increases air pollution. To help residents and visitors get around more sustainably, Clean Air Council developed this map to highlight event locations, offering ways to get around without driving. This easy-to-use map can help you plan your car-free route using available public transportation with SEPTA, PATCO, New Jersey Transit, Indego bike share, or finding park-and-ride locations.
-
-During the summer of 2026, this map will highlight sustainable ways to get to event locations, providing alternative routes to travel to FIFA games and A250 events instead of further congesting major highways and thoroughfares like Interstate -95, 76, and  I-676.
+During the summer of 2026, this map will highlight sustainable ways to get to event locations, providing alternative routes to travel to FIFA games and A250 events instead of further congesting major highways and thoroughfares like I-95, I-76, and  I-676. 
 
 **How To Use GoPhillyGo: Car-Free Routes Map**
 
-As part of its commitment to protect everyone’s right to a healthy environment, Clean Air Council promotes transitioning away from using single-occupancy vehicles to more sustainable options that reduce air emissions and increase the overall health of Pennsylvanians. This map will highlight scheduled events along with local parks and trails to visit car-free.
+As part of its commitment to protect everyone’s right to a healthy environment, Clean Air Council promotes transitioning away from using single-occupancy vehicles to more sustainable options that reduce air emissions and increase the overall health of Pennsylvanians. This map highlights scheduled events along with local parks and trails to visit car-free.
 
-**Each event listed on the map will have:**
-
+**Each event listed on the map has:**
 1. Name of the event
 2. Date and time
 3. Location
 
-**Users will be able to:**
+**Users are be able to:**
+* Browse map
+* Select events
+* Filter by event type
+* Identify transit stops within a specified radius of each event
+* Link out to Google Maps to map their trip
 
-- Browse map
-- Select events
-- Filter by event type
-- Identify transit stops within a specified radius of each event
-- Link out to Google Maps to map their trip
 
 ---
 

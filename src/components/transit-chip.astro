@@ -31,8 +31,8 @@ const { route = {} } = Astro.props;
  
 
   .transit-chip {
-    min-width: 36px;
-    height: 36px;
+    min-width: 2rem;
+    height: 2rem;
     background: var(--route-color);
     color: var(--text-color);
     font-family: var(--font-default);
@@ -48,7 +48,8 @@ const { route = {} } = Astro.props;
       display: block;
       width: calc( 100% - 4px );
       height: calc( 100% - 4px );
-      font-size: 18px;
+      font-size: 1em;
+      line-height: 1;
       place-content: center;
       margin: 2px;
     }
@@ -95,7 +96,7 @@ const { route = {} } = Astro.props;
       } */
 
       .transit-chip__text {
-        border: 2px solid currentColor;
+        border: .1rem solid currentColor;
         border-radius: 16px;
         padding-inline: 10px;
       }
@@ -150,6 +151,14 @@ const { route = {} } = Astro.props;
   .transit-chip:not(.is-dimmed) {
     z-index: 1;
   }
+
+  @media screen and (min-width: 600px) {
+    .transit-chip {
+      font-size: 20px;
+      border: 20px solid red !;
+    }
+  }
+
 
 </style>
 

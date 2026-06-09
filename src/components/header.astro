@@ -1,6 +1,6 @@
 <header class="header constrain">
   <hgroup>
-    <h1>GoPhillyGo<br/><span>Car-Free Routes</span></h1>
+    <h1>GoPhillyGo <span>Car-Free Routes</span></h1>
     <span>
     provided by
     <a href="https://cleanair.org" title="Clean Air Council">
@@ -28,12 +28,12 @@
 
   .header h1 {
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 1;
 
     span {
       font-weight: 300;
-      font-size: 2rem;
+      font-size: 2em;
     }
   }
 
@@ -46,6 +46,37 @@
   .header .logo {
     width: 10rem;
     display: inline-block;
+  }
+
+  @media screen and (max-width: 600px) {
+    .header {
+      padding-block: .5rem;
+    }
+
+    .header h1 {
+      font-style: italic;
+      font-size: 1.5em;
+      line-height: 1;
+
+      span {
+        font-weight: 300;
+        font-size: inherit
+      }
+    }
+
+  }
+
+
+  @media screen and (min-width: 600px) {
+
+
+    .header h1 {
+
+      span {
+        display: block;
+      }
+    }
+
   }
 </style>
 

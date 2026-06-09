@@ -23,6 +23,12 @@ body {
   font-family: var(--font-default);
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
+
 input.input {
   background: var(--color-white);
   border: none;
@@ -42,12 +48,11 @@ a.button {
   border-radius: 2rem;
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center;
   line-height: 1rem;
 
   font-weight: 900;
   font-style: italic;
-  font-size: 1rem;
+  font-size: .8rem;
 
   gap: .25rem;
   height: 2.5rem;

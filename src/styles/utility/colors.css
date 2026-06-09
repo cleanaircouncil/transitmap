@@ -1,6 +1,5 @@
 :root {
-  --color-accent: rgb(43, 101, 180);
-  --color-highlight: rgb(77, 142, 234);
+
 
   --color-black: #2C2B27;
   --color-white: #FCF9F5;
@@ -8,6 +7,10 @@
   --color-green: #68952D;
   --color-beige: #E1D4C1;
   --color-gray: #989083;
+  --color-gray-light: #c8c2b8;
+
+  --color-orange: #f29c50;
+  --color-orange-light: #f2b705;
 
 
   --color-gpg-blue-dark: #4b7ba6;
@@ -16,6 +19,13 @@
   --color-gpg-green-light: #C0d904;
   --color-gpg-green-dark: #558c03;
   
+
+  --color-white-dark: #efebe5;
+
+  --theme-accent: var(--color-gpg-blue-dark);
+  --theme-highlight: var(--color-gpg-blue-light);
+  --theme-over-accent: var(--color-white);
+  --theme-over-highlight: var(--theme-over-accent);
 }
 
 .color-gray-dark {
@@ -26,54 +36,3 @@
   background-color: var(--color-white);
 }
 
-
-
-.swatch-yellow {
-  background: var(--color-yellow-light);
-  color: var(--color-yellow-dark);
-}
-
-.swatch-blue {
-  background: var(--color-blue-light);
-  color: var(--color-blue-dark);
-}
-
-.swatch-purple {
-  background: var(--color-purple-light);
-  color: var(--color-purple-dark);
-}
-
-.swatch-orange {
-  background: var(--color-orange-light);
-  color: var(--color-orange-dark);
-}
-
-.swatch-green {
-  background: var(--color-green-light);
-  color: var(--color-green-dark);
-}
-
-.swatch-pink {
-  background: var(--color-pink-light);
-  color: var(--color-pink-dark);
-}
-
-.swatch-gray {
-  background: var(--color-gray-light);
-  color: var(--color-gray-dark);
-}
-
-.swatch-gray-bright {
-  background: var(--color-gray-bright);
-  color: var(--color-gray-dark);
-}
-
-.swatch-danger {
-  background: var(--color-danger);
-  color: var(--color-white);
-}
-
-.swatch-black {
-  background: var(--color-black);
-  color: var(--color-white);
-}

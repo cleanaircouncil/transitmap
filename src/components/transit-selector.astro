@@ -1,4 +1,5 @@
 ---
+import StickyHeading from "./sticky-heading.astro";
 import TransitChip from "./transit-chip.astro";
 
 const { routes = [] } = Astro.props
@@ -33,6 +34,7 @@ for( const route_id in routes ) {
 const groups = [
   {
     mode: "Bike",
+    title: "Bikeshare",
     icon: "fa-bicycle",
     agencies: []
   },
@@ -72,27 +74,26 @@ for( const route_id in routes ) {
   agency.routes.push(route);
 }
 
-const modeOrder = ["Bike", "Bus", "Metro", "Rail"];
+const modeOrder = ["Bus", "Metro", "Rail", "Bike"];
 groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
 
 ---
 
-<div class="transit-selector">
+<div class="transit-selector ">
 
-  <div class="transit-selector__routes">
-    
     { groups
       .filter( group => group.agencies.length )
       .map( mode => 
-      <div class="transit-selector__group">
-        <div class="transit-selector__mode">
+      <div class="transit-selector__container">
+        <StickyHeading class="transit-selector__mode ">
           <i class={`fa ${mode.icon}`}></i>
-          <span>{ mode.mode }</span>
-        </div>
-        <div class="transit-selector__group-agencies">
+          <span>{ mode.title || mode.mode }</span>
+        </StickyHeading>
+        
+        <div class="transit-selector__group padding">
       {
         mode.agencies.map( agency => 
-          <div class="transit-selector__group-agency">
+          <div class="transit-selector__agency">
               <h4>{ agency.agency }</h4>
               <div class="transit-selector__transit gap-tight" data-transit-mode={mode.mode}>
                 { agency.routes
@@ -107,14 +108,33 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
         )
       }
       </div>
+
         </div>
       )
     }
-  </div>
 
 </div>
 
 <style>
+
+  .transit-selector {
+    background: var(--color-white-dark);
+  }
+
+  .transit-selector__container {
+    margin-bottom: .5rem;
+  }
+
+  .transit-selector__group {
+    background: var(--color-white);
+    display: grid;
+    
+    & > *:not(:last-child) {
+      padding-bottom: 1.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--color-gray-light)
+    }
+  }
 
 
   .transit-selector__transit {
@@ -125,59 +145,39 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
 
   h4 {
     font-size: 1.2rem;
-    background: var(--color-beige);
     display: grid;
     align-content: center;
-    padding: 1rem;
+    font-weight: 900;
   }
+
+
+
+
 
   .transit-selector__mode {
-    display: grid;
-    place-content: center;
-    background: var(--color-black);
-    color: var(--color-white);
     font-size: 2rem;
-    text-align: center;
-
-    span {
-      font-weight: 900;
-      text-transform: uppercase;
-      font-size: .6rem;
-      display: block;
-      margin-top: .2rem;
-    }
-  }
-
-
-  .transit-selector__routes {
+    line-height: 2rem;
     display: grid;
-    
-    
+    grid-template-columns: min-content 1fr;
     gap: 1rem;
+
+
+    justify-content: center;
+
+    i {
+      /* text-align: center; */
+    }
+    
+    span {
+      font-weight: 300;  
+    }
+    
+    
   }
 
-  .transit-selector__group {
-    display: grid;
-    grid-template-columns: max(60px, 10%) 1fr;
-    background: var(--color-white);
-    border-radius: 1rem;
-    overflow: hidden;
-    border: 1px solid rgba(0,0,0,.1);
-  }
 
-  .transit-selector__group-agencies {
-    display: grid;
-    background: var(--color-gray);
-    gap: 1px;
-  }
-
-  .transit-selector__group-agency {
-    display: grid;
-    grid-template-columns: max(100px, 20%) 1fr;
-  }
 
   .transit-selector__transit {
-    padding: 1rem;
     background: var(--color-white);
   }
 </style>

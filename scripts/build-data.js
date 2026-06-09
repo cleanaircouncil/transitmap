@@ -122,13 +122,6 @@ for (const { key, namespace, feature } of allStops) {
   };
 }
 
-// Returns true if a color is absent or is plain black/white (no brand value)
-function isGenericColor(color) {
-  if (!color) return true;
-  const c = color.replace(/^#/, "").toUpperCase();
-  return c === "000000" || c === "FFFFFF";
-}
-
 // ── Polyline helpers ──────────────────────────────────────────────────────────
 
 // Removes polylines that are geographic prefixes of longer ones.
@@ -224,15 +217,13 @@ for (const [key, group] of routeGroups) {
     route_color: (() => {
       const raw = p.route_color ? `#${p.route_color.replace(/^#/, "")}` : null;
       if (namespace === "phlash") return "#4C388B";
-      if (namespace === "septa-bus" && isGenericColor(raw)) return "#2C2B27";
-      if (namespace === "njtransit-bus" && isGenericColor(raw)) return "#FCF9F5";
+      if (namespace === "njtransit-bus") return "#234535";
       return raw;
     })(),
     route_text_color: (() => {
       const raw = p.route_text_color ? `#${p.route_text_color.replace(/^#/, "")}` : null;
       if (namespace === "phlash") return "#FFFFFF";
-      if (namespace === "septa-bus" && isGenericColor(raw)) return "#FCF9F5";
-      if (namespace === "njtransit-bus" && isGenericColor(raw)) return "#2C2B27";
+      if (namespace === "njtransit-bus") return "#FFFFFF";
       return raw;
     })(),
     polylines,

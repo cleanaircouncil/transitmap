@@ -5,16 +5,11 @@ import Header from "../components/header.astro";
 const { current } = Astro.props;
 ---
 
-<main class="layout-page height-full overflow-hidden" data-app>
-  <header class="layout-header">
-    <Header />
-    <Nav current={current} />
-  </header>
-
+<div style="margin-top: 1rem;">
   <section class="text constrain-default padding-text overflow-scroll">
     <slot />
   </section>
-</main>
+</div>
 
 <style>
   .layout-page {

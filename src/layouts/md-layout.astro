@@ -1,12 +1,17 @@
 ---
-import Layout from "./layout.astro";
 import Page from "../components/page.astro";
+import AppLayout from "./app-layout.astro";
+import Button from "../components/button.astro";
 
 const { frontmatter } = Astro.props;
 ---
 
-<Layout title={frontmatter.title}>
+<AppLayout title={frontmatter.title}>
+  <div class="header-nav" slot="header">
+    <Button class="button--white" href="/"><i class="fa fa-arrow-left"></i> Full Schedule</Button>
+  </div>
+
   <Page current={frontmatter.slug}>
     <slot/>
   </Page>
-</Layout>
+</AppLayout>

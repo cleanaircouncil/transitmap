@@ -1,0 +1,25 @@
+<div {...Astro.props} data-sticky>
+  <slot/>
+</div>
+
+<style>
+  [data-sticky]{
+      background: var(--color-white);
+    padding: 1.5rem;
+
+    display: flex;
+    position: sticky;
+    top: -1px;
+    z-index: 2;
+
+    transition: box-shadow .2s ease-in-out;
+  }
+
+  .listing-schedule__date[data-sticky="stuck"] {
+    box-shadow: 0px 5px 8px rgba(0,0,0,.1); 
+  }
+
+  [data-sticky="stuck"] {
+    box-shadow: 0px 5px 8px rgba(0,0,0,.1); 
+  }
+</style>

@@ -3,11 +3,32 @@ const { title } = Astro.props;
 
 const flagRegex = /([\u{1F1E6}-\u{1F1FF}]{2})/gu;
 const flagToCode = flag => [...flag].map(c => String.fromCharCode(c.codePointAt(0) - 127397)).join('').toLowerCase();
-const nameSplit = title.split(flagRegex).filter(Boolean)
+const nameSplit = title.split(flagRegex).filter(Boolean);
+
+// Group each flag with the text piece that follows it so they don't wrap apart
+const groups: Array<{ flag: string; text?: string } | { flag?: never; text: string }> = [];
+for (let i = 0; i < nameSplit.length; i++) {
+  const piece = nameSplit[i];
+  if (piece.match(flagRegex)) {
+    const next = nameSplit[i + 1];
+    if (next && !next.match(flagRegex)) {
+      const [, word, rest] = next.match(/^(\s*\S+)([\s\S]*)$/) ?? ['', next, ''];
+      groups.push({ flag: piece, text: word });
+      if (rest) groups.push({ text: rest });
+      i++;
+    } else {
+      groups.push({ flag: piece });
+    }
+  } else {
+    groups.push({ text: piece });
+  }
+}
 ---
 
 <>
-  { nameSplit.map( 
-    piece => piece.match(flagRegex) ? <span class={`fi fi-${flagToCode(piece)}`}/> : piece 
+  { groups.map(g =>
+    g.flag
+      ? <span style="white-space: nowrap"><span class={`fi fi-${flagToCode(g.flag)}`}/>{g.text}</span>
+      : g.text
   )}
 </>

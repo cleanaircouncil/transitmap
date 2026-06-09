@@ -37,6 +37,18 @@
     "slug": "benjamin-franklin-parkway"
   },
   {
+    "name": "Lemon Hill Park",
+    "last_modified": "2026-06-09T13:48:44.000Z",
+    "listings": [
+      "rec6CKqT6vGYQTZst"
+    ],
+    "longitude": -75.188583,
+    "latitude": 39.970603,
+    "address": "1 Lemon Hill Drive, Philadelphia, PA 19130",
+    "id": "recD62ZiygYKhZHq4",
+    "slug": "lemon-hill-park"
+  },
+  {
     "name": "Pennsylvania Convention Center",
     "last_modified": "2026-06-01T17:59:24.000Z",
     "listings": [

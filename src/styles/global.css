@@ -35,30 +35,36 @@ button.button,
 a.button {
   display: flex;
   align-items: center;
-  background: var(--color-white);
-  color: var(--color-accent);
+  background: var(--theme-accent);
+  color: var(--theme-over-accent);
   border: none;
   padding: .5rem 1rem;
   border-radius: 2rem;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
-  font-size: .75rem;
   line-height: 1rem;
+
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1rem;
+
   gap: .25rem;
   height: 2.5rem;
   transition: color .2s ease-in-out, background-color .2s ease-in-out;
   cursor: pointer;
+  
+  box-shadow: 0px 3px 0px rgba(0,0,0,.1);
 }
+
 
 .button .fa {
   font-size: 1rem;
 }
 
 .button:hover {
-  background: var(--color-highlight);
-  color: var(--color-white);
+  background: var(--theme-highlight);
+  color: var(--theme-over-highlight);
 }
 
 .form-controls {
@@ -70,4 +76,21 @@ a.button {
 
 .box-shadow {
   box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+.button--green {
+  --theme-accent: var(--color-gpg-green-dark);
+  --theme-highlight: var(--color-gpg-green-light);
+}
+
+
+.button--white {
+  --theme-accent: var( --color-white );
+  --theme-over-accent: var( --color-gpg-blue-dark);
+  --theme-highlight: white;
+  --theme-over-highlight: var( --color-gpg-blue-light);
 }

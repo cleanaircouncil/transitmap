@@ -2,9 +2,13 @@
 import Listing from "./listing.astro";
 import { DateTime } from "luxon";
 
-import data from "../data/index.json";
+import DateDisplay from "./date-display.astro";
+import StickyHeading from "./sticky-heading.astro";
 
-const listingsByDay = data.listings.reduce( (schedules, listing) => {
+
+const { listings } = Astro.props;
+
+const listingsByDay = listings.reduce( (schedules, listing) => {
   if( !listing.date )
     return schedules;
 
@@ -35,16 +39,15 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
 
 ---
 
+  
+
 <div class="listing-list">
+
   { listingsByDay.map( schedule => 
     <div class="listing-schedule" data-schedule data-date={schedule.day}>
-      <div class="listing-schedule__date padding">
-        <time class="listing-date" data-date-display data-date={schedule.day}>
-          <span class="listing-date__month">{ schedule.month }</span>
-          <span class="listing-date__day">{ schedule.date }</span>
-          <span class="listing-date__today">TODAY</span>
-        </time>
-      </div>
+      <StickyHeading class="listing-schedule__date">
+        <DateDisplay day={ schedule.day } month={ schedule.month} date={ schedule.date }/>
+      </StickyHeading>
 
       <div class="listing-schedule__listings">
         { schedule.listings.map( listing => <Listing listing={listing}/> ) }
@@ -65,67 +68,26 @@ const listingsByDay = data.listings.reduce( (schedules, listing) => {
     }
   }
 
+  .listing-list {
+    background: var(--color-white-dark);
+    display: grid;
+    gap: .5rem;
+  }
+
   .listing-schedule__date {
-    background: var(--color-black);
-    color: var(--color-white);
-    display: flex;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+    background: var(--color-white);
+    padding: 1.5rem;
   }
 
-  .listing-date {
-    
-    font-size: 2rem;
-    line-height: 1;
-    
-    
+</style>
 
-    .listing-date__month {
-      text-transform: uppercase;
-      font-weight: 300;
-    }
+<style is:global>
 
-    .listing-date__day {
-      font-weight: 900;
-    }
-  }
-
-
-  .listing-date__today {
-    display: none;
-    font-weight: 900;
-  }
-
-  .is-today {
-    .listing-date__month {
-      display: none;
-    }
-
-    .listing-date__day {
-      display: none;
-    }
-    
-
-    .listing-date__today {
-      display: initial;
+  .listing-schedule__listings > * {
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+    &:hover {
+      background: white;
     }
   }
 </style>
-
-
-<script>
-  const dateToday = new Date().toISOString().split("T")[0];
-  // const scheduleEls = document.querySelectorAll("[data-schedule]");
-
-  // scheduleEls.forEach( scheduleEl => {
-  //   console.log(  scheduleEl.dataset.date, dateToday,  scheduleEl.dataset.date < dateToday)
-  //   scheduleEl.toggleAttribute("hidden", scheduleEl.dataset.date < dateToday )
-  // })
-
-  const dateEl = document.querySelector("[data-date-display]");
-  
-  if( dateEl.dataset.date == dateToday ) {
-    dateEl.classList.add("is-today");
-  }
-</script>

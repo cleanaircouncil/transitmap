@@ -1,21 +1,17 @@
 ---
+import ReplaceFlags from "./replace-flags.astro";
+
 const { listing } = Astro.props;
 
 const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
 const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
-
-const flagRegex = /([\u{1F1E6}-\u{1F1FF}]{2})/gu;
-const flagToCode = flag => [...flag].map(c => String.fromCharCode(c.codePointAt(0) - 127397)).join('').toLowerCase();
-const nameSplit = listing.name.split(flagRegex).filter(Boolean)
 ---
 
 <div class="listing_info stack-tight">
   <div class="listing__group">{ listing.group_name }</div>
 
   <div class="listing__name">
-    { nameSplit.map( 
-      piece => piece.match(flagRegex) ? <span class={`fi fi-${flagToCode(piece)}`}/> : piece 
-    )}
+    <ReplaceFlags title={ listing.name }/>
   </div>
 
   <div class="listing__meta">
@@ -43,7 +39,7 @@ const nameSplit = listing.name.split(flagRegex).filter(Boolean)
   }
   
   .listing__group {
-    color: var(--color-red);
+    color: var(--color-gpg-green-dark);
     line-height: 1;
     font-weight: 900;
     text-transform: uppercase;
@@ -53,6 +49,12 @@ const nameSplit = listing.name.split(flagRegex).filter(Boolean)
     color: var(--color-gray);
     font-weight: 700;
     /* text-transform: uppercase; */
+    font-size: 1.1rem;
+
+    a {
+      color: var(--color-gray);
+      text-decoration: none;
+    }
   }
 
   .listing__name {

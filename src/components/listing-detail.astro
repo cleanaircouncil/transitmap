@@ -3,23 +3,42 @@ import data from "../data/index.json"
 import TransitSelector from "./transit-selector.astro";
 import ListingInfo from "./listing-info.astro";
 import routesByVenue from "../data/routes.json"
+import Button from "./button.astro";
+import ReplaceFlags from "./replace-flags.astro";
 
 const { listing } = Astro.props
 
-
 const routes = routesByVenue[listing.venue_id];
-const venue = data.venues.find( venue => venue.slug == listing.venue_id );
+
+const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
+const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 ---
 
-<div id={listing.slug} class="listing stack padding" data-listing={ listing.slug }>
-  <ListingInfo listing={listing}/>
+<div id={listing.slug} class="listing constrain stack" data-listing={ listing.slug }>
 
-  <div class="listing__transit stack">
-    <div class="listing__transit-nav">
-      <a href={ listing.link } target="_blank" class="listing-btn">Learn More&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
-      <a href={`http://maps.apple.com/?q=${venue?.address}`} target="directions" class="listing-btn listing-btn--go">GO CAR-FREE&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+  <div class="listing_info stack">
+    <div class="listing__group">{ listing.group_name }</div>
+
+    <div class="listing__name">
+      <ReplaceFlags title={ listing.name }/>
     </div>
 
+    <div class="listing__meta">
+      <span class="listing__time">{ time }</span>
+      <span>@</span>
+      <a class="listing__venue" href={`/venues/${listing.venue_id}`}>{ listing.venue }</a>
+    </div>
+
+
+  <div class="listing__transit-nav">
+    <a href={ listing.link } target="_blank" class="">Visit Event Page &UpperRightArrow;</a>
+  </div>
+  </div>
+
+  <div class="listing__carfree">Explore Car-Free Options Nearby </div>
+
+
+  <div class="listing__transit content-full content-flush stack">
     <TransitSelector routes={ routes } />
   </div>
 </div>
@@ -28,39 +47,81 @@ const venue = data.venues.find( venue => venue.slug == listing.venue_id );
 <style>
   .listing {
     background: var(--color-white);
+    
   }
 
-  .listing-btn {
-    display: inline-block;
-    background: var(--color-white);
-    color: var(--color-black);
-    font-family: var(--font-default);
-    font-weight: 900;
+  .listing__carfree {
+    font-size: 1.5rem;
+    font-weight: 300;
     font-style: italic;
+  }
+
+  .listing__transit-nav{
+  
+    font-size: 1.2rem;
+    padding-block-end: 2rem;
+
+    a {
+      color: var(--theme-accent);
+      &:hover {
+        color: var(--theme-highlight);
+      }
+    }
+  }
+
+  .listing__explore {
+    text-align: center;
+    
+    display: block;
     font-size: 1rem;
-    padding: .5rem;
-    border-radius: .5rem;
-    box-shadow: 0px 3px 0px rgba(0,0,0,.1);
+    font-style: italic;
+  }
+
+  .listing__details {
+    color: var(--color-black);
     text-decoration: none;
-    border: none;
-    /* position: absolute; */
-    /* top: 0px;
-    right: 0px;
-    translate: 50% 0%; */
-    cursor: pointer;
+  }
+  
+  .listing__group {
+    color: var(--color-gpg-green-dark);
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .listing__meta {
+    color: var(--color-gray);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+
+    a {
+      color: var(--color-gray);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .listing__name {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-wrap: balanced;
+  }
+
+  .listing__time {
+    color: var(--color-black);
   }
 
 
-.listing-btn--go {
-  background: var(--color-gpg-green-dark);
-  color: var(--color-white);
+  </style>
 
-  &:hover {
-    background: var(--color-gpg-green-light);
+<style is:global>
+  .listing__name {
+    /* font-size: 1.9rem !important; */
   }
-}
-
-
-
-
 </style>

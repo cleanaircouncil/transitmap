@@ -1,3 +1,7 @@
+.text {
+  font-size: 18px;
+}
+
 .text-detail {
   font-size: .8rem;
   font-weight: 500;
@@ -39,11 +43,11 @@ strong.text-detail,
   color: var(--color-highlight);
 }
 
-.text ul {
+.text ul, text ol {
   padding: 0rem 1.5rem;
 }
 
-.text ul li {
+.text ul li, text ol li {
   margin-bottom: .5rem;
 }
 

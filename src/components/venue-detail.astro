@@ -1,32 +1,42 @@
 ---
 import data from "../data/index.json";
-import Listing from "./listing.astro";
+import ListingList from "./listing-list.astro";
 
 const { venue = {} } = Astro.props
 
 const listings = data.listings.filter( listing => listing.venue_id == venue.slug );
 
+
 ---
 
-<div class="venue" data-venue={ venue.slug }>
-  <h2 class="venue__name">{venue.name}</h2>
-  <div class="venue__address"><i class="fa fa-location-dot"></i> {venue.address}</div>
-
-  <h3>Upcoming Events</h3>
-  { listings.map( listing => <Listing listing={listing}/> )}
+<div class="venue stack" data-venue={ venue.slug }>
+  <div class="constrain stack">
+    <h2 class="venue__name">{venue.name}</h2>
+    <div class="venue__address"><i class="fa fa-location-dot"></i> {venue.address}</div>
+    <div class="venue__listings-title">Upcoming Events</div>
+  </div>
+  
+  <ListingList listings={ listings }/>
 </div>
 
 <style>
-  .venue {
-
-  } 
 
   .venue__name {
-    font-weight: 500;
+    font-weight: 700;
     font-style: italic;
-    font-size: 1.3rem;
-    line-height: 1;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-wrap: balanced;
+  }
+
+
+  .venue__listings-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
   }
 
 
 </style>
+
+

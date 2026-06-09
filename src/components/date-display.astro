@@ -1,0 +1,62 @@
+---
+const { day, month, date } = Astro.props;
+---  
+  
+<time class="date-display" data-date-display data-date={day}>
+  <span class="date-display__month">{ month }</span>
+  <span class="date-display__day">{ date }</span>
+  <span class="date-display__today">TODAY</span>
+</time>
+
+
+<style>
+  .date-display {
+    
+    font-size: 2rem;
+    line-height: 1;
+    
+    
+
+    .date-display__month {
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+    .date-display__day {
+      font-weight: 900;
+    }
+  }
+
+
+  .date-display__today {
+    display: none;
+    font-weight: 900;
+  }
+
+  .is-today {
+    .date-display__month {
+      display: none;
+    }
+
+    .date-display__day {
+      display: none;
+    }
+    
+
+    .date-display__today {
+      display: initial;
+    }
+  }
+</style>
+
+
+
+<script>
+  const dateToday = new Date().toISOString().split("T")[0];
+  const dateEl = document.querySelector("[data-date-display]");
+  
+  if( dateEl.dataset.date == dateToday ) {
+    dateEl.classList.add("is-today");
+  }
+
+</script>

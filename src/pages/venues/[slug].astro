@@ -20,10 +20,28 @@ const { venue } = Astro.props;
 ---
 
 <AppLayout venue={venue.slug}>
-  <Button href="/"><i class="fa fa-arrow-left"></i>Back to event schedule</Button>
+  <div class="header-nav" slot="header">
+    <Button class="button--white" href="/"><i class="fa fa-arrow-left"></i>Full schedule</Button>
+    <Button class="button--green" href={`http://www.google.com/maps/dir/?api=1&destination=${venue?.address}&travelmode=transit`} target="directions">GO CAR-FREE <i class="fa fa-arrow-right"></i></Button>
+  </div>
   
-  <VenueDetail venue={venue} />
+  <div class="push stack">
+    <VenueDetail venue={venue} />
+  </div>
+  
 </AppLayout>
+
+<style>
+  .push {
+    margin-top: 2rem;
+  }
+</style>
+
+
+
+
+
+
 
 <script is:inline define:vars={{ venueSlug: venue.slug }}>
   window.__pendingVenue = venueSlug;

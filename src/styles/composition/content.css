@@ -2,7 +2,7 @@
 
 :is(.content, .content-default, .content-wide, .constrain-full), :is(.constrain, .constrain-default, .constrain-full, .constrain-wide) > * {
   --content-width: 800px;
-  --content-margin: 1rem;
+  --content-margin: 1.5rem;
   max-inline-size: min(100% - 2 * var(--content-margin), var(--content-width));
   margin-inline: auto;
 }

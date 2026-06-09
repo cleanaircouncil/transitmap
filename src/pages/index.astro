@@ -1,12 +1,31 @@
 ---
-import App from "../components/app.astro";
 import ListingList from "../components/listing-list.astro";
-import Layout from "../layouts/layout.astro";
-import Partial from "../components/partial.astro";
 import AppLayout from "../layouts/app-layout.astro";
+
+import data from "../data/index.json";
+
 ---
 
 <AppLayout>
-  <ListingList/>
+  <div class="contain-flush constrain" style="background: var(--color-gpg-green-dark); color: var(--color-white); --content-margin: 0px;">
+    <div class="intro text">
+      <p>
+        Bring your fun, style, and energy to Philly&rsquo;s events this summer.<br/>
+        <strong>You can leave the car at home.</strong>
+      </p>
+
+      <p class="text-detail">
+        <a href="/about">Learn more</a> about this site.
+      </p>
+    </div>
+  </div>
+  
+  <ListingList listings={ data.listings }/>
 </AppLayout>
 
+<style>
+  .intro {
+    font-size: 1.4rem;
+    padding-block: 1rem;
+  }
+</style>

@@ -10,9 +10,12 @@ const { venue } = Astro.props
 ---
 
 <main id="app" class="app layout-app" data-app>
-  <!-- <section class="in-header">
-    <Header/>
-  </section> -->
+  <section class="in-header">
+    <Header>
+      <slot name="header"/>
+    </Header>
+
+  </section>
 
   <ResponsiveSheet class="in-list">
     <div class="scroller">
@@ -88,7 +91,7 @@ const { venue } = Astro.props
 
   @media screen and (min-width: 600px) {
     .layout-app {
-      grid-template-columns: min(40vw, 450px) 1fr;
+      grid-template-columns: min(45vw, 450px) 1fr;
       grid-template-rows: min-content 1fr;
       grid-template-areas:
         "header main"
@@ -104,4 +107,46 @@ const { venue } = Astro.props
       grid-area: nav;
     }
   }
+
+
 </style>
+
+<style is:global>
+  .header-nav {
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    left: 1rem;
+    right: 1rem;
+    justify-content: space-between;
+  }
+</style>
+
+
+
+<script>
+  const stickyEls = document.querySelectorAll("[data-sticky]");
+
+  const stickyObserver = new IntersectionObserver(
+    ([e]) => {
+      const value = !e.isIntersecting ? "stuck" : ""
+      e.target.dataset.sticky = value;
+    },{
+      rootMargin: "-1px 0px 0px 0px",
+      threshold: [1],
+    }
+  )
+
+  stickyEls.forEach(stickyEl => {
+    stickyObserver.observe(stickyEl);
+  })
+
+
+  
+  document.addEventListener('astro:page-load', () => {
+    const stickyEls = document.querySelectorAll("[data-sticky]");
+      stickyEls.forEach(stickyEl => {
+      stickyObserver.observe(stickyEl);
+    })
+  });
+</script>

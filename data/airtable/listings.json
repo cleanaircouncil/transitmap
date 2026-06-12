@@ -146,13 +146,13 @@
     "type": "Event",
     "longitude": -75.167594,
     "venue": "recu43PfeOwAs7uI7",
-    "name": "🇫🇷 France vs. Playoff 1 Winner (Group I)",
+    "name": "🇫🇷 France vs. 🇮🇶 Iraq (Group I)",
     "link": "https://www.philadelphiaeagles.com/news/2026-fifa-world-cup-lincoln-financial-field-will-host-6-games",
     "venue_name": "Lincoln Financial Field",
     "group_name": "FIFA World Cup 2026",
     "group": "recX37CIyxy5rQsTK",
     "id": "recOLJrwX9dZtFu60",
-    "slug": "france-vs-playoff-1-winner-group-i-2026-06-22"
+    "slug": "france-vs-iraq-group-i-2026-06-22"
   },
   {
     "latitude": 40.0429,
@@ -438,20 +438,6 @@
   },
   {
     "latitude": 39.90617,
-    "date": "2026-07-05T00:00:00.000Z",
-    "type": "Event",
-    "longitude": -75.166473,
-    "venue": "recMirDGW7E4sQpbJ",
-    "name": "MLB All-Star Game",
-    "link": "https://www.mlb.com/all-star/schedule",
-    "venue_name": "Citizens Bank Park",
-    "group_name": "MLB All-Star Week 2026",
-    "group": "rectWQwoK0fn7rU78",
-    "id": "recJx804D9aLeMyXh",
-    "slug": "mlb-all-star-game-2026-07-05"
-  },
-  {
-    "latitude": 39.90617,
     "date": "2026-07-10T23:00:00.000Z",
     "type": "Event",
     "longitude": -75.166473,
@@ -531,7 +517,7 @@
     "name": "Capital One All-Star Village",
     "link": "https://www.mlb.com/all-star/schedule",
     "venue_name": "Pennsylvania Convention Center",
-    "end_date": "2026-07-12T00:00:00.000Z",
+    "end_date": "2026-07-13T00:00:00.000Z",
     "group_name": "MLB All-Star Week 2026",
     "group": "rectWQwoK0fn7rU78",
     "id": "recfEkThS6ZsHCraF",
@@ -608,5 +594,19 @@
     "group": "rectWQwoK0fn7rU78",
     "id": "rec5obzQsT92mLTGk",
     "slug": "all-star-red-carpet-show-2026-07-14"
+  },
+  {
+    "latitude": 39.90617,
+    "date": "2026-07-15T00:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.166473,
+    "venue": "recMirDGW7E4sQpbJ",
+    "name": "MLB All-Star Game",
+    "link": "https://www.mlb.com/all-star/schedule",
+    "venue_name": "Citizens Bank Park",
+    "group_name": "MLB All-Star Week 2026",
+    "group": "rectWQwoK0fn7rU78",
+    "id": "recJx804D9aLeMyXh",
+    "slug": "mlb-all-star-game-2026-07-15"
   }
 ]

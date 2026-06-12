@@ -1,54 +1,135 @@
 ---
-const { route = {} } = Astro.props;
+const { stop = {} } = Astro.props;
 
 ---
 
 <div
   class="stop-chip"
   data-stop-chip
+  data-chip
   data-populate="
     mode: @data-mode,
+    id: @data-stop-chip
   "
-  data-mode={route.mode}
+  data-mode={stop.mode}
 >
-  <div class="stop-chip__icon">
-    <!-- <i data-mode="Bike" class="fa fa-bicycle"></i> -->
-    <i data-mode="Bus" class="fa fa-bus-simple"></i>
-    <!-- <i data-mode="Rail" class="fa fa-train"></i>
-    <i data-mode="Metro" class="fa fa-train-subway"></i> -->
+  <div class="stop-chip__cluster" data-open-chip>
+    <div class="stop-chip__icon">
+      <i data-mode="Bike" class="fa fa-bicycle"></i>
+      <i data-mode="Bus" class="fa fa-bus-simple"></i>
+      <i data-mode="Rail" class="fa fa-train"></i>
+      <i data-mode="Metro" class="fa fa-train-subway"></i>
+    </div>
+
+    <span class="stop-chip__count badge badge--blue" data-populate="routes.length" ></span>
   </div>
 
-  <span class="stop-chip__count" data-populate="count"></span>
+  
+  <div class="stop-chip__routes" data-routes>
+    <span class="stop-chip__close badge" data-close-chip><i class="fa fa-close"></i></span>
+  </div>
 </div>
 
 
 <style is:global>
  
 
-  .stop-chip {
-    min-width: 2rem;
-    height: 2rem;
-    background: var(--route-color);
-    color: var(--text-color);
-    font-family: var(--font-default);
-    font-weight: 900;
-    place-content: center;
-    text-align: center;
-    background-size: contain;
+  .stop-chip__cluster {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: 0px 5px 0px rgba(0,0,0,.10);
+    background: var(--color-black);
+    color: var(--color-white);
+
+    display: grid;
     cursor: pointer;
 
-    box-shadow: 0px 5px 0px rgba(0,0,0,.10);
+   
 
-    .transit-chip__count {
-      display: block;
+    .stop-chip__icon {
+      font-size: 1.5rem;
+      border: .15rem solid var(--color-white);
+      color: var(--color-white);
+      aspect-ratio: 1;
+      place-content: center;
+      text-align: center;
       width: calc( 100% - 4px );
       height: calc( 100% - 4px );
-      font-size: 1em;
-      line-height: 1;
-      place-content: center;
+      border-radius: 50%;
       margin: 2px;
     }
 
+    .stop-chip__icon [data-mode] {
+      display: none;
+    }
+
+    &[data-mode="Bus"] .stop-chip__icon [data-mode="Bus"] {
+      display: block;
+    }
+
+    &[data-mode="Metro"] .stop-chip__icon [data-mode="Metro"] {
+      display: block;
+    }
+
+    &[data-mode="Bike"] .stop-chip__icon [data-mode="Bike"] {
+      display: block;
+    }
+
+    &[data-mode="Rail"] .stop-chip__icon [data-mode="Rail"] {
+      display: block;
+    }
+
+  }
+
+  .stop-chip__routes {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    max-width: 200px;
+    justify-content: center;
+    gap: 3px;
+    padding: 3px;
+    background: var(--color-white);
+    border-radius: 1rem;
+    z-index: 10;
+    box-shadow: var(--box-shadow);
+    display: none;
+  }
+
+  .badge {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    place-content: center;
+    text-align: center;
+    background: var(--color-red);
+    color: var(--color-white);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 1.5rem;
+    top: 0%;
+    right: 0%;
+    translate: 25% -25%;
+    position: absolute;
+  }
+
+  .badge--blue {
+    background: var(--color-white);
+    color: var(--color-black);
+  }
+
+  [data-stop-chip="open"] {
+    z-index: 100;
+    .stop-chip__cluster {
+      display: none;
+    }
+
+    .stop-chip__routes {
+      display: flex;
+      
+    }
   }
 
 </style>

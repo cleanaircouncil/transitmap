@@ -174,7 +174,7 @@ const { venue } = Astro.props;
   import { data, currentListingSlug, fetchVenueData, currentRoute, currentVenue } from "../helpers/store";
   import { cloneTemplate, populateWithData } from "../helpers/populate";
   import { decodeRoutePolyline } from "../helpers/maps";
-  import { circle } from "@turf/turf";
+  import { circle, clone } from "@turf/turf";
   import Supercluster from "supercluster";
 
   // ─── Constants ───────────────────────────────────────────────────────────────
@@ -286,24 +286,53 @@ const { venue } = Astro.props;
   function focusOnVenue( venue ) {
     if(!venue) return;
 
-    document.querySelectorAll("[data-map] [data-transit-chip]").forEach( chip => chip.remove() );
+    document.querySelectorAll("[data-map] [data-chip]").forEach( chip => chip.remove() );
+
+    const getVenueRoute = ( stopRoute ) => venue.routes[ stopRoute.route_id ]
 
     for( const id in venue.stops )
     {
       const stop = venue.stops[id];
-      console.log( stop );
-      for( const stopRoute of stop.routes ){
+      let stopEl;
+      
 
-        const route = venue.routes[stopRoute.route_id];
-        const markerEl = cloneTemplate("map-marker-stub");
+      if( stop.routes.length > 1 ) {
+        stopEl = cloneTemplate("map-stop-stub");
+        populateWithData(stopEl, stop);
 
-        populateWithData(markerEl, route)
+        const routeContainerEl = stopEl.querySelector("[data-routes]");
 
+        for( const route of stop.routes ) {
+          const routeEl = cloneTemplate("map-marker-stub");  
+          populateWithData(routeEl, getVenueRoute( route ));
+          routeContainerEl.appendChild( routeEl );
+        }
 
-      new maplibregl.Marker({ element: markerEl })
+      } else {
+        stopEl = cloneTemplate("map-marker-stub");
+        populateWithData(stopEl, getVenueRoute( stop.routes[0] ));
+      }
+
+      new maplibregl.Marker({ element: stopEl }) 
         .setLngLat(stop.coordinates)
         .addTo(map);
-      }
+      
+
+
+
+
+      // for( const stopRoute of stop.routes ){
+
+      //   const route = venue.routes[stopRoute.route_id];
+      //   const markerEl = cloneTemplate("map-marker-stub");
+
+      //   populateWithData(markerEl, route)
+
+
+      // new maplibregl.Marker({ element: markerEl })
+      //   .setLngLat(stop.coordinates)
+      //   .addTo(map);
+      // }
     }
 
     showRadius(map, venue.coordinates);

@@ -5,9 +5,9 @@ slug: about
 ---
 
 # About
-During large sporting events and celebrations, the Greater Philadelphia region experiences increased traffic congestion. Being stuck in traffic wastes time and increases air pollution. To help residents and visitors get around more sustainably, Clean Air Council developed this map to highlight event locations, offering ways to get around without driving. This easy-to-use map can help you plan your car-free route using available public transportation with SEPTA, PATCO, New Jersey Transit, Indego bike share, or finding park-and-ride locations.
+During large sporting events and celebrations, the Greater Philadelphia region experiences increased traffic congestion. Being stuck in traffic wastes time and increases air pollution. To help residents and visitors get around more sustainably, Clean Air Council developed this map to highlight event locations, offering ways to get around without driving. This easy-to-use map can help you plan your car-free route using available public transportation with SEPTA, PATCO, and NJTRANSIT. It also allows for using Indego bike share and the option of finding park-and-ride locations.
 
-During the summer of 2026, this map will highlight sustainable ways to get to event locations, providing alternative routes to travel to FIFA games and A250 events instead of further congesting major highways and thoroughfares like I-95, I-76, and  I-676. 
+During the summer of 2026, this map will highlight sustainable ways to get to event locations, providing alternative routes to travel to FIFA games and America250 events instead of further congesting major highways and thoroughfares like I-95, I-76, and  I-676. 
 
 **How To Use GoPhillyGo: Car-Free Routes Map**
 
@@ -18,12 +18,11 @@ As part of its commitment to protect everyone’s right to a healthy environment
 2. Date and time
 3. Location
 
-**Users are be able to:**
+**Users are able to:**
 * Browse map
 * Select events
-* Filter by event type
-* Identify transit stops within a specified radius of each event
-* Link out to Google Maps to map their trip
+* Identify transit stops within an half-mile (800m) radius of each event
+* Link out to [Transit](https://transitapp.com) to map their trip
 
 
 ---

@@ -1,0 +1,14 @@
+---
+import Button from "./button.astro";
+const getVenueUrl = ({ destination, destination_search}) => `https://transitapp.com/en/trip?destination=${ destination }&destination_search=${ destination_search }`;
+
+const { venue } = Astro.props;
+
+const href = getVenueUrl({
+  destination: encodeURI(venue.address),
+  destination_search: encodeURI(venue.name)
+})
+---
+
+
+<Button class="button--green" href={ href } target="directions">GO CAR-FREE <i class="fa fa-arrow-right"></i></Button>

@@ -5,6 +5,7 @@ import ListingDetail from "../../components/listing-detail.astro"
 import AppLayout from "../../layouts/app-layout.astro";
 import BackToHome from "../../components/back-to-home.astro";
 import Button from "../../components/button.astro";
+import DirectionsButton from "../../components/directions-button.astro";
 
 
 export const getStaticPaths = (() => {
@@ -26,7 +27,7 @@ const venue = data.venues.find( venue => venue.slug == listing.venue_id );
 <AppLayout venue={listing.venue_id}>
   <div class="header-nav" slot="header">
     <Button class="button--white" href="/" ><i class="fa fa-arrow-left"></i> Full Schedule</Button>
-    <Button class="button--green" href={`http://www.google.com/maps/dir/?api=1&destination=${venue?.address}&travelmode=transit`} target="directions">GO CAR-FREE <i class="fa fa-arrow-right"></i></Button>
+    <DirectionsButton venue={venue} />
   </div>
 
   <div class="push stack">

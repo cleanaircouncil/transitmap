@@ -1,5 +1,6 @@
 ---
 import Button from "./button.astro";
+import StopChip from "./stop-chip.astro";
 import TransitChip from "./transit-chip.astro";
 
 const { venue } = Astro.props;
@@ -23,6 +24,10 @@ const { venue } = Astro.props;
 
   <template id="map-marker-stub">
     <TransitChip/>
+  </template>
+
+  <template id="map-stop-stub">
+    <StopChip/>
   </template>
 
 
@@ -286,7 +291,7 @@ const { venue } = Astro.props;
     for( const id in venue.stops )
     {
       const stop = venue.stops[id];
-      // console.log( venue );
+      console.log( stop );
       for( const stopRoute of stop.routes ){
 
         const route = venue.routes[stopRoute.route_id];
@@ -346,8 +351,7 @@ const { venue } = Astro.props;
 
 
   // map.on("moveend", () => {
-  //   // console.log("hey");
-
+    
   //   (async () => {
   //     const venue_id = currentVenue.get();
   //     if(!venue_id) 

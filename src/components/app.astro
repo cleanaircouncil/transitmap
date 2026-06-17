@@ -151,25 +151,4 @@ const { venue } = Astro.props
   });
 
 
-  document.addEventListener("click", (e) => {
-    console.log("Fwef");
-    const openChipEl = e.target.closest("[data-open-chip]");
-    const closeChipEl = e.target.closest("[data-close-chip]");
-    const stopChipEl = e.target.closest("[data-stop-chip]")
-
-    if( !openChipEl && !closeChipEl )
-      return;
-
-    if( openChipEl ) {
-      document.querySelectorAll("[data-stop-chip='open']").forEach( stopChipEl => stopChipEl.setAttribute("data-stop-chip", "") );
-      stopChipEl.setAttribute("data-stop-chip", "open");
-    }
-
-    if( closeChipEl ) {
-      stopChipEl.setAttribute("data-stop-chip", "");
-    }
-
-
-  })
-
 </script>

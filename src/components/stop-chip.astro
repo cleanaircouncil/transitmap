@@ -9,7 +9,9 @@ const { stop = {} } = Astro.props;
   data-chip
   data-populate="
     mode: @data-mode,
-    id: @data-stop-chip
+    id: @data-stop-chip,
+    route_color: --route-color,
+    route_text_color: --route-text-color
   "
   data-mode={stop.mode}
 >
@@ -39,8 +41,8 @@ const { stop = {} } = Astro.props;
     height: 3rem;
     border-radius: 50%;
     box-shadow: 0px 5px 0px rgba(0,0,0,.10);
-    background: var(--color-black);
-    color: var(--color-white);
+    background: var(--route-color, var(--color-black));
+    color: var(--route-text-color, var(--color-white));
 
     display: grid;
     cursor: pointer;
@@ -49,8 +51,8 @@ const { stop = {} } = Astro.props;
 
     .stop-chip__icon {
       font-size: 1.5rem;
-      border: .15rem solid var(--color-white);
-      color: var(--color-white);
+      border: .15rem solid var(--route-text-color, var(--color-white));
+      color: var(--route-text-color, var(--color-white));
       aspect-ratio: 1;
       place-content: center;
       text-align: center;
@@ -60,6 +62,11 @@ const { stop = {} } = Astro.props;
       margin: 2px;
     }
 
+
+
+  }
+
+  .stop-chip {
     .stop-chip__icon [data-mode] {
       display: none;
     }
@@ -79,7 +86,6 @@ const { stop = {} } = Astro.props;
     &[data-mode="Rail"] .stop-chip__icon [data-mode="Rail"] {
       display: block;
     }
-
   }
 
   .stop-chip__routes {
@@ -92,7 +98,7 @@ const { stop = {} } = Astro.props;
     padding: 3px;
     background: var(--color-white);
     border-radius: 1rem;
-    z-index: 10;
+    z-index: 20;
     box-shadow: var(--box-shadow);
     display: none;
   }
@@ -116,7 +122,7 @@ const { stop = {} } = Astro.props;
   }
 
   .badge--blue {
-    background: var(--color-white);
+    background: var(--color-white); 
     color: var(--color-black);
   }
 
@@ -133,3 +139,36 @@ const { stop = {} } = Astro.props;
   }
 
 </style>
+
+<script>
+
+  document.addEventListener("click", (e) => {
+
+    const openChipEl = e.target.closest("[data-open-chip]");
+    const closeChipEl = e.target.closest("[data-close-chip]");
+    const stopChipEl = e.target.closest("[data-stop-chip]")
+
+    
+
+    if( !openChipEl && !closeChipEl ) {
+      const currentlyOpenChipEl = document.querySelector("[data-stop-chip='open']");
+      if( currentlyOpenChipEl && currentlyOpenChipEl !== stopChipEl ) {
+        currentlyOpenChipEl.setAttribute("data-stop-chip", "");
+      }
+
+      return;
+    }
+
+    if( openChipEl ) {
+      document.querySelectorAll("[data-stop-chip='open']").forEach( stopChipEl => stopChipEl.setAttribute("data-stop-chip", "") );
+      stopChipEl.setAttribute("data-stop-chip", "open");
+    }
+
+    if( closeChipEl ) {
+      stopChipEl.setAttribute("data-stop-chip", "");
+    }
+
+
+  })
+
+</script>

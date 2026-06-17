@@ -28,6 +28,21 @@
     "slug": "the-four-seasons-reimagined-balletx-2026-06-05"
   },
   {
+    "latitude": 39.9703747,
+    "date": "2026-06-11T14:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.1869703,
+    "venue": "recD62ZiygYKhZHq4",
+    "name": "Lemon Hill Fanfest",
+    "link": "https://phillyfwc26.com/fifa-fan-fest",
+    "venue_name": "Lemon Hill Park",
+    "end_date": "2026-07-20T00:00:00.000Z",
+    "group_name": "FIFA World Cup 2026",
+    "group": "recX37CIyxy5rQsTK",
+    "id": "rec6CKqT6vGYQTZst",
+    "slug": "lemon-hill-fanfest-2026-06-11"
+  },
+  {
     "latitude": 39.901733,
     "date": "2026-06-14T23:00:00.000Z",
     "type": "Event",
@@ -267,10 +282,10 @@
     "slug": "gospel-on-independence-2026-06-28"
   },
   {
-    "latitude": 39.94671,
+    "latitude": 39.9467456,
     "date": "2026-06-30T00:00:00.000Z",
     "type": "Event",
-    "longitude": -75.165834,
+    "longitude": -75.1653226,
     "venue": "rec6bfyu38E1BRcfJ",
     "name": "The Philadelphia Orchestra Free Pride Concert and Celebration",
     "link": "https://july4thphilly.com/event/pride-concert/",
@@ -449,21 +464,6 @@
     "group": "rectWQwoK0fn7rU78",
     "id": "recoCi6TRwbbcMlm6",
     "slug": "hbcu-swingman-classic-2026-07-10"
-  },
-  {
-    "latitude": 39.970603,
-    "date": "2026-07-11T14:00:00.000Z",
-    "type": "Event",
-    "longitude": -75.188583,
-    "venue": "recD62ZiygYKhZHq4",
-    "name": "Lemon Hill Fanfest",
-    "link": "https://phillyfwc26.com/fifa-fan-fest",
-    "venue_name": "Lemon Hill Park",
-    "end_date": "2026-07-20T00:00:00.000Z",
-    "group_name": "FIFA World Cup 2026",
-    "group": "recX37CIyxy5rQsTK",
-    "id": "rec6CKqT6vGYQTZst",
-    "slug": "lemon-hill-fanfest-2026-07-11"
   },
   {
     "latitude": 39.954821,

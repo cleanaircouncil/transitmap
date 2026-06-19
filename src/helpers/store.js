@@ -38,3 +38,20 @@ export async function fetchVenueData(slug) {
   cachedVenueData[slug] = data;
   return data;
 }
+
+
+const INDEGO_URL = import.meta.env.DEV
+  ? `/data/indego-test.json`
+  : `https://www.rideindego.com/stations/json/`;
+
+let cachedIndegoData = null;
+
+export async function fetchIndegoData(stop_id) {
+  if (!cachedIndegoData) {
+    const response = await fetch(INDEGO_URL);
+    cachedIndegoData = await response.json();
+  }
+
+  const station = cachedIndegoData.features.find(f => f.properties.id == stop_id);
+  return station?.properties;
+}

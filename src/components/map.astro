@@ -1,5 +1,8 @@
 ---
+import BikeshareChip from "./bikeshare-chip.astro";
+import BikeshareStatus from "./bikeshare-status.astro";
 import Button from "./button.astro";
+import StopChip from "./stop-chip.astro";
 import TransitChip from "./transit-chip.astro";
 
 const { venue } = Astro.props;
@@ -13,6 +16,8 @@ const { venue } = Astro.props;
   </Button>
 
   <TransitChip/>
+  <StopChip/>
+  <BikeshareChip/>
 
   <template id="map-stop-group-stub">
     <div class="map-stop-group" data-transit-chip>
@@ -25,6 +30,18 @@ const { venue } = Astro.props;
     <TransitChip/>
   </template>
 
+  <template id="map-bikeshare-stub">
+    <BikeshareChip/>
+  </template>
+
+
+  <template id="map-stop-stub">
+    <StopChip/>
+  </template>
+
+  <template id="map-bikeshare-stub">
+    <BikeshareStatus/>
+  </template>
 
   <template id="map-venue-stub">
     <div
@@ -169,7 +186,7 @@ const { venue } = Astro.props;
   import { data, currentListingSlug, fetchVenueData, currentRoute, currentVenue } from "../helpers/store";
   import { cloneTemplate, populateWithData } from "../helpers/populate";
   import { decodeRoutePolyline } from "../helpers/maps";
-  import { circle } from "@turf/turf";
+  import { circle, clone } from "@turf/turf";
   import Supercluster from "supercluster";
 
   // ─── Constants ───────────────────────────────────────────────────────────────
@@ -279,26 +296,59 @@ const { venue } = Astro.props;
 
   // ─── Venue Focus ─────────────────────────────────────────────────────────────
   function focusOnVenue( venue ) {
+    // return;
     if(!venue) return;
 
-    document.querySelectorAll("[data-map] [data-transit-chip]").forEach( chip => chip.remove() );
+    document.querySelectorAll("[data-map] [data-chip]").forEach( chip => chip.remove() );
+
+    const getVenueRoute = ( stopRoute ) => venue.routes[ stopRoute.route_id ]
 
     for( const id in venue.stops )
     {
+      // break;
+
       const stop = venue.stops[id];
-      // console.log( venue );
-      for( const stopRoute of stop.routes ){
+      let stopEl;
+      
 
-        const route = venue.routes[stopRoute.route_id];
-        const markerEl = cloneTemplate("map-marker-stub");
+      if( stop.routes.length > 1 ) {
+        stopEl = cloneTemplate("map-stop-stub");
+        
+        const venueRoute = getVenueRoute(stop.routes[0]);
+        
+        populateWithData(stopEl, {
+          ...stop,
+          route_color: venueRoute.route_color,
+          route_text_color: venueRoute.route_text_color
+        });
 
-        populateWithData(markerEl, route)
+        const routeContainerEl = stopEl.querySelector("[data-routes]");
 
+        for( const route of stop.routes ) {
+          const routeEl = cloneTemplate("map-marker-stub");  
+          populateWithData(routeEl, getVenueRoute( route ));
+          routeContainerEl.appendChild( routeEl );
+        }
 
-      new maplibregl.Marker({ element: markerEl })
+        
+
+      } else if ( stop.mode === "Bike" ) {
+        stopEl = cloneTemplate("map-bikeshare-stub");
+        console.log( stop );
+        populateWithData(stopEl, {
+          id: stop.stop_id, 
+          ...getVenueRoute( stop.routes[0] )
+        });
+
+      } else {
+        stopEl = cloneTemplate("map-marker-stub");
+        populateWithData(stopEl, getVenueRoute( stop.routes[0] ));
+      }
+
+      new maplibregl.Marker({ element: stopEl }) 
         .setLngLat(stop.coordinates)
         .addTo(map);
-      }
+    
     }
 
     showRadius(map, venue.coordinates);
@@ -344,39 +394,107 @@ const { venue } = Astro.props;
 
 
 
+  map.on("movsdfsdfseend", () => {
+    
 
-  // map.on("moveend", () => {
-  //   // console.log("hey");
+    (async () => {
 
-  //   (async () => {
-  //     const venue_id = currentVenue.get();
-  //     if(!venue_id) 
-  //       return;
+      const venue_id = currentVenue.get();
+      
+      if(!venue_id) 
+        return;
 
-  //     const venue = await fetchVenueData(venue_id);
+      const venue = await fetchVenueData(venue_id);
 
-  //     const points = Object.entries(venue.stops).map(([key, stop]) => ({
-  //       type: "Feature",
-  //       geometry: { type: "Point", coordinates: stop.coordinates },
-  //       properties: {
-  //         stop_key: key,
-  //         stop_name: stop.stop_name,
-  //         mode: stop.mode,
-  //         route_count: stop.routes.length,
-  //         routes: stop.routes.map(r => r.route_id),
-  //       }
-  //     }));
 
-  //     const bounds = map.getBounds();
-  //     const bbox = [bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()];
-  //     const zoom = Math.floor(map.getZoom());
-  //     const index = new Supercluster({ radius: 80, maxZoom: 16 }).load(points)
+      const stopToPoint = ([key, stop]) => ({
+        type: "Feature",
+        geometry: { type: "Point", coordinates: stop.coordinates },
+        properties: {
+          stop_key: key,
+          stop_name: stop.stop_name,
+          mode: stop.mode,
+          route_count: stop.routes.length,
+          routes: stop.routes
+        }
+      })
 
-  //     const clusters = index.getClusters(bbox, zoom);
-  //     console.log( clusters);
+      const points = Object.entries(venue.stops)
+        .filter(([key, stop]) =>  stop.mode != "Bike" )
+        .map( stopToPoint );
 
-  //   })()
-  // })
+      const bikePoints = Object.entries(venue.stops)
+        .filter(([key, stop]) =>  stop.mode === "Bike" )
+        .map( stopToPoint );
+
+      const bounds = map.getBounds();
+      const bbox = [bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()];
+      const zoom = Math.floor(map.getZoom());
+      const index = new Supercluster({ 
+        radius: 20, 
+        maxZoom: 16,
+        map: (props) => ({ routes: props.routes }),
+        reduce: (acc, props) => {
+          const unique = props.routes.filter( route => !acc.routes.some( r => r.route_id === route.route_id ))
+          acc.routes.push( ...unique )
+        }
+      }).load(points)
+
+      const clusters = [...index.getClusters(bbox, zoom), ...bikePoints]
+      
+
+      document.querySelectorAll("[data-map] [data-chip]").forEach( chip => chip.remove() );
+
+
+      const getVenueRoute = ( stopRoute ) => venue.routes[ stopRoute.route_id ]
+
+      for( const cluster of clusters ) {
+        let stopEl;
+        const stop = cluster.properties;
+
+        if( stop.cluster ) {
+          stopEl = cloneTemplate("map-stop-stub");
+          populateWithData(stopEl, stop);
+
+          
+          // console.log( cluster );
+
+
+          const routeContainerEl = stopEl.querySelector("[data-routes]");
+
+          for( const route of stop.routes ) {
+            const routeEl = cloneTemplate("map-marker-stub");  
+            populateWithData(routeEl, getVenueRoute( route ));
+            routeContainerEl.appendChild( routeEl );
+          }
+
+
+        } else {
+          console.log( cluster );
+          stopEl = cloneTemplate("map-marker-stub");
+          populateWithData(stopEl, getVenueRoute( stop.routes[0] ));
+        }
+
+        new maplibregl.Marker({ element: stopEl }) 
+          .setLngLat(cluster.geometry.coordinates)
+          .addTo(map);
+      }
+
+      // showRadius(map, venue.coordinates);
+
+      // setCurrentMarker(venue);
+      // currentRoute.set("");
+
+      // map.flyTo({
+      //   center: venue.coordinates,
+      //   zoom: getMapZoom(),
+      //   padding: getMapPadding()
+      // })
+
+    })()
+  })
+
+
 
   // ─── Subscriptions & Events ───────────────────────────────────────────────────
   currentRoute.subscribe( (route_id) => {
@@ -391,10 +509,10 @@ const { venue } = Astro.props;
 
       // console.log( currentVenue )
       const features = decodeRoutePolyline( route.polylines );
-
+      const routeColor = (route.route_color && route.route_color !== "#FFFFFF") ? route.route_color : "#000"
 
       map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
-      map.setPaintProperty("route-display", "line-color", route.route_color ?? "#888");
+      map.setPaintProperty("route-display", "line-color", routeColor );
       map.getSource("route-display").setData( features );
     })()
   })

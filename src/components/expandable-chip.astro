@@ -1,0 +1,113 @@
+---
+
+
+---
+
+<div
+  class="expandable-chip"
+  data-expandable-chip
+  data-chip
+  {...Astro.props}
+>
+  <div class="expandable-chip__icon" data-collapsed data-open-action>
+    <div data-collapsed-content>
+      <slot name="collapsed"/>
+    </div>
+  </div>
+
+  
+  <div class="expandable-chip__panel" data-expanded>
+    <div data-expanded-content>
+      <slot name="expanded"/>
+    </div>
+
+    <span class="expandable-chip__close badge" data-close-action><i class="fa fa-close"></i></span>
+  </div>
+</div>
+
+
+<style is:global>
+
+
+  .expandable-chip__panel {
+    padding: .5rem;
+    background: var(--color-white);
+    border-radius: 1rem;
+    z-index: 20;
+    box-shadow: var(--box-shadow);
+  }
+
+  .badge {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    place-content: center;
+    text-align: center;
+    background: var(--color-red);
+    color: var(--color-white);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 1.5rem;
+    top: 0%;
+    right: 0%;
+    translate: 25% -25%;
+    position: absolute;
+  }
+
+  .expandable-chip__panel {
+    display: none;
+  }
+
+  .expandable-chip__close {
+    z-index: 100;
+  }
+
+  [data-expandable-chip="open"] {
+    z-index: 100;
+
+    .expandable-chip__icon {
+      display: none;
+    }
+
+    .expandable-chip__panel {
+      display: block;
+    }
+  }
+
+</style>
+
+<script>
+
+  document.addEventListener("click", (e) => {
+
+    const openActionEl = e.target.closest("[data-open-action]");
+    const closeActionEl = e.target.closest("[data-close-action]");
+    const expandableChipEl = e.target.closest("[data-expandable-chip]")
+
+    
+
+    if( !openActionEl && !closeActionEl ) {
+      const currentlyOpenChipEl = document.querySelector("[data-expandable-chip='open']");
+      if( currentlyOpenChipEl && currentlyOpenChipEl !== expandableChipEl ) {
+        currentlyOpenChipEl.setAttribute("data-expandable-chip", "");
+      }
+
+      return;
+    }
+
+    if( openActionEl ) {
+      document.querySelectorAll("[data-expandable-chip='open']").forEach( expandableChipEl => expandableChipEl.setAttribute("data-expandable-chip", "") );
+      expandableChipEl.setAttribute("data-expandable-chip", "open");
+      expandableChipEl.dispatchEvent(new CustomEvent("openchip", { bubbles: true }), );
+    }
+
+    if( closeActionEl ) {
+      expandableChipEl.setAttribute("data-expandable-chip", "");
+      expandableChipEl.dispatchEvent(new CustomEvent("closechip", { bubbles: true }));
+    }
+
+
+  })
+
+</script>

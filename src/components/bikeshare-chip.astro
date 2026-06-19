@@ -1,0 +1,79 @@
+---
+import ExpandableChip from "./expandable-chip.astro";
+import TransitChip from "./transit-chip.astro";
+
+---
+
+<ExpandableChip
+  class="bikeshare-chip"
+  data-bikeshare-chip
+  data-populate="id: @data-bikeshare-chip"
+>
+
+  <div class="bikeshare-chip__icon" slot="collapsed">
+    <TransitChip/>
+  </div>
+
+  <div class="bikeshare-chip__bikes" slot="expanded" data-bikes>
+      <div class="bikeshare-stat">
+        <span class="bikeshare-status__label">Bikes</span>
+        <span class="bikeshare-status__stat" data-populate="classicBikesAvailable">0</span>
+      </div>
+
+      <div class="bikeshare-stat">
+        <span class="bikeshare-status__label">Electric</span>
+        <span class="bikeshare-status__stat" data-populate="electricBikesAvailable">0</span>
+      </div>
+
+      <div class="bikeshare-stat">
+        <span class="bikeshare-status__label">Free Docks</span>
+        <span class="bikeshare-status__stat" data-populate="docksAvailable">0</span>
+      </div>
+  </div>
+
+</ExpandableChip>
+
+
+
+<style is:global>
+  .bikeshare-chip__bikes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .bikeshare-stat {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+  }
+
+  .bikeshare-status__label {
+    font-weight: bold;
+  }
+
+  .bikeshare-status__stat {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+</style>
+
+<script>
+  import { populateWithData } from "../helpers/populate";
+  import { fetchIndegoData } from "../helpers/store";
+
+  document.addEventListener("openchip", (e) => {
+    
+    const bikeshareEl = e.target.closest( "[data-bikeshare-chip]" );
+    if (!bikeshareEl)
+      return;
+
+    (async() => {
+      const dockId = bikeshareEl.dataset.bikeshareChip.split("_").at(-1);
+      const data = await fetchIndegoData(dockId);
+
+      const bikeEl = bikeshareEl.querySelector("[data-bikes]");
+      populateWithData(bikeEl, data);
+    })()
+
+  })
+</script>

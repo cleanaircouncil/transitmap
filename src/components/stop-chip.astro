@@ -1,21 +1,18 @@
 ---
+import ExpandableChip from "./expandable-chip.astro";
+
 const { stop = {} } = Astro.props;
 
 ---
 
-<div
+<ExpandableChip
   class="stop-chip"
   data-stop-chip
-  data-chip
-  data-populate="
-    mode: @data-mode,
-    id: @data-stop-chip,
-    route_color: --route-color,
-    route_text_color: --route-text-color
-  "
+  data-populate="mode: @data-mode, id: @data-stop-chip, route_color: --route-color, route_text_color: --route-text-color"
   data-mode={stop.mode}
 >
-  <div class="stop-chip__cluster" data-open-chip>
+
+  <div class="stop-chip__cluster" slot="collapsed">
     <div class="stop-chip__icon">
       <i data-mode="Bike" class="fa fa-bicycle"></i>
       <i data-mode="Bus" class="fa fa-bus-simple"></i>
@@ -26,11 +23,10 @@ const { stop = {} } = Astro.props;
     <span class="stop-chip__count badge badge--blue" data-populate="routes.length" ></span>
   </div>
 
-  
-  <div class="stop-chip__routes" data-routes>
-    <span class="stop-chip__close badge" data-close-chip><i class="fa fa-close"></i></span>
-  </div>
-</div>
+  <div class="stop-chip__routes" slot="expanded" data-routes></div>
+
+</ExpandableChip>
+
 
 
 <style is:global>
@@ -66,27 +62,27 @@ const { stop = {} } = Astro.props;
 
   }
 
-  .stop-chip {
-    .stop-chip__icon [data-mode] {
-      display: none;
-    }
 
-    &[data-mode="Bus"] .stop-chip__icon [data-mode="Bus"] {
-      display: block;
-    }
-
-    &[data-mode="Metro"] .stop-chip__icon [data-mode="Metro"] {
-      display: block;
-    }
-
-    &[data-mode="Bike"] .stop-chip__icon [data-mode="Bike"] {
-      display: block;
-    }
-
-    &[data-mode="Rail"] .stop-chip__icon [data-mode="Rail"] {
-      display: block;
-    }
+  .stop-chip__icon [data-mode] {
+    display: none;
   }
+
+  [data-mode="Bus"] .stop-chip__icon [data-mode="Bus"] {
+    display: block;
+  }
+
+  [data-mode="Metro"] .stop-chip__icon [data-mode="Metro"] {
+    display: block;
+  }
+
+  [data-mode="Bike"] .stop-chip__icon [data-mode="Bike"] {
+    display: block;
+  }
+
+  [data-mode="Rail"] .stop-chip__icon [data-mode="Rail"] {
+    display: block;
+  }
+  
 
   .stop-chip__routes {
     display: flex;
@@ -95,12 +91,6 @@ const { stop = {} } = Astro.props;
     max-width: 200px;
     justify-content: center;
     gap: 3px;
-    padding: 3px;
-    background: var(--color-white);
-    border-radius: 1rem;
-    z-index: 20;
-    box-shadow: var(--box-shadow);
-    display: none;
   }
 
   .badge {
@@ -139,7 +129,7 @@ const { stop = {} } = Astro.props;
   }
 
 </style>
-
+<!-- 
 <script>
 
   document.addEventListener("click", (e) => {
@@ -171,4 +161,4 @@ const { stop = {} } = Astro.props;
 
   })
 
-</script>
+</script> -->

@@ -1,4 +1,6 @@
 ---
+import BikeshareChip from "./bikeshare-chip.astro";
+import BikeshareStatus from "./bikeshare-status.astro";
 import Button from "./button.astro";
 import StopChip from "./stop-chip.astro";
 import TransitChip from "./transit-chip.astro";
@@ -15,6 +17,7 @@ const { venue } = Astro.props;
 
   <TransitChip/>
   <StopChip/>
+  <BikeshareChip/>
 
   <template id="map-stop-group-stub">
     <div class="map-stop-group" data-transit-chip>
@@ -27,10 +30,18 @@ const { venue } = Astro.props;
     <TransitChip/>
   </template>
 
+  <template id="map-bikeshare-stub">
+    <BikeshareChip/>
+  </template>
+
+
   <template id="map-stop-stub">
     <StopChip/>
   </template>
 
+  <template id="map-bikeshare-stub">
+    <BikeshareStatus/>
+  </template>
 
   <template id="map-venue-stub">
     <div
@@ -304,7 +315,7 @@ const { venue } = Astro.props;
         stopEl = cloneTemplate("map-stop-stub");
         
         const venueRoute = getVenueRoute(stop.routes[0]);
-        console.log( venueRoute );
+        
         populateWithData(stopEl, {
           ...stop,
           route_color: venueRoute.route_color,
@@ -320,6 +331,14 @@ const { venue } = Astro.props;
         }
 
         
+
+      } else if ( stop.mode === "Bike" ) {
+        stopEl = cloneTemplate("map-bikeshare-stub");
+        console.log( stop );
+        populateWithData(stopEl, {
+          id: stop.stop_id, 
+          ...getVenueRoute( stop.routes[0] )
+        });
 
       } else {
         stopEl = cloneTemplate("map-marker-stub");

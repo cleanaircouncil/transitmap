@@ -88,16 +88,6 @@
     const closeActionEl = e.target.closest("[data-close-action]");
     const expandableChipEl = e.target.closest("[data-expandable-chip]")
 
-    
-
-    // if( !openActionEl && !closeActionEl ) {
-    //   const currentlyOpenChipEl = document.querySelector("[data-expandable-chip='open']");
-    //   if( currentlyOpenChipEl && currentlyOpenChipEl !== expandableChipEl ) {
-    //     currentlyOpenChipEl.setAttribute("data-expandable-chip", "");
-    //   }
-    //   return;
-    // }
-
     if( openActionEl ) {
       document.querySelectorAll("[data-expandable-chip='open']").forEach( expandableChipEl => expandableChipEl.setAttribute("data-expandable-chip", "") );
       expandableChipEl.setAttribute("data-expandable-chip", "open");

@@ -1,6 +1,5 @@
 ---
 import BikeshareChip from "./bikeshare-chip.astro";
-import BikeshareStatus from "./bikeshare-status.astro";
 import Button from "./button.astro";
 import StopChip from "./stop-chip.astro";
 import TransitChip from "./transit-chip.astro";
@@ -37,10 +36,6 @@ const { venue } = Astro.props;
 
   <template id="map-stop-stub">
     <StopChip/>
-  </template>
-
-  <template id="map-bikeshare-stub">
-    <BikeshareStatus/>
   </template>
 
   <template id="map-venue-stub">

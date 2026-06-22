@@ -11,9 +11,9 @@ const { venue } = Astro.props;
 <Fragment>
   <figure id="map" class="map" data-map data-venue={ venue } transition:persist="map"></figure>
 
-  <Button class="map-view-all-button box-shadow" data-map-view-all aria-label="View All Facilities">
+  <!-- <Button class="map-view-all-button box-shadow" data-map-view-all aria-label="View All Facilities">
     <i class="fa fa-expand"></i><span class="map-view-all-text">&nbsp;View All</span>
-  </Button>
+  </Button> -->
 
   <TransitChip/>
   <StopChip/>
@@ -532,10 +532,25 @@ const { venue } = Astro.props;
 
   
 
-  document.addEventListener("click", (e) => {
+  function handleVenueMarkerClick(e) {
     const venueMarkerEl = e.target.closest("[data-venue-marker]");
     if (!venueMarkerEl) return;
     currentVenue.set(venueMarkerEl.dataset.venue);
+  }
+
+  function handleMapDismissClick(e) {
+    const mapEl = e.target.closest("[data-map]");
+    if (!mapEl) return;
+    
+    const chipEl = e.target.closest("[data-chip]");
+    if(chipEl) return;
+    
+    currentRoute.set("");
+  }
+
+  document.addEventListener("click", (e) => {
+    handleVenueMarkerClick(e);
+    handleMapDismissClick(e);
   })
 
 </script>

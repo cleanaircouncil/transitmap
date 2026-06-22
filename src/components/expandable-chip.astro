@@ -61,9 +61,10 @@
 
   .expandable-chip__close {
     z-index: 100;
+    cursor: pointer;
   }
 
-  [data-expandable-chip="open"] {
+  [data-expandable-chip="open"], [data-auto-expand][data-expandable-chip]:has([data-transit-chip="selected"]) {
     z-index: 100;
 
     .expandable-chip__icon {
@@ -79,6 +80,8 @@
 
 <script>
 
+  import { currentRoute } from "../helpers/store";
+
   document.addEventListener("click", (e) => {
 
     const openActionEl = e.target.closest("[data-open-action]");
@@ -87,14 +90,13 @@
 
     
 
-    if( !openActionEl && !closeActionEl ) {
-      const currentlyOpenChipEl = document.querySelector("[data-expandable-chip='open']");
-      if( currentlyOpenChipEl && currentlyOpenChipEl !== expandableChipEl ) {
-        currentlyOpenChipEl.setAttribute("data-expandable-chip", "");
-      }
-
-      return;
-    }
+    // if( !openActionEl && !closeActionEl ) {
+    //   const currentlyOpenChipEl = document.querySelector("[data-expandable-chip='open']");
+    //   if( currentlyOpenChipEl && currentlyOpenChipEl !== expandableChipEl ) {
+    //     currentlyOpenChipEl.setAttribute("data-expandable-chip", "");
+    //   }
+    //   return;
+    // }
 
     if( openActionEl ) {
       document.querySelectorAll("[data-expandable-chip='open']").forEach( expandableChipEl => expandableChipEl.setAttribute("data-expandable-chip", "") );
@@ -105,6 +107,7 @@
     if( closeActionEl ) {
       expandableChipEl.setAttribute("data-expandable-chip", "");
       expandableChipEl.dispatchEvent(new CustomEvent("closechip", { bubbles: true }));
+      currentRoute.set("");
     }
 
 

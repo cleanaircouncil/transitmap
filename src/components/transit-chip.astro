@@ -133,21 +133,23 @@ const { route = {} } = Astro.props;
     z-index: 2;
   }
 
-  .transit-chip.is-dimmed {
-    --factor: 0.8; /* Should range only between 0 and 1 */
-    filter: invert(calc(var(--factor) / 2)) brightness(calc(1 + var(--factor)));
+  body:has([data-transit-chip="selected"]) {
+    [data-transit-chip]:not([data-transit-chip="selected"])  {
+      filter: var(--filter-dimmed);
+    }
+
+    [data-transit-chip="selected"] {
+      z-index: 1;
+    }
   }
 
-  .transit-chip:not(.is-dimmed) {
-    z-index: 1;
-  }
 
-  @media screen and (min-width: 600px) {
+  /* @media screen and (min-width: 600px) {
     .transit-chip {
       font-size: 20px;
       border: 20px solid red !;
     }
-  }
+  } */
 
 
 </style>
@@ -176,7 +178,8 @@ const { route = {} } = Astro.props;
     
     const transitChipEls = document.querySelectorAll(`[data-transit-chip]`)
     transitChipEls.forEach( transitChipEl => {
-      transitChipEl.classList.toggle("is-dimmed", Boolean(key) && (transitChipEl.dataset.key != key))
+      const selected = Boolean(key) && (transitChipEl.dataset.key === key) ? "selected" : "";
+      transitChipEl.setAttribute("data-transit-chip", selected);
     })
   })
 

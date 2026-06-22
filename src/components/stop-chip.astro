@@ -8,6 +8,7 @@ const { stop = {} } = Astro.props;
 <ExpandableChip
   class="stop-chip"
   data-stop-chip
+  data-auto-expand
   data-populate="mode: @data-mode, id: @data-stop-chip, route_color: --route-color, route_text_color: --route-text-color"
   data-mode={stop.mode}
 >
@@ -23,7 +24,11 @@ const { stop = {} } = Astro.props;
     <span class="stop-chip__count badge badge--blue" data-populate="routes.length" ></span>
   </div>
 
-  <div class="stop-chip__routes" slot="expanded" data-routes></div>
+  <div class="stack-tight" slot="expanded">
+    <div class="stop-chip__name" data-populate="stop_name">Name</div>
+    <div class="stop-chip__routes" slot="expanded" data-routes></div>
+  </div>
+  
 
 </ExpandableChip>
 
@@ -62,6 +67,10 @@ const { stop = {} } = Astro.props;
 
   }
 
+  .stop-chip__name {
+    font-weight: 900;
+  }
+
 
   .stop-chip__icon [data-mode] {
     display: none;
@@ -89,7 +98,7 @@ const { stop = {} } = Astro.props;
     flex-wrap: wrap;
     min-width: 100px;
     max-width: 200px;
-    justify-content: center;
+    justify-content: start;
     gap: 3px;
   }
 
@@ -116,49 +125,12 @@ const { stop = {} } = Astro.props;
     color: var(--color-black);
   }
 
-  [data-stop-chip="open"] {
-    z-index: 100;
-    .stop-chip__cluster {
-      display: none;
-    }
 
-    .stop-chip__routes {
-      display: flex;
-      
+  body:has([data-transit-chip="selected"]) {
+    [data-stop-chip]:not([data-expandable-chip="open"], :has([data-transit-chip="selected"])) {
+      filter: var(--filter-dimmed);
     }
   }
 
+
 </style>
-<!-- 
-<script>
-
-  document.addEventListener("click", (e) => {
-
-    const openChipEl = e.target.closest("[data-open-chip]");
-    const closeChipEl = e.target.closest("[data-close-chip]");
-    const stopChipEl = e.target.closest("[data-stop-chip]")
-
-    
-
-    if( !openChipEl && !closeChipEl ) {
-      const currentlyOpenChipEl = document.querySelector("[data-stop-chip='open']");
-      if( currentlyOpenChipEl && currentlyOpenChipEl !== stopChipEl ) {
-        currentlyOpenChipEl.setAttribute("data-stop-chip", "");
-      }
-
-      return;
-    }
-
-    if( openChipEl ) {
-      document.querySelectorAll("[data-stop-chip='open']").forEach( stopChipEl => stopChipEl.setAttribute("data-stop-chip", "") );
-      stopChipEl.setAttribute("data-stop-chip", "open");
-    }
-
-    if( closeChipEl ) {
-      stopChipEl.setAttribute("data-stop-chip", "");
-    }
-
-
-  })
-
-</script> -->

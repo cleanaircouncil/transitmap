@@ -28,6 +28,19 @@
     "slug": "the-four-seasons-reimagined-balletx-2026-06-05"
   },
   {
+    "latitude": 39.9556915,
+    "date": "2026-06-05T22:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.1501424,
+    "venue": "recNIazn3hC6d272H",
+    "name": "Philadelphia Chinese Lantern Festival",
+    "link": "https://phillychineselanternfestival.com/",
+    "venue_name": "Franklin Square",
+    "end_date": "2026-08-17T03:00:00.000Z",
+    "id": "recI77KjAmgeBjuLv",
+    "slug": "philadelphia-chinese-lantern-festival-2026-06-05"
+  },
+  {
     "latitude": 39.9703747,
     "date": "2026-06-11T14:00:00.000Z",
     "type": "Event",
@@ -83,21 +96,6 @@
     "group": "recTtbjgqs7GIxUxv",
     "id": "recdvhPHNSMX5lgvE",
     "slug": "50-years-of-music-in-the-park-2026-06-18"
-  },
-  {
-    "latitude": 39.960266,
-    "date": "2026-06-19T00:00:00.000Z",
-    "type": "Event",
-    "longitude": -75.173247,
-    "venue": "recClakCY7A8HwrrZ",
-    "name": "WAWA Welcome America",
-    "link": "https://july4thphilly.com/",
-    "venue_name": "Benjamin Franklin Parkway",
-    "end_date": "2026-07-04T04:00:00.000Z",
-    "group_name": "America250 Celebration",
-    "group": "recy35IiiNta9LpUN",
-    "id": "recihMy17eRlw5NDc",
-    "slug": "wawa-welcome-america-2026-06-19"
   },
   {
     "latitude": 39.979491,
@@ -213,45 +211,33 @@
   },
   {
     "latitude": 39.981741,
-    "date": "2026-06-26T00:00:00.000Z",
+    "date": "2026-06-25T20:00:00.000Z",
     "type": "Event",
     "longitude": -75.195543,
     "venue": "recNfZuAbivIRXfSw",
     "name": "Kidchella Music Festival",
     "link": "https://july4thphilly.com/event/kidchella-music-festival/",
     "venue_name": "Smith Memorial Playground",
+    "end_date": "2026-06-26T00:00:00.000Z",
     "group_name": "America250 Celebration",
     "group": "recy35IiiNta9LpUN",
     "id": "recgUt8HnZ6SsGSXL",
-    "slug": "kidchella-music-festival-2026-06-26"
+    "slug": "kidchella-music-festival-2026-06-25"
   },
   {
     "latitude": 39.953507,
-    "date": "2026-06-27T00:00:00.000Z",
+    "date": "2026-06-26T18:00:00.000Z",
     "type": "Event",
     "longitude": -75.165812,
     "venue": "recVfVgTMuaWuTfaP",
     "name": "Concilio's Annual Hispanic Fiesta",
     "link": "https://july4thphilly.com/event/concilios-annual-hispanic-fiesta/",
     "venue_name": "Love Park",
+    "end_date": "2026-06-27T01:00:00.000Z",
     "group_name": "America250 Celebration",
     "group": "recy35IiiNta9LpUN",
     "id": "recEaff6ThgI1dR8Y",
-    "slug": "concilio-s-annual-hispanic-fiesta-2026-06-27"
-  },
-  {
-    "latitude": 39.948505,
-    "date": "2026-06-27T00:00:00.000Z",
-    "type": "Event",
-    "longitude": -75.139575,
-    "venue": "rechjffwALql7ycaL",
-    "name": "Waterfront Concert and Fireworks",
-    "link": "https://july4thphilly.com/event/waterfront-concert-and-firworks/",
-    "venue_name": "Independence Blue Cross RiverRink Summerfest",
-    "group_name": "America250 Celebration",
-    "group": "recy35IiiNta9LpUN",
-    "id": "recfYwiu4SvjYmMQD",
-    "slug": "waterfront-concert-and-fireworks-2026-06-27"
+    "slug": "concilio-s-annual-hispanic-fiesta-2026-06-26"
   },
   {
     "latitude": 39.901733,
@@ -266,6 +252,21 @@
     "group": "recX37CIyxy5rQsTK",
     "id": "rectWNIpPlVjOnr87",
     "slug": "croatia-vs-ghana-group-l-2026-06-27"
+  },
+  {
+    "latitude": 39.948505,
+    "date": "2026-06-28T00:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.139575,
+    "venue": "rechjffwALql7ycaL",
+    "name": "Waterfront Concert and Fireworks",
+    "link": "https://july4thphilly.com/event/waterfront-concert-and-firworks/",
+    "venue_name": "Independence Blue Cross RiverRink Summerfest",
+    "end_date": "2026-06-28T02:00:00.000Z",
+    "group_name": "America250 Celebration",
+    "group": "recy35IiiNta9LpUN",
+    "id": "recfYwiu4SvjYmMQD",
+    "slug": "waterfront-concert-and-fireworks-2026-06-28"
   },
   {
     "latitude": 39.94728,
@@ -297,7 +298,7 @@
   },
   {
     "latitude": 39.949619,
-    "date": "2026-07-01T00:00:00.000Z",
+    "date": "2026-06-30T16:00:00.000Z",
     "type": "Event",
     "longitude": -75.150287,
     "venue": "recs77DucqwVLXjhp",
@@ -307,7 +308,7 @@
     "group_name": "America250 Celebration",
     "group": "recy35IiiNta9LpUN",
     "id": "recAbr6yIsg22g00o",
-    "slug": "wawa-hoagie-day-2026-07-01"
+    "slug": "wawa-hoagie-day-2026-06-30"
   },
   {
     "latitude": 39.949619,
@@ -481,6 +482,23 @@
     "slug": "capital-one-all-star-village-2026-07-11"
   },
   {
+    "latitude": 39.9055633,
+    "date": "2026-07-11T14:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.1758101,
+    "venue": "rec2b1wtHE7ptKEt0",
+    "name": "Southeast Asian Market in FDR Park",
+    "link": "https://www.fdrseamarket.com/",
+    "venue_name": "FDR Park",
+    "end_date": "2026-08-29T22:00:00.000Z",
+    "specific_days": [
+      "Saturday",
+      "Sunday"
+    ],
+    "id": "recTg0qhbJqmIPW1w",
+    "slug": "southeast-asian-market-in-fdr-park-2026-07-11"
+  },
+  {
     "latitude": 39.954821,
     "date": "2026-07-11T17:00:00.000Z",
     "type": "Event",
@@ -608,5 +626,31 @@
     "group": "rectWQwoK0fn7rU78",
     "id": "recJx804D9aLeMyXh",
     "slug": "mlb-all-star-game-2026-07-15"
+  },
+  {
+    "latitude": 39.9055633,
+    "date": "2026-07-25T14:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.1758101,
+    "venue": "rec2b1wtHE7ptKEt0",
+    "name": "Southeast Asian Market in FDR Park",
+    "link": "https://www.fdrseamarket.com/",
+    "venue_name": "FDR Park",
+    "end_date": "2026-07-25T22:00:00.000Z",
+    "id": "recCVZ0NmTxl8CbLx",
+    "slug": "southeast-asian-market-in-fdr-park-2026-07-25"
+  },
+  {
+    "latitude": 39.9055633,
+    "date": "2026-07-26T14:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.1758101,
+    "venue": "rec2b1wtHE7ptKEt0",
+    "name": "Southeast Asian Market in FDR Park",
+    "link": "https://www.fdrseamarket.com/",
+    "venue_name": "FDR Park",
+    "end_date": "2026-07-26T22:00:00.000Z",
+    "id": "recIY2zPo25SqRdzR",
+    "slug": "southeast-asian-market-in-fdr-park-2026-07-26"
   }
 ]

@@ -318,6 +318,7 @@ const listingsOut = listings.map((listing) => ({
   name: listing.name,
   date: listing.date,
   end_date: listing.end_date ?? null,
+  specific_days: listing.specific_days ?? null,
   type: listing.type,
   link: listing.link,
   group_name: listing.group_name,

@@ -1,5 +1,19 @@
 [
   {
+    "name": "FDR Park",
+    "last_modified": "2026-07-21T21:15:27.000Z",
+    "listings": [
+      "recTg0qhbJqmIPW1w",
+      "recCVZ0NmTxl8CbLx",
+      "recIY2zPo25SqRdzR"
+    ],
+    "longitude": -75.1758101,
+    "latitude": 39.9055633,
+    "address": "1500 Pattison Ave, Philadelphia, PA 19145",
+    "id": "rec2b1wtHE7ptKEt0",
+    "slug": "fdr-park"
+  },
+  {
     "name": "The Kimmel Center for the Performing Arts",
     "last_modified": "2026-06-17T20:18:36.000Z",
     "listings": [
@@ -25,9 +39,8 @@
   },
   {
     "name": "Benjamin Franklin Parkway",
-    "last_modified": "2026-06-01T18:00:41.000Z",
+    "last_modified": "2026-06-25T15:07:54.000Z",
     "listings": [
-      "recihMy17eRlw5NDc",
       "recAeVeLi9a2aa2nq"
     ],
     "longitude": -75.173247,
@@ -95,6 +108,18 @@
     "slug": "citizens-bank-park"
   },
   {
+    "name": "Franklin Square",
+    "last_modified": "2026-07-21T20:58:48.000Z",
+    "listings": [
+      "recI77KjAmgeBjuLv"
+    ],
+    "longitude": -75.1501424,
+    "latitude": 39.9556915,
+    "address": "200 N 6th St, Philadelphia, PA 19106",
+    "id": "recNIazn3hC6d272H",
+    "slug": "franklin-square"
+  },
+  {
     "name": "Smith Memorial Playground",
     "last_modified": "2026-06-01T17:59:45.000Z",
     "listings": [
@@ -144,6 +169,15 @@
     "address": "101 S Christopher Columbus Blvd, Philadelphia, PA 19106",
     "id": "rechjffwALql7ycaL",
     "slug": "independence-blue-cross-riverrink-summerfest"
+  },
+  {
+    "name": "Woodmere Art Museum ",
+    "last_modified": "2026-06-25T15:15:12.000Z",
+    "longitude": -75.2194984,
+    "latitude": 40.0831275,
+    "address": "9201 Germantown Ave, Philadelphia PA 19118",
+    "id": "recj0dlPtP0g9pJQ5",
+    "slug": "woodmere-art-museum"
   },
   {
     "name": "Historic District",

@@ -487,16 +487,16 @@
     "type": "Event",
     "longitude": -75.1758101,
     "venue": "rec2b1wtHE7ptKEt0",
-    "name": "Southeast Asian Market in FDR Park",
+    "name": "South East Asian Market in FDR Park",
     "link": "https://www.fdrseamarket.com/",
     "venue_name": "FDR Park",
-    "end_date": "2026-08-29T22:00:00.000Z",
+    "end_date": "2026-10-31T22:00:00.000Z",
     "specific_days": [
-      "Saturday",
-      "Sunday"
+      "Sunday",
+      "Saturday"
     ],
-    "id": "recTg0qhbJqmIPW1w",
-    "slug": "southeast-asian-market-in-fdr-park-2026-07-11"
+    "id": "recqHbMVvi5C1JzSQ",
+    "slug": "south-east-asian-market-in-fdr-park-2026-07-11"
   },
   {
     "latitude": 39.954821,
@@ -628,29 +628,42 @@
     "slug": "mlb-all-star-game-2026-07-15"
   },
   {
-    "latitude": 39.9055633,
-    "date": "2026-07-25T14:00:00.000Z",
+    "latitude": 39.942768,
+    "date": "2026-07-31T15:00:00.000Z",
     "type": "Event",
-    "longitude": -75.1758101,
-    "venue": "rec2b1wtHE7ptKEt0",
-    "name": "Southeast Asian Market in FDR Park",
-    "link": "https://www.fdrseamarket.com/",
-    "venue_name": "FDR Park",
-    "end_date": "2026-07-25T22:00:00.000Z",
-    "id": "recCVZ0NmTxl8CbLx",
-    "slug": "southeast-asian-market-in-fdr-park-2026-07-25"
+    "longitude": -75.159409,
+    "venue": "reciGCK6W3C224Ft6",
+    "name": "Viviendo a través de la muerte: Obras de Ivette Chaires/Living Through Death: Works by Ivette Chaires",
+    "link": "https://www.phillymagicgardens.org/event/viviendo-a-traves-de-la-muerte-obras-de-ivette-chaires-living-through-death-works-by-ivette-chaires/",
+    "venue_name": "Philadelphia's Magic Gardens",
+    "end_date": "2026-11-08T23:00:00.000Z",
+    "id": "rechj9Ae2uCk8aQU0",
+    "slug": "viviendo-a-traves-de-la-muerte-obras-de-ivette-chaires-living-through-death-works-by-ivette-chaires-2026-07-31"
   },
   {
-    "latitude": 39.9055633,
-    "date": "2026-07-26T14:00:00.000Z",
+    "latitude": 40.0600247,
+    "date": "2026-08-22T15:00:00.000Z",
     "type": "Event",
-    "longitude": -75.1758101,
-    "venue": "rec2b1wtHE7ptKEt0",
-    "name": "Southeast Asian Market in FDR Park",
-    "link": "https://www.fdrseamarket.com/",
-    "venue_name": "FDR Park",
-    "end_date": "2026-07-26T22:00:00.000Z",
-    "id": "recIY2zPo25SqRdzR",
-    "slug": "southeast-asian-market-in-fdr-park-2026-07-26"
+    "longitude": -75.2447267,
+    "venue": "recalB4DafLovLngi",
+    "name": "Fungadelphia Festival 2026",
+    "link": "https://phillymycoclub.com/event/fungadelphia-festival-2026/",
+    "venue_name": "Schuylkill Center for Environmental Education",
+    "end_date": "2026-08-22T19:00:00.000Z",
+    "id": "recjjNyfgaPLhzemI",
+    "slug": "fungadelphia-festival-2026-2026-08-22"
+  },
+  {
+    "latitude": 39.960266,
+    "date": "2026-08-30T17:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.173247,
+    "venue": "recClakCY7A8HwrrZ",
+    "name": "Philadelphia Cycling Classic",
+    "link": "https://www.philadelphiacyclingclassic.com/",
+    "venue_name": "Benjamin Franklin Parkway",
+    "end_date": "2026-08-31T03:00:00.000Z",
+    "id": "recvZ19oxDbLOEJvo",
+    "slug": "philadelphia-cycling-classic-2026-08-30"
   }
 ]

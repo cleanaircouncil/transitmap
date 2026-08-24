@@ -5,17 +5,30 @@ import ListingList from "./listing-list.astro";
 const { venue = {} } = Astro.props
 
 const listings = data.listings.filter( listing => listing.venue_id == venue.slug );
-
+const tours = data.tours.filter( tour => tour.venues.some( v => v.slug == venue.slug ) );
 
 ---
 
-<div class="venue stack" data-venue={ venue.slug }>
-  <div class="constrain stack">
+<div class="venue" data-venue={ venue.slug }>
+  <div class="venue__info constrain stack">
     <h2 class="venue__name">{venue.name}</h2>
     <div class="venue__address"><i class="fa fa-location-dot"></i> {venue.address}</div>
-    <div class="venue__listings-title">Upcoming Events</div>
+
+
+    {
+      tours.length ?
+      <div class="venue__tours">
+        <div><i class="fa fa-compass"></i> <em>This venue is a part of { tours.length } tour{ tours.length == 1 ? "" : "s"}:</em></div>
+        <ul>
+          { tours.map( tour => <li><a href={`/tours/${tour.slug}`}>{tour.name}</a></li>)}
+        </ul>
+      </div> 
+
+      : <></>
+    }
+
   </div>
-  
+
   <ListingList listings={ listings }/>
 </div>
 
@@ -29,11 +42,34 @@ const listings = data.listings.filter( listing => listing.venue_id == venue.slug
     text-wrap: balanced;
   }
 
+  .venue__info {
+    background: linear-gradient( var(--color-white), var(--color-neutral-150) );
+    padding-bottom: 2rem;
+  }
+
 
   .venue__listings-title {
     font-size: 1.5rem;
     font-weight: 300;
     font-style: italic;
+    
+  }
+
+  .venue__tours {
+    background: var(--color-green-100);
+    border: 1px solid var(--color-green-200);
+    padding: 1rem;
+    border-radius: 1rem;
+    line-height: 1.8;
+    font-size: 1rem;
+
+    a {
+      color: var(--color-green-400)
+    }
+
+    i {
+      color: var(--color-green-700);
+    }
   }
 
 

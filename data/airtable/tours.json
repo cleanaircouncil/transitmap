@@ -1,0 +1,43 @@
+[
+  {
+    "long_description": "## Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n## Where does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\nThe standard chunk of Lorem Ipsum used since 1966 is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n## Where can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.\nparagraphswordsbyteslistsStart with 'Lorem\nipsum dolor sit amet...'\n",
+    "name": "Philly Music Halls",
+    "venues": [
+      "recoWWE9IhuCcH0ek",
+      "rec6bfyu38E1BRcfJ",
+      "recj0dlPtP0g9pJQ5"
+    ],
+    "image": [
+      {
+        "id": "attSB2uHsSEVVftnM",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787623200000/ZUVPSNZ1j1w8KX_J55vgjQ/MEohLRMOoVB7RBOhVHnV0Ym-IgE-bDPIj4yx8dg_ZIdYlgEadGYnI2lraEDk597XjQ56Jas6jwcITwGUKFvOLzf9WvkDHYdU5EdUVzST6DfZ7PSt0hQX15-HAcBjw8BesjwK8Kn6kKITzVBLpVt4gVjMXRTwXkK4F-0rgmTPYIEwpT5MHUtJm2V2-xnz5yJgq9Z0o_kgiwJ4KMxxt9XRaA/bGpb6ouCI7Y-lNCuDRXwbCYyZ02u3UN5gtep4tQ_G_g",
+        "filename": "defne-kucukmustafa-koYl8yZVt_s-unsplash.jpg",
+        "size": 2870817,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787623200000/ZTLL_YiBJFwFdnlKa2fgXA/ZeC8sT-zKtHxnb1KDC5lQrEBvSwj6FOyWrEOQDiwjM8QUBcjXUOpwPySyibyj94fPSd7uL9peFvDNrzpcVQsx81vOlhUNjOr_zv1HoXpwf3sfbhOKuAROuurk8xGDJs91wmSX2XOI5GKqzcR9JgPCw/JLTZG1X8zRJ7hcHKNIet5rYNoSziMZCtc_XGurjTmKI",
+            "width": 48,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787623200000/k5Xd1fN-XXM5kZJ4AAJFQw/voAfRA9tZ_Th6-qp-HUN-uF11On0PrrVlFFf0Ld6Ywb8vphlOLXJ_23eT7ZHQoG-sELw6f2PkSvIHitw5lFOCsXRBJFDEJ5tKZW7IT0CDVYKdciRKsznqqFC99e0nfBnE6siPvoypJdAziACDDltxg/DPJoNOqWIEtmFukKTsYopT43UkHzFfHLqjZa1UNwZaE",
+            "width": 683,
+            "height": 512
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v3/u/56/56/1787623200000/SAVWW8ZSesbTq8lqMrQ9Ug/0F5LFjb9zp3WGKg4AyYC9QXCjnZTDB42x3AJyEoPD7KClMYDIQOgpILNNCQMbx2DNg_lq-0q6tHfkZdh5WXfTRQ4nauee9U4hkC4K96bLIXAUUv94Iz4O2_umNMTDvc2AIgoX9BkOx1klJq1mujimA/tHgpHW4GxCHzxUBM01iFEPUN3NPwuhpBt2QPbdxHQl4",
+            "width": 3000,
+            "height": 2250
+          }
+        }
+      }
+    ],
+    "status": "Visible",
+    "short_description": "These places have concerts, check them out.",
+    "id": "recBlJVADqDp1BURZ",
+    "slug": "philly-music-halls"
+  }
+]

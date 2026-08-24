@@ -1,5 +1,6 @@
 import fs from "fs";
 import { featureCollection, point, circle, pointsWithinPolygon, booleanIntersects, bbox, distance } from "@turf/turf";
+import { marked } from "marked";
 
 
 
@@ -14,6 +15,9 @@ const LISTINGS_PATH = "./data/airtable/listings.json";
 
 // Path to venues JSON — array pulled from Airtable, each with id, name, latitude, longitude
 const VENUES_PATH = "./data/airtable/venues.json";
+
+// Path to tours JSON — array of curated venue collections pulled from Airtable
+const TOURS_PATH = "./data/airtable/tours.json";
 
 // GeoJSON files to include, each tagged with a namespace to avoid ID collisions
 const GEOJSON_SOURCES = [
@@ -36,6 +40,7 @@ const ROUTE_ALIASES = {
 
 const listings = JSON.parse(fs.readFileSync(LISTINGS_PATH, "utf8"));
 const venuesRaw = JSON.parse(fs.readFileSync(VENUES_PATH, "utf8"));
+const toursRaw = fs.existsSync(TOURS_PATH) ? JSON.parse(fs.readFileSync(TOURS_PATH, "utf8")) : [];
 
 // Lookup: Airtable record ID → slug, used to resolve cross-references
 const venueIdToSlug = Object.fromEntries(venuesRaw.map((v) => [v.id, v.slug]));
@@ -313,7 +318,14 @@ for (const venue of venuesRaw) {
 
 // ── Build listings map ────────────────────────────────────────────────────────
 
-const listingsOut = listings.map((listing) => ({
+// Keep only listings that take place today or later (by end_date if present, else date)
+const todayStr = new Date().toISOString().slice(0, 10);
+const currentListings = listings.filter((listing) => {
+  const lastDateStr = (listing.end_date || listing.date).slice(0, 10);
+  return lastDateStr >= todayStr;
+});
+
+const listingsOut = currentListings.map((listing) => ({
   slug: listing.slug,
   name: listing.name,
   date: listing.date,
@@ -326,6 +338,34 @@ const listingsOut = listings.map((listing) => ({
   venue: listing.venue_name,
 }));
 
+// ── Build tours map ────────────────────────────────────────────────────────────
+
+const toursOut = toursRaw
+  .filter((tour) => tour.status === "Visible")
+  .map((tour) => ({
+    slug: tour.slug,
+    name: tour.name,
+    description: tour.short_description ?? "",
+    long_description: tour.long_description ? marked.parse(tour.long_description) : "",
+    is_ordered: tour.is_ordered ?? false,
+    image: tour.image?.[0]?.thumbnails?.large?.url ?? tour.image?.[0]?.url ?? null,
+    venues: (tour.venues ?? [])
+      .map((id) => venueIdToSlug[id])
+      .filter((slug) => venues[slug])
+      .map((slug) => ({ slug, name: venues[slug].name })),
+  }));
+
+// ── Filter venues to those with a current listing or tour appearance ──────────
+
+const venueSlugsInUse = new Set([
+  ...listingsOut.map((l) => l.venue_id).filter(Boolean),
+  ...toursOut.flatMap((t) => t.venues.map((v) => v.slug)),
+]);
+
+for (const slug of Object.keys(venues)) {
+  if (!venueSlugsInUse.has(slug)) delete venues[slug];
+}
+
 // ── Write output ──────────────────────────────────────────────────────────────
 
 // index.json — lightweight initial payload for map load
@@ -337,16 +377,24 @@ const indexOut = {
   },
   venues: Object.entries(venues).map(([slug, v]) => ({ slug, name: v.name, address: v.address, coordinates: v.coordinates })),
   listings: listingsOut,
+  tours: toursOut,
 };
 
 fs.writeFileSync("./src/data/index.json", JSON.stringify(indexOut));
 console.log(`\nWrote ./src/data/index.json`);
 console.log(`  ${listingsOut.length} listings`);
 console.log(`  ${indexOut.venues.length} venues`);
+console.log(`  ${toursOut.length} tours`);
 
 // venues/{id}.json — per-venue detail loaded on selection
 const venuesDir = "./public/data/venues";
 if (!fs.existsSync(venuesDir)) fs.mkdirSync(venuesDir);
+
+// Remove stale per-venue files for venues no longer in use
+for (const file of fs.readdirSync(venuesDir)) {
+  const slug = file.replace(/\.json$/, "");
+  if (!venues[slug]) fs.unlinkSync(`${venuesDir}/${file}`);
+}
 
 const routesByVenue = {};
 

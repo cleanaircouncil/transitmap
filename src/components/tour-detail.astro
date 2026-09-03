@@ -1,0 +1,150 @@
+---
+import ReplaceFlags from "./replace-flags.astro";
+
+const { tour } = Astro.props;
+
+const List = tour.isOrdered ? 'ol' : 'ol';
+---
+
+{ tour.image &&
+  <div class="tour__image">
+    <img src={ tour.image }/>
+  </div>
+}
+
+<div id={tour.slug} class="tour constrain stack" data-tour={ tour.slug }>
+
+  <div class="tour_info stack">
+
+    <div class="tour__name">
+      <ReplaceFlags title={ tour.name }/>
+    </div>
+
+    <div class="tour__description" set:html={ tour.long_description } />
+
+    <div class="tour__meta stack">
+      <h3>{ tour.venues.length } stops </h3>
+      <List class="tour__list stack-loose">
+      { tour.venues.map( venue => 
+        <li><a class="tour__venue" href={`/venues/${venue.slug}`}>{ venue.name }</a></li>
+      )}
+      </List>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+<style>
+  .tour {
+    background: var(--color-white);
+  }
+
+  .tour__image {
+    height: 12rem;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+  }
+
+  .tour__description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+
+  .tour__meta {
+    color: var(--color-neutral-500);
+    font-size: 1.1rem;
+
+    h3 {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 1rem;
+      display: flex;
+      gap: .5rem;
+      
+
+      &::after {
+        content: "";
+        display: block;
+        flex: 1 1 auto;
+        border-bottom: 1px solid var(--color-neutral-300);
+        position: relative;
+        top: -5px;
+      }
+    }
+  }
+
+  .tour__description {
+    
+  }
+
+  .tour__name {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2em;
+    line-height: 1.2;
+    text-wrap: balanced;
+  }
+
+  .tour__list {
+    padding: 0px;
+    padding-left: 1rem;
+    --size: 2rem;
+    --gap: .25rem;
+
+
+    li {
+      
+      list-style-type: none;
+      padding: 0px;
+      min-height: var(--size);
+      line-height: 1;
+
+      place-content: center;
+    }
+
+    li::before {
+      content: "";
+      display: block;
+      color: var(--color-green-500);
+      clear:both;
+      float: left;
+      
+      font-size: 1rem;  
+
+      
+      line-height: 1;
+      width: var(--size);
+      height: var(--size);
+
+      padding: 0px;
+      margin: 0px;
+      margin-right: var(--gap);
+      border-radius: 50%;
+      border: 8px solid var(--color-red);
+      color: var(--color-white);
+      font-weight: 900;
+      text-align: center;
+    }
+  }
+
+  ol.tour__list li::before {
+    content: counter(list-item);  
+    background: var(--color-red);
+  }
+
+  .tour__venue {
+    color: var(--color-black);
+    text-decoration: none;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  
+  }
+
+</style>

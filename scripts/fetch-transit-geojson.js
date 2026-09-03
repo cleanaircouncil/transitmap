@@ -279,7 +279,7 @@ async function main() {
     if (!existsSync(septaZip)) {
       console.log("[Downloading SEPTA GTFS]");
       download(
-        "https://github.com/septadev/GTFS/releases/download/v202605241/gtfs_public.zip",
+        "https://github.com/septadev/GTFS/releases/download/v202609060/gtfs_public.zip",
         septaZip
       );
     } else {

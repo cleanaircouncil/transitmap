@@ -52,6 +52,26 @@ const bikeSegments = fs.existsSync(BIKE_NETWORK_PATH)
   : [];
 console.log(`Loaded ${bikeSegments.length} bike network segments`);
 
+// Normalize the Bike Network's granular TYPE values into three levels of
+// protection the map can render: "protected" (physical separation),
+// "lane" (dedicated painted lane), "shared" (sharrows / shared roadway).
+// Note: this dataset is on-street only — no off-street trails / shared-use paths.
+const BIKE_CATEGORY_BY_TYPE = {
+  "Separated Bike Lane": "protected",
+  "One Way Separated Bike Lane": "protected",
+  "Two Way Separated Bike Lane": "protected",
+  "Paint Buffered": "lane",
+  "Paint Buffered w Conventional": "lane",
+  "Conventional": "lane",
+  "Conventional & Dashed Bike Lane": "lane",
+  "Dashed Bike Lane": "lane",
+  "Contraflow": "lane",
+  "Bus Bike Lane": "lane",
+  "Conventional w Sharrows": "shared",
+  "Sharrow": "shared",
+};
+const bikeCategory = (type) => BIKE_CATEGORY_BY_TYPE[type] ?? "lane";
+
 // ── Ingest GeoJSON ────────────────────────────────────────────────────────────
 
 const allStops = []; // { key, namespace, feature }
@@ -454,7 +474,12 @@ for (const [slug, venue] of Object.entries(venues)) {
   const searchCircle = circle([vlon, vlat], RADIUS_METERS / 1000, { units: "kilometers" });
   const nearbyBikePolylines = bikeSegments
     .filter((seg) => booleanIntersects(seg, searchCircle))
-    .map((seg) => encodePolyline(seg.geometry.coordinates));
+    .map((seg) => ({
+      p: encodePolyline(seg.geometry.coordinates),
+      category: bikeCategory(seg.properties.TYPE),
+      type: seg.properties.TYPE,
+      street: seg.properties.STREETNAME.replace(/\s+/g, " ").trim(),
+    }));
 
   const venueRoutes = Object.fromEntries(
     [...routeKeys]

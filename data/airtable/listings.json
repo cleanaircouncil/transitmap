@@ -655,6 +655,19 @@
   },
   {
     "latitude": 39.960266,
+    "date": "2026-08-29T14:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.173247,
+    "venue": "recClakCY7A8HwrrZ",
+    "name": "Philadelphia Cycling Classic Fan Fest",
+    "link": "https://www.philadelphiacyclingclassic.com/fan-fest",
+    "venue_name": "Benjamin Franklin Parkway",
+    "end_date": "2026-08-29T21:00:00.000Z",
+    "id": "reck7nNJrOoy5yVsG",
+    "slug": "philadelphia-cycling-classic-fan-fest-2026-08-29"
+  },
+  {
+    "latitude": 39.960266,
     "date": "2026-08-30T17:00:00.000Z",
     "type": "Event",
     "longitude": -75.173247,
@@ -665,5 +678,18 @@
     "end_date": "2026-08-31T03:00:00.000Z",
     "id": "recvZ19oxDbLOEJvo",
     "slug": "philadelphia-cycling-classic-2026-08-30"
+  },
+  {
+    "latitude": 39.944005,
+    "date": "2026-09-06T17:00:00.000Z",
+    "type": "Event",
+    "longitude": -75.141859,
+    "venue": "recHellusNn2cMBmQ",
+    "name": "Brazilian Day Philadelphia",
+    "link": "https://www.delawareriverwaterfront.com/what-to-do/brazilian-day-philadelphia-part-of-the-peco-multicultural-series-2026?fbclid=IwY2xjawUCU0FwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMXJkODhtak5iZVk2b0tUSTFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe8XT3y05c9dgzEDMAfynZhUe2Q9Qx8g5nmeDDLDnEEB3JPLmCNhTkAIt2oPk_aem_2ViBIY9YB1lHZQ_dyp0mdw",
+    "venue_name": "Spruce Street Harbor Park",
+    "end_date": "2026-09-06T23:00:00.000Z",
+    "id": "rec74kY0S2LQR1lf3",
+    "slug": "brazilian-day-philadelphia-2026-09-06"
   }
 ]

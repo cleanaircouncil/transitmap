@@ -40,10 +40,11 @@
   },
   {
     "name": "Benjamin Franklin Parkway",
-    "last_modified": "2026-08-21T15:38:50.000Z",
+    "last_modified": "2026-08-25T15:23:29.000Z",
     "listings": [
       "recAeVeLi9a2aa2nq",
-      "recvZ19oxDbLOEJvo"
+      "recvZ19oxDbLOEJvo",
+      "reck7nNJrOoy5yVsG"
     ],
     "longitude": -75.173247,
     "latitude": 39.960266,
@@ -62,6 +63,18 @@
     "address": "1 Lemon Hill Drive, Philadelphia, PA 19130",
     "id": "recD62ZiygYKhZHq4",
     "slug": "lemon-hill-park"
+  },
+  {
+    "name": "Spruce Street Harbor Park",
+    "last_modified": "2026-09-01T21:09:57.000Z",
+    "listings": [
+      "rec74kY0S2LQR1lf3"
+    ],
+    "longitude": -75.141859,
+    "latitude": 39.944005,
+    "address": "301 S Christopher Columbus Blvd, Philadelphia, PA 19106",
+    "id": "recHellusNn2cMBmQ",
+    "slug": "spruce-street-harbor-park"
   },
   {
     "name": "Pennsylvania Convention Center",

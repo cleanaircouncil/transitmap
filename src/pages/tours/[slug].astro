@@ -1,0 +1,61 @@
+---
+import type { GetStaticPaths } from "astro";
+import data from "../../data/index.json";
+import TourDetail from "../../components/tour-detail.astro"
+import AppLayout from "../../layouts/app-layout.astro";
+import BackToHome from "../../components/back-to-home.astro";
+import Button from "../../components/button.astro";
+import DirectionsButton from "../../components/directions-button.astro";
+import Nav from "../../components/nav.astro";
+
+
+export const getStaticPaths = (() => {
+  return data.tours.map((tour) => ({
+    params: {
+      slug: tour.slug,
+    },
+    props: {
+      tour,
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { tour } = Astro.props;
+
+const venue = data.venues.find( venue => venue.slug == tour.venue_id );
+---
+
+<AppLayout venue={tour.venue_id}>
+  <Nav slot="nav" current={ Astro.url.pathname }>
+    <Button class="button--nav" href="/tours" ><i class="fa fa-arrow-left"></i> More Tours</Button>
+  </Nav>
+
+  <div class="stack">
+    <TourDetail tour={tour} />
+  </div>
+</AppLayout>
+
+<style>
+  .push {
+    margin-top: 2rem;
+  }
+</style>
+
+
+<script is:inline define:vars={{ tourSlug: tour.slug }}>
+  console.log( "FKUAIEBFISD" );
+  window.__pendingTour = tourSlug;
+</script>
+
+<script>
+  import { selectTour } from "../../helpers/store";
+
+  document.addEventListener('astro:page-load', () => {
+
+    const w = window as any;
+    if (w.__pendingTour) {
+      selectTour(w.__pendingTour);
+      w.__pendingTour = null;
+    }
+  });
+</script>

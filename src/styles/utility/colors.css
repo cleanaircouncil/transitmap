@@ -1,35 +1,51 @@
 :root {
 
-
-  --color-black: #2C2B27;
-  --color-white: #FCF9F5;
   --color-red: #D11241;
   --color-green: #68952D;
-  --color-beige: #E1D4C1;
-  --color-gray: #989083;
-  --color-gray-light: #c8c2b8;
+  --color-orange: #f2b705;
 
-  --color-orange: #f29c50;
-  --color-orange-light: #f2b705;
+  --color-blue-100:  #E9F0F6; /* blue-100, subtle bg */
+  --color-blue-300:  #789ebf; /* blue-300, brand color */
+  --color-blue-400:  #3f6a8c; /* blue-400, link-safe on paper */
+  --color-blue-500:  #4b7ba6; /* blue-500, brand color */
+  --color-blue-700:  #345776; /* blue-700, darker brand color */
+  --color-blue-900:  #1F3646; /* blue-900 */
 
 
-  --color-gpg-blue-dark: #4b7ba6;
-  --color-gpg-blue-light: #789ebf;
+  --color-green-100: #EEF5D6; /* green-100, subtle bg */
+  --color-green-200: #C0d904; /* green-200, brand color */
+  --color-green-400: #558c03; /* green-400, brand color*/
+  --color-green-500: #487605; /* green-500, link-safe on paper */
+  --color-green-700: #3c6402; /* green-700, hover fill */
+  --color-green-900: #274301; /* green-900 */
 
-  --color-gpg-green-light: #C0d904;
-  --color-gpg-green-dark: #558c03;
-  
+  --color-neutral-900: #2C2B27;
+  --color-neutral-500: #989083;
+  --color-neutral-400: #c8c2b8;
+  --color-neutral-300: #E1D4C1;  
+  --color-neutral-150: #efebe5;
+  --color-neutral-100: #F5F0E9;  
+  --color-neutral-50: #FCF9F5;
 
-  --color-white-dark: #efebe5;
 
-  --theme-accent: var(--color-gpg-blue-dark);
-  --theme-highlight: var(--color-gpg-blue-light);
+  --color-black: var(--color-neutral-900);
+  --color-white: var(--color-neutral-50);
+
+  --theme-accent: var(--color-blue-500);
+  --theme-highlight: var(--color-blue-900);
   --theme-over-accent: var(--color-white);
   --theme-over-highlight: var(--theme-over-accent);
+
+
+
+  --theme-danger: var(--color-red);
+  --theme-warning: var(--color-orange);
+  --theme-success: var(--color-green-700);
+  --theme-info: var(--color-blue-700);
 }
 
-.color-gray-dark {
-  color: var(--color-gray-dark);
+.color-neutral-400 {
+  color: var(--color-neutral-400);
 }
 
 .bg-white {

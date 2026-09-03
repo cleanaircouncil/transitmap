@@ -34,6 +34,7 @@ const { day, month, date } = Astro.props;
   }
 
   .is-today {
+
     .date-display__month {
       display: none;
     }
@@ -52,11 +53,14 @@ const { day, month, date } = Astro.props;
 
 
 <script>
-  const dateToday = new Date().toISOString().split("T")[0];
-  const dateEl = document.querySelector("[data-date-display]");
-  
-  if( dateEl.dataset.date == dateToday ) {
-    dateEl.classList.add("is-today");
-  }
+
+  document.addEventListener('astro:page-load', () => {
+    const dateToday = new Date().toISOString().split("T")[0];
+    const dateEl = document.querySelector("[data-date-display]");
+
+    if( dateEl?.dataset.date == dateToday ) {
+      dateEl.classList.add("is-today");
+    }
+  });
 
 </script>

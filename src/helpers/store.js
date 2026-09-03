@@ -6,9 +6,8 @@ export const data = theData;
 export const currentListingSlug = atom("");
 export const currentRoute = atom("");
 export const currentVenue = atom("");
-// export const attachment = map(null)
-// export const resultCount = atom(data.facilities.length);
-// export const totalFacilities = atom(data.facilities.length);
+export const currentTour = atom("");
+
 
 
 const cachedVenueData = {}
@@ -17,11 +16,34 @@ export function getListingBySlug(slug) {
   return data.listings.find( listing => listing.slug === slug );
 }
 
+export function getTourBySlug(slug) {
+  return data.tours.find((tour) => tour.slug === slug);
+}
+
+
 export function toggleRouteDisplay(key) {
   if( currentRoute.get() == key )
     currentRoute.set("");
   else
     currentRoute.set(key);
+}
+
+// currentVenue/currentTour are mutually exclusive, and re-selecting the slug
+// already active would otherwise be a no-op (nanostores atoms only notify
+// subscribers when the value changes) — so each selector clears the other
+// store and bounces through "" to force a re-fire every time.
+export function selectVenue(slug) {
+  currentRoute.set("");
+  currentTour.set("");
+  currentVenue.set("");
+  currentVenue.set(slug);
+}
+
+export function selectTour(slug) {
+  currentRoute.set("");
+  currentVenue.set("");
+  currentTour.set("");
+  currentTour.set(slug);
 }
 
 

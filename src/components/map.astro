@@ -217,6 +217,11 @@ const { venue } = Astro.props;
   const PHILLY_LON = -75.165222;
   const PHILLY_CENTER = [PHILLY_LON, PHILLY_LAT];
 
+  // Bike-lane styling by protection level (see bikeCategory in scripts/build-data.js)
+  //   protected → green solid   |   lane → blue solid   |   shared → blue dashed
+  const BIKE_LANE_GREEN = "#22c55e";
+  const BIKE_LANE_BLUE = "#54aeff";
+
   // import listingData from "../data/listing-stops.json";
 
   const maplibregl = window["maplibregl"];
@@ -481,6 +486,21 @@ const { venue } = Astro.props;
       }
   });
 
+  // Overlay for shared-roadway (sharrow) bike segments — rendered as a blue dash.
+  // line-dasharray can't be data-driven, so shared segments get their own layer
+  // and are filtered out of route-display when a bike route is shown.
+  map.addLayer({
+      id: 'route-display-shared',
+      type: 'line',
+      source: 'route-display',
+      filter: ['==', ['get', 'category'], 'shared'],
+      paint: {
+          'line-width': 5,
+          'line-color': BIKE_LANE_BLUE,
+          'line-dasharray': [2, 2],
+      }
+  });
+
   const mapEl = document.querySelector("[data-map]");
   
   if( mapEl.dataset.venue ) {
@@ -607,8 +627,17 @@ const { venue } = Astro.props;
       const features = decodeRoutePolyline( route.polylines );
       const routeColor = (route.route_color && route.route_color !== "#FFFFFF") ? route.route_color : "#000"
 
-      map.setPaintProperty("route-display", "line-width", route.namespace == "indego" ? 5 : 8);
-      map.setPaintProperty("route-display", "line-color", routeColor );
+      const isBike = route.namespace == "indego";
+      map.setPaintProperty("route-display", "line-width", isBike ? 5 : 8);
+      map.setPaintProperty(
+        "route-display",
+        "line-color",
+        isBike
+          ? ["match", ["get", "category"], "protected", BIKE_LANE_GREEN, BIKE_LANE_BLUE]
+          : routeColor
+      );
+      // Solid layer skips shared segments for bikes (the dashed overlay draws them)
+      map.setFilter("route-display", isBike ? ["!=", ["get", "category"], "shared"] : null);
       map.getSource("route-display").setData( features );
     })()
   })

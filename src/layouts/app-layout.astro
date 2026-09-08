@@ -12,6 +12,7 @@ const { title = "Go Philly Go: Car-Free Routes", venue } = Astro.props;
 <Layout title={ title }>
   <App venue={venue}>
     <slot name="header" slot="header"/>
+    <slot name="nav" slot="nav"/>
     <slot/>
   </App>
 </Layout>

@@ -85,7 +85,7 @@ const listingsByDay = listings.reduce( (schedules, listing) => {
   }
 
   .listing-list {
-    background: var(--color-white-dark);
+    background: var(--color-neutral-150);
     display: grid;
     gap: .5rem;
   }
@@ -93,6 +93,11 @@ const listingsByDay = listings.reduce( (schedules, listing) => {
   .listing-schedule__date {
     background: var(--color-white);
     padding: 1.5rem;
+  }
+
+  .listing-schedule__date:has(.is-today) {
+    background: linear-gradient( 170deg, var(--color-green-400), var(--color-green-700) );
+    color: var(--color-white);
   }
 
 </style>

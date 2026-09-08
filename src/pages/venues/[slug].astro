@@ -5,6 +5,7 @@ import data from "../../data/index.json"
 import AppLayout from "../../layouts/app-layout.astro";
 import Button from "../../components/button.astro";
 import DirectionsButton from "../../components/directions-button.astro";
+import Nav from "../../components/nav.astro";
 
 export const getStaticPaths = (() => {
   return data.venues.map((venue) => ({
@@ -21,10 +22,10 @@ const { venue } = Astro.props;
 ---
 
 <AppLayout venue={venue.slug}>
-  <div class="header-nav" slot="header">
-    <Button class="button--white" href="/"><i class="fa fa-arrow-left"></i>Full schedule</Button>
+  <Nav slot="nav" current={ Astro.url.pathname }>
+    <Button class="button--nav" href="/" ><i class="fa fa-arrow-left"></i> Events</Button>
     <DirectionsButton venue={venue} />
-  </div>
+  </Nav>
   
   <div class="push stack">
     <VenueDetail venue={venue} />
@@ -49,11 +50,11 @@ const { venue } = Astro.props;
 </script>
 
 <script>
-  import { currentVenue } from "../../helpers/store";
+  import { selectVenue } from "../../helpers/store";
   document.addEventListener('astro:page-load', () => {
     const w = window as any;
     if (w.__pendingVenue) {
-      currentVenue.set(w.__pendingVenue);
+      selectVenue(w.__pendingVenue);
       w.__pendingVenue = null;
     }
   });

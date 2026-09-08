@@ -1,0 +1,90 @@
+---
+import ReplaceFlags from "./replace-flags.astro";
+import TourInfo from "./tour-info.astro";
+
+const { tour } = Astro.props
+
+
+---
+
+<div id={tour.slug} class="tour" data-tour={ tour.slug } style={`background-image:url(${tour.image})`}>
+  
+  
+  <div class="tour__details">    
+    <div class="tour__name">
+      <ReplaceFlags title={ tour.name }/>
+    </div>
+
+    <div class="tour__description">
+      { tour.description }
+    </div>
+
+
+  </div>
+
+
+    <div class="tour__stops">
+      { tour.venues.length } stops
+    </div>
+
+  <a href={`/tours/${tour.slug}`} class="stretched-link" aria-label={tour.name}></a>
+  
+</div>
+
+
+<style>
+  .tour {
+    background: var(--theme-accent);
+    scroll-margin-top: 3rem;
+    position: relative;
+    border-radius: 1rem;
+
+    background-position: center center;
+    background-size: cover;
+
+    padding: 1rem;
+
+    color: var(--theme-over-accent) !important;
+    overflow: hidden;
+  }
+
+  .tour::before {
+    content: "";
+    background: linear-gradient( transparent, var(--color-black) );
+    display: block;
+    inset: 0px;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .tour__details {
+    position: relative;
+    margin-top: 5rem;
+    /* z-index: 1; */
+  }
+
+  .tour__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style:italic;
+  }
+
+  .tour__description {
+    font-size: 1rem;
+  }
+
+
+  .tour__stops {
+    color: var(--color-white);
+    background: var(--color-black);
+    padding: .25em 1em;
+    border-radius: 1rem;
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .75rem;
+  }
+
+</style>

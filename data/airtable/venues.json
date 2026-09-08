@@ -1,11 +1,9 @@
 [
   {
     "name": "FDR Park",
-    "last_modified": "2026-07-21T21:15:27.000Z",
+    "last_modified": "2026-07-22T17:45:00.000Z",
     "listings": [
-      "recTg0qhbJqmIPW1w",
-      "recCVZ0NmTxl8CbLx",
-      "recIY2zPo25SqRdzR"
+      "recqHbMVvi5C1JzSQ"
     ],
     "longitude": -75.1758101,
     "latitude": 39.9055633,
@@ -15,12 +13,15 @@
   },
   {
     "name": "The Kimmel Center for the Performing Arts",
-    "last_modified": "2026-06-17T20:18:36.000Z",
+    "last_modified": "2026-08-07T21:02:36.000Z",
     "listings": [
       "recTCJjnebQGzjojL"
     ],
     "longitude": -75.1653226,
     "latitude": 39.9467456,
+    "tours": [
+      "recBlJVADqDp1BURZ"
+    ],
     "address": "300 S Broad St, Philadelphia, PA 19102",
     "id": "rec6bfyu38E1BRcfJ",
     "slug": "the-kimmel-center-for-the-performing-arts"
@@ -39,9 +40,11 @@
   },
   {
     "name": "Benjamin Franklin Parkway",
-    "last_modified": "2026-06-25T15:07:54.000Z",
+    "last_modified": "2026-08-25T15:23:29.000Z",
     "listings": [
-      "recAeVeLi9a2aa2nq"
+      "recAeVeLi9a2aa2nq",
+      "recvZ19oxDbLOEJvo",
+      "reck7nNJrOoy5yVsG"
     ],
     "longitude": -75.173247,
     "latitude": 39.960266,
@@ -60,6 +63,18 @@
     "address": "1 Lemon Hill Drive, Philadelphia, PA 19130",
     "id": "recD62ZiygYKhZHq4",
     "slug": "lemon-hill-park"
+  },
+  {
+    "name": "Spruce Street Harbor Park",
+    "last_modified": "2026-09-01T21:09:57.000Z",
+    "listings": [
+      "rec74kY0S2LQR1lf3"
+    ],
+    "longitude": -75.141859,
+    "latitude": 39.944005,
+    "address": "301 S Christopher Columbus Blvd, Philadelphia, PA 19106",
+    "id": "recHellusNn2cMBmQ",
+    "slug": "spruce-street-harbor-park"
   },
   {
     "name": "Pennsylvania Convention Center",
@@ -159,6 +174,18 @@
     "slug": "highmark-mann-center"
   },
   {
+    "name": "Schuylkill Center for Environmental Education",
+    "last_modified": "2026-08-21T15:29:32.000Z",
+    "listings": [
+      "recjjNyfgaPLhzemI"
+    ],
+    "longitude": -75.2447267,
+    "latitude": 40.0600247,
+    "address": "8480 Hagys Mill Rd, Philadelphia, PA 19128",
+    "id": "recalB4DafLovLngi",
+    "slug": "schuylkill-center-for-environmental-education"
+  },
+  {
     "name": "Independence Blue Cross RiverRink Summerfest",
     "last_modified": "2026-06-01T17:59:50.000Z",
     "listings": [
@@ -171,10 +198,25 @@
     "slug": "independence-blue-cross-riverrink-summerfest"
   },
   {
+    "name": "Philadelphia's Magic Gardens",
+    "last_modified": "2026-08-21T15:32:09.000Z",
+    "listings": [
+      "rechj9Ae2uCk8aQU0"
+    ],
+    "longitude": -75.159409,
+    "latitude": 39.942768,
+    "address": "1020 South St, Philadelphia, PA 19147",
+    "id": "reciGCK6W3C224Ft6",
+    "slug": "philadelphia-s-magic-gardens"
+  },
+  {
     "name": "Woodmere Art Museum ",
-    "last_modified": "2026-06-25T15:15:12.000Z",
+    "last_modified": "2026-08-07T21:02:41.000Z",
     "longitude": -75.2194984,
     "latitude": 40.0831275,
+    "tours": [
+      "recBlJVADqDp1BURZ"
+    ],
     "address": "9201 Germantown Ave, Philadelphia PA 19118",
     "id": "recj0dlPtP0g9pJQ5",
     "slug": "woodmere-art-museum"
@@ -207,12 +249,15 @@
   },
   {
     "name": "The Dell Music Center",
-    "last_modified": "2026-06-01T17:59:43.000Z",
+    "last_modified": "2026-08-07T21:02:29.000Z",
     "listings": [
       "recdmC5w3KhCKUPoz"
     ],
     "longitude": -75.189787,
     "latitude": 39.995881,
+    "tours": [
+      "recBlJVADqDp1BURZ"
+    ],
     "address": "3600 Strawberry Mansion Dr, Philadelphia, PA 19132",
     "id": "recoWWE9IhuCcH0ek",
     "slug": "the-dell-music-center"

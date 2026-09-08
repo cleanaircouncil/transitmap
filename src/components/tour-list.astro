@@ -1,0 +1,25 @@
+---
+import Tour from "./tour.astro";
+import { DateTime } from "luxon";
+
+import DateDisplay from "./date-display.astro";
+import StickyHeading from "./sticky-heading.astro"
+
+const { tours = [] } = Astro.props;
+
+---
+
+
+<div class="tour-list">
+  { tours.map( tour => <Tour tour={tour}/> ) }
+</div>
+
+
+<style>
+  .tour-list {
+    /* background: var(--color-neutral-150); */
+    display: grid;
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+</style>

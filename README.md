@@ -1,36 +1,52 @@
-# Pollution Tracker
+# GoPhillyGo: Car-Free Routes
 
-[**Pollution Tracker**](https://pollutiontracker.cleanair.org) is a project by the **Clean Air Council** that brings together environmental compliance data for industrial facilities along the **Delaware River**.
+A project by the [Clean Air Council](https://cleanair.org) that maps car-free ways to get to major events in Greater Philadelphia — starting with the summer of 2026's FIFA World Cup games and America250 celebrations.
 
-It pulls data from:
-- [EPA’s ECHO system](https://echo.epa.gov/)
-- [PA Department of Environmental Protection](https://www.dep.pa.gov/)
-
-…and makes it easier to:
-- See which facilities are emitting what (and how much)
-- Track violations, inspections, and enforcement actions
-- Explore trends in air and water pollution over time
-- Focus on the communities most affected
-
-The goal is simple:  
-**Make pollution data accessible to the people who live with its consequences.**
+Big events bring big traffic. Sitting in that traffic wastes time and adds to air pollution. This site gives residents and visitors an easy way to plan a car-free trip to an event using SEPTA, PATCO, and NJ TRANSIT, Indego bike share, or a park-and-ride.
 
 ## What You Get
 
-- An interactive map of facilities along the Delaware River
-- Compliance and emissions history at your fingertips
-- Search + filter by location, facility, permit status, or pollutant
-- Easy-to-read summaries and links to source data
+- A map of event locations, plus nearby parks and trails worth a car-free visit
+- Each event listed with its name, date/time, and location
+- Transit stops within a half-mile radius of each event
+- Links out to [Transit](https://transitapp.com) to build a trip
 
-## Why?
+## How It's Built
 
-Pollution data exists — but it’s scattered, hard to navigate, and often buried in PDFs or spreadsheets. Pollution Tracker brings it all into one place, in a format that’s easy to use whether you're an advocate, researcher, or concerned neighbor.
+- [Astro](https://astro.build) static site
+- Event and venue data pulled from Airtable (`scripts/fetch.js`) and built into static JSON (`scripts/build-data.js`)
+- Transit stop data pulled via the Mobility Data API (`scripts/mobility.js`, `scripts/fetch-transit-geojson.js`)
+- Deployed on Netlify, with a function (`netlify/functions/rebuild-site.mjs`) to trigger rebuilds when data changes
 
-## Who’s Behind It?
+## Development
 
-Built and maintained by the [Clean Air Council](https://cleanair.org), a nonprofit working for everyone’s right to breathe clean air.
+```bash
+npm install
+npm run fetch   # pull latest data from Airtable + build static JSON
+npm run dev      # start local dev server
+```
+
+Other scripts:
+
+```bash
+npm run build     # build for production
+npm run preview   # preview the production build
+```
+
+You'll need a `.env` file with:
+
+```
+AIRTABLE_TOKEN=
+AIRTABLE_BASE_ID=
+MOBILITY_API_URL=
+MOBILITY_API_REFRESH_TOKEN=
+```
+
+## Who's Behind It?
+
+Built and maintained by the [Clean Air Council](https://cleanair.org), a nonprofit working for everyone's right to breathe clean air, made possible thanks to a generous contribution from the [Delaware Valley Regional Planning Commission](https://dvrpc.org).
 
 ---
 
-Questions or feedback?  
+Questions or feedback?
 📬 info@cleanair.org

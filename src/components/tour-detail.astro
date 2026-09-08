@@ -3,7 +3,7 @@ import ReplaceFlags from "./replace-flags.astro";
 
 const { tour } = Astro.props;
 
-const List = tour.isOrdered ? 'ol' : 'ol';
+const List = tour.isOrdered ? 'ol' : 'ul';
 ---
 
 { tour.image &&
@@ -115,7 +115,7 @@ const List = tour.isOrdered ? 'ol' : 'ol';
       
       font-size: 1rem;  
 
-       
+      
       line-height: 1;
       width: var(--size);
       height: var(--size);

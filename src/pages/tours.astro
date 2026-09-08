@@ -1,5 +1,5 @@
 ---
-import ListingList from "../components/listing-list.astro";
+import TourList from "../components/tour-list.astro";
 import AppLayout from "../layouts/app-layout.astro";
 import Nav from "../components/nav.astro";
 
@@ -9,18 +9,18 @@ import data from "../data/index.json";
 
 <AppLayout>
   <div class="intro">
-    Upcoming events and activities around Philly you can reach without a car.
+    Curated routes to explore the city. Pick a theme and leave the car behind.
   </div>
-
-  <ListingList listings={ data.listings }/>
+  <TourList tours={ data.tours }/>
   <Nav current={ Astro.url.pathname } slot="nav"/>
 </AppLayout>
+
 
 <style>
   .intro {
     font-size: 1.4rem;
     padding: 1.25rem;
     border-bottom: 1px solid var(--color-neutral-150);
-    background: linear-gradient(60deg, var(--color-white), var(--color-neutral-150));
+    background: linear-gradient(150deg, var(--color-white), var(--color-neutral-150));
   }
 </style>

@@ -2,6 +2,12 @@
 import Button from "./button.astro";
 const getVenueUrl = ({ destination, destination_search}) => `https://transitapp.com/en/trip?destination=${ destination }&destination_search=${ destination_search }`;
 
+//`https://transitapp.com/deep-links?url=transit://routes/?utm_source=gophillygo&utm_medium=referral&utm_campaign=Go_Philly_Go_Clean_Air&destination=${ destination }&destination_search=${ destination_search }`
+
+
+
+
+
 const { venue } = Astro.props;
 
 const href = getVenueUrl({

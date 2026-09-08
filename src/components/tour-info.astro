@@ -1,23 +1,24 @@
 ---
 import ReplaceFlags from "./replace-flags.astro";
 
-const { listing } = Astro.props;
+const { tour } = Astro.props;
 
-const date = (listing.date !== undefined) ? new Date(listing.date) : new Date();
+const date = (tour.date !== undefined) ? new Date(tour.date) : new Date();
 const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 ---
 
-<div class="listing_info stack-tight">
-  <div class="listing__group">{ listing.group_name }</div>
+<div class="tour_info stack-tight">
 
-  <div class="listing__name">
-    <ReplaceFlags title={ listing.name }/>
+  <div class="tour__name">
+    <ReplaceFlags title={ tour.name }/>
   </div>
 
-  <div class="listing__meta">
-    <span class="listing__time">{ time }</span>
-    <span>@</span>
-    <a class="listing__venue" href={`/venues/${listing.venue_id}`}>{ listing.venue }</a>
+  <div class="tour__description">
+    { tour.description }
+  </div>
+
+  <div class="tour__meta">
+    { tour.venues.length } stops
   </div>
 
 </div>
@@ -25,7 +26,7 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
 
 <style>
 
-  .listing__explore {
+  .tour__explore {
     text-align: center;
     
     display: block;
@@ -33,19 +34,19 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     font-style: italic;
   }
 
-  .listing__details {
+  .tour__details {
     color: var(--color-black);
     text-decoration: none;
   }
   
-  .listing__group {
+  .tour__group {
     color: var(--color-green-500);
     line-height: 1;
     font-weight: 900;
     text-transform: uppercase;
   }
 
-  .listing__meta {
+  .tour__meta {
     color: var(--color-neutral-500);
     font-weight: 700;
     /* text-transform: uppercase; */
@@ -57,14 +58,14 @@ const time = Intl.DateTimeFormat("en-US", {hour: "numeric"}).format(date);
     }
   }
 
-  .listing__name {
+  .tour__name {
     font-weight: 500;
     font-style: italic;
     font-size: 1.3rem;
     line-height: 1;
   }
 
-  .listing__time {
+  .tour__time {
     color: var(--color-black);
   }
 

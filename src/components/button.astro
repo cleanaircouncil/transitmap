@@ -13,3 +13,71 @@ const { href = undefined, class: classes, ...rest } = Astro.props;
     </button>
   )
 }
+
+<style>
+  button.button,
+  a.button {
+    display: flex;
+    align-items: center;
+    background: var(--theme-accent);
+    color: var(--theme-over-accent);
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1rem;
+
+    font-weight: 900;
+    font-style: italic;
+    font-size: .8rem;
+
+    gap: .25rem;
+    height: 2.5rem;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out;
+    cursor: pointer;
+    
+    box-shadow: 0px 3px 0px rgba(0,0,0,.1);
+  }
+
+
+  .button .fa {
+    font-size: 1rem;
+  }
+
+  .button:hover {
+    background: var(--theme-highlight);
+    color: var(--theme-over-highlight);
+  }
+
+
+
+  .button--green {
+    --theme-accent: var(--color-green-500);
+    --theme-highlight: var(--color-green-700);
+    --theme-over-accent: var(--color-white);
+  }
+
+
+  .button--white {
+    --theme-accent: var( --color-white );
+    --theme-over-accent: var( --color-blue-500);
+    --theme-highlight: white;
+    --theme-over-highlight: var( --color-blue-300);
+  }
+
+  .button--nav {
+    --theme-accent: transparent;
+    --theme-highlight: var(--color-blue-700);
+    --theme-over-accent: currentColor;
+    box-shadow: none !important;
+  }
+
+  .button--nav[aria-current="page"] {
+    --theme-accent: var(--color-blue-500);
+    --theme-highlight: var(--color-blue-700);
+    --theme-over-accent: var(--color-white);
+    --theme-over-highlight: var(--theme-over-accent);
+    box-shadow: 0px 3px 0px rgba(0,0,0,.1) !important;
+  }
+</style>

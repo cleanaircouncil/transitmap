@@ -3,10 +3,9 @@ import type { GetStaticPaths } from "astro";
 import data from "../../data/index.json";
 import ListingDetail from "../../components/listing-detail.astro"
 import AppLayout from "../../layouts/app-layout.astro";
-import BackToHome from "../../components/back-to-home.astro";
 import Button from "../../components/button.astro";
 import DirectionsButton from "../../components/directions-button.astro";
-
+import Nav from "../../components/nav.astro";
 
 export const getStaticPaths = (() => {
   return data.listings.map((listing) => ({
@@ -25,12 +24,12 @@ const venue = data.venues.find( venue => venue.slug == listing.venue_id );
 ---
 
 <AppLayout venue={listing.venue_id}>
-  <div class="header-nav" slot="header">
-    <Button class="button--white" href="/" ><i class="fa fa-arrow-left"></i> Full Schedule</Button>
+  <Nav slot="nav" current={ Astro.url.pathname }>
+    <Button class="button--nav" href="/" ><i class="fa fa-arrow-left"></i> Events</Button>
     <DirectionsButton venue={venue} />
-  </div>
+  </Nav>
 
-  <div class="push stack">
+  <div class="stack">
     <ListingDetail listing={listing} />
   </div>
 </AppLayout>
@@ -47,11 +46,11 @@ const venue = data.venues.find( venue => venue.slug == listing.venue_id );
 </script>
 
 <script>
-  import { currentVenue } from "../../helpers/store";
+  import { selectVenue } from "../../helpers/store";
   document.addEventListener('astro:page-load', () => {
     const w = window as any;
     if (w.__pendingVenue) {
-      currentVenue.set(w.__pendingVenue);
+      selectVenue(w.__pendingVenue);
       w.__pendingVenue = null;
     }
   });

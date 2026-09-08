@@ -2,15 +2,13 @@
 import Page from "../components/page.astro";
 import AppLayout from "./app-layout.astro";
 import Button from "../components/button.astro";
+import Nav from "../components/nav.astro";
 
 const { frontmatter } = Astro.props;
 ---
 
 <AppLayout title={frontmatter.title}>
-  <div class="header-nav" slot="header">
-    <Button class="button--white" href="/"><i class="fa fa-arrow-left"></i> Full Schedule</Button>
-  </div>
-
+  <Nav current={ Astro.url.pathname } slot="nav"/>
   <Page current={frontmatter.slug}>
     <slot/>
   </Page>

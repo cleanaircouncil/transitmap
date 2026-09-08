@@ -85,11 +85,13 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
       .map( mode => 
       <div class="transit-selector__container">
         <StickyHeading class="transit-selector__mode ">
+          <div class="transit-selector__title">
           <i class={`fa ${mode.icon}`}></i>
           <span>{ mode.title || mode.mode }</span>
+          </div>
         </StickyHeading>
         
-        <div class="transit-selector__group padding">
+        <div class="transit-selector__group">
       {
         mode.agencies.map( agency => 
           <div class="transit-selector__agency">
@@ -117,21 +119,25 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
 <style>
 
   .transit-selector {
-    background: var(--color-white-dark);
+    background: var(--color-neutral-150);
   }
 
   .transit-selector__container {
-    margin-bottom: .5rem;
+    /* margin-bottom: .5rem; */
+    /* border-top: 1px solid var(--color-neutral-300); */
+    /* border-bottom: 1px solid var(--color-neutral-300); */
   }
 
   .transit-selector__group {
     background: var(--color-white);
     display: grid;
+    padding: 0px 1.5rem;
+    padding-bottom: 3rem;
     
     & > *:not(:last-child) {
       padding-bottom: 1.5rem;
       margin-bottom: 1rem;
-      border-bottom: 1px solid var(--color-gray-light)
+      border-bottom: 1px solid var(--color-neutral-300)
     }
   }
 
@@ -146,19 +152,26 @@ groups.sort( (a, b) => modeOrder.indexOf(a.mode) - modeOrder.indexOf(b.mode) );
     font-size: 1.2rem;
     display: grid;
     align-content: center;
-    font-weight: 900;
+    font-weight: 500;
   }
 
 
 
 
 
-  .transit-selector__mode {
+
+  .transit-selector__title {
     font-size: 2rem;
     line-height: 2rem;
     display: grid;
     grid-template-columns: min-content 1fr;
+    width: 100%;
     gap: 1rem;
+    background: var(--color-neutral-900);
+    color: var(--color-white);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    ;
 
 
     justify-content: center;

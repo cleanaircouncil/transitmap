@@ -1,0 +1,734 @@
+---
+// PROTOTYPE — throwaway. Delete before shipping the real Tours feature.
+// Converged direction so far:
+// - "Events" / "Tours" as a chunky, extensible section switcher (not a quiet
+//   tab pill) inside the existing map/list app shell — modeled loosely on
+//   transitapp.com/en/trip: keep the map visible (don't hide it like they do
+//   on mobile), single section visible at a time, bigger/less-squinty type.
+// - "About" demoted to a persistent floating pill (bottom-left, like Transit's
+//   "get the app" floater) instead of competing for attention in the header
+//   or as an always-on blurb.
+// - Tour detail is its own view; drilling into a venue from a tour stop shows
+//   a mocked venue-detail with a back button contextual to the tour, not a
+//   hardcoded "Full schedule."
+// Run with `npm run dev`, visit /prototype-tours. See NOTES.prototype-tours.md.
+
+import Layout from "../layouts/app-layout.astro";
+import DateDisplay from "../components/date-display.astro";
+import data from "../data/index.json";
+
+const venueBySlug: Record<string, any> = Object.fromEntries(data.venues.map((v) => [v.slug, v]));
+const listingsByVenue: Record<string, any[]> = data.listings.reduce((acc: Record<string, any[]>, l) => {
+  (acc[l.venue_id] ??= []).push(l);
+  return acc;
+}, {});
+
+function stops(slugs: string[]) {
+  return slugs
+    .filter((slug) => venueBySlug[slug])
+    .map((slug) => ({
+      venue: venueBySlug[slug],
+      listings: listingsByVenue[slug] ?? [],
+    }));
+}
+
+const TOURS = [
+  {
+    slug: "fairmount-park-art-and-nature-loop",
+    name: "Fairmount Park Art & Nature Loop",
+    teaser: "Sculpture, skyline views, and green space along the Schuylkill.",
+    description:
+      "A car-free ramble through Philly's largest park system — from riverside lawns to hilltop art. Hop the trolley or bike share between stops; no two visits need to look the same.",
+    color: "var(--color-green-500)",
+    image: "/images/clay-banks-VipE5CTzoo4-unsplash.jpg",
+    stops: stops(["lemon-hill-park", "benjamin-franklin-parkway", "fdr-park"]),
+  },
+  {
+    slug: "center-city-arts-crawl",
+    name: "Center City Arts Crawl",
+    teaser: "Theater, symphony, and gallery nights within walking distance of Broad St.",
+    description:
+      "Philly's performing-arts core, all reachable by Broad St Line or a brisk walk. Built for an evening out that doesn't end with a parking receipt.",
+    color: "var(--color-blue-500)",
+    image: null, // mocks a tour with no header image set in Airtable yet
+    stops: stops(["the-kimmel-center-for-the-performing-arts", "pennsylvania-convention-center"]),
+  },
+  {
+    slug: "riverfront-culture-crawl",
+    name: "Riverfront Culture Crawl",
+    teaser: "Historic docks, breweries, and waterfront markets.",
+    description:
+      "Old City and the Delaware waterfront, stitched together for an afternoon on foot. Every stop is a five-minute walk from the next.",
+    color: "var(--color-orange)",
+    image: "/images/social.jpg",
+    stops: stops(["dock-street", "benjamin-franklin-parkway"]),
+  },
+];
+
+const VENUE_STOPS = TOURS.flatMap((tour) => tour.stops.map((stop) => ({ tour, stop })));
+
+// events stub — same idea as ListingList, simplified for the prototype
+const upcoming = data.listings
+  .filter((l) => l.date)
+  .toSorted((a, b) => (a.date > b.date ? 1 : -1))
+  .slice(0, 14);
+
+type EventGroup = {
+  day: string;
+  month: string;
+  date: string;
+  displayDay: string;
+  listings: any[];
+};
+
+const eventGroups = upcoming.reduce((groups: EventGroup[], listing) => {
+  const day = listing.date.slice(0, 10);
+  let group = groups.find((g) => g.day === day);
+  if (!group) {
+    const d = new Date(listing.date);
+    group = {
+      day,
+      month: Intl.DateTimeFormat("en-US", { month: "short" }).format(d),
+      date: Intl.DateTimeFormat("en-US", { day: "numeric" }).format(d),
+      displayDay: Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(d),
+      listings: [],
+    };
+    groups.push(group);
+  }
+  group.listings.push(listing);
+  return groups;
+}, []);
+
+const SECTIONS = [
+  { key: "events", icon: "📅", faIcon: "fa-calendar", label: "Events" },
+  { key: "tours", icon: "🧭", faIcon: "fa-compass", label: "Tours" },
+  // a third section — e.g. "Guides" — would just be another entry here;
+  // the switcher grid, the mobile rail, and the CSS are all built to take
+  // it without a redesign.
+];
+---
+
+<Layout venue={undefined}>
+  <div class="header-nav" slot="header">
+    <h1 class="brand">GoPhillyGo <span>Car-Free Routes</span></h1>
+  </div>
+
+  <div class="content">
+    <!-- desktop / wide viewport: tab strip connected to the panel below it.
+         Hidden entirely once drilled into a tour or venue — only shown at
+         the "home" level of each section, per the one-thing-at-a-time rule. -->
+    <div class="tab-strip nav-chrome" role="tablist" data-nav-chrome>
+      {SECTIONS.map((section, i) => (
+        <button class="tab" data-tab={section.key} aria-selected={i === 0 ? "true" : "false"}>
+          <span class="tab__icon">{section.icon}</span>
+          <span class="tab__label">{section.label}</span>
+        </button>
+      ))}
+      <a class="tab tab--meta" href="/about">About</a>
+    </div>
+
+    <div data-panel="events">
+      <p class="panel-context">Upcoming events you can reach without a car.</p>
+
+      <div class="events">
+        {eventGroups.map((group) => (
+          <div class="event-day">
+            <div class="event-day__heading">
+              <DateDisplay day={group.day} month={group.month} date={group.date} />
+              <span class="event-day__label">{group.displayDay}</span>
+            </div>
+            <div class="event-day__listings">
+              {group.listings.map((l) => (
+                <div class="event-listing">
+                  <strong>{l.name}</strong>
+                  <span class="event-listing__venue">@ {l.venue_name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div data-panel="tours" hidden>
+      <div data-view="tour-index">
+        <p class="panel-context">Curated, evergreen routes — pick a theme, leave the car behind.</p>
+
+        <div class="tour-cards">
+          {TOURS.map((tour) => (
+            <button
+              class="tour-card"
+              data-open-tour={tour.slug}
+              style={`--tour-color:${tour.color};${tour.image ? ` --tour-image:url(${tour.image});` : ""}`}
+            >
+              <span class="tour-card__scrim"></span>
+              <span class="tour-card__count">{tour.stops.length} stops</span>
+              <span class="tour-card__text">
+                <strong>{tour.name}</strong>
+                <span class="tour-card__teaser">{tour.teaser}</span>
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {TOURS.map((tour) => (
+        <div class="tour-detail" data-view="tour-detail" data-tour={tour.slug} hidden style={`--tour-color:${tour.color}`}>
+          <div class="tour-detail__hero">
+            {tour.image ? (
+              <img class="tour-detail__banner" src={tour.image} alt="" />
+            ) : (
+              <div class="tour-detail__banner tour-detail__banner--fallback">
+                <i class="fa fa-compass"></i>
+              </div>
+            )}
+            <button class="back back--floating" data-back-to-tour-index>
+              <i class="fa fa-arrow-left"></i> All tours
+            </button>
+          </div>
+
+          <div class="tour-detail__header">
+            <h2>{tour.name}</h2>
+            <p class="tour-detail__desc">{tour.description}</p>
+          </div>
+
+          <ol class="stop-list">
+            {tour.stops.map((stop, i) => (
+              <li>
+                <button class="stop stop--button" data-open-venue={`${tour.slug}::${stop.venue.slug}`}>
+                  <span class="stop__index">{i + 1}</span>
+                  <div class="stop__body">
+                    <strong>{stop.venue.name}</strong>
+                    <div class="stop__address">{stop.venue.address}</div>
+                    <div class="stop__count">{stop.listings.length} upcoming</div>
+                  </div>
+                  <span class="stop__chevron">›</span>
+                </button>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+
+      {VENUE_STOPS.map(({ tour, stop }) => (
+        <div
+          class="venue-detail"
+          data-view="venue-detail"
+          data-venue-key={`${tour.slug}::${stop.venue.slug}`}
+          hidden
+        >
+          <button class="back back--pill" data-back-to-tour={tour.slug}>
+            <i class="fa fa-arrow-left"></i> {tour.name}
+          </button>
+
+          <div class="venue-detail__header">
+            <h2>{stop.venue.name}</h2>
+            <div class="venue-detail__address"><i class="fa fa-location-dot"></i> {stop.venue.address}</div>
+          </div>
+
+          <p class="venue-detail__note">
+            Mocked — in production this is the real <code>/venues/{stop.venue.slug}</code> page, reached with a
+            <code>?tour={tour.slug}</code> param so its back button knows to point here instead of "Full schedule."
+          </p>
+
+          {stop.listings.length > 0 ? (
+            <div class="events">
+              <div class="event-day">
+                <div class="event-day__listings" style="padding-top:.75rem">
+                  {stop.listings.map((l) => (
+                    <div class="event-listing">
+                      <strong>{l.name}</strong>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <p class="venue-detail__empty">No upcoming events listed yet.</p>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</Layout>
+
+<!-- mobile: bottom icon rail replaces the top tab strip, About folded in.
+     Same nav-chrome hide-on-drilldown behavior as the desktop tab strip. -->
+<nav class="bottom-rail nav-chrome" aria-label="Primary" data-nav-chrome>
+  {SECTIONS.map((section, i) => (
+    <button class="bottom-rail__item" data-tab={section.key} aria-selected={i === 0 ? "true" : "false"}>
+      <i class={`fa ${section.faIcon}`}></i>
+      <span>{section.label}</span>
+    </button>
+  ))}
+  <a class="bottom-rail__item" href="/about">
+    <i class="fa fa-certificate"></i>
+    <span>About</span>
+  </a>
+</nav>
+
+<style>
+  :global(body) {
+    background: var(--color-neutral-150);
+  }
+
+  .brand {
+    font-style: italic;
+    font-size: 1.3rem;
+    margin: 0;
+    color: var(--color-white);
+  }
+  .brand span {
+    font-weight: 300;
+  }
+
+  /* chunkier baseline type for this whole surface — the site default (14px,
+     12px on mobile) reads squinty; bump it back up and hold it on mobile. */
+  .content {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 600px) {
+    .content {
+      font-size: 16px;
+      padding-bottom: 4.5rem; /* clears the fixed bottom rail */
+    }
+  }
+
+  /* both nav surfaces set an explicit responsive `display`, which would otherwise
+     override the browser's default [hidden]{display:none} — force it back so
+     the JS-driven hide-on-drilldown actually works. */
+  .nav-chrome[hidden] {
+    display: none !important;
+  }
+
+  /* ---------- mobile bottom rail — Events / Tours / About in one place ---------- */
+  /* mobile-first: visible by default, hidden again once the desktop tab strip takes over above 600px */
+  .bottom-rail {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 950;
+    display: flex;
+    background: var(--color-white);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.35rem 0 calc(0.35rem + env(safe-area-inset-bottom));
+  }
+  @media screen and (min-width: 601px) {
+    .bottom-rail {
+      display: none;
+    }
+  }
+  .bottom-rail__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    border: none;
+    background: none;
+    color: var(--color-neutral-500);
+    text-decoration: none;
+    font-family: var(--font-default);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.45rem 0;
+    cursor: pointer;
+  }
+  .bottom-rail__item i {
+    font-size: 1.35rem;
+  }
+  .bottom-rail__item[aria-selected="true"] {
+    color: var(--color-blue-500);
+  }
+
+  /* ---------- desktop tab strip — connected to the panel below, not floating ----------
+     Active tab shares the page background so it visually fuses with the panel beneath it;
+     inactive tabs are darkened/receded. Only shown at each section's "home" level — hidden
+     via [data-nav-chrome] once you're drilled into a tour or venue (see script below). */
+  .tab-strip {
+    display: none;
+  }
+  @media screen and (min-width: 601px) {
+    .tab-strip {
+      display: flex;
+      align-items: stretch;
+      gap: 0.3rem;
+      padding: 1rem 0.75rem 0;
+    }
+  }
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-default);
+    font-weight: 900;
+    font-size: 1.05rem;
+    padding: 0.85rem 1rem;
+    border-radius: var(--radius) var(--radius) 0 0;
+    background: var(--color-black);
+    color: var(--color-white);
+    opacity: 0.5;
+    flex: 1;
+  }
+  .tab__icon {
+    font-size: 1.2rem;
+  }
+  .tab[aria-selected="true"] {
+    background: var(--color-neutral-150);
+    color: var(--color-black);
+    opacity: 1;
+  }
+  .tab--meta {
+    flex: initial;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    background: transparent;
+    color: var(--color-black);
+    opacity: 0.45;
+  }
+  .tab--meta:hover {
+    opacity: 0.85;
+  }
+
+  .panel-context {
+    padding: 0.25rem 0.75rem 0;
+    margin: 0 0 0.25rem;
+    color: var(--color-neutral-500);
+    font-size: 1rem;
+  }
+
+  /* ---------- events ---------- */
+  .events {
+    display: grid;
+    gap: 0.6rem;
+    padding: 0.5rem 0.75rem 0.75rem;
+  }
+  .event-day {
+    background: var(--color-white);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .event-day__heading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    background: var(--color-neutral-150);
+  }
+  .event-day__heading :global(.date-display) {
+    font-size: 1.3rem;
+  }
+  .event-day__label {
+    font-weight: 700;
+    color: var(--color-neutral-500);
+    font-size: 1rem;
+  }
+  .event-day__listings {
+    padding: 0.6rem 1rem 0.85rem;
+    display: grid;
+    gap: 0.5rem;
+  }
+  .event-listing {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.05rem;
+  }
+  .event-listing__venue {
+    color: var(--color-neutral-500);
+    font-size: 0.9rem;
+  }
+
+  /* ---------- tour index ---------- */
+  /* mobile: horizontal snap-scroll rail; desktop: vertical stacked grid */
+  .tour-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    scroll-padding-inline: 0.75rem;
+  }
+  @media screen and (min-width: 601px) {
+    .tour-cards {
+      display: grid;
+      overflow-x: visible;
+    }
+  }
+  .tour-card {
+    position: relative;
+    display: block;
+    flex: 0 0 85%;
+    height: 12rem;
+    text-align: left;
+    border: none;
+    border-radius: var(--radius);
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    font-family: var(--font-default);
+    background: var(--tour-image, linear-gradient(160deg, var(--tour-color), var(--color-black)));
+    background-size: cover;
+    background-position: center;
+    scroll-snap-align: center;
+  }
+  @media screen and (min-width: 601px) {
+    .tour-card {
+      flex: initial;
+    }
+  }
+  .tour-card__scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.05) 65%);
+  }
+  .tour-card__count {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(3px);
+    color: var(--color-white);
+    padding: 0.3rem 0.7rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .tour-card__text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.1rem;
+    display: grid;
+    gap: 0.3rem;
+    color: var(--color-white);
+  }
+  .tour-card__text strong {
+    font-style: italic;
+    font-size: 1.4rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+  .tour-card__teaser {
+    font-size: 1rem;
+    opacity: 0.9;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  /* ---------- tour detail ---------- */
+  .back {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--color-blue-500);
+    padding: 0.75rem;
+    font-family: var(--font-default);
+    font-size: 1rem;
+  }
+  .back--pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0.75rem 0 0 0.75rem;
+    background: var(--color-white);
+    border-radius: 2rem;
+    box-shadow: var(--box-shadow);
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+  .tour-detail__hero {
+    position: relative;
+  }
+  .back--floating {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--color-white);
+    color: var(--color-black);
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--box-shadow);
+    font-size: 0.95rem;
+  }
+  .tour-detail__banner {
+    display: block;
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    background: var(--tour-color);
+  }
+  .tour-detail__banner--fallback {
+    display: grid;
+    place-items: center;
+    color: var(--color-white);
+    font-size: 2.5rem;
+    background: linear-gradient(160deg, var(--tour-color), var(--color-black));
+  }
+  .tour-detail__header {
+    padding: 1.1rem 0.75rem 0;
+  }
+  .tour-detail__header h2 {
+    margin: 0 0 0.4rem;
+    font-style: italic;
+    font-size: 1.6rem;
+  }
+  .tour-detail__desc {
+    color: var(--color-neutral-500);
+    margin: 0;
+    font-size: 1.05rem;
+  }
+  .stop-list {
+    list-style: none;
+    margin: 0;
+    padding: 1.1rem 0.75rem 0.75rem;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .stop {
+    display: flex;
+    gap: 0.85rem;
+    align-items: center;
+    background: var(--color-white);
+    border-radius: var(--radius);
+    padding: 0.9rem;
+  }
+  .stop--button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-default);
+    text-align: left;
+  }
+  .stop__index {
+    background: var(--tour-color);
+    color: var(--color-white);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    flex-shrink: 0;
+    font-size: 1.05rem;
+  }
+  .stop__body strong {
+    font-size: 1.1rem;
+  }
+  .stop__address,
+  .stop__count {
+    color: var(--color-neutral-500);
+    font-size: 0.95rem;
+  }
+  .stop__chevron {
+    align-self: center;
+    color: var(--color-neutral-500);
+    font-size: 1.4rem;
+    margin-left: auto;
+  }
+
+  /* ---------- venue detail (mocked) ---------- */
+  .venue-detail__header {
+    padding: 1.1rem 0.75rem 0;
+  }
+  .venue-detail__header h2 {
+    margin: 0 0 0.4rem;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+  .venue-detail__address {
+    color: var(--color-neutral-500);
+    font-size: 0.95rem;
+  }
+  .venue-detail__note {
+    margin: 0.85rem 0.75rem;
+    padding: 0.85rem;
+    background: var(--color-neutral-300);
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+    color: var(--color-black);
+  }
+  .venue-detail__note code {
+    font-size: 0.8rem;
+  }
+  .venue-detail__empty {
+    padding: 0 0.75rem;
+    color: var(--color-neutral-500);
+    font-style: italic;
+  }
+</style>
+
+<script>
+  const tabs = document.querySelectorAll<HTMLElement>("[data-tab]");
+  const panels = document.querySelectorAll<HTMLElement>("[data-panel]");
+  const navChrome = document.querySelectorAll<HTMLElement>("[data-nav-chrome]");
+  const tourIndex = document.querySelector<HTMLElement>("[data-view='tour-index']")!;
+  const tourDetails = document.querySelectorAll<HTMLElement>("[data-view='tour-detail']");
+  const venueDetails = document.querySelectorAll<HTMLElement>("[data-view='venue-detail']");
+
+  function hideAllDrilldowns() {
+    tourDetails.forEach((el) => (el.hidden = true));
+    venueDetails.forEach((el) => (el.hidden = true));
+  }
+
+  function setNavChromeVisible(visible: boolean) {
+    navChrome.forEach((el) => (el.hidden = !visible));
+  }
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((t) => t.setAttribute("aria-selected", String(t === tab)));
+      panels.forEach((panel) => (panel.hidden = panel.dataset.panel !== tab.dataset.tab));
+      tourIndex.hidden = false;
+      hideAllDrilldowns();
+      setNavChromeVisible(true);
+    });
+  });
+
+  function showTourIndex() {
+    tourIndex.hidden = false;
+    hideAllDrilldowns();
+    setNavChromeVisible(true);
+  }
+
+  function showTourDetail(slug: string | undefined) {
+    tourIndex.hidden = true;
+    hideAllDrilldowns();
+    tourDetails.forEach((el) => (el.hidden = el.dataset.tour !== slug));
+    setNavChromeVisible(false);
+  }
+
+  function showVenueDetail(key: string | undefined) {
+    tourIndex.hidden = true;
+    hideAllDrilldowns();
+    venueDetails.forEach((el) => (el.hidden = el.dataset.venueKey !== key));
+    setNavChromeVisible(false);
+  }
+
+  document.querySelectorAll<HTMLElement>("[data-open-tour]").forEach((el) => {
+    el.addEventListener("click", () => showTourDetail(el.dataset.openTour));
+  });
+
+  document.querySelectorAll<HTMLElement>("[data-back-to-tour-index]").forEach((el) => {
+    el.addEventListener("click", showTourIndex);
+  });
+
+  document.querySelectorAll<HTMLElement>("[data-open-venue]").forEach((el) => {
+    el.addEventListener("click", () => showVenueDetail(el.dataset.openVenue));
+  });
+
+  document.querySelectorAll<HTMLElement>("[data-back-to-tour]").forEach((el) => {
+    el.addEventListener("click", () => showTourDetail(el.dataset.backToTour));
+  });
+</script>

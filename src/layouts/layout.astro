@@ -39,6 +39,32 @@ const { title } = Astro.props;
 
     <script src="/assets/vendor/maplibre/maplibre-gl.js" is:inline></script>
     <link href="/assets/vendor/maplibre/maplibre-gl.css" rel="stylesheet" />
+
+    <!-- Google Analytics (GA4) -->
+    <script
+      src="https://www.googletagmanager.com/gtag/js?id=G-E47PTZ9K95"
+      is:inline
+    ></script>
+    <script is:inline>
+      // Only track on the production hostname (skips localhost, previews, netlify).
+      if (location.hostname === "gophillygo.cleanair.org") {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        // Disable automatic page_view; ClientRouter handles SPA navigations.
+        gtag("config", "G-E47PTZ9K95", { send_page_view: false });
+
+        document.addEventListener("astro:page-load", () => {
+          gtag("event", "page_view", {
+            page_location: location.href,
+            page_path: location.pathname + location.search,
+            page_title: document.title,
+          });
+        });
+      }
+    </script>
   </head>
 
   <body>

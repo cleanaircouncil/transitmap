@@ -14,6 +14,7 @@ const base = new Airtable({
 
 const listings = [];
 const venues = [];
+const tours = [];
 
 
 async function getAll( base, ids ) {
@@ -54,6 +55,18 @@ async function recordToVenue(record) {
 
   return venue;
 }
+
+async function recordToTour(record) {
+  const tour = jsonify(record);
+
+  console.log(`🧭 ${tour.name.trim()}`);
+
+  tour.id = record.id;
+  tour.slug = slugify(tour.name);
+
+  return tour;
+}
+
 
 
 
@@ -139,3 +152,32 @@ base("Venues")
       console.log("✅ Done!");
     },
   );
+
+
+  base("Tours")
+    .select()
+    .eachPage(
+      async function page(records, fetchNextPage) {
+        for (const record of records) {
+          const tour = await recordToTour(record);
+          tours.push(tour);
+        }
+
+        fetchNextPage();
+      },
+      async function done(error) {
+        if (error) {
+          console.error(error);
+          return;
+        }
+
+        console.log("💾 Writing tours.json...");
+        fs.writeFileSync("./data/airtable/tours.json", JSON.stringify(tours, null, 2));
+
+        // const mapData = produceMapData(data);
+        // console.log("💾 Writing map-data.json...");
+        // fs.writeFileSync("./src/data/map-data.json", JSON.stringify(mapData));
+
+        console.log("✅ Done!");
+      },
+    );

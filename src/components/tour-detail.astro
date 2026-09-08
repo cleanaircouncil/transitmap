@@ -3,7 +3,7 @@ import ReplaceFlags from "./replace-flags.astro";
 
 const { tour } = Astro.props;
 
-const List = tour.isOrdered ? 'ol' : 'ol';
+const List = tour.isOrdered ? 'ol' : 'ul';
 ---
 
 { tour.image &&
